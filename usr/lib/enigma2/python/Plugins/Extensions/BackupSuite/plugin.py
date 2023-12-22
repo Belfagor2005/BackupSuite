@@ -125,7 +125,7 @@ class BackupStart(Screen):
         elif sz_w >= 1280:
             self.skin = schermen.skinstarthd
         else:
-            self.skin = skinstartsd
+            self.skin = schermen.skinstartsd
         self.session = session
         self.setup_title = _("Make a backup or restore a backup")
         Screen.__init__(self, session)
