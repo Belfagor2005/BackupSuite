@@ -1,0 +1,27 @@
+#!/bin/sh
+echo ""
+echo " *******************************************  "
+echo "  *  BackupSuite installed successfully  *    "
+echo "   *      E2 restart is required       *      "
+echo "     *********************************        "
+echo " ******************************************** "
+echo ""
+chmod 755 /usr/bin/bunzip*
+chmod 755 /usr/bin/bzip2*
+chmod 755 /usr/bin/bzip*
+chmod 755 /usr/bin/bunzip*.*
+chmod 755 /usr/bin/bzip2*.*
+chmod 755 /usr/bin/bzip*.*
+chmod 755 /usr/bin/zip*.*
+chmod 755 /usr/bin/zip
+chmod 755 /usr/sbin/flash*
+chmod 755 /usr/sbin/mkfs
+chmod 755 /usr/sbin/mkfs*.*
+chmod 755 /usr/sbin/nand*
+chmod 755 /usr/sbin/ubi*
+chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.sh
+echo "Restarting Enigma2..."
+init 4
+killall enigma2  > /dev/null 2>&1
+init 3
+exit 0
