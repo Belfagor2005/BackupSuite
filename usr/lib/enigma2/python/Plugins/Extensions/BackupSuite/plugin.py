@@ -1,29 +1,33 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import os
-import gettext
-from Screens.MessageBox import MessageBox
-from Screens.Screen import Screen
-from Screens.Console import Console
+# recoded by @lululla 20231030
+from __future__ import print_function
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.FileList import FileList
-from Components.Language import language
 from Components.Harddisk import harddiskmanager
+from Components.Language import language
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
+from Screens.Console import Console
+from Screens.MessageBox import MessageBox
+from Screens.Screen import Screen
 from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS
-from os import environ
 from enigma import getDesktop
+from os import environ
+import gettext
+import os
 from . import schermen
+# from . import message
 try:
     from enigma import getBoxType
 except ImportError as e:
     from boxbranding import getBoxType
 
 
+# language
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
@@ -39,8 +43,6 @@ def _(txt):
 
 
 # Set default configuration
-
-
 wherechoises = [('none', 'None'), ("/media/net", _("NAS"))]
 for p in harddiskmanager.getMountedPartitions():
     d = os.path.normpath(p.mountpoint)
@@ -66,7 +68,7 @@ LOGFILE = "BackupSuite.log"
 VERSIONFILE = "imageversion"
 ENIGMA2VERSIONFILE = "/tmp/enigma2version"
 
-versienummer = '3.0-r0'
+versienummer = '3.0-r1'
 if os.path.exists('/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control'):
     with open("/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control") as origin:
         for versie in origin:
@@ -127,7 +129,7 @@ class BackupStart(Screen):
         else:
             self.skin = schermen.skinstartsd
         self.session = session
-        self.setup_title = _("Make a backup or restore a backup")
+        self.setup_title = _("Make or restore a backup")
         Screen.__init__(self, session)
         self.skin_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite")
         self["key_menu"] = Button(_("Backup > MMC"))
