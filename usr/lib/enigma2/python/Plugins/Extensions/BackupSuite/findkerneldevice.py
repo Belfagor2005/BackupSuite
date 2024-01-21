@@ -84,10 +84,10 @@ def read_partitions(fp, header, lba_size=512):
 
 def find_kernel_device_udevadm(kernelpartition):
     try:
-        for partition in os.listdir('/sys/block/mmcblk0'):
-            if partition.startswith('mmcblk0p'):
-
-                if kernelpartition == partition.name:
+        for partition in os.listdir('/sys/block/mmcblk1'):
+            if partition.startswith('mmcblk1p'):
+                name = os.popen('udevadm info --query all --path /sys/block/mmcblk1/' + partition + ' | grep PARTNAME').readline().split('=')[1].strip()
+                if kernelpartition == name:
                     return '/dev/' + partition
         return ''
     except:

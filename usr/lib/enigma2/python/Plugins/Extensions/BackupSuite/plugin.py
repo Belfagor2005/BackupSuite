@@ -17,7 +17,7 @@ from Plugins.Plugin import PluginDescriptor
 from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS
 from os import environ
 from enigma import getDesktop
-from . import schermen #  import *  # skinflashwqhd, skinflashfullhd, skinflashhd, skinflashsd
+from . import schermen
 try:
     from enigma import getBoxType
 except ImportError as e:

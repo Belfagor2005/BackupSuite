@@ -20,7 +20,7 @@ localeInit()
 def _(txt):
     t = gettext.dgettext("BackupSuite", txt)
     if t == txt:
-        #print("[BackupSuite] fallback to default translation for", txt)
+        # print("[BackupSuite] fallback to default translation for", txt)
         t = gettext.gettext(txt)
     return t
 
