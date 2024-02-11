@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from __future__ import print_function
 from os import environ as os_environ, path as os_path
 import gettext
 import sys
@@ -21,7 +20,7 @@ localeInit()
 def _(txt):
     t = gettext.dgettext("BackupSuite", txt)
     if t == txt:
-        # print("[BackupSuite] fallback to default translation for", txt)
+        #print("[BackupSuite] fallback to default translation for", txt)
         t = gettext.gettext(txt)
     return t
 

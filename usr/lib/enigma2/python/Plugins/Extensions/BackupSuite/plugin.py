@@ -1,33 +1,29 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# recoded by @lululla 20231030
-from __future__ import print_function
+import os
+import gettext
+from Screens.MessageBox import MessageBox
+from Screens.Screen import Screen
+from Screens.Console import Console
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.FileList import FileList
-from Components.Harddisk import harddiskmanager
 from Components.Language import language
+from Components.Harddisk import harddiskmanager
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
-from Screens.Console import Console
-from Screens.MessageBox import MessageBox
-from Screens.Screen import Screen
 from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS
-from enigma import getDesktop
 from os import environ
-import gettext
-import os
-from . import schermen
-# from . import message
+from enigma import getDesktop
+from . import schermen  #  import *  # skinflashwqhd, skinflashfullhd, skinflashhd, skinflashsd
 try:
     from enigma import getBoxType
 except ImportError as e:
     from boxbranding import getBoxType
 
-
-# language
+# from . import message
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
@@ -43,6 +39,8 @@ def _(txt):
 
 
 # Set default configuration
+
+
 wherechoises = [('none', 'None'), ("/media/net", _("NAS"))]
 for p in harddiskmanager.getMountedPartitions():
     d = os.path.normpath(p.mountpoint)
@@ -129,7 +127,7 @@ class BackupStart(Screen):
         else:
             self.skin = schermen.skinstartsd
         self.session = session
-        self.setup_title = _("Make or restore a backup")
+        self.setup_title = _("Make a backup or restore a backup")
         Screen.__init__(self, session)
         self.skin_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite")
         self["key_menu"] = Button(_("Backup > MMC"))
@@ -169,14 +167,14 @@ class BackupStart(Screen):
             backupsuiteHelp.open(self.session)
 
     def flashimage(self):
-        files = "^.*\.(zip|bin)"
+        files = "^.*\\.(zip|bin)"
         model = getBoxType()
         if model in ("vuduo", "vusolo", "vuultimo", "vuuno") or model.startswith("ebox"):
-            files = "^.*\.(zip|bin|jffs2)"
+            files = "^.*\\.(zip|bin|jffs2)"
         elif "4k" or "uhd" in model or model in ("hd51", "hd60", "hd61", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000", "multibox", "multiboxplus", "e4hdultra"):
-            files = "^.*\.(zip|bin|bz2)"
+            files = "^.*\\.(zip|bin|bz2)"
         elif model in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8", "dinobotu55", "iziboxx3", "dinoboth265", "axashistwin", "protek4kx1"):
-            files = "^.*\.(zip|bin|ubi)"
+            files = "^.*\\.(zip|bin|ubi)"
         elif model.startswith("dm"):
             self.session.open(MessageBox, _("No supported receiver found!"), MessageBox.TYPE_ERROR)
             return
@@ -604,5 +602,6 @@ def Plugins(path, **kwargs):
                              name=_("BackupSuite"),
                              description=_("Backup and restore your image") + ", " + versienummer,
                              where=PluginDescriptor.WHERE_EXTENSIONSMENU,
-                             fnc=main)
+                             fnc=main,
+                             ),
             ]
