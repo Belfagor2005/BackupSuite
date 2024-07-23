@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 skinstartfullhd = """
 	<screen name="BackupSuite" position="fill" size="1920,1080" title=" " >
 		<widget source="Title" render="Label" position="30,7" size="1860,75" backgroundColor="#00000000" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left"/>

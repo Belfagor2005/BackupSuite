@@ -1,29 +1,34 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import os
-import gettext
-from Screens.MessageBox import MessageBox
-from Screens.Screen import Screen
-from Screens.Console import Console
+from . import schermen
+
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.FileList import FileList
-from Components.Language import language
 from Components.Harddisk import harddiskmanager
+from Components.Language import language
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
-from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS
-from os import environ
+from Screens.Console import Console
+from Screens.MessageBox import MessageBox
+from Screens.Screen import Screen
+from Tools.Directories import (resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS)
 from enigma import getDesktop
-from . import schermen  #  import *  # skinflashwqhd, skinflashfullhd, skinflashhd, skinflashsd
+from os import (
+    access,
+    X_OK,
+    environ,
+)
+import gettext
+import os
+
 try:
     from enigma import getBoxType
 except ImportError as e:
     from boxbranding import getBoxType
 
-# from . import message
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]
 gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
@@ -37,8 +42,8 @@ def _(txt):
         t = gettext.gettext(txt)
     return t
 
-
-# Set default configuration
+######################################################################################################
+#Set default configuration
 
 
 wherechoises = [('none', 'None'), ("/media/net", _("NAS"))]
@@ -48,25 +53,37 @@ for p in harddiskmanager.getMountedPartitions():
         if p.mountpoint != '/':
             wherechoises.append((d, p.mountpoint))
 
-
 # Global variables
 autoStartTimer = None
 _session = None
 
 
 # Configuration GUI
+versienummer = '3.0-r1'
+ofgwrite_bin = "/usr/bin/ofgwrite"
+LOGFILE = "BackupSuite.log"
+VERSIONFILE = "imageversion"
+ENIGMA2VERSIONFILE = "/tmp/enigma2version"
 BACKUP_HDD = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backuphdd.sh")
 BACKUP_USB = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupusb.sh")
 BACKUP_MMC = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupmmc.sh")
 BACKUP_DMM_HDD = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backuphdd-dmm.sh")
 BACKUP_DMM_USB = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupusb-dmm.sh")
 BACKUP_DMM_MMC = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupmmc-dmm.sh")
-ofgwrite_bin = "/usr/bin/ofgwrite"
-LOGFILE = "BackupSuite.log"
-VERSIONFILE = "imageversion"
-ENIGMA2VERSIONFILE = "/tmp/enigma2version"
 
-versienummer = '3.0-r1'
+if not access(BACKUP_HDD, X_OK):
+    os.chmod(BACKUP_HDD, 755)
+if not access(BACKUP_USB, X_OK):
+    os.chmod(BACKUP_USB, 755)
+if not access(BACKUP_MMC, X_OK):
+    os.chmod(BACKUP_MMC, 755)
+if not access(BACKUP_DMM_HDD, X_OK):
+    os.chmod(BACKUP_DMM_HDD, 755)
+if not access(BACKUP_DMM_USB, X_OK):
+    os.chmod(BACKUP_DMM_USB, 755)
+if not access(BACKUP_DMM_MMC, X_OK):
+    os.chmod(BACKUP_DMM_MMC, 755)
+
 if os.path.exists('/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control'):
     with open("/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control") as origin:
         for versie in origin:
@@ -79,7 +96,8 @@ if os.path.exists('/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.cont
 
 
 def backupCommandHDD():
-    if getBoxType().startswith("dm"):
+    # if getBoxType().startswith("dm"):
+    if os.path.exists('/var/lib/dpkg/info'):
         cmd = BACKUP_DMM_HDD + ' en_EN'
     else:
         cmd = BACKUP_HDD + ' en_EN'
@@ -87,7 +105,8 @@ def backupCommandHDD():
 
 
 def backupCommandUSB():
-    if getBoxType().startswith("dm"):
+    # if getBoxType().startswith("dm"):
+    if os.path.exists('/var/lib/dpkg/info'):
         cmd = BACKUP_DMM_USB + ' en_EN'
     else:
         cmd = BACKUP_USB + ' en_EN'
@@ -95,7 +114,8 @@ def backupCommandUSB():
 
 
 def backupCommandMMC():
-    if getBoxType().startswith("dm"):
+    # if getBoxType().startswith("dm"):
+    if os.path.exists('/var/lib/dpkg/info'):
         cmd = BACKUP_DMM_MMC + ' en_EN'
     else:
         cmd = BACKUP_MMC + ' en_EN'
@@ -127,7 +147,7 @@ class BackupStart(Screen):
         else:
             self.skin = schermen.skinstartsd
         self.session = session
-        self.setup_title = _("Make a backup or restore a backup")
+        self.setup_title = _("Make or restore a backup")
         Screen.__init__(self, session)
         self.skin_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite")
         self["key_menu"] = Button(_("Backup > MMC"))
@@ -140,16 +160,14 @@ class BackupStart(Screen):
                                           "ColorActions",
                                           "EPGSelectActions",
                                           "HelpActions"],
-                                         {
-                                             "menu": self.confirmmmc,
-                                             "red": self.cancel,
-                                             "green": self.confirmhdd,
-                                             "yellow": self.confirmusb,
-                                             "blue": self.flashimage,
-                                             "info": self.keyInfo,
-                                             "cancel": self.cancel,
-                                             "displayHelp": self.showHelp,
-                                          }, -2)
+                                         {"menu": self.confirmmmc,
+                                           "red": self.cancel,
+                                           "green": self.confirmhdd,
+                                           "yellow": self.confirmusb,
+                                           "blue": self.flashimage,
+                                           "info": self.keyInfo,
+                                           "cancel": self.cancel,
+                                           "displayHelp": self.showHelp}, -2)
         self.setTitle(self.setup_title)
 
     def confirmhdd(self):
@@ -167,15 +185,15 @@ class BackupStart(Screen):
             backupsuiteHelp.open(self.session)
 
     def flashimage(self):
-        files = "^.*\\.(zip|bin)"
+        files = "^.*\.(zip|bin)"
         model = getBoxType()
         if model in ("vuduo", "vusolo", "vuultimo", "vuuno") or model.startswith("ebox"):
-            files = "^.*\\.(zip|bin|jffs2)"
+            files = "^.*\.(zip|bin|jffs2)"
         elif "4k" or "uhd" in model or model in ("hd51", "hd60", "hd61", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000", "multibox", "multiboxplus", "e4hdultra"):
-            files = "^.*\\.(zip|bin|bz2)"
+            files = "^.*\.(zip|bin|bz2)"
         elif model in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8", "dinobotu55", "iziboxx3", "dinoboth265", "axashistwin", "protek4kx1"):
-            files = "^.*\\.(zip|bin|ubi)"
-        elif model.startswith("dm"):
+            files = "^.*\.(zip|bin|ubi)"
+        elif os.path.exists('/var/lib/dpkg/info'):
             self.session.open(MessageBox, _("No supported receiver found!"), MessageBox.TYPE_ERROR)
             return
         else:
@@ -218,8 +236,7 @@ class BackupStart(Screen):
     def consoleClosed(self, answer=None):
         return
 
-
-# What is new information
+## What is new information
 
 
 class WhatisNewInfo(Screen):
@@ -379,7 +396,8 @@ class FlashImageConfig(Screen):
                 no_backup_files = []
                 text = _("Select parameter for start flash!\n")
                 text += _('For flashing your receiver files are needed:\n')
-                if model.startswith("dm"):
+                # if model.startswith("dm"):
+                if os.path.exists('/var/lib/dpkg/info'):
                     if "dm9" in model:
                         backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
                         no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
@@ -591,17 +609,16 @@ def Plugins(path, **kwargs):
     global plugin_path
     plugin_path = path
     return [
-            PluginDescriptor(
-                             name=_("BackupSuite"),
-                             description=_("Backup and restore your image") + ", " + versienummer,
-                             where=PluginDescriptor.WHERE_PLUGINMENU,
-                             icon='plugin.png',
-                             fnc=main
-                             ),
-            PluginDescriptor(
-                             name=_("BackupSuite"),
-                             description=_("Backup and restore your image") + ", " + versienummer,
-                             where=PluginDescriptor.WHERE_EXTENSIONSMENU,
-                             fnc=main,
-                             ),
-            ]
+        PluginDescriptor(
+        name=_("BackupSuite"),
+        description=_("Backup and restore your image") + ", " + versienummer,
+        where=PluginDescriptor.WHERE_PLUGINMENU,
+        icon='plugin.png',
+        fnc=main
+        ),
+        PluginDescriptor(
+        name=_("BackupSuite"),
+        description=_("Backup and restore your image") + ", " + versienummer,
+        where=PluginDescriptor.WHERE_EXTENSIONSMENU,
+        fnc=main)
+    ]
