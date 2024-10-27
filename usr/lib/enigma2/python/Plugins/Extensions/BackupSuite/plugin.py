@@ -1,49 +1,32 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from . import schermen
+from . import _, schermen
 
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.FileList import FileList
 from Components.Harddisk import harddiskmanager
-from Components.Language import language
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
 from Screens.Console import Console
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
-from Tools.Directories import (resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS)
+from Tools.Directories import (resolveFilename, SCOPE_PLUGINS)
 from enigma import getDesktop
 from os import (
     access,
     X_OK,
-    environ,
 )
-import gettext
 import os
+
 
 try:
     from enigma import getBoxType
 except ImportError as e:
     from boxbranding import getBoxType
-
-lang = language.getLanguage()
-environ["LANGUAGE"] = lang[:2]
-gettext.bindtextdomain("enigma2", resolveFilename(SCOPE_LANGUAGE))
-gettext.textdomain("enigma2")
-gettext.bindtextdomain("BackupSuite", "%s%s" % (resolveFilename(SCOPE_PLUGINS), "Extensions/BackupSuite/locale"))
-
-
-def _(txt):
-    t = gettext.dgettext("BackupSuite", txt)
-    if t == txt:
-        t = gettext.gettext(txt)
-    return t
-
-######################################################################################################
-#Set default configuration
+    print(e)
 
 
 wherechoises = [('none', 'None'), ("/media/net", _("NAS"))]
@@ -59,7 +42,7 @@ _session = None
 
 
 # Configuration GUI
-versienummer = '3.0-r1'
+versienummer = '3.0-r2'
 ofgwrite_bin = "/usr/bin/ofgwrite"
 LOGFILE = "BackupSuite.log"
 VERSIONFILE = "imageversion"
@@ -96,7 +79,6 @@ if os.path.exists('/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.cont
 
 
 def backupCommandHDD():
-    # if getBoxType().startswith("dm"):
     if os.path.exists('/var/lib/dpkg/info'):
         cmd = BACKUP_DMM_HDD + ' en_EN'
     else:
@@ -105,7 +87,6 @@ def backupCommandHDD():
 
 
 def backupCommandUSB():
-    # if getBoxType().startswith("dm"):
     if os.path.exists('/var/lib/dpkg/info'):
         cmd = BACKUP_DMM_USB + ' en_EN'
     else:
@@ -114,7 +95,6 @@ def backupCommandUSB():
 
 
 def backupCommandMMC():
-    # if getBoxType().startswith("dm"):
     if os.path.exists('/var/lib/dpkg/info'):
         cmd = BACKUP_DMM_MMC + ' en_EN'
     else:
@@ -161,13 +141,13 @@ class BackupStart(Screen):
                                           "EPGSelectActions",
                                           "HelpActions"],
                                          {"menu": self.confirmmmc,
-                                           "red": self.cancel,
-                                           "green": self.confirmhdd,
-                                           "yellow": self.confirmusb,
-                                           "blue": self.flashimage,
-                                           "info": self.keyInfo,
-                                           "cancel": self.cancel,
-                                           "displayHelp": self.showHelp}, -2)
+                                          "red": self.cancel,
+                                          "green": self.confirmhdd,
+                                          "yellow": self.confirmusb,
+                                          "blue": self.flashimage,
+                                          "info": self.keyInfo,
+                                          "cancel": self.cancel,
+                                          "displayHelp": self.showHelp}, -2)
         self.setTitle(self.setup_title)
 
     def confirmhdd(self):
@@ -185,19 +165,19 @@ class BackupStart(Screen):
             backupsuiteHelp.open(self.session)
 
     def flashimage(self):
-        files = "^.*\.(zip|bin)"
+        files = r"^.*\.(zip|bin)"
         model = getBoxType()
         if model in ("vuduo", "vusolo", "vuultimo", "vuuno") or model.startswith("ebox"):
-            files = "^.*\.(zip|bin|jffs2)"
+            files = r"^.*\.(zip|bin|jffs2)"
         elif "4k" or "uhd" in model or model in ("hd51", "hd60", "hd61", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000", "multibox", "multiboxplus", "e4hdultra"):
-            files = "^.*\.(zip|bin|bz2)"
+            files = r"^.*\.(zip|bin|bz2)"
         elif model in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8", "dinobotu55", "iziboxx3", "dinoboth265", "axashistwin", "protek4kx1"):
-            files = "^.*\.(zip|bin|ubi)"
+            files = r"^.*\.(zip|bin|ubi)"
         elif os.path.exists('/var/lib/dpkg/info'):
             self.session.open(MessageBox, _("No supported receiver found!"), MessageBox.TYPE_ERROR)
             return
         else:
-            files = "^.*\.(zip|bin)"
+            files = r"^.*\.(zip|bin)"
         curdir = '/media/'
         self.session.open(FlashImageConfig, curdir, files)
 
@@ -236,8 +216,6 @@ class BackupStart(Screen):
     def consoleClosed(self, answer=None):
         return
 
-## What is new information
-
 
 class WhatisNewInfo(Screen):
     def __init__(self, session):
@@ -258,14 +236,10 @@ class WhatisNewInfo(Screen):
         self["Title"].setText(_("What is new since the last release?"))
         self["key_red"] = Button(_("Close"))
         self["AboutScrollLabel"] = ScrollLabel(_("Please wait"))
-        self["actions"] = ActionMap(["SetupActions",
-                                     "DirectionActions"],
-                                    {
-                                     "cancel": self.close,
+        self["actions"] = ActionMap(["SetupActions", "DirectionActions"],
+                                    {"cancel": self.close,
                                      "ok": self.close,
-                                     "up": self["AboutScrollLabel"].pageUp,
-                                     "down": self["AboutScrollLabel"].pageDown
-                                     })
+                                     "up": self["AboutScrollLabel"].pageUp})
         with open(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")) as file:
             whatsnew = file.read()
         self["AboutScrollLabel"].setText(whatsnew)
@@ -300,14 +274,12 @@ class FlashImageConfig(Screen):
         self.filelist.onSelectionChanged.append(self.__selChanged)
         self["filelist"] = self.filelist
         self["FilelistActions"] = ActionMap(["SetupActions", "ColorActions"],
-                                            {
-                                                "green": self.keyGreen,
-                                                "red": self.keyRed,
-                                                "yellow": self.keyYellow,
-                                                "blue": self.KeyBlue,
-                                                "ok": self.keyOk,
-                                                "cancel": self.keyRed
-                                            })
+                                            {"green": self.keyGreen,
+                                             "red": self.keyRed,
+                                             "yellow": self.keyYellow,
+                                             "blue": self.KeyBlue,
+                                             "ok": self.keyOk,
+                                             "cancel": self.keyRed})
         self.onLayoutFinish.append(self.__layoutFinished)
 
     def __layoutFinished(self):
@@ -317,16 +289,14 @@ class FlashImageConfig(Screen):
         if getBoxType() == "et8500":
             rootfs2 = False
             kernel2 = False
-            f = open("/proc/mtd")
-            la = f.readlines()
-            for x in la:
-                if 'rootfs2' in x:
-                    rootfs2 = True
-                if 'kernel2' in x:
-                    kernel2 = True
-            f.close()
-            if rootfs2 and kernel2:
-                return True
+            with open("/proc/mtd") as f:
+                for line in f:
+                    if 'rootfs2' in line:
+                        rootfs2 = True
+                    if 'kernel2' in line:
+                        kernel2 = True
+                    if rootfs2 and kernel2:
+                        return True
         return False
 
     def ForceMode(self):
@@ -396,7 +366,6 @@ class FlashImageConfig(Screen):
                 no_backup_files = []
                 text = _("Select parameter for start flash!\n")
                 text += _('For flashing your receiver files are needed:\n')
-                # if model.startswith("dm"):
                 if os.path.exists('/var/lib/dpkg/info'):
                     if "dm9" in model:
                         backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
@@ -608,17 +577,19 @@ def main(session, **kwargs):
 def Plugins(path, **kwargs):
     global plugin_path
     plugin_path = path
+    description = _("Backup and restore your image") + ", " + versienummer
     return [
         PluginDescriptor(
-        name=_("BackupSuite"),
-        description=_("Backup and restore your image") + ", " + versienummer,
-        where=PluginDescriptor.WHERE_PLUGINMENU,
-        icon='plugin.png',
-        fnc=main
+            name="BackupSuite",
+            description=description,
+            where=PluginDescriptor.WHERE_PLUGINMENU,
+            icon='plugin.png',
+            fnc=main
         ),
         PluginDescriptor(
-        name=_("BackupSuite"),
-        description=_("Backup and restore your image") + ", " + versienummer,
-        where=PluginDescriptor.WHERE_EXTENSIONSMENU,
-        fnc=main)
+            name="BackupSuite",
+            description=description,
+            where=PluginDescriptor.WHERE_EXTENSIONSMENU,
+            fnc=main
+        )
     ]

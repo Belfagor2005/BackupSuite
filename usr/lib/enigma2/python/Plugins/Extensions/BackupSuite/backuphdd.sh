@@ -39,7 +39,7 @@ export LANG=$1
 export SHOW="python $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/message.$PYEXT $LANG"
 export HARDDISK=1
 echo -n $YELLOW
-$SHOW "message20"   	#echo "Full back-up to the harddisk"
+$SHOW "message20"   	# echo "Full back-up to the harddisk"
 FREESIZE_0=0				
 TOTALSIZE_0=0
 MEDIA=0
@@ -104,7 +104,7 @@ else
 	done
 	if  [ $MEDIA = "0" ] ; then
 		echo -n $RED
-		$SHOW "message15"  #echo "No suitable media found"
+		$SHOW "message15"  # echo "No suitable media found"
 		echo -n $WHITE
 		exit 0
 	else

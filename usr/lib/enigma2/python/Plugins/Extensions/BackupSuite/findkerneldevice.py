@@ -1,4 +1,4 @@
-#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import os
 import collections
@@ -52,22 +52,20 @@ def read_header(fp, lba_size=512):
     fmt, GPTHeader = _make_fmt('GPTHeader', GPT_HEADER_FORMAT)
     data = fp.read(struct.calcsize(fmt))
     header = GPTHeader._make(struct.unpack(fmt, data))
-    if header.signature != b'EFI PART':
+    if header.signature != 'EFI PART':
         raise GPTError('Bad signature: %r' % header.signature)
-    if header.revision != b'\x00\x00\x01\x00':
+    if header.revision != '\x00\x00\x01\x00':
         raise GPTError('Bad revision: %r' % header.revision)
     if header.header_size < 92:
         raise GPTError('Bad header size: %r' % header.header_size)
-    header = header._replace(
-        disk_guid=str(uuid.UUID(bytes_le=header.disk_guid)),
-    )
+    header = header._replace(disk_guid=str(uuid.UUID(bytes_le=header.disk_guid)))
     return header
 
 
 def read_partitions(fp, header, lba_size=512):
     fp.seek(header.part_entry_start_lba * lba_size)
     fmt, GPTPartition = _make_fmt('GPTPartition', GPT_PARTITION_FORMAT, extras=['index'])
-    for idx in iter(range(1, 1 + header.num_part_entries)):
+    for idx in range(1, 1 + header.num_part_entries):
         data = fp.read(header.part_entry_size)
         if len(data) < struct.calcsize(fmt):
             raise GPTError('Short partition entry')
@@ -77,37 +75,36 @@ def read_partitions(fp, header, lba_size=512):
         part = part._replace(
             type=str(uuid.UUID(bytes_le=part.type)),
             unique=str(uuid.UUID(bytes_le=part.unique)),
-            name=part.name.decode('utf-16').split('\0', 1)[0])
+            name=part.name.decode('utf-16').split('\0', 1)[0],
+            )
         yield part
 
 
 def find_kernel_device_udevadm(kernelpartition):
-    try:
-        for partition in os.listdir('/sys/block/mmcblk1'):
-            if partition.startswith('mmcblk1p'):
-                name = os.popen('udevadm info --query all --path /sys/block/mmcblk1/' + partition + ' | grep PARTNAME').readline().split('=')[1].strip()
-                if kernelpartition == name:
-                    return '/dev/' + partition
-        return ''
-    except:
-        return ''
+	try:
+		for partition in os.listdir('/sys/block/mmcblk1'):
+			if partition.startswith('mmcblk1p'):
+				name = os.popen('udevadm info --query all --path /sys/block/mmcblk1/' + partition + ' | grep PARTNAME').readline().split('=')[1].strip()
+				if kernelpartition == name:
+					return '/dev/' + partition
+		return ''
+	except:
+		return ''
 
 
 def find_kernel_device_gpt(kernelpartition):
     device = '/dev/mmcblk0'
-    '''
-    # try:
-        # import re
-        # device = re.search('/dev/mmcblk(\d+)', open('/proc/cmdline').read()).group(0)
-    # except:
-        # pass
-    '''
+    try:
+        import re
+        device = re.search(r'/dev/mmcblk(\d+)', open('/proc/cmdline').read()).group(0)
+    except:
+        pass
     try:
         p = 1
-        header = read_header(open('/dev/mmcblk1', 'rb'))
-        for part in read_partitions(open('/dev/mmcblk1', 'rb'), header):
+        header = read_header(open(device, 'r'))
+        for part in read_partitions(open(device, 'r'), header):
             if kernelpartition == part.name:
-                return '/dev/mmcblk1p' + str(p)
+                return device + 'p' + str(p)
             p += 1
         return ''
     except:
