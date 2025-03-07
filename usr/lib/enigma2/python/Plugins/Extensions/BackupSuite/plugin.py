@@ -13,12 +13,9 @@ from Plugins.Plugin import PluginDescriptor
 from Screens.Console import Console
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
-from Tools.Directories import (resolveFilename, SCOPE_PLUGINS)
+from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from enigma import getDesktop
-from os import (
-    access,
-    X_OK,
-)
+from os import access, X_OK
 import os
 
 
@@ -54,18 +51,9 @@ BACKUP_DMM_HDD = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backuphd
 BACKUP_DMM_USB = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupusb-dmm.sh")
 BACKUP_DMM_MMC = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupmmc-dmm.sh")
 
-if not access(BACKUP_HDD, X_OK):
-    os.chmod(BACKUP_HDD, 755)
-if not access(BACKUP_USB, X_OK):
-    os.chmod(BACKUP_USB, 755)
-if not access(BACKUP_MMC, X_OK):
-    os.chmod(BACKUP_MMC, 755)
-if not access(BACKUP_DMM_HDD, X_OK):
-    os.chmod(BACKUP_DMM_HDD, 755)
-if not access(BACKUP_DMM_USB, X_OK):
-    os.chmod(BACKUP_DMM_USB, 755)
-if not access(BACKUP_DMM_MMC, X_OK):
-    os.chmod(BACKUP_DMM_MMC, 755)
+for script in [BACKUP_HDD, BACKUP_USB, BACKUP_MMC, BACKUP_DMM_HDD, BACKUP_DMM_USB, BACKUP_DMM_MMC]:
+    if not access(script, X_OK):
+        os.chmod(script, 0o755)
 
 if os.path.exists('/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control'):
     with open("/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control") as origin:
@@ -136,18 +124,19 @@ class BackupStart(Screen):
         self["key_yellow"] = Button(_("Backup > USB"))
         self["key_blue"] = Button(_("Restore backup"))
         self["help"] = StaticText()
-        self["setupActions"] = ActionMap(["SetupActions",
-                                          "ColorActions",
-                                          "EPGSelectActions",
-                                          "HelpActions"],
-                                         {"menu": self.confirmmmc,
-                                          "red": self.cancel,
-                                          "green": self.confirmhdd,
-                                          "yellow": self.confirmusb,
-                                          "blue": self.flashimage,
-                                          "info": self.keyInfo,
-                                          "cancel": self.cancel,
-                                          "displayHelp": self.showHelp}, -2)
+        self["setupActions"] = ActionMap(["SetupActions", "ColorActions", "EPGSelectActions", "HelpActions"],
+        {
+															 
+														 
+            "menu": self.confirmmmc,
+            "red": self.cancel,
+            "green": self.confirmhdd,
+            "yellow": self.confirmusb,
+            "blue": self.flashimage,
+            "info": self.keyInfo,
+            "cancel": self.cancel,
+            "displayHelp": self.showHelp,
+            }, -2)
         self.setTitle(self.setup_title)
 
     def confirmhdd(self):
@@ -237,9 +226,12 @@ class WhatisNewInfo(Screen):
         self["key_red"] = Button(_("Close"))
         self["AboutScrollLabel"] = ScrollLabel(_("Please wait"))
         self["actions"] = ActionMap(["SetupActions", "DirectionActions"],
-                                    {"cancel": self.close,
-                                     "ok": self.close,
-                                     "up": self["AboutScrollLabel"].pageUp})
+            {
+                "cancel": self.close,
+                "ok": self.close,
+                "up": self["AboutScrollLabel"].pageUp,
+                "down": self["AboutScrollLabel"].pageDown
+            })
         with open(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")) as file:
             whatsnew = file.read()
         self["AboutScrollLabel"].setText(whatsnew)
@@ -274,12 +266,14 @@ class FlashImageConfig(Screen):
         self.filelist.onSelectionChanged.append(self.__selChanged)
         self["filelist"] = self.filelist
         self["FilelistActions"] = ActionMap(["SetupActions", "ColorActions"],
-                                            {"green": self.keyGreen,
-                                             "red": self.keyRed,
-                                             "yellow": self.keyYellow,
-                                             "blue": self.KeyBlue,
-                                             "ok": self.keyOk,
-                                             "cancel": self.keyRed})
+            {
+                "green": self.keyGreen,
+                "red": self.keyRed,
+                "yellow": self.keyYellow,
+                "blue": self.KeyBlue,
+                "ok": self.keyOk,
+                "cancel": self.keyRed
+            })
         self.onLayoutFinish.append(self.__layoutFinished)
 
     def __layoutFinished(self):

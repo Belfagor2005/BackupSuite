@@ -266,6 +266,7 @@ Zgemma H9.2S SE	h9se.2s	Zgemma H9.2S SE	/zgemma/h9se	/fullbackup_h9se	/zgemma			
 Zgemma H9.2H SE	h9se.2h	Zgemma H9.2H SE	/zgemma/h9se	/fullbackup_h9se	/zgemma			rootfs.tar.bz2	uImage	none
 Zgemma H10	h10	Zgemma H10	/zgemma/h10	/fullbackup_h10	/zgemma			rootfs.tar.bz2	uImage	none
 Zgemma H11	h11	Zgemma H11	/zgemma/h11	/fullbackup_h11	/zgemma			rootfs.tar.bz2	uImage	none
+Zgemma H17	h17	Zgemma H17	/zgemma/h17	/fullbackup_h17	/zgemma			rootfs.tar.bz2	kernel.bin	none
 Zgemma HZero	hzero	Zgemma HZero	/zgemma/hzero	/fullbackup_hzero	/zgemma	-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.ubi	uImage	none
 Zgemma I55	i55	Zgemma I55	/zgemma/i55	/fullbackup_i55	/zgemma	-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce
 Zgemma I55 Plus	i55plus	Zgemma I55 Plus	/zgemma/i55plus	/fullbackup_i55plus	/zgemma	-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.ubi	uImage	none

@@ -379,7 +379,7 @@ else
 	if [ $SEARCH = "solo4k" -o $SEARCH = "vusolo4k" -o $SEARCH = "ultimo4k" -o $SEARCH = "vuultimo4k" -o $SEARCH = "uno4k" -o $SEARCH = "vuuno4k" -o $SEARCH = "uno4kse" -o $SEARCH = "vuuno4kse" -o $SEARCH = "lunix3-4k" -o $SEARCH = "lunix4k" -o $SEARCH = "galaxy4k" ] ; then
 		dd if=/dev/mmcblk0p1 of=$WORKDIR/$KERNELNAME
 		log "Kernel resides on /dev/mmcblk0p1"
-	elif [ $SEARCH = "h7" ] ; then
+	elif [ $SEARCH = "h7" -o $SEARCH = "h17" -o $SEARCH = "hd51" -o $SEARCH = "vs1500" ] ; then
 		dd if=/dev/mmcblk0p2 of=$WORKDIR/$KERNELNAME
 		log "Kernel resides on /dev/mmcblk0p2"
 	elif [ $SEARCH = "osmini4k" -o $SEARCH = "osmio4k" -o $SEARCH = "osmio4kplus" ] ; then
