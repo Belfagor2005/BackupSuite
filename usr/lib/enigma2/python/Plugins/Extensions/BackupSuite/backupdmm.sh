@@ -755,10 +755,10 @@ fi
 # Trim 0xFFFFFF from secondstage
 #
 /usr/bin/python -c "
-data=open('$SECSTAGE', 'rb').read()
+data=open('$SECSTAGE', 'rb').read().decode(errors='ignore')
 cutoff=data.find('\xff\xff\xff\xff')
 if cutoff:
-    open('$SECSTAGE', 'wb').write(data[0:cutoff])
+    open('$SECSTAGE', 'wb').write(data[0:cutoff].encode())
 "
 SIZE="$(du -k "$SECSTAGE" | awk '{ print $1 }')"
 if [ $SIZE -gt 200 ] ; then 
