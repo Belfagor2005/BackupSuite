@@ -82,7 +82,7 @@ def read_partitions(fp, header, lba_size=512):
 		yield part
 
 
-def find_kernel_device_udevadm(kernelpartition):
+def find_kernel_device_udevadm(kernelpartition, name=None):
 	try:
 		for partition in os.listdir('/sys/block/mmcblk0'):
 			if partition.startswith('mmcblk0p'):
