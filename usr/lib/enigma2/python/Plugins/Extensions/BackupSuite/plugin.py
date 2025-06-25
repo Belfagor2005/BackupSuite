@@ -126,8 +126,8 @@ class BackupStart(Screen):
         self["help"] = StaticText()
         self["setupActions"] = ActionMap(["SetupActions", "ColorActions", "EPGSelectActions", "HelpActions"],
         {
-															 
-														 
+                                                             
+                                                         
             "menu": self.confirmmmc,
             "red": self.cancel,
             "green": self.confirmhdd,

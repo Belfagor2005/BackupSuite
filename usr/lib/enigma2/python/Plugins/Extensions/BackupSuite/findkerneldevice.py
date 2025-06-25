@@ -35,7 +35,7 @@ Q flags
 
 
 def _make_fmt(name, format, extras=[]):
-	type_and_name = [ln.split(None, 1) for ln in format.strip().splitlines()]
+	type_and_name = [l.split(None, 1) for l in format.strip().splitlines()]
 	fmt = ''.join(t for (t, n) in type_and_name)
 	fmt = '<' + fmt
 	tupletype = collections.namedtuple(name, [n for (t, n) in type_and_name if n != '_'] + extras)
@@ -60,7 +60,7 @@ def read_header(fp, lba_size=512):
 		raise GPTError('Bad header size: %r' % header.header_size)
 	header = header._replace(
 		disk_guid=str(uuid.UUID(bytes_le=header.disk_guid)),
-	)
+		)
 	return header
 
 
@@ -78,34 +78,27 @@ def read_partitions(fp, header, lba_size=512):
 			type=str(uuid.UUID(bytes_le=part.type)),
 			unique=str(uuid.UUID(bytes_le=part.unique)),
 			name=part.name.decode('utf-16').split('\0', 1)[0],
-		)
+			)
 		yield part
 
 
 def find_kernel_device_udevadm(kernelpartition):
 	try:
-		for partition in os.listdir('/sys/block/mmcblk1'):
-			if partition.startswith('mmcblk1p'):
-				name = os.popen('udevadm info --query all --path /sys/block/mmcblk1/' + partition + ' | grep PARTNAME').readline().split('=')[1].strip()
-				if kernelpartition == name:
-					return '/dev/' + partition
-
 		for partition in os.listdir('/sys/block/mmcblk0'):
 			if partition.startswith('mmcblk0p'):
-				name = os.popen('udevadm info --query all --path /sys/block/mmcblk0/' + partition + ' | grep PARTNAME').readline().split('=')[1].strip()
+
 				if kernelpartition == name:
 					return '/dev/' + partition
-
 		return ''
-	except Exception as e:
-		return str(e)
+	except:
+		return ''
 
 
 def find_kernel_device_gpt(kernelpartition):
 	device = '/dev/mmcblk0'
 	try:
 		import re
-		device = re.search(r'/dev/mmcblk(\d+)', open('/proc/cmdline').read()).group(0)
+		device = re.search('/dev/mmcblk(\d+)', open('/proc/cmdline').read()).group(0)
 	except:
 		pass
 	try:
