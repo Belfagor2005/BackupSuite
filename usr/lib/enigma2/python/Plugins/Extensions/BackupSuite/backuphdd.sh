@@ -25,9 +25,11 @@ PYVERSION=$(python -V 2>&1 | awk '{print $2}')
 case $PYVERSION in
 	2.*)
 		PYEXT=pyo
+		PYNAME=python
 		;;
 	3.*)
 		PYEXT=pyc
+		PYNAME=python3
 		;;
 esac
 if [ -z $PYVERSION ]; then
@@ -36,7 +38,7 @@ if [ -z $PYVERSION ]; then
 fi
 
 export LANG=$1
-export SHOW="python $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/message.$PYEXT $LANG"
+export SHOW="$PYNAME $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/message.$PYEXT $LANG"
 export HARDDISK=1
 echo -n $YELLOW
 $SHOW "message20"   	# echo "Full back-up to the harddisk"

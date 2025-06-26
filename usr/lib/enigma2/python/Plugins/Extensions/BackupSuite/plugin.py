@@ -1,122 +1,156 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from . import _, schermen
-
+from os.path import join, isfile, basename
+from os import listdir, system as os_system
+# import gettext
+from Screens.MessageBox import MessageBox
+from Screens.Screen import Screen
+from Screens.Console import Console
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.FileList import FileList
-from Components.Harddisk import harddiskmanager
+# from Components.Language import language
+# from Components.Harddisk import harddiskmanager
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
-from Screens.Console import Console
-from Screens.MessageBox import MessageBox
-from Screens.Screen import Screen
-from Tools.Directories import resolveFilename, SCOPE_PLUGINS
+from Tools.Directories import resolveFilename, SCOPE_PLUGINS  # , SCOPE_LANGUAGE
+# from os import environ
 from enigma import getDesktop
-from os import access, X_OK
-import os
+# from .schermen import skinstartfullhd, skinstarthd, skinstartsd, skinnewfullhd, skinnewhd, skinnewsd, skinflashfullhd, skinflashhd, skinflashsd
+from . import _
+
+# Global constants
+versienummer = '3.0-r2'
+BACKUP_SCRIPTS = {
+    'HDD': ("backuphdd.sh", "backuphdd-dmm.sh"),
+    'USB': ("backupusb.sh", "backupusb-dmm.sh"),
+    'MMC': ("backupmmc.sh", "backupmmc-dmm.sh")
+}
+LOGFILE = "BackupSuite.log"
+VERSIONFILE = "imageversion"
+ENIGMA2VERSIONFILE = "/tmp/enigma2version"
+ofgwrite_bin = "/usr/bin/ofgwrite"
 
 
-try:
-    from enigma import getBoxType
-except ImportError as e:
-    from boxbranding import getBoxType
-    print(e)
+# Helper functions
+def get_box_type():
+    """Safe box type retrieval"""
+    try:
+        from enigma import getBoxType
+        return getBoxType()
+    except ImportError:
+        from boxbranding import getBoxType
+        return getBoxType()
 
 
-wherechoises = [('none', 'None'), ("/media/net", _("NAS"))]
-for p in harddiskmanager.getMountedPartitions():
-    d = os.path.normpath(p.mountpoint)
-    if os.path.exists(p.mountpoint):
-        if p.mountpoint != '/':
-            wherechoises.append((d, p.mountpoint))
+# Helper functions
+def get_script_path(device_type):
+    """Get the appropriate backup script path based on device type and box model"""
+    scripts = BACKUP_SCRIPTS[device_type]
+    script_name = scripts[1] if get_box_type().startswith("dm") else scripts[0]
+    return resolveFilename(SCOPE_PLUGINS, f"Extensions/BackupSuite/{script_name}")
+
+
+def get_skin(skin_type):
+    """Return appropriate skin based on screen resolution"""
+    try:
+        sz_w = getDesktop(0).size().width()
+    except:
+        sz_w = 720
+
+    skins = {
+        1920: f"skin{skin_type}fullhd",
+        1280: f"skin{skin_type}hd",
+        'default': f"skin{skin_type}sd"
+    }
+    return skins.get(sz_w, skins['default'])
+
+
+def get_backup_files_pattern():
+    """Determine file pattern based on box model"""
+    model = get_box_type()
+
+    patterns = {
+        # DM models
+        'dm9': r"^.*\.(xz)$",
+        'dm520|dm7080|dm820': r"^.*\.(xz)$",
+        'dm': r"^.*\.(nfi)$",
+
+        # VU models
+        'vu.*4k': r"^.*\.(bin|bz2)$",
+        'vuduo2|vusolose|vusolo2|vuzero': r"^.*\.(bin|jffs2)$",
+        'vu': r"^.*\.(bin|jffs2)$",
+
+        # Other models
+        'hd51|h7|sf4008|sf5008|sf8008|sf8008m|vs1500|et11000|et13000|bre2ze4k|spycat4k|spycat4kmini|protek4k|e4hdultra|arivacombo|arivatwin|dual|anadol.*|axashis4|dinobot4|ferguson4|mediabox4|axashisc4':
+            r"^.*\.(bin|bz2)$",
+        'h9|h9se|h9combo|h9combose|i55plus|i55se|h10|hzero|h8|dinobotu55|iziboxx3|dinoboth265|axashistwin|protek4kx1':
+            r"^.*\.(ubi)$",
+        'hd60|hd61|multibox|multiboxse|multiboxplus|pulse4k|pulse4kmini':
+            r"^.*\.(bz2)$",
+        'et4|et5|et6|et7|et8|et9|et10':
+            r"^.*\.(bin)$",
+        'ebox': r"^.*\.(jffs2)$",
+        'fusion|pure|optimus|force|iqon|ios|tm2|tmn|tmt|tms|lunix|mediabox|vala':
+            r"^.*\.(bin)$",
+        '4k|uhd': r"^.*\.(bz2)$",
+    }
+
+    for pattern, file_pat in patterns.items():
+        if pattern in model:
+            return file_pat
+
+    return r"^.*\.(zip|bin)$"  # Default pattern
+
+
+def get_backup_requirements():
+    """Get required files for backup based on box model"""
+    model = get_box_type()
+    requirements = {
+        # DM models
+        'dm9': r"^.*\.(xz)$",
+        'dm520|dm7080|dm820': r"^.*\.(xz)$",
+        'dm': r"^.*\.(nfi)$",
+
+        # VU models
+        'vu.*4k': r"^.*\.(bin|bz2)$",
+        'vuduo2|vusolose|vusolo2|vuzero': r"^.*\.(bin|jffs2)$",
+        'vu': r"^.*\.(bin|jffs2)$",
+
+        # Other models
+        'hd51|h7|sf4008|sf5008|sf8008|sf8008m|vs1500|et11000|et13000|bre2ze4k|spycat4k|spycat4kmini|protek4k|e4hdultra|arivacombo|arivatwin|dual|anadol.*|axashis4|dinobot4|ferguson4|mediabox4|axashisc4':
+            r"^.*\.(bin|bz2)$",
+        'h9|h9se|h9combo|h9combose|i55plus|i55se|h10|hzero|h8|dinobotu55|iziboxx3|dinoboth265|axashistwin|protek4kx1':
+            r"^.*\.(ubi)$",
+        'hd60|hd61|multibox|multiboxse|multiboxplus|pulse4k|pulse4kmini':
+            r"^.*\.(bz2)$",
+        'et4|et5|et6|et7|et8|et9|et10':
+            r"^.*\.(bin)$",
+        'ebox': r"^.*\.(jffs2)$",
+        'fusion|pure|optimus|force|iqon|ios|tm2|tmn|tmt|tms|lunix|mediabox|vala':
+            r"^.*\.(bin)$",
+        '4k|uhd': r"^.*\.(bz2)$",
+    }
+
+    for pattern, req_files in requirements.items():
+        if pattern in model:
+            return req_files
+
+    return [("kernel.bin"), ("rootfs.bin")]  # Default requirements
+
 
 # Global variables
 autoStartTimer = None
 _session = None
 
 
-# Configuration GUI
-versienummer = '3.0-r2'
-ofgwrite_bin = "/usr/bin/ofgwrite"
-LOGFILE = "BackupSuite.log"
-VERSIONFILE = "imageversion"
-ENIGMA2VERSIONFILE = "/tmp/enigma2version"
-BACKUP_HDD = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backuphdd.sh")
-BACKUP_USB = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupusb.sh")
-BACKUP_MMC = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupmmc.sh")
-BACKUP_DMM_HDD = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backuphdd-dmm.sh")
-BACKUP_DMM_USB = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupusb-dmm.sh")
-BACKUP_DMM_MMC = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/backupmmc-dmm.sh")
-
-for script in [BACKUP_HDD, BACKUP_USB, BACKUP_MMC, BACKUP_DMM_HDD, BACKUP_DMM_USB, BACKUP_DMM_MMC]:
-    if not access(script, X_OK):
-        os.chmod(script, 0o755)
-
-if os.path.exists('/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control'):
-    with open("/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control") as origin:
-        for versie in origin:
-            if "Version: " not in versie:
-                continue
-            try:
-                versienummer = versie.split('+')[1]
-            except IndexError:
-                print("[BackupSuite] can't detect version!")
-
-
-def backupCommandHDD():
-    if os.path.exists('/var/lib/dpkg/info'):
-        cmd = BACKUP_DMM_HDD + ' en_EN'
-    else:
-        cmd = BACKUP_HDD + ' en_EN'
-    return cmd
-
-
-def backupCommandUSB():
-    if os.path.exists('/var/lib/dpkg/info'):
-        cmd = BACKUP_DMM_USB + ' en_EN'
-    else:
-        cmd = BACKUP_USB + ' en_EN'
-    return cmd
-
-
-def backupCommandMMC():
-    if os.path.exists('/var/lib/dpkg/info'):
-        cmd = BACKUP_DMM_MMC + ' en_EN'
-    else:
-        cmd = BACKUP_MMC + ' en_EN'
-    return cmd
-
-
-try:
-    from Plugins.SystemPlugins.MPHelp import registerHelp, XMLHelpReader
-    from Tools.Directories import resolveFilename, SCOPE_PLUGINS
-    reader = XMLHelpReader(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/mphelp.xml"))
-    backupsuiteHelp = registerHelp(*reader)
-except Exception as e:
-    print("[BackupSuite] Unable to initialize MPHelp:", e, "- Help not available!")
-    backupsuiteHelp = None
-
-
 class BackupStart(Screen):
     def __init__(self, session, args=0):
-        try:
-            sz_w = getDesktop(0).size().width()
-        except:
-            sz_w = 720
-        if sz_w == 2560:
-            self.skin = schermen.skinstartwqhd
-        elif sz_w == 1920:
-            self.skin = schermen.skinstartfullhd
-        elif sz_w >= 1280:
-            self.skin = schermen.skinstarthd
-        else:
-            self.skin = schermen.skinstartsd
-        self.session = session
-        self.setup_title = _("Make or restore a backup")
         Screen.__init__(self, session)
+        self.skin = get_skin("start")
+        self.session = session
+        self.setup_title = _("Make a backup or restore a backup")
         self.skin_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite")
         self["key_menu"] = Button(_("Backup > MMC"))
         self["key_red"] = Button(_("Close"))
@@ -124,51 +158,76 @@ class BackupStart(Screen):
         self["key_yellow"] = Button(_("Backup > USB"))
         self["key_blue"] = Button(_("Restore backup"))
         self["help"] = StaticText()
-        self["setupActions"] = ActionMap(["SetupActions", "ColorActions", "EPGSelectActions", "HelpActions"],
-        {
-                                                             
-                                                         
-            "menu": self.confirmmmc,
-            "red": self.cancel,
-            "green": self.confirmhdd,
-            "yellow": self.confirmusb,
-            "blue": self.flashimage,
-            "info": self.keyInfo,
-            "cancel": self.cancel,
-            "displayHelp": self.showHelp,
-            }, -2)
+        self["setupActions"] = ActionMap(
+            ["SetupActions", "ColorActions", "EPGSelectActions", "HelpActions"],
+            {
+                "menu": self.confirmmmc,
+                "red": self.cancel,
+                "green": self.confirmhdd,
+                "yellow": self.confirmusb,
+                "blue": self.flashimage,
+                "info": self.keyInfo,
+                "cancel": self.cancel,
+                "displayHelp": self.showHelp,
+            },
+            -2
+        )
         self.setTitle(self.setup_title)
 
     def confirmhdd(self):
-        self.session.openWithCallback(self.backuphdd, MessageBox, _("Do you want to make an USB-back-up image on HDD? \n\nThis only takes a few minutes and is fully automatic.\n"), MessageBox.TYPE_YESNO, timeout=20, default=True)
+        self.session.openWithCallback(
+            self.backuphdd,
+            MessageBox,
+            _("Do you want to make an USB-back-up image on HDD? \n\nThis only takes a few minutes and is fully automatic.\n"),
+            MessageBox.TYPE_YESNO,
+            timeout=20,
+            default=True
+        )
 
     def confirmusb(self):
-        self.session.openWithCallback(self.backupusb, MessageBox, _("Do you want to make a back-up on USB?\n\nThis only takes a few minutes depending on the used filesystem and is fully automatic.\n\nMake sure you first insert an USB flash drive before you select Yes."), MessageBox.TYPE_YESNO, timeout=20, default=True)
+        self.session.openWithCallback(
+            self.backupusb,
+            MessageBox,
+            _("Do you want to make a back-up on USB?\n\nThis only takes a few minutes depending on the used filesystem and is fully automatic.\n\nMake sure you first insert an USB flash drive before you select Yes."),
+            MessageBox.TYPE_YESNO,
+            timeout=20,
+            default=True
+        )
 
     def confirmmmc(self):
-        self.session.openWithCallback(self.backupmmc, MessageBox, _("Do you want to make an USB-back-up image on MMC? \n\nThis only takes a few minutes and is fully automatic.\n"), MessageBox.TYPE_YESNO, timeout=20, default=True)
+        self.session.openWithCallback(
+            self.backupmmc,
+            MessageBox,
+            _("Do you want to make an USB-back-up image on MMC? \n\nThis only takes a few minutes and is fully automatic.\n"),
+            MessageBox.TYPE_YESNO,
+            timeout=20,
+            default=True
+        )
 
     def showHelp(self):
-        from .plugin import backupsuiteHelp
-        if backupsuiteHelp:
-            backupsuiteHelp.open(self.session)
+        try:
+            from .plugin import backupsuiteHelp
+            if backupsuiteHelp:
+                backupsuiteHelp.open(self.session)
+        except ImportError:
+            pass
 
     def flashimage(self):
-        files = r"^.*\.(zip|bin)"
-        model = getBoxType()
-        if model in ("vuduo", "vusolo", "vuultimo", "vuuno") or model.startswith("ebox"):
-            files = r"^.*\.(zip|bin|jffs2)"
-        elif "4k" or "uhd" in model or model in ("hd51", "hd60", "hd61", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000", "multibox", "multiboxplus", "e4hdultra"):
-            files = r"^.*\.(zip|bin|bz2)"
-        elif model in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8", "dinobotu55", "iziboxx3", "dinoboth265", "axashistwin", "protek4kx1"):
-            files = r"^.*\.(zip|bin|ubi)"
-        elif os.path.exists('/var/lib/dpkg/info'):
-            self.session.open(MessageBox, _("No supported receiver found!"), MessageBox.TYPE_ERROR)
-            return
-        else:
-            files = r"^.*\.(zip|bin)"
-        curdir = '/media/'
-        self.session.open(FlashImageConfig, curdir, files)
+        model = get_box_type()
+        patterns = {
+            "vuduo|vusolo|vuultimo|vuuno|ebox.*": r"^.*\.(zip|bin|jffs2)",
+            "4k|uhd|hd51|hd60|hd61|h7|sf4008|sf5008|sf8008|sf8008m|vs1500|et11000|et13000|multibox|multiboxplus|e4hdultra": r"^.*\.(zip|bin|bz2)",
+            "h9|h9se|h9combo|h9combose|i55plus|i55se|h10|hzero|h8|dinobotu55|iziboxx3|dinoboth265|axashistwin|protek4kx1": r"^.*\.(zip|bin|ubi)",
+            "dm.*": r"^.*\.(zip|bin|nfi|xz)"
+        }
+
+        file_pattern = r"^.*\.(zip|bin)"  # Default pattern
+        for pattern, file_pat in patterns.items():
+            if pattern in model:
+                file_pattern = file_pat
+                break
+
+        self.session.open(FlashImageConfig, '/media/', file_pattern)
 
     def cancel(self):
         self.close(False, self.session)
@@ -178,28 +237,31 @@ class BackupStart(Screen):
 
     def writeEnigma2VersionFile(self):
         from Components.About import getEnigmaVersionString
-        with open(ENIGMA2VERSIONFILE, 'wt') as f:
-            f.write(getEnigmaVersionString())
+        try:
+            with open(ENIGMA2VERSIONFILE, 'wt') as f:
+                f.write(getEnigmaVersionString())
+        except OSError:
+            pass
 
     def backuphdd(self, ret=False):
-        if (ret is True):
+        if ret:
             self.writeEnigma2VersionFile()
             text = _('Full back-up on HDD')
-            cmd = backupCommandHDD()
+            cmd = f"{get_script_path('HDD')} en_EN"
             self.session.openWithCallback(self.consoleClosed, Console, text, [cmd])
 
     def backupusb(self, ret=False):
-        if (ret is True):
+        if ret:
             self.writeEnigma2VersionFile()
             text = _('Full back-up to USB')
-            cmd = backupCommandUSB()
+            cmd = f"{get_script_path('USB')} en_EN"
             self.session.openWithCallback(self.consoleClosed, Console, text, [cmd])
 
     def backupmmc(self, ret=False):
-        if (ret is True):
+        if ret:
             self.writeEnigma2VersionFile()
             text = _('Full back-up on MMC')
-            cmd = backupCommandMMC()
+            cmd = f"{get_script_path('MMC')} en_EN"
             self.session.openWithCallback(self.consoleClosed, Console, text, [cmd])
 
     def consoleClosed(self, answer=None):
@@ -208,64 +270,54 @@ class BackupStart(Screen):
 
 class WhatisNewInfo(Screen):
     def __init__(self, session):
-        try:
-            sz_w = getDesktop(0).size().width()
-        except:
-            sz_w = 720
-        if sz_w == 2560:
-            self.skin = schermen.skinnewwqhd
-        elif sz_w == 1920:
-            self.skin = schermen.skinnewfullhd
-        elif sz_w >= 1280:
-            self.skin = schermen.skinnewhd
-        else:
-            self.skin = schermen.skinnewsd
         Screen.__init__(self, session)
+        self.skin = get_skin("new")
         self.skin_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite")
-        self["Title"].setText(_("What is new since the last release?"))
+        self["Title"] = StaticText(_("What is new since the last release?"))
         self["key_red"] = Button(_("Close"))
         self["AboutScrollLabel"] = ScrollLabel(_("Please wait"))
-        self["actions"] = ActionMap(["SetupActions", "DirectionActions"],
+
+        self["actions"] = ActionMap(
+            ["SetupActions", "DirectionActions"],
             {
                 "cancel": self.close,
                 "ok": self.close,
                 "up": self["AboutScrollLabel"].pageUp,
                 "down": self["AboutScrollLabel"].pageDown
-            })
-        with open(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")) as file:
-            whatsnew = file.read()
-        self["AboutScrollLabel"].setText(whatsnew)
+            }
+        )
+
+        try:
+            with open(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")) as file:
+                self["AboutScrollLabel"].setText(file.read())
+        except OSError:
+            self["AboutScrollLabel"].setText(_("Release notes not available"))
 
 
 class FlashImageConfig(Screen):
     def __init__(self, session, curdir, matchingPattern=None):
-        try:
-            sz_w = getDesktop(0).size().width()
-        except:
-            sz_w = 720
-        if sz_w == 2560:
-            self.skin = schermen.skinflashwqhd
-        elif sz_w == 1920:
-            self.skin = schermen.skinflashfullhd
-        elif sz_w >= 1280:
-            self.skin = schermen.skinflashhd
-        else:
-            self.skin = schermen.skinflashsd
         Screen.__init__(self, session)
+        self.skin = get_skin("flash")
         self.skin_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite")
-        self["Title"].setText(_("Select the folder with backup"))
+        self.setTitle(_("Select the folder with backup"))
         self["key_red"] = StaticText(_("Close"))
         self["key_green"] = StaticText("")
         self["key_yellow"] = StaticText("")
         self["key_blue"] = StaticText("")
         self["curdir"] = StaticText(_("current:  %s") % (curdir or ''))
+        # Initialize state
         self.founds = False
-        self.dualboot = self.dualBoot()
-        self.ForceMode = self.ForceMode()
-        self.filelist = FileList(curdir, matchingPattern=matchingPattern, enableWrapAround=True)
+        self.dualboot = self.is_dual_boot()
+        self.force_mode = self.is_force_mode()
+        self.filelist = FileList(
+            curdir,
+            matchingPattern=matchingPattern,
+            enableWrapAround=True
+        )
         self.filelist.onSelectionChanged.append(self.__selChanged)
         self["filelist"] = self.filelist
-        self["FilelistActions"] = ActionMap(["SetupActions", "ColorActions"],
+        self["FilelistActions"] = ActionMap(
+            ["SetupActions", "ColorActions"],
             {
                 "green": self.keyGreen,
                 "red": self.keyRed,
@@ -273,28 +325,50 @@ class FlashImageConfig(Screen):
                 "blue": self.KeyBlue,
                 "ok": self.keyOk,
                 "cancel": self.keyRed
-            })
+            }
+        )
         self.onLayoutFinish.append(self.__layoutFinished)
 
     def __layoutFinished(self):
         pass
 
+    def is_dual_boot(self):
+        """Check if device supports dual boot"""
+        if get_box_type() != "et8500":
+            return False
+
+        try:
+            with open("/proc/mtd") as f:
+                content = f.read()
+                return 'rootfs2' in content and 'kernel2' in content
+        except OSError:
+            return False
+
+    def is_force_mode(self):
+        """Check if device requires force mode"""
+        return get_box_type() in (
+            "h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se",
+            "h10", "hzero", "h8"
+        )
+
     def dualBoot(self):
-        if getBoxType() == "et8500":
+        if get_box_type() == "et8500":
             rootfs2 = False
             kernel2 = False
-            with open("/proc/mtd") as f:
-                for line in f:
-                    if 'rootfs2' in line:
-                        rootfs2 = True
-                    if 'kernel2' in line:
-                        kernel2 = True
-                    if rootfs2 and kernel2:
-                        return True
+            f = open("/proc/mtd")
+            lz = f.readlines()
+            for x in lz:
+                if 'rootfs2' in x:
+                    rootfs2 = True
+                if 'kernel2' in x:
+                    kernel2 = True
+            f.close()
+            if rootfs2 and kernel2:
+                return True
         return False
 
     def ForceMode(self):
-        if getBoxType() in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8"):
+        if get_box_type() in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8"):
             return True
         return False
 
@@ -318,49 +392,104 @@ class FlashImageConfig(Screen):
         self["key_yellow"].setText("")
         self["key_green"].setText("")
         self["key_blue"].setText("")
-        self["curdir"].setText(_("current:  %s") % (self.getCurrentSelected()))
-        file_name = self.getCurrentSelected()
+        self["curdir"].setText(_("current:  %s") % self.getCurrentSelected())
         try:
-            if not self.filelist.canDescent() and file_name != '' and file_name != '/':
-                filename = self.filelist.getFilename()
-                if filename and filename.endswith(".zip"):
+            file_name = self.getCurrentSelected()
+            if not self.filelist.canDescent() and file_name and file_name != '/':
+                if file_name.endswith(".zip"):
                     self["key_yellow"].setText(_("Unzip"))
-            elif self.filelist.canDescent() and file_name != '' and file_name != '/':
+            elif self.filelist.canDescent() and file_name and file_name != '/':
                 self["key_green"].setText(_("Run flash"))
-                if os.path.isfile(file_name + LOGFILE) and os.path.isfile(file_name + VERSIONFILE):
+                if isfile(join(file_name, LOGFILE)) and \
+                   isfile(join(file_name, VERSIONFILE)):
                     self["key_yellow"].setText(_("Backup info"))
                     self["key_blue"].setText(_("Delete"))
-        except:
+        except Exception:
             pass
 
     def keyOk(self):
         if self.filelist.canDescent():
             self.filelist.descent()
 
-    def confirmedWarning(self, result):
-        if result:
-            self.founds = False
-            self.showparameterlist()
-
     def keyGreen(self):
         if self["key_green"].getText() == _("Run flash"):
-            dirname = self.filelist.getCurrentDirectory()
-            if dirname:
-                warning_text = "\n"
+            warning = _("Warning!\nUse at your own risk! Make always a backup before use!\nDon't use it if you use multiple ubi volumes in ubi layer!")
+            if self.dualboot:
+                warning += _("\n\nYou are using dual multiboot!")
+            self.session.openWithCallback(
+                self.show_parameter_list,
+                MessageBox,
+                warning,
+                MessageBox.TYPE_INFO
+            )
+
+    def show_parameter_list(self, result):
+        if result:
+            self.founds = False
+            self.show_flash_options()
+
+    def show_flash_options(self):
+        if self["key_green"].getText() == _("Run flash"):
+            dirname = self.getCurrentSelected()
+            if not dirname:
+                return
+
+            model = get_box_type()
+            requirements = self.get_backup_requirements(model)
+            text = _("Select parameter for start flash!\n")
+            text += _('For flashing your receiver files are needed:\n')
+            text += ", ".join(requirements["backup_files"])
+
+            try:
+                found_items = []
+                for name in listdir(dirname):
+                    if name in requirements["backup_files"]:
+                        found_items.append(f"{name} (maybe ok)")
+                        self.founds = True
+                    elif name in requirements["no_backup_files"]:
+                        found_items.append(f"{name} (maybe error)")
+                        self.founds = True
+
+                text += _('\n\nThe found files:')
+                text += "\n" + "\n".join(found_items) if found_items else _(' nothing!')
+            except OSError:
+                pass
+
+            if self.founds:
+                options = [
+                    (_("Simulate (no write)"), "simulate"),
+                    (_("Standard (root and kernel)"), "standard"),
+                    (_("Only root"), "root"),
+                    (_("Only kernel"), "kernel"),
+                ]
                 if self.dualboot:
-                    warning_text += _("\nYou are using dual multiboot!")
-                self.session.openWithCallback(lambda r: self.confirmedWarning(r), MessageBox, _("Warning!\nUse at your own risk! Make always a backup before use!\nDon't use it if you use multiple ubi volumes in ubi layer!") + warning_text, MessageBox.TYPE_INFO)
+                    options += [
+                        (_("Simulate second partition (no write)"), "simulate2"),
+                        (_("Second partition (root and kernel)"), "standard2"),
+                        (_("Second partition (only root)"), "rootfs2"),
+                        (_("Second partition (only kernel)"), "kernel2"),
+                    ]
+            else:
+                options = [(_("Exit"), "exit")]
+
+            self.session.openWithCallback(
+                self.execute_flash_command,
+                MessageBox,
+                text,
+                simple=True,
+                list=options
+            )
 
     def showparameterlist(self):
         if self["key_green"].getText() == _("Run flash"):
             dirname = self.getCurrentSelected()
-            model = getBoxType()
+            model = get_box_type()
             if dirname:
                 backup_files = []
                 no_backup_files = []
                 text = _("Select parameter for start flash!\n")
                 text += _('For flashing your receiver files are needed:\n')
-                if os.path.exists('/var/lib/dpkg/info'):
+                if model.startswith("dm"):
                     if "dm9" in model:
                         backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
                         no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
@@ -432,7 +561,7 @@ class FlashImageConfig(Screen):
                 try:
                     self.founds = False
                     text += _('\nThe found files:')
-                    for name in os.listdir(dirname):
+                    for name in listdir(dirname):
                         if name in backup_files:
                             text += _("  %s (maybe ok)") % name
                             self.founds = True
@@ -473,55 +602,137 @@ class FlashImageConfig(Screen):
                 self.session.open(MessageBox, _("A recording is currently running. Please stop the recording before trying to start a flashing."), MessageBox.TYPE_ERROR)
                 self.founds = False
                 return
-            dir_flash = self.getCurrentSelected()
+                
+                """
+                dir_flash = self.getCurrentSelected()
+                text = _("Flashing: ")
+                cmd = "echo -e"
+                if ret == "simulate":
+                    text += _("Simulate (no write)")
+                    cmd = "%s -n '%s'" % (ofgwrite_bin, dir_flash)
+                elif ret == "standard":
+                    text += _("Standard (root and kernel)")
+                    if self.ForceMode:
+                        cmd = "%s -f -r -k '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
+                    else:
+                        cmd = "%s -r -k '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
+                elif ret == "root":
+                    text += _("Only root")
+                    cmd = "%s -r '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
+                elif ret == "kernel":
+                    text += _("Only kernel")
+                    cmd = "%s -k '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
+                elif ret == "simulate2":
+                    text += _("Simulate second partition (no write)")
+                    cmd = "%s -kmtd3 -rmtd4 -n '%s'" % (ofgwrite_bin, dir_flash)
+                elif ret == "standard2":
+                    text += _("Second partition (root and kernel)")
+                    cmd = "%s -kmtd3 -rmtd4 '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
+                elif ret == "rootfs2":
+                    text += _("Second partition (only root)")
+                    cmd = "%s -rmtd4 '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
+                elif ret == "kernel2":
+                    text += _("Second partition (only kernel)")
+                    cmd = "%s -kmtd3 '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
+                """
+            else:
+                options = [(_("Exit"), "exit")]
             text = _("Flashing: ")
-            cmd = "echo -e"
-            if ret == "simulate":
-                text += _("Simulate (no write)")
-                cmd = "%s -n '%s'" % (ofgwrite_bin, dir_flash)
-            elif ret == "standard":
-                text += _("Standard (root and kernel)")
-                if self.ForceMode:
-                    cmd = "%s -f -r -k '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
-                else:
-                    cmd = "%s -r -k '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
-            elif ret == "root":
-                text += _("Only root")
-                cmd = "%s -r '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
-            elif ret == "kernel":
-                text += _("Only kernel")
-                cmd = "%s -k '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
-            elif ret == "simulate2":
-                text += _("Simulate second partition (no write)")
-                cmd = "%s -kmtd3 -rmtd4 -n '%s'" % (ofgwrite_bin, dir_flash)
-            elif ret == "standard2":
-                text += _("Second partition (root and kernel)")
-                cmd = "%s -kmtd3 -rmtd4 '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
-            elif ret == "rootfs2":
-                text += _("Second partition (only root)")
-                cmd = "%s -rmtd4 '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
-            elif ret == "kernel2":
-                text += _("Second partition (only kernel)")
-                cmd = "%s -kmtd3 '%s' > /dev/null 2>&1 &" % (ofgwrite_bin, dir_flash)
-            else:
-                return
-            message = "echo -e '\n"
-            message += _('NOT found files for flashing!\n')
-            message += "'"
-            if ret == "simulate" or ret == "simulate2":
-                if self.founds:
-                    message = "echo -e '\n"
-                    message += _('Show only found image and mtd partitions.\n')
-                    message += "'"
-            else:
-                if self.founds:
-                    message = "echo -e '\n"
-                    message += _('ofgwrite will stop enigma2 now to run the flash.\n')
-                    message += _('Your STB will freeze during the flashing process.\n')
-                    message += _('Please: DO NOT reboot your STB and turn off the power.\n')
-                    message += _('The image or kernel will be flashing and auto booted in few minutes.\n')
-                    message += "'"
-            self.session.open(Console, text, [message, cmd])
+            self.session.openWithCallback(
+                self.execute_flash_command,
+                MessageBox,
+                text,
+                simple=True,
+                list=options
+            )
+
+    def get_backup_requirements(self, model):
+        """Get required files for backup based on box model"""
+        patterns = {
+            r"dm9": {
+                "backup_files": ["kernel.bin", "rootfs.tar.bz2"],
+                "no_backup_files": ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2",
+                                    "root_cfe_auto.bin", "oe_kernel.bin", "oe_rootfs.bin",
+                                    "kernel_auto.bin", "uImage", "rootfs.ubi"]
+            },
+            r"dm520|dm7080|dm820": {
+                "backup_files": ["*.xz"],
+                "no_backup_files": ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2",
+                                    "root_cfe_auto.bin", "oe_kernel.bin", "oe_rootfs.bin",
+                                    "kernel_auto.bin", "kernel.bin", "rootfs.tar.bz2",
+                                    "uImage", "rootfs.ubi"]
+            },
+            r"dm.*": {
+                "backup_files": ["*.nfi"],
+                "no_backup_files": ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2",
+                                    "root_cfe_auto.bin", "oe_kernel.bin", "oe_rootfs.bin",
+                                    "kernel_auto.bin", "kernel.bin", "rootfs.tar.bz2",
+                                    "uImage", "rootfs.ubi"]
+            },
+
+        }
+
+        # Default requirements
+        default = {
+            "backup_files": ["kernel.bin", "rootfs.bin"],
+            "no_backup_files": ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2",
+                                "root_cfe_auto.bin", "oe_kernel.bin", "oe_rootfs.bin",
+                                "rootfs.tar.bz2", "kernel_auto.bin", "uImage", "rootfs.ubi"]
+        }
+
+        for pattern, reqs in patterns.items():
+            if pattern in model:
+                return reqs
+        return default
+
+    def execute_flash_command(self, ret):
+        if not ret:
+            return
+
+        if ret == "exit":
+            self.close()
+            return
+
+        if self.session.nav.RecordTimer.isRecording():
+            self.session.open(
+                MessageBox,
+                _("A recording is currently running. Please stop the recording before trying to start a flashing."),
+                MessageBox.TYPE_ERROR
+            )
+            return
+
+        dir_flash = self.getCurrentSelected()
+        commands = {
+            "simulate": (ofgwrite_bin + " -n", _("Simulate (no write)")),
+            "standard": (ofgwrite_bin + (" -f -r -k" if self.force_mode else " -r -k"),
+                         _("Standard (root and kernel)")),
+            "root": (ofgwrite_bin + " -r", _("Only root")),
+            "kernel": (ofgwrite_bin + " -k", _("Only kernel")),
+            "simulate2": (ofgwrite_bin + " -kmtd3 -rmtd4 -n", _("Simulate second partition (no write)")),
+            "standard2": (ofgwrite_bin + " -kmtd3 -rmtd4", _("Second partition (root and kernel)")),
+            "rootfs2": (ofgwrite_bin + " -rmtd4", _("Second partition (only root)")),
+            "kernel2": (ofgwrite_bin + " -kmtd3", _("Second partition (only kernel)")),
+        }
+
+        if ret not in commands:
+            return
+
+        cmd, description = commands[ret]
+        full_cmd = f"{cmd} '{dir_flash}'"
+
+        if not ret.startswith("simulate"):
+            full_cmd += " > /dev/null 2>&1 &"
+
+        message = _("ofgwrite will stop enigma2 now to run the flash.\n")
+        message += _("Your STB will freeze during the flashing process.\n")
+        message += _("Please: DO NOT reboot your STB and turn off the power.\n")
+        message += _("The image or kernel will be flashing and auto booted in few minutes.\n")
+
+        self.session.open(
+            Console,
+            f"{_('Flashing:')} {description}",
+            [f"echo -e '{message}'", full_cmd]
+        )
 
     def keyRed(self):
         self.close()
@@ -547,7 +758,7 @@ class FlashImageConfig(Screen):
             filename = self.filelist.getFilename()
             if dirname and filename:
                 try:
-                    os.system('unzip -o %s%s -d %s' % (dirname, filename, dirname))
+                    os_system('unzip -o %s%s -d %s' % (dirname, filename, dirname))
                     self.filelist.refresh()
                 except:
                     pass
@@ -555,7 +766,7 @@ class FlashImageConfig(Screen):
     def confirmedDelete(self, answer):
         if answer is True:
             backup_dir = self.getCurrentSelected()
-            cmdmessage = "echo -e 'Removing backup:   %s\n'" % os.path.basename(backup_dir.rstrip('/'))
+            cmdmessage = "echo -e 'Removing backup:   %s\n'" % basename(backup_dir.rstrip('/'))
             cmddelete = "rm -rf %s > /dev/null 2>&1" % backup_dir
             self.session.open(Console, _("Delete backup"), [cmdmessage, cmddelete], self.filelist.refresh)
 
@@ -569,20 +780,27 @@ def main(session, **kwargs):
 
 
 def Plugins(path, **kwargs):
-    global plugin_path
-    plugin_path = path
-    description = _("Backup and restore your image") + ", " + versienummer
+    version = "unknown"
+    try:
+        with open("/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control") as f:
+            for line in f:
+                if line.startswith("Version: "):
+                    version = line.split('+', 1)[1].strip() if '+' in line else line.split(':', 1)[1].strip()
+                    break
+    except OSError:
+        pass
+
     return [
         PluginDescriptor(
-            name="BackupSuite",
-            description=description,
+            name=_("BackupSuite"),
+            description=f"{_('Backup and restore your image')}, {version}",
             where=PluginDescriptor.WHERE_PLUGINMENU,
             icon='plugin.png',
             fnc=main
         ),
         PluginDescriptor(
-            name="BackupSuite",
-            description=description,
+            name=_("BackupSuite"),
+            description=f"{_('Backup and restore your image')}, {version}",
             where=PluginDescriptor.WHERE_EXTENSIONSMENU,
             fnc=main
         )
