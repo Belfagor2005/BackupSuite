@@ -35,7 +35,7 @@ Q flags
 
 
 def _make_fmt(name, format, extras=[]):
-	type_and_name = [l.split(None, 1) for l in format.strip().splitlines()]
+	type_and_name = [lx.split(None, 1) for lx in format.strip().splitlines()]
 	fmt = ''.join(t for (t, n) in type_and_name)
 	fmt = '<' + fmt
 	tupletype = collections.namedtuple(name, [n for (t, n) in type_and_name if n != '_'] + extras)
@@ -60,7 +60,7 @@ def read_header(fp, lba_size=512):
 		raise GPTError('Bad header size: %r' % header.header_size)
 	header = header._replace(
 		disk_guid=str(uuid.UUID(bytes_le=header.disk_guid)),
-		)
+	)
 	return header
 
 
@@ -78,7 +78,7 @@ def read_partitions(fp, header, lba_size=512):
 			type=str(uuid.UUID(bytes_le=part.type)),
 			unique=str(uuid.UUID(bytes_le=part.unique)),
 			name=part.name.decode('utf-16').split('\0', 1)[0],
-			)
+		)
 		yield part
 
 
@@ -98,7 +98,7 @@ def find_kernel_device_gpt(kernelpartition):
 	device = '/dev/mmcblk0'
 	try:
 		import re
-		device = re.search('/dev/mmcblk(\d+)', open('/proc/cmdline').read()).group(0)
+		device = re.search(r'/dev/mmcblk(\d+)', open('/proc/cmdline').read()).group(0)
 	except:
 		pass
 	try:
