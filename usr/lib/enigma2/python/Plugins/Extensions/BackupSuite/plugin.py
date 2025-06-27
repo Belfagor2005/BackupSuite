@@ -1,24 +1,21 @@
 # -*- coding: utf-8 -*-
 
-from os.path import join, isfile, basename
-from os import listdir, system as os_system
-# import gettext
+from os.path import join, isfile, basename, exists
+from os import listdir, system as os_system, chmod, stat as os_stat
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
 from Screens.Console import Console
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.FileList import FileList
-# from Components.Language import language
-# from Components.Harddisk import harddiskmanager
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
-from Tools.Directories import resolveFilename, SCOPE_PLUGINS  # , SCOPE_LANGUAGE
-# from os import environ
+from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from enigma import getDesktop
-# from .schermen import skinstartfullhd, skinstarthd, skinstartsd, skinnewfullhd, skinnewhd, skinnewsd, skinflashfullhd, skinflashhd, skinflashsd
+import stat
 from . import _
+from .message import *
 
 # Global constants
 versienummer = '3.0-r2'
@@ -44,12 +41,19 @@ def get_box_type():
         return getBoxType()
 
 
-# Helper functions
 def get_script_path(device_type):
     """Get the appropriate backup script path based on device type and box model"""
     scripts = BACKUP_SCRIPTS[device_type]
     script_name = scripts[1] if get_box_type().startswith("dm") else scripts[0]
-    return resolveFilename(SCOPE_PLUGINS, f"Extensions/BackupSuite/{script_name}")
+    script_path = resolveFilename(SCOPE_PLUGINS, f"Extensions/BackupSuite/scripts/{script_name}")
+    
+    # Ensure execution permission is set
+    if exists(script_path):
+        current_mode = os_stat(script_path).st_mode
+        if not (current_mode & stat.S_IXUSR):
+            chmod(script_path, current_mode | stat.S_IXUSR)
+
+    return script_path
 
 
 def get_skin(skin_type):
@@ -288,7 +292,7 @@ class WhatisNewInfo(Screen):
         )
 
         try:
-            with open(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")) as file:
+            with open(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/scripts/whatsnew.txt")) as file:
                 self["AboutScrollLabel"].setText(file.read())
         except OSError:
             self["AboutScrollLabel"].setText(_("Release notes not available"))

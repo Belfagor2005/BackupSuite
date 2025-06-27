@@ -20,7 +20,6 @@ localeInit()
 def _(txt):
     t = gettext.dgettext("BackupSuite", txt)
     if t == txt:
-        # print("[BackupSuite] fallback to default translation for", txt)
         t = gettext.gettext(txt)
     return t
 
@@ -235,5 +234,72 @@ def message43():
     return
 
 
-globals()[sys.argv[2]]()
-os_environ["LANGUAGE"] = sys.argv[1]
+def message44():
+    sys.stdout.write(_("Backup started..."))
+    return
+
+
+def message45():
+    sys.stdout.write(_("Phase 1/3: Preparing backup environment"))
+    return
+
+
+def message46():
+    sys.stdout.write(_("Phase 2/3: Creating backup image"))
+    return
+
+
+def message47():
+    sys.stdout.write(_("Phase 3/3: Finalizing backup"))
+    return
+
+
+def message48():
+    sys.stdout.write(_("Backup completed successfully!"))
+    return
+
+
+def message49():
+    sys.stdout.write(_("Backup statistics:"))
+    return
+
+
+def message50():
+    sys.stdout.write(_("Backup progress:"))
+    return
+
+
+def message51():
+    sys.stdout.write(_("Dumping kernel (25%)"))
+    return
+
+
+def message52():
+    sys.stdout.write(_("Creating root filesystem (50%)"))
+    return
+
+
+def message53():
+    sys.stdout.write(_("Assembling image (75%)"))
+    return
+
+
+def message54():
+    sys.stdout.write(_("Making extra copy (90%)"))
+    return
+
+
+def message55():
+    sys.stdout.write(_("Finalizing (95%)"))
+    return
+
+
+def message56():
+    sys.stdout.write(_("Backup complete (100%)"))
+    return
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 2 and sys.argv[2] in globals():
+        os_environ["LANGUAGE"] = sys.argv[1]
+        globals()[sys.argv[2]]()
