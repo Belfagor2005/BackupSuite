@@ -235,67 +235,67 @@ def message43():
 
 
 def message44():
-    sys.stdout.write(_("Backup started..."))
+    sys.stdout.write(_("Backup started...") + '\n')
     return
 
 
 def message45():
-    sys.stdout.write(_("Phase 1/3: Preparing backup environment"))
+    sys.stdout.write(_("Phase 1/3: Preparing backup environment") + '\n')
     return
 
 
 def message46():
-    sys.stdout.write(_("Phase 2/3: Creating backup image"))
+    sys.stdout.write(_("Phase 2/3: Creating backup image") + '\n')
     return
 
 
 def message47():
-    sys.stdout.write(_("Phase 3/3: Finalizing backup"))
+    sys.stdout.write(_("Phase 3/3: Finalizing backup") + '\n')
     return
 
 
 def message48():
-    sys.stdout.write(_("Backup completed successfully!"))
+    sys.stdout.write(_("Backup completed successfully!") + '\n')
     return
 
 
 def message49():
-    sys.stdout.write(_("Backup statistics:"))
+    sys.stdout.write(_("Backup statistics:") + '\n')
     return
 
 
 def message50():
-    sys.stdout.write(_("Backup progress:"))
+    sys.stdout.write(_("Backup progress:") + '\n')
     return
 
 
 def message51():
-    sys.stdout.write(_("Dumping kernel (25%)"))
+    sys.stdout.write(_("Dumping kernel (25%)") + '\n')
     return
 
 
 def message52():
-    sys.stdout.write(_("Creating root filesystem (50%)"))
+    sys.stdout.write(_("Creating root filesystem (50%)") + '\n')
     return
 
 
 def message53():
-    sys.stdout.write(_("Assembling image (75%)"))
+    sys.stdout.write(_("Assembling image (75%)") + '\n')
     return
 
 
 def message54():
-    sys.stdout.write(_("Making extra copy (90%)"))
+    sys.stdout.write(_("Making extra copy (90%)") + '\n')
     return
 
 
 def message55():
-    sys.stdout.write(_("Finalizing (95%)"))
+    sys.stdout.write(_("Finalizing (95%)") + '\n')
     return
 
 
 def message56():
-    sys.stdout.write(_("Backup complete (100%)"))
+    sys.stdout.write(_("Backup complete (100%)") + '\n')
     return
 
 
