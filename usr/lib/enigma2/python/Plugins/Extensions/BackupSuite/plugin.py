@@ -6,7 +6,6 @@ from os.path import basename, exists, isfile, join  # , getmtime
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.FileList import FileList
-# from Components.Harddisk import harddiskmanager
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 
@@ -20,7 +19,7 @@ from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 
 from enigma import getDesktop
 
-from . import _  # , schermen
+from . import _
 
 # Global constants
 VERSION = '3.0-r4'
@@ -349,7 +348,17 @@ class FlashImageConfig(Screen):
 		self.founds = False
 		self.dualboot = is_dual_boot()
 		self.ForceMode = requires_force_mode()
-		self.filelist = FileList(curdir, matchingPattern=matchingPattern, enableWrapAround=True)
+		
+		# Create a combined pattern that includes both model-specific files and ZIP files
+		if matchingPattern:
+			# Extract extensions from the original pattern
+			original_extensions = matchingPattern.split("(")[-1].rstrip(")$")
+			# Create a new pattern that includes both original extensions and zip
+			combined_pattern = r"\.(" + original_extensions + "|zip)$"
+		else:
+			combined_pattern = r"\.(zip)$"
+			
+		self.filelist = FileList(curdir, matchingPattern=combined_pattern, enableWrapAround=True)
 		self.filelist.onSelectionChanged.append(self.__selChanged)
 		self["filelist"] = self.filelist
 		self["FilelistActions"] = ActionMap(
@@ -377,6 +386,7 @@ class FlashImageConfig(Screen):
 
 		if not self.filelist.canDescent() and current and current.endswith(".zip"):
 			self["key_yellow"].setText(_("Unzip"))
+
 		elif self.filelist.canDescent() and current and current != '/':
 			self["key_green"].setText(_("Flash"))
 			if isfile(join(current, LOGFILE)) and isfile(join(current, VERSIONFILE)):
