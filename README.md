@@ -1,3 +1,6 @@
+
+![](https://komarev.com/ghpvc/?username=Belfagor2005) [![Python package](https://github.com/Belfagor2005/BackupSuite/actions/workflows/pylint.yml/badge.svg)](https://github.com/Belfagor2005/BackupSuite/actions/workflows/pylint.yml)
+
 ---
 
 ### **BackupSuite**
