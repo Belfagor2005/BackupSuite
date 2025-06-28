@@ -3,10 +3,6 @@
 
 ---
 
-### **BackupSuite**
-
-
-
 <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/plugin.png?raw=true">
 
 
