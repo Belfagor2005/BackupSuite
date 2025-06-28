@@ -1,122 +1,171 @@
 #!/bin/sh
-if tty > /dev/null ; then
-   RED='-e \e[00;31m'
-   GREEN='-e \e[00;32m'
-   YELLOW='-e \e[01;33m'
-   BLUE='-e \e[00;34m'
-   PURPLE='-e \e[01;31m'
-   WHITE='-e \e[00;37m'
+
+###############################################################################
+#     FULL BACKUP UYILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
+#                   MAKES A FULLBACK-UP READY FOR FLASHING.                   #
+###############################################################################
+
+# Robust Python detection
+detect_python() {
+    if command -v python3 >/dev/null 2>&1; then
+        echo "python3"
+    elif command -v python2 >/dev/null 2>&1; then
+        echo "python2"
+    elif command -v python >/dev/null 2>&1; then
+        echo "python"
+    else
+        echo "Unable to find Python!" >&2
+        exit 1
+    fi
+}
+
+# Terminal color setup
+if tty >/dev/null 2>&1 ; then
+    RED='-e \e[00;31m'
+    GREEN='-e \e[00;32m'
+    YELLOW='-e \e[01;33m'
+    BLUE='-e \e[00;34m'
+    PURPLE='-e \e[01;31m'
+    WHITE='-e \e[00;37m'
 else
-   RED='\c00??0000'
-   GREEN='\c0000??00'
-   YELLOW='\c00????00'
-   BLUE='\c0000????'
-   PURPLE='\c00?:55>7'
-   WHITE='\c00??????'
+    RED='\c00??0000'
+    GREEN='\c0000??00'
+    YELLOW='\c00????00'
+    BLUE='\c0000????'
+    PURPLE='\c00?:55>7'
+    WHITE='\c00??????'
 fi
 
+# Library directory detection
 if [ -d "/usr/lib64" ]; then
-	echo "multilib situation!"
-	LIBDIR="/usr/lib64"
+    LIBDIR="/usr/lib64"
 else
-	LIBDIR="/usr/lib"
-fi
-PYVERSION=$(python -V 2>&1 | awk '{print $2}')
-case $PYVERSION in
-	2.*)
-		PYEXT=pyo
-		PYNAME=python
-		;;
-	3.*)
-		PYEXT=pyc
-		PYNAME=python3
-		;;
-esac
-if [ -z $PYVERSION ]; then
-	echo "Unable to determine installed Python version!"
-	exit 1
+    LIBDIR="/usr/lib"
 fi
 
-export LANG=$1
-export SHOW="$PYNAME $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/message.$PYEXT $LANG"
-export HARDDISK=1
+# Find Python and message script
+PYTHON=$(detect_python)
+MESSAGE_DIR="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite"
+MESSAGE_SCRIPT=""
+
+# Find the best message script version
+find_message_script() {
+    # Check for compiled versions first
+    for ext in pyc pyo; do
+        if [ -f "$MESSAGE_DIR/message.$ext" ]; then
+            echo "$MESSAGE_DIR/message.$ext"
+            return
+        fi
+    done
+    
+    # Fallback to source version
+    if [ -f "$MESSAGE_DIR/message.py" ]; then
+        echo "$MESSAGE_DIR/message.py"
+        return
+    fi
+    
+    echo "Error: No message script found!" >&2
+    exit 1
+}
+
+# Parameters
+export LANG="${1:-en}"
+export SHOW="$PYTHON $(find_message_script) $LANG"
+
+# Device type detection
+case "${2:-HDD}" in
+    "HDD") export HARDDISK=1 ;;
+    "USB") export HARDDISK=0 ;;
+    "MMC") export HARDDISK=0 ;;
+    *)     export HARDDISK=1 ;;  # Default to HDD
+esac
+
+# Show backup destination message
 echo -n $YELLOW
-$SHOW "message20"   	# echo "Full back-up to the harddisk"
-FREESIZE_0=0				
-TOTALSIZE_0=0
-MEDIA=0
-MINIMUN=33				# avoid all sizes below 33GB
-UBIFS="$(df -h /hdd | grep ubi0:rootfs | awk {'print $1'})" > /dev/null 2>&1
-if [ "$UBIFS" = ubi0:rootfs ] ; then
-	HDD_MOUNT="$(ls -l /hdd | grep -o media/hdd)"
-		if [ "$?" = "0" ] ; then
-			HDD_MOUNT="$(echo "$HDD_MOUNT refers to the flash memory")" > /dev/null 2>&1
-		else
-			echo ""
-		fi
+$SHOW "message20" 2>&1  # "Full back-up to the harddisk"
+echo -n $WHITE
+
+# Portable HDD detection and validation
+detect_hdd() {
+    # Check common HDD mount points
+    local candidates="/hdd /media/hdd /media/usb/hdd /mnt/hdd"
+    for path in $candidates; do
+        if [ -d "$path" ] && mountpoint -q "$path" 2>/dev/null; then
+            # Test write access
+            if touch "$path/hdd_test.$$" 2>/dev/null; then
+                rm -f "$path/hdd_test.$$"
+                echo "$path"
+                return 0
+            fi
+        fi
+    done
+    
+    # Check mounted devices
+    grep '^/dev/' /proc/mounts | while read -r dev mountpoint fstype _; do
+        case "$fstype" in
+            ext*|ntfs|vfat|btrfs|xfs)
+                if touch "$mountpoint/hdd_test.$$" 2>/dev/null; then
+                    rm -f "$mountpoint/hdd_test.$$"
+                    echo "$mountpoint"
+                    return 0
+                fi
+                ;;
+        esac
+    done
+    
+    # No valid HDD found
+    return 1
+}
+
+# Get disk space info in portable way
+get_disk_space() {
+    local path="$1"
+    if command -v df >/dev/null; then
+        # Try human-readable format first
+        df -h "$path" 2>/dev/null | awk 'NR>1 {print $2, $4, $6}'
+    else
+        # Fallback to parsing /proc/mounts
+        echo "?? ?? unknown"
+    fi
+}
+
+# Find HDD target
+HDD_TARGET=$(detect_hdd)
+
+if [ -n "$HDD_TARGET" ]; then
+    # Get disk space info
+    read TOTALSIZE FREESIZE MEDIA <<< $(get_disk_space "$HDD_TARGET")
+    
+    # Show disk info
+    echo -n " -> $HDD_TARGET ($TOTALSIZE, "
+    $SHOW "message16"
+    echo "$FREESIZE)"
+    
+    # Execute backup script
+    BACKUP_SCRIPT="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh"
+    if [ -x "$BACKUP_SCRIPT" ]; then
+        chmod 755 "$BACKUP_SCRIPT" >/dev/null 2>&1
+        "$BACKUP_SCRIPT" "$HDD_TARGET"
+        ret=$?
+        sync
+        
+        if [ $ret -eq 0 ]; then
+            echo -n $BLUE
+            $SHOW "message48" 2>&1  # Backup completed successfully!
+        else
+            echo -n $RED
+            $SHOW "message15" 2>&1  # Image creation FAILED!
+        fi
+    else
+        echo -n $RED
+        $SHOW "message05" 2>&1  # Backup script not found!
+        ret=1
+    fi
 else
-	touch /hdd/hdd-check > /dev/null 2>&1
+    echo -n $RED
+    $SHOW "message15" 2>&1  # No suitable media found!
+    ret=1
 fi
-if [ -f /hdd/hdd-check ] ; then  
-	CHECKMOUNT1="$(df -h /hdd | tail -n 1 | awk {'print $6'})"
-	CHECKMOUNT2="$(df -h /hdd | tail -n 1 | awk {'print $5'})"
-	if [ "${CHECKMOUNT1:1:5}" = media ] ; then
-		TOTALSIZE="$(df -h /hdd | tail -n 1 | awk {'print $2'})"
-		FREESIZE="$(df -h /hdd | tail -n 1 | awk {'print $4'})"	
-		MEDIA="$(df -h /hdd | tail -n 1 | awk {'print $6'})"
-	elif [ "${CHECKMOUNT2:1:5}" = media ] ; then
-		TOTALSIZE="$(df -h /hdd | tail -n 1 | awk {'print $1'})"
-		FREESIZE="$(df -h /hdd | tail -n 1 | awk {'print $3'})"
-		MEDIA="$(df -h /hdd | tail -n 1 | awk {'print $5'})"
-	else
-		TOTALSIZE="??"
-		FREESIZE="??"
-		MEDIA="unknown"
-	fi
-	echo -n " -> /hdd -> $MEDIA ($TOTALSIZE, "; $SHOW "message16" ; echo "$FREESIZE)"
-	echo -n $WHITE
-	chmod 755 $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh > /dev/null 2>&1
-	$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh /hdd
-	rm -f /hdd/hdd-check
-	sync
-else
-	for candidate in /dev/sda1 /dev/sdb1 /dev/sdc1 /dev/sdd1 /dev/sde1 /dev/sdf1
-	do
-		if grep ${candidate} /proc/mounts > /dev/null ; then
-			DISK="$( grep ${candidate} /proc/mounts | awk {'print $3'})" 
-			MEDIA="$( grep -m1 ${candidate} /proc/mounts | awk {'print $2'})" 
-			CHECK=${DISK:0:3}
-			if [ $CHECK = "ext" ] ; then
-				TOTALSIZE="$(df -B 1073741824 ${candidate} | tail -n 1 | awk {'print $2'})" 
-				FREESIZE="$(df -B 1073741824 ${candidate} | tail -n 1 | awk {'print $4'})" 
-				if [ "$FREESIZE" -gt $FREESIZE_0 -a $TOTALSIZE -gt $MINIMUN ] ; then
-					BMEDIA=$MEDIA
-					TOTALSIZE_0=$TOTALSIZE
-					FREESIZE_0=$FREESIZE
-					echo "This is an absolete testfile" > $BMEDIA/HDD-TEST
-					if [ -f $BMEDIA/HDD-TEST ] ; then
-						rm -f $BMEDIA/HDD-TEST
-					else
-						#non-writeable disk
-						MEDIA=
-					fi
-				fi
-			fi
-		fi
-	done
-	if  [ $MEDIA = "0" ] ; then
-		echo -n $RED
-		$SHOW "message15"  # echo "No suitable media found"
-		echo -n $WHITE
-		exit 0
-	else
-		TOTALSIZE_0="$(df -h $MEDIA | tail -n 1 | awk {'print $2'})"		
-		FREESIZE_0="$(df -h $MEDIA | tail -n 1 | awk {'print $4'})"
-		echo -n " -> $MEDIA ($TOTALSIZE_0, "; $SHOW "message16" ; echo -n "$FREESIZE_0)"
-		echo -n $WHITE
-		chmod 755 $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh > /dev/null 2>&1
-		$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh $MEDIA 
-		echo "$HDD_MOUNT" > /tmp/BackupSuite.log
-		sync
-	fi
-fi
+
+echo -n $WHITE
+exit $ret

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 skinstartfullhd = """
-    <screen name="BackupSuite" position="fill" size="1920,1080" title=" " >
-        <widget source="Title" render="Label" position="30,7" size="1860,75" backgroundColor="#00000000" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left"/>
+    <screen name="BackupSuite" position="fill" size="1920,1080" title=" ">
+        <widget source="Title" render="Label" position="30,7" size="1860,75" backgroundColor="#00000000" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left" />
         <eLabel position="0,0" size="1920,87" backgroundColor="#00000000" />
         <ePixmap pixmap="~/img/fullsmallshadowline.png" position="0,87" size="1920,3" />
-        <ePixmap pixmap="~/img/fullsmallshadowline.png" position="0,1020" size="1920,3"/>
+        <ePixmap pixmap="~/img/fullsmallshadowline.png" position="0,1020" size="1920,3" />
         <widget source="global.CurrentTime" render="Label" position="1665,22" size="225,37" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="right">
             <convert type="ClockToText">Format:%-H:%M</convert>
         </widget>
@@ -13,7 +13,7 @@ skinstartfullhd = """
             <convert type="ClockToText">Date</convert>
         </widget>
         <eLabel text=" " position="85,30" size="1085,55" backgroundColor="#18101214" transparent="1" zPosition="1" font="Regular;24" valign="center" halign="left" />
-        <widget source="session.VideoPicture" render="Pig" position="30,120" size="720,405" backgroundColor="transparent" zPosition="1"/>
+        <widget source="session.VideoPicture" render="Pig" position="30,118" size="720,405" backgroundColor="transparent" zPosition="1" />
         <widget source="session.CurrentService" render="Label" position="30,90" size="720,30" zPosition="1" foregroundColor="secondFG" font="Regular;28" borderColor="black" noWrap="1" valign="center" halign="center">
             <convert type="ServiceName">Name</convert>
         </widget>
@@ -31,21 +31,22 @@ skinstartfullhd = """
         <widget name="key_green" position="824,1030" size="250,40" valign="top" halign="left" zPosition="4" foregroundColor="#0053b611" font="Regular;34" />
         <widget name="key_yellow" position="1209,1030" size="250,40" valign="top" halign="left" zPosition="4" foregroundColor="#00F9C731" font="Regular;34" />
         <widget name="key_blue" position="1594,1030" size="250,40" valign="top" halign="left" zPosition="4" foregroundColor="#003a71c3" font="Regular;34" />
-        <widget source="help" render="Label" position="5,345" size="590,83" font="Regular;21" />
+        <widget source="help" render="Label" position="53,819" size="837,83" font="Regular;21" />
+        <widget name="devicelist" position="994,146" size="860,754" scrollbarMode="showOnDemand" itemHeight="80" />
     </screen>"""
 
 skinstarthd = """
-    <screen name="BackupSuite" position="fill" size="1280,720" title=" " >
+    <screen name="BackupSuite" position="fill" size="1280,720" title=" ">
         <eLabel position="0,0" size="1280,88" backgroundColor="#00000000" />
-        <ePixmap pixmap="~/img/smallshadowline.png" position="0,88" size="1280,2" zPosition="2"/>
-        <ePixmap pixmap="~/img/smallshadowline.png" position="0,630" size="1280,2" zPosition="2"/>
+        <ePixmap pixmap="~/img/smallshadowline.png" position="0,88" size="1280,2" zPosition="2" />
+        <ePixmap pixmap="~/img/smallshadowline.png" position="0,630" size="1280,2" zPosition="2" />
         <ePixmap pixmap="~/img/red.png" position="145,641" size="30,30" alphatest="on" />
         <ePixmap pixmap="~/img/green.png" position="420,641" size="30,30" alphatest="on" />
         <ePixmap pixmap="~/img/yellow.png" position="695,641" size="30,30" alphatest="on" />
         <ePixmap pixmap="~/img/blue.png" position="970,641" size="30,30" alphatest="on" />
         <ePixmap pixmap="~/img/key_info.png" position="110,645" size="35,25" alphatest="on" />
         <ePixmap pixmap="~/img/key_help.png" position="70,645" size="35,25" alphatest="on" />
-        <widget source="Title" render="Label" position="25,30" size="1085,55" backgroundColor="#00000000" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+        <widget source="Title" render="Label" position="25,30" size="1085,55" backgroundColor="#00000000" transparent="1" zPosition="1" font="Regular;24" valign="center" />
         <widget source="global.CurrentTime" render="Label" position="1100,24" size="150,55" backgroundColor="#18101214" transparent="1" zPosition="1" font="Regular;24" valign="center" halign="right">
             <convert type="ClockToText">Format:%H:%M</convert>
         </widget>
@@ -61,23 +62,25 @@ skinstarthd = """
         <widget name="key_green" position="455,643" size="220,28" valign="top" halign="left" zPosition="4" foregroundColor="#0053b611" font="Regular;22" />
         <widget name="key_yellow" position="730,643" size="220,28" valign="top" halign="left" zPosition="4" foregroundColor="#00F9C731" font="Regular;22" />
         <widget name="key_blue" position="1005,643" size="220,28" valign="top" halign="left" zPosition="4" foregroundColor="#003a71c3" font="Regular;22" />
-        <widget source="help" render="Label" position="5,345" size="590,83" font="Regular;21" />
+        <widget source="help" render="Label" position="31,432" size="625,118" font="Regular;21" />
+        <widget name="devicelist" position="707,118" size="552,469" scrollbarMode="showOnDemand" itemHeight="80" />
     </screen>"""
 
 skinstartsd = """
-    <screen name="BackupSuite" position="fill" size="720,576" title=" " >
+    <screen name="BackupSuite" position="fill" size="720,576" title=" ">
         <eLabel position="0,0" size="720,88" backgroundColor="#00000000" />
-        <widget source="Title" render="Label" transparent="1" zPosition="1" halign="center" valign="center" position="60,30" size="600,45" font="Regular;20" foregroundColor="#006CA4C5"/>
-        <ePixmap pixmap="buttons/key_info.png" zPosition="1" position="10,540" size="35,25" alphatest="blend"/>
-        <ePixmap pixmap="~/img/key_help.png" zPosition="1" position="50,540" size="35,25" alphatest="blend"/>
-        <ePixmap pixmap="buttons/button_red.png" zPosition="1" position="10,516" size="15,16" alphatest="blend"/>
-        <ePixmap pixmap="buttons/button_green.png" zPosition="1" position="190,516" size="15,16" alphatest="blend"/>
-        <ePixmap pixmap="buttons/button_yellow.png" zPosition="1" position="370,516" size="15,16" alphatest="blend"/>
-        <ePixmap pixmap="buttons/button_blue.png" zPosition="1" position="550,516" size="15,16" alphatest="blend"/>
+        <widget source="Title" render="Label" transparent="1" zPosition="1" halign="center" valign="center" position="60,30" size="600,45" font="Regular;20" foregroundColor="#006CA4C5" />
+        <ePixmap pixmap="buttons/key_info.png" zPosition="1" position="10,540" size="35,25" alphatest="blend" />
+        <ePixmap pixmap="~/img/key_help.png" zPosition="1" position="50,540" size="35,25" alphatest="blend" />
+        <ePixmap pixmap="buttons/button_red.png" zPosition="1" position="10,516" size="15,16" alphatest="blend" />
+        <ePixmap pixmap="buttons/button_green.png" zPosition="1" position="190,516" size="15,16" alphatest="blend" />
+        <ePixmap pixmap="buttons/button_yellow.png" zPosition="1" position="370,516" size="15,16" alphatest="blend" />
+        <ePixmap pixmap="buttons/button_blue.png" zPosition="1" position="550,516" size="15,16" alphatest="blend" />
         <widget source="key_red" render="Label" position="30,514" zPosition="1" size="150,45" font="Regular;20" foregroundColor="#00ff0000" halign="left" valign="top" />
         <widget source="key_green" render="Label" position="210,514" zPosition="1" size="150,45" font="Regular;20" foregroundColor="#0053b611" halign="left" valign="top" />
         <widget source="key_yellow" render="Label" position="390,514" zPosition="1" size="150,45" font="Regular;20" foregroundColor="#00F9C731" halign="left" valign="top" />
         <widget source="key_blue" render="Label" position="570,514" zPosition="1" size="150,45" font="Regular;20" foregroundColor="#003a71c3" halign="left" valign="top" />
+        <widget name="devicelist" position="58,99" size="631,347" scrollbarMode="showOnDemand" itemHeight="80" />
     </screen>"""
 
 skinnewfullhd = """

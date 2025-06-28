@@ -1,120 +1,219 @@
 #!/bin/sh
-if tty > /dev/null ; then
-   RED='-e \e[00;31m'
-   GREEN='-e \e[00;32m'
-   YELLOW='-e \e[01;33m'
-   BLUE='-e \e[00;34m'
-   PURPLE='-e \e[01;31m'
-   WHITE='-e \e[00;37m'
+
+###############################################################################
+#     FULL BACKUP UYILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
+#                   MAKES A FULLBACK-UP READY FOR FLASHING.                   #
+###############################################################################
+
+# Robust Python detection
+detect_python() {
+    if command -v python3 >/dev/null 2>&1; then
+        echo "python3"
+    elif command -v python2 >/dev/null 2>&1; then
+        echo "python2"
+    elif command -v python >/dev/null 2>&1; then
+        echo "python"
+    else
+        echo "Unable to find Python!" >&2
+        exit 1
+    fi
+}
+
+# Terminal color setup
+if tty >/dev/null 2>&1 ; then
+    RED='-e \e[00;31m'
+    GREEN='-e \e[00;32m'
+    YELLOW='-e \e[01;33m'
+    BLUE='-e \e[00;34m'
+    PURPLE='-e \e[01;31m'
+    WHITE='-e \e[00;37m'
 else
-   RED='\c00??0000'
-   GREEN='\c0000??00'
-   YELLOW='\c00????00'
-   BLUE='\c0000????'
-   PURPLE='\c00?:55>7'
-   WHITE='\c00??????'
+    RED='\c00??0000'
+    GREEN='\c0000??00'
+    YELLOW='\c00????00'
+    BLUE='\c0000????'
+    PURPLE='\c00?:55>7'
+    WHITE='\c00??????'
 fi
 
+# Library directory detection
 if [ -d "/usr/lib64" ]; then
-	echo "multilib situation!"
-	LIBDIR="/usr/lib64"
+    LIBDIR="/usr/lib64"
 else
-	LIBDIR="/usr/lib"
-fi
-PYVERSION=$(python -V 2>&1 | awk '{print $2}')
-case $PYVERSION in
-	2.*)
-		PYEXT=pyo
-		;;
-	3.*)
-		PYEXT=pyc
-		;;
-esac
-if [ -z $PYVERSION ]; then
-	echo "Unable to determine installed Python version!"
-	exit 1
+    LIBDIR="/usr/lib"
 fi
 
-export LANG=$1
-export SHOW="python $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/message.$PYEXT $LANG"
-export HARDDISK=0
+# Find Python and message script
+PYTHON=$(detect_python)
+MESSAGE_DIR="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite"
+
+# Find the best message script version
+find_message_script() {
+    # Check for compiled versions first
+    for ext in pyc pyo; do
+        if [ -f "$MESSAGE_DIR/message.$ext" ]; then
+            echo "$MESSAGE_DIR/message.$ext"
+            return
+        fi
+    done
+    
+    # Fallback to source version
+    if [ -f "$MESSAGE_DIR/message.py" ]; then
+        echo "$MESSAGE_DIR/message.py"
+        return
+    fi
+    
+    echo "Error: No message script found!" >&2
+    exit 1
+}
+
+# Parameters
+export LANG="${1:-en}"
+MESSAGE_SCRIPT=$(find_message_script)
+export SHOW="$PYTHON $MESSAGE_SCRIPT $LANG"
+
+# Device type detection
+case "${2:-USB}" in
+    "HDD") export HARDDISK=1 ;;
+    "USB") export HARDDISK=0 ;;
+    "MMC") export HARDDISK=0 ;;
+    *)     export HARDDISK=0 ;;
+esac
+
+# Show backup destination message
 echo -n $YELLOW
-$SHOW "message43"   	#echo "Full back-up to the MultiMediaCard"
-FREESIZE_0=0
-TOTALSIZE_0=0
-MEDIA=0
-MINIMUN=33				# avoid all sizes below 33GB
-UBIFS="$(df -h /mmc | grep ubi0:rootfs | awk {'print $1'})" > /dev/null 2>&1
-if [ "$UBIFS" = ubi0:rootfs ] ; then
-	MMC_MOUNT="$(ls -l /mmc | grep -o media/mmc)"
-		if [ "$?" = "0" ] ; then
-			MMC_MOUNT="$(echo "$MMC_MOUNT refers to the flash memory")" > /dev/null 2>&1
-		else
-			echo ""
-		fi
-else
-	touch /mmc/mmc-check > /dev/null 2>&1
+$SHOW "message22" 2>&1  # "Backup media found:"
+echo -n $WHITE
+
+# Portable disk space calculation
+calculate_space() {
+    # Get used space in /usr
+    if command -v du >/dev/null; then
+        USEDSIZE=$(du -sk /usr 2>/dev/null | awk '{print $1}')
+    else
+        # Fallback to df if du not available
+        USEDSIZE=$(df -k /usr | awk 'NR>1 {print $3}')
+    fi
+    
+    # Calculate needed space with buffer (original formula: 4*size/1024)
+    NEEDEDSPACE=$(((USEDSIZE * 41) / 10))  # in KB (400% + 2.5% buffer)
+    
+    echo "$USEDSIZE $NEEDEDSPACE"
+}
+
+# Get space requirements
+read USEDSIZE NEEDEDSPACE <<< $(calculate_space)
+
+# Find backup media
+find_backup_media() {
+    # Try common mount points
+    for candidate in /media/usb /media/hdd /media/mmc /media/sdb1 /media/sda1 /mnt/usb /mnt/hdd
+    do
+        if [ -d "$candidate" ] && grep -q "$candidate" /proc/mounts; then
+            # Check for backup indicator (file or directory)
+            if [ -f "$candidate/backupstick" ] || [ -d "$candidate/backupstick" ]; then
+                echo "$candidate"
+                return
+            fi
+            
+            # Check for writable filesystem
+            if touch "$candidate/backup_test_$$" 2>/dev/null; then
+                rm -f "$candidate/backup_test_$$"
+                echo "$candidate"
+                return
+            fi
+        fi
+    done
+    
+    # Fallback to scanning /proc/mounts
+    grep '^/dev/' /proc/mounts | while read -r device mountpoint fstype _; do
+        case "$fstype" in
+            vfat|ntfs|ext2|ext3|ext4|btrfs|ufs)
+                if touch "$mountpoint/backup_test_$$" 2>/dev/null; then
+                    rm -f "$mountpoint/backup_test_$$"
+                    echo "$mountpoint"
+                    return
+                fi
+                ;;
+        esac
+    done
+    
+    echo ""
+}
+
+# Find backup target
+TARGET=$(find_backup_media)
+
+if [ -z "$TARGET" ]; then
+    echo -n $RED
+    $SHOW "message21" 2>&1  # "No backup media found!"
+    echo -n $WHITE
+    exit 1
 fi
-if [ -f /mmc/mmc-check ] ; then
-	CHECKMOUNT1="$(df -h /mmc | tail -n 1 | awk {'print $6'})"
-	CHECKMOUNT2="$(df -h /mmc | tail -n 1 | awk {'print $5'})"
-	if [ "${CHECKMOUNT1:1:5}" = media ] ; then
-		TOTALSIZE="$(df -h /mmc | tail -n 1 | awk {'print $2'})"
-		FREESIZE="$(df -h /mmc | tail -n 1 | awk {'print $4'})"
-		MEDIA="$(df -h /mmc | tail -n 1 | awk {'print $6'})"
-	elif [ "${CHECKMOUNT2:1:5}" = media ] ; then
-		TOTALSIZE="$(df -h /mmc | tail -n 1 | awk {'print $1'})"
-		FREESIZE="$(df -h /mmc | tail -n 1 | awk {'print $3'})"
-		MEDIA="$(df -h /mmc | tail -n 1 | awk {'print $5'})"
-	else
-		TOTALSIZE="??"
-		FREESIZE="??"
-		MEDIA="unknown"
-	fi
-	echo -n " -> /mmc -> $MEDIA ($TOTALSIZE, "; $SHOW "message16" ; echo "$FREESIZE)"
-	echo -n $WHITE
-  chmod 755 $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupdmm.sh > /dev/null 2>&1
-	$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupdmm.sh /mmc
-	rm -f /mmc/mmc-check
-	sync
+
+# Show target information
+echo -n $YELLOW
+$SHOW "message22" 2>&1  # "Backup media found:"
+
+# Get disk space info
+if command -v df >/dev/null; then
+    # Try human-readable format first
+    SIZE_INFO=$(df -h "$TARGET" | tail -n 1)
+    if [ -n "$SIZE_INFO" ]; then
+        TOTAL_SIZE=$(echo "$SIZE_INFO" | awk '{print $2}')
+        FREE_SIZE=$(echo "$SIZE_INFO" | awk '{print $4}')
+        echo -n " -> $TARGET ($TOTAL_SIZE, " ; $SHOW "message16" ; echo "$FREE_SIZE)"
+    else
+        # Fallback to block size
+        SIZE_INFO=$(df -k "$TARGET" | tail -n 1)
+        TOTAL_BLOCKS=$(echo "$SIZE_INFO" | awk '{print $2}')
+        FREE_BLOCKS=$(echo "$SIZE_INFO" | awk '{print $4}')
+        TOTAL_SIZE=$((TOTAL_BLOCKS / 1024))M
+        FREE_SIZE=$((FREE_BLOCKS / 1024))M
+        echo -n " -> $TARGET (~${TOTAL_SIZE}MB, " ; $SHOW "message16" ; echo "${FREE_SIZE}MB)"
+    fi
 else
-	for candidate in /dev/mmcblk0p1
-	do
-		if grep ${candidate} /proc/mounts > /dev/null ; then
-			DISK="$( grep ${candidate} /proc/mounts | awk {'print $3'})"
-			MEDIA="$( grep -m1 ${candidate} /proc/mounts | awk {'print $2'})"
-			CHECK=${DISK:0:3}
-			if [ $CHECK = "ext" ] ; then
-				TOTALSIZE="$(df -B 1073741824 ${candidate} | tail -n 1 | awk {'print $2'})"
-				FREESIZE="$(df -B 1073741824 ${candidate} | tail -n 1 | awk {'print $4'})"
-				if [ "$FREESIZE" -gt $FREESIZE_0 -a $TOTALSIZE -gt $MINIMUN ] ; then
-					BMEDIA=$MEDIA
-					TOTALSIZE_0=$TOTALSIZE
-					FREESIZE_0=$FREESIZE
-					echo "This is an absolete testfile" > $BMEDIA/MMC-TEST
-					if [ -f $BMEDIA/MMC-TEST ] ; then
-						rm -f $BMEDIA/MMC-TEST
-					else
-						#non-writeable disk
-						MEDIA=
-					fi
-				fi
-			fi
-		fi
-	done
-	if  [ $MEDIA = "0" ] ; then
-		echo -n $RED
-		$SHOW "message15"  #echo "No suitable media found"
-		echo -n $WHITE
-		exit 0
-	else
-		TOTALSIZE_0="$(df -h $MEDIA | tail -n 1 | awk {'print $2'})"	
-		FREESIZE_0="$(df -h $MEDIA | tail -n 1 | awk {'print $4'})"
-		echo -n " -> $MEDIA ($TOTALSIZE_0, "; $SHOW "message16" ; echo -n "$FREESIZE_0)"
-		echo -n $WHITE
-    chmod 755 $LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupdmm.sh > /dev/null 2>&1
-		$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupdmm.sh $MEDIA
-		echo "$MMC_MOUNT" > /tmp/BackupSuite.log
-		sync
-	fi
+    echo " -> $TARGET"
 fi
+
+# Check available space
+if command -v df >/dev/null; then
+    FREE_KB=$(df -k "$TARGET" | awk 'NR>1 {print $4}')
+    if [ -z "$FREE_KB" ] || [ "$FREE_KB" -lt "$NEEDEDSPACE" ]; then
+        echo -n $RED
+        $SHOW "message30" ; echo -n "$TARGET" ; $SHOW "message31"
+        printf '%5s' "$((FREE_KB / 1024))" ; $SHOW "message32"  # Available (MB):
+        printf '%5s' "$((NEEDEDSPACE / 1024))" ; $SHOW "message33"  # Needed (MB):
+        echo " "
+        $SHOW "message34"  # Please free space
+        echo $WHITE
+        exit 1
+    fi
+fi
+
+# Execute backup script
+BACKUP_SCRIPT="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupdmm.sh"
+if [ -f "$BACKUP_SCRIPT" ]; then
+    # Ensure executable
+    chmod 755 "$BACKUP_SCRIPT" >/dev/null 2>&1
+    
+    # Run backup
+    "$BACKUP_SCRIPT" "$TARGET"
+    ret=$?
+    sync
+    
+    if [ $ret -eq 0 ]; then
+        echo -n $BLUE
+        $SHOW "message48" 2>&1  # Backup completed successfully!
+    else
+        echo -n $RED
+        $SHOW "message15" 2>&1  # Image creation FAILED!
+    fi
+else
+    echo -n $RED
+    $SHOW "message46a" 2>&1  # Backup script not found!
+    ret=1
+fi
+
+echo -n $WHITE
+exit ${ret:-0}
