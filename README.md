@@ -7,13 +7,13 @@
 <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/plugin.png?raw=true">
 
 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/0.png?raw=true">
+<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/00.png?raw=true">
 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/1.png?raw=true">
+<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/11.png?raw=true">
 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/2.png?raw=true">
+<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/22.png?raw=true">
 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/3.png?raw=true">
+<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/33.png?raw=true">
 
 ---
 
