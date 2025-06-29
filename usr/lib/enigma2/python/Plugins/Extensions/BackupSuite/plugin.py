@@ -352,7 +352,7 @@ class BackupStart(Screen):
                 "red": self.cancel,
                 "green": self.startBackup,
                 "yellow": self.startRestore,
-                "blue": self.showHelp,
+                "blue": self.show_help,
                 "info": self.keyInfo,
                 "cancel": self.cancel,
                 "displayHelp": self.show_help,
@@ -599,9 +599,6 @@ class BackupStart(Screen):
     def startRestore(self):
         file_pattern = get_backup_files_pattern()
         self.session.open(FlashImageConfig, '/media/', file_pattern)
-
-    def showHelp(self):
-        self.session.open(BackupHelpScreen)
 
     def show_help(self):
         self.session.open(BackupHelpScreen)
