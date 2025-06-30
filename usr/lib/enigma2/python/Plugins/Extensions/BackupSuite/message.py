@@ -23,319 +23,266 @@ def _(txt):
 	return t
 
 
+def write(text, newline=True):
+	if newline:
+		sys.stdout.write(text + "\n")
+	else:
+		sys.stdout.write(text)
+	sys.stdout.flush()
+
+
 def message01():
-	print(_("No supported receiver found!") + '\n')
-	return
+	write(_("No supported receiver found!"))
 
 
 def message02():
-	print(_("BACK-UP TOOL, FOR MAKING A COMPLETE BACK-UP") + '\n')
-	return
+	write(_("BACK-UP TOOL, FOR MAKING A COMPLETE BACK-UP"))
 
 
 def message03():
-	sys.stdout.write(_("Please be patient, a backup will now be made, this will take about: ") + '\n')
-	return
+	write(_("Please be patient, a backup will now be made, this will take about:"))
 
 
 def message04():
-	sys.stdout.write(_(" size to be backed up: ") + '\n')
-	return
+	write(_(" size to be backed up:"))
 
 
 def message05():
-	print(_("not found, the backup process will be aborted!") + '\n')
-	return
+	write(_("not found, the backup process will be aborted!"))
 
 
 def message06():
-	print(_("Some information about the task") + '\n')
-	return
+	write(_("Some information about the task"))
 
 
 def message06a():
-	sys.stdout.write(_("Create: root.ubifs") + '\n')
-	return
+	write(_("Create: root.ubifs"))
 
 
 def message07():
-	print(_("Create: kerneldump") + '\n')
-	return
+	write(_("Create: kerneldump"))
 
 
 def message09():
-	sys.stdout.write(_("Additional backup -> ") + '\n')
-	return
+	write(_("Additional backup ->"))
 
 
 def message10():
-	sys.stdout.write(_("USB Image created in: ") + '\n')
-	return
+	write(_("USB Image created in:"))
 
 
 def message11():
-	sys.stdout.write(_("and there is made an extra copy in: ") + '\n')
-	return
+	write(_("and there is made an extra copy in:"))
 
 
 def message14():
-	print(_("Please check the manual of the receiver on how to restore the image.") + '\n')
-	return
+	write(_("Please check the manual of the receiver on how to restore the image."))
 
 
 def message15():
-	print(_("Image creation FAILED!") + '\n')
-	return
+	write(_("Image creation FAILED!"))
 
 
 def message16():
-	sys.stdout.write(_("available ") + '\n')
-	return
+	write(_("available"))
 
 
 def message17():
-	print(_("There is a valid USB-flashdrive detected in one of the USB-ports, therefore an extra copy of the back-up image will now be copied to that USB-flashdrive.") + '\n')
-	print(_("This only takes about 20 seconds.....") + '\n')
-	return
+	write(_("There is a valid USB-flashdrive detected in one of the USB-ports, therefore an extra copy of the back-up image will now be copied to that USB-flashdrive."))
+	write(_("This only takes about 20 seconds....."))
 
 
 def message19():
-	print(_("Backup finished and copied to your USB-flashdrive.") + '\n')
-	return
+	write(_("Backup finished and copied to your USB-flashdrive."))
 
 
 def message20():
-	sys.stdout.write(_("Full back-up to the harddisk") + '\n')
-	return
+	write(_("Full back-up to the harddisk"))
 
 
 def message21():
-	print(_("There is NO valid USB-stick found, so I've got nothing to do.") + '\n')
-	print(" ")
-	print(_("PLEASE READ THIS:") + '\n')
-	print(_("To back-up directly to the USB-stick, the USB-stick MUST contain a file with the name:") + '\n')
-	print(_("backupstick or") + '\n')
-	print(_("backupstick.txt") + '\n')
-	print(" ")
-	print(_("If you place an USB-stick containing this file then the back-up will be automatically made onto the USB-stick and can be used to restore the current image if necessary.") + '\n')
-	print(_("The program will exit now.") + '\n')
-	return
+	write(_("There is NO valid USB-stick found, so I've got nothing to do."))
+	write(" ")
+	write(_("PLEASE READ THIS:"))
+	write(_("To back-up directly to the USB-stick, the USB-stick MUST contain a file with the name:"))
+	write(_("backupstick or"))
+	write(_("backupstick.txt"))
+	write(" ")
+	write(_("If you place an USB-stick containing this file then the back-up will be automatically made onto the USB-stick and can be used to restore the current image if necessary."))
+	write(_("The program will exit now."))
 
 
 def message22():
-	sys.stdout.write(_("Full back-up direct to USB") + '\n')
-	return
+	write(_("Full back-up direct to USB"))
 
 
 def message23():
-	print(_("The content of the folder is:") + '\n')
-	return
+	write(_("The content of the folder is:"))
 
 
 def message24():
-	sys.stdout.write(_("Time required for this process: ") + '\n')
-	return
+	write(_("Time required for this process:"))
 
 
 def message25():
-	print(_("minutes") + '\n')
-	return
+	write(_("minutes"))
 
 
 def message26():
-	sys.stdout.write(_("Backup done with: ") + '\n')
-	return
+	write(_("Backup done with:"))
 
 
 def message27():
-	print(_("KB per second") + '\n')
-	return
+	write(_("KB per second"))
 
 
 def message28():
-	print(_("Most likely this back-up can't be restored because of it's size, it's simply too big to restore. This is a limitation of the bootloader not of the back-up or the BackupSuite.") + '\n')
-	return
+	write(_("Most likely this back-up can't be restored because of it's size, it's simply too big to restore. This is a limitation of the bootloader not of the back-up or the BackupSuite."))
 
 
 def message29():
-	print(_("There COULD be a problem with restoring this back-up because the size of the back-up comes close to the maximum size. This is a limitation of the bootloader not of the back-up or the BackupSuite.") + '\n')
-	return
+	write(_("There COULD be a problem with restoring this back-up because the size of the back-up comes close to the maximum size. This is a limitation of the bootloader not of the back-up or the BackupSuite."))
 
 
 def message30():
-	print(_("* * * WARNING * * *") + '\n')
-	sys.stdout.write(_("Not enough free space on ") + '\n')
-	return
+	write(_("* * * WARNING * * *"))
+	write(_("Not enough free space on"))
 
 
 def message31():
-	print(_(" to make a back-up!") + '\n')
-	return
+	write(_(" to make a back-up!"))
 
 
 def message32():
-	print(_(" MB available space") + '\n')
-	return
+	write(_(" MB available space"))
 
 
 def message33():
-	print(_(" MB needed space") + '\n')
-	return
+	write(_(" MB needed space"))
 
 
 def message34():
-	print(_("The program will abort, please try another medium with more free space to create your back-up.") + '\n')
-	return
+	write(_("The program will abort, please try another medium with more free space to create your back-up."))
 
 
 def message35():
-	print(_("is not executable...") + '\n')
-	return
+	write(_("is not executable..."))
 
 
 def message36():
-	print(_("Using your own custom lookuptable.txt from the folder /etc") + '\n')
-	return
+	write(_("Using your own custom lookuptable.txt from the folder /etc"))
 
 
 def message37():
-	print(_("Version unknown, probably not installed the right way.") + '\n')
-	return
+	write(_("Version unknown, probably not installed the right way."))
 
 
 def message38():
-	print(_("not installed yet, now installing") + '\n')
-	return
+	write(_("not installed yet, now installing"))
 
 
 def message39():
-	print(_("Probably you are trying to make the back-up in flash memory") + '\n')
-	return
+	write(_("Probably you are trying to make the back-up in flash memory"))
 
 
 def message40():
-	print(_("No additional USB-stick found to copy an extra backup") + '\n')
-	return
+	write(_("No additional USB-stick found to copy an extra backup"))
 
 
 def message41():
-	print(_("Installed packages contained in this backup:") + '\n')
-	return
+	write(_("Installed packages contained in this backup:"))
 
 
 def message42():
-	sys.stdout.write(_("NFI Image created in: ") + '\n')
-	return
+	write(_("NFI Image created in:"))
 
 
 def message42a():
-	print(_("Mount point does not exist! Please check your network share configuration.") + '\n')
-	return
+	write(_("Mount point does not exist! Please check your network share configuration."))
 
 
 def message42b():
-	print(_("Not a mounted filesystem! Please mount the network share first.") + '\n')
-	return
+	write(_("Not a mounted filesystem! Please mount the network share first."))
 
 
 def message42c():
-	print(_("Write permission denied! Check share permissions.") + '\n')
-	return
+	write(_("Write permission denied! Check share permissions."))
 
 
 def message42d():
-	print(_("Insufficient free space on NAS!") + '\n')
-	return
+	write(_("Insufficient free space on NAS!"))
 
 
 def message42e():
-	print(_("Unable to create backup directories!") + '\n')
-	return
+	write(_("Unable to create backup directories!"))
 
 
 def message42f():
-	print(_("Unable to create the backup marker file!") + '\n')
-	return
+	write(_("Unable to create the backup marker file!"))
 
 
 def message43():
-	sys.stdout.write(_("Full back-up to the MultiMediaCard") + '\n')
-	return
+	write(_("Full back-up to the MultiMediaCard"))
 
 
 def message44():
-	sys.stdout.write(_("Backup started...") + '\n')
-	return
+	write(_("Backup started..."))
 
 
 def message45():
-	sys.stdout.write(_("Phase 1/3: Preparing backup environment") + '\n')
-	return
+	write(_("Phase 1/3: Preparing backup environment"))
 
 
 def message46():
-	sys.stdout.write(_("Phase 2/3: Creating backup image") + '\n')
-	return
+	write(_("Phase 2/3: Creating backup image"))
 
 
 def message47():
-	sys.stdout.write(_("Phase 3/3: Finalizing backup") + '\n')
-	return
+	write(_("Phase 3/3: Finalizing backup"))
 
 
 def message48():
-	sys.stdout.write(_("Backup completed successfully!") + '\n')
-	return
+	write(_("Backup completed successfully!"))
 
 
 def message49():
-	sys.stdout.write(_("Backup statistics:") + '\n')
-	return
+	write(_("Backup statistics:"))
 
 
 def message49a():
-	sys.stdout.write(_("Backup size:") + '\n')
-	return
+	write(_("Backup size:"))
 
 
 def message50():
-	sys.stdout.write(_("Backup progress:") + '\n')
-	return
+	write(_("Backup progress:"))
 
 
 def message50a():
-	sys.stdout.write(_("Backup created in:") + '\n')
-	return
+	write(_("Backup created in:"))
 
 
 def message51():
-	sys.stdout.write(_("Dumping kernel (25%)") + '\n')
-	return
+	write(_("Dumping kernel (25%)"))
 
 
 def message52():
-	sys.stdout.write(_("Creating root filesystem (50%)") + '\n')
-	return
+	write(_("Creating root filesystem (50%)"))
 
 
 def message53():
-	sys.stdout.write(_("Assembling image (75%)") + '\n')
-	return
+	write(_("Assembling image (75%)"))
 
 
 def message54():
-	sys.stdout.write(_("Making extra copy (90%)") + '\n')
-	return
+	write(_("Making extra copy (90%)"))
 
 
 def message55():
-	sys.stdout.write(_("Finalizing (95%)") + '\n')
-	return
+	write(_("Finalizing (95%)"))
 
 
 def message56():
-	sys.stdout.write(_("Backup complete (100%)") + '\n')
-	return
+	write(_("Backup complete (100%)"))
 
 
 if __name__ == "__main__":
