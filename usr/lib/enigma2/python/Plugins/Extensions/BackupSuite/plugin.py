@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
+import fnmatch
 from os import (
 	listdir,
 	system as os_system,
-	popen,
 	access,
 	W_OK,
 	statvfs,
@@ -15,7 +15,6 @@ from os.path import (
 	exists,
 	isfile,
 	join,
-	# getmtime
 )
 
 from Components.ActionMap import ActionMap
@@ -42,9 +41,11 @@ from Tools.LoadPixmap import LoadPixmap
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 
 from . import _
-from .schermen import *	 # fallback for to screen..
-from .message import *	# fallback for to compile..
+from .schermen import *     # fallback for to screen..
+from .message import *      # fallback for to compile on test develop..
 
+# -----------------------------------------------
+# this BackupSuite rewrite from @Lululla 20250615
 
 # Global constants
 VERSION = '3.0-r6'
@@ -74,7 +75,7 @@ class BackupDeviceList(MenuList):
 
 
 def getIconPath(icon_name):
-	icon_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/img/" + icon_name)
+	icon_path = resolveFilename(SCOPE_PLUGINS, f"Extensions/BackupSuite/img/{icon_name}")
 	if exists(icon_path):
 		return icon_path
 	return resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/img/hdd.png")
@@ -123,11 +124,11 @@ def is_dual_boot():
 
 def requires_force_mode():
 	model = get_box_type()
-
-	return any(x in model for x in [
+	force_models = [
 		'h9', 'h9se', 'h9combo', 'h9combose', 'i55plus',
 		'i55se', 'h10', 'hzero', 'h8'
-	])
+	]
+	return any(x in model for x in force_models)
 
 
 def get_script_path(device_type):
@@ -141,11 +142,10 @@ def get_script_path(device_type):
 
 	script_path = resolveFilename(
 		SCOPE_PLUGINS,
-		"Extensions/BackupSuite/scripts/" + script_name
+		f"Extensions/BackupSuite/scripts/{script_name}"
 	)
 
-	print("[BackupSuite] Using script: " + script_path + " for " + box_type)
-
+	print(f"[BackupSuite] Using script: {script_path} for {box_type}")
 	return script_path
 
 
@@ -155,12 +155,13 @@ def get_skin(type):
 	except:
 		sz_w = 720
 
+	skin_prefix = f"skin{type}"
 	if sz_w >= 1920:
-		return globals().get("skin" + type + "fullhd", "")
+		return globals().get(f"{skin_prefix}fullhd", "")
 	elif sz_w >= 1280:
-		return globals().get("skin" + type + "hd", "")
+		return globals().get(f"{skin_prefix}hd", "")
 	else:
-		return globals().get("skin" + type + "sd", "")
+		return globals().get(f"{skin_prefix}sd", "")
 
 
 def get_backup_files_pattern():
@@ -207,7 +208,6 @@ def get_mounted_network_shares():
 	"""Detect mounted network shares by reading /proc/mounts"""
 	network_shares = []
 	try:
-		# Read /proc/mounts to find network filesystems
 		with open("/proc/mounts", "r") as f:
 			for line in f:
 				parts = line.split()
@@ -215,40 +215,37 @@ def get_mounted_network_shares():
 					continue
 
 				device, mountpoint, fstype = parts[0], parts[1], parts[2]
+				if fstype.lower() not in ("cifs", "nfs", "nfs4", "smbfs"):
+					continue
 
-				# Check for network filesystem types
-				if fstype.lower() in ("cifs", "nfs", "nfs4", "smbfs"):
-					try:
-						# Get storage information
-						stat = statvfs(mountpoint)
-						free_gb = (stat.f_bavail * stat.f_frsize) / (1024 ** 3)
-						total_gb = (stat.f_blocks * stat.f_frsize) / (1024 ** 3)
-						free_str = "%.2f %s" % (free_gb, _("GB"))
-						total_str = "%.2f %s" % (total_gb, _("GB"))
-					except Exception as e:
-						free_str = total_str = _("Unknown")
-						print('error:', str(e))
+				try:
+					stat = statvfs(mountpoint)
+					free_gb = (stat.f_bavail * stat.f_frsize) / (1024 ** 3)
+					total_gb = (stat.f_blocks * stat.f_frsize) / (1024 ** 3)
+					free_str = f"{free_gb:.2f} {_('GB')}"
+					total_str = f"{total_gb:.2f} {_('GB')}"
+				except Exception as e:
+					free_str = total_str = _("Unknown")
+					print(f'error: {e}')
 
-					# Extract server name from device path
-					server_name = device.split("/")[-1].split(":")[0]
-					if not server_name:
-						server_name = mountpoint.split("/")[-1]
+				server_name = device.split("/")[-1].split(":")[0]
+				if not server_name:
+					server_name = mountpoint.split("/")[-1]
 
-					network_shares.append({
-						"server": server_name,
-						"mountpoint": mountpoint,
-						"freespace": free_str,
-						"totalspace": total_str,
-						"fstype": fstype.upper()
-					})
+				network_shares.append({
+					"server": server_name,
+					"mountpoint": mountpoint,
+					"freespace": free_str,
+					"totalspace": total_str,
+					"fstype": fstype.upper()
+				})
 	except Exception as e:
-		print("[BackupSuite] Error reading /proc/mounts: " + str(e))
+		print(f"[BackupSuite] Error reading /proc/mounts: {e}")
 	return network_shares
 
 
 def get_available_backup_devices():
 	"""Detect available backup devices using Enigma2's harddisk manager"""
-
 	devices = []
 	mounted_partitions = harddiskmanager.getMountedPartitions()
 	for partition in mounted_partitions:
@@ -261,7 +258,7 @@ def get_available_backup_devices():
 		except:
 			continue
 
-		device_type = "HDD"	 # Default to HDD
+		device_type = "HDD"
 		if ("usb" in partition.mountpoint.lower() or
 				"stick" in partition.description.lower() or
 				partition.device and partition.device.startswith("sd")):
@@ -314,7 +311,7 @@ def get_lang():
 		supported_languages = ['en', 'it', 'de', 'fr', 'es', 'nl', 'pl']
 		return base_lng if base_lng in supported_languages else 'en'
 	except Exception as e:
-		print("[BackupSuite] Language detection error: " + str(e))
+		print(f"[BackupSuite] Language detection error: {e}")
 		return 'en'
 
 
@@ -366,11 +363,11 @@ class BackupStart(Screen):
 		self.onLayoutFinish.append(self.setCustomTitle)
 
 	def setCustomTitle(self):
-		self.setTitle(_("Backup Suite v%s") % VERSION)
+		self.setTitle(_(f"Backup Suite v{VERSION}"))
 
 	def check_dependencies(self):
 		missing_scripts = []
-		for device_type, script_name in BACKUP_SCRIPTS.items():
+		for device_type in BACKUP_SCRIPTS:
 			script_path = get_script_path(device_type)
 			if not exists(script_path):
 				missing_scripts.append(basename(script_path))
@@ -378,22 +375,19 @@ class BackupStart(Screen):
 		if missing_scripts:
 			self.session.open(
 				MessageBox,
-				_("Missing backup scripts: %s\nPlease install the complete package") % ", ".join(missing_scripts),
+				_("Missing backup scripts: {}\nPlease install the complete package").format(", ".join(missing_scripts)),
 				MessageBox.TYPE_ERROR
 			)
 
 	def populateDeviceList(self):
-		# Clear existing list
 		self.devicelist = []
 
-		# Get available devices
 		try:
 			devices = get_available_backup_devices()
 		except Exception as e:
-			print("[BackupSuite] Error detecting devices: " + str(e))
+			print(f"[BackupSuite] Error detecting devices: {e}")
 			devices = []
 
-		# Device type map
 		device_types = {
 			"HDD": {"name": _("Internal Hard Drive"), "icon": "hdd.png"},
 			"USB": {"name": _("USB Storage"), "icon": "usb.png"},
@@ -401,23 +395,19 @@ class BackupStart(Screen):
 			"FLASH": {"name": _("Internal Flash"), "icon": "flash.png"}
 		}
 
-		# Add detected physical devices
 		added_types = set()
 		for device in devices:
 			dev_type = device["type"]
 			if dev_type in device_types and dev_type not in added_types:
-				label = _("Backup to %s") % device_types[dev_type]["name"]
+				label = _(f"Backup to {device_types[dev_type]['name']}")
 				self.addDevice(label, device_types[dev_type]["icon"], dev_type)
 				added_types.add(dev_type)
 
-		# Always show NET option (user can mount shares)
 		self.addDevice(_("Backup to Network Storage"), "network.png", "NET")
 
-		# Add Barry Allen if detected
 		if exists("/boot/barryhallen"):
 			self.addDevice(_("Barry Allen Multiboot"), "multiboot.png", "BA")
 
-		# Add restore option
 		self.addDevice(_("Restore Backup"), "restore.png", "RESTORE")
 
 		self["devicelist"].setList([
@@ -425,7 +415,6 @@ class BackupStart(Screen):
 		])
 
 	def addDevice(self, description, icon, dev_type):
-		# Create list entry with icon and text
 		self.devicelist.append((description, icon, dev_type))
 
 	def deviceSelected(self):
@@ -436,82 +425,12 @@ class BackupStart(Screen):
 				dev_type = device_tuple[2]
 				if dev_type == "NET":
 					self.start_net_backup()
-
 				elif dev_type == "RESTORE":
 					self.startRestore()
-
 				else:
 					self.startBackup(dev_type)
-			else:
-				print("[BackupSuite] Invalid device tuple: " + str(device_tuple))
-		else:
-			print("[BackupSuite] Invalid selection format")
-
-	def get_mounted_shares(self):
-		"""Returns a list of mounted network shares"""
-		network_shares = []
-		try:
-			# Read /proc/mounts to get actual mount information
-			with open("/proc/mounts", "r") as f:
-				mounts = f.readlines()
-
-			for line in mounts:
-				parts = line.split()
-				if len(parts) < 4:
-					continue
-
-				device, mountpoint, fstype, options = parts[:4]
-
-				# Skip non-network filesystems
-				if fstype.lower() not in ("cifs", "nfs", "nfs4", "smbfs"):
-					continue
-
-				# Get storage information
-				try:
-					stat = statvfs(mountpoint)
-					free_gb = (stat.f_bavail * stat.f_frsize) / (1024 ** 3)
-					total_gb = (stat.f_blocks * stat.f_frsize) / (1024 ** 3)
-					free_str = "%.2f %s" % (free_gb, _("GB"))
-					total_str = "%.2f %s" % (total_gb, _("GB"))
-				except Exception as e:
-					free_str = total_str = _("Unknown")
-					print("[BackupSuite] Error getting space: " + str(e))
-
-				# Get server name from device path
-				server_name = device.split("/")[-1].split(":")[0]
-				if not server_name:
-					server_name = mountpoint.split("/")[-1]
-
-				network_shares.append({
-					"server": server_name,
-					"mountpoint": mountpoint,
-					"freespace": free_str,
-					"totalspace": total_str,
-					"fstype": fstype.upper()
-				})
-
-		except Exception as e:
-			print("[BackupSuite] Error getting mounted shares: " + str(e))
-		return network_shares
-
-	def get_free_space(self, path):
-		"""Returns the free space in GB"""
-		try:
-			df_output = popen("df -BG '" + path + "' | tail -1").read().split()
-			return df_output[3] + " GB"
-		except:
-			return "0 GB"
-
-	def get_total_space(self, path):
-		"""Returns the total space in GB"""
-		try:
-			df_output = popen("df -BG '" + path + "' | tail -1").read().split()
-			return df_output[1] + " GB"
-		except:
-			return "0 GB"
 
 	def start_net_backup(self):
-		"""Start the network backup process"""
 		network_shares = get_mounted_network_shares()
 
 		if not network_shares:
@@ -522,11 +441,10 @@ class BackupStart(Screen):
 			)
 			return
 
-		# Create selection menu
 		menu = []
 		for share in network_shares:
-			display_text = share["server"] + " (" + share["fstype"] + ") - " + share["mountpoint"] + "\n"
-			display_text += _("Free:") + " " + share["freespace"] + " / " + _("Total:") + " " + share["totalspace"]
+			display_text = f"{share['server']} ({share['fstype']}) - {share['mountpoint']}\n"
+			display_text += f"{_('Free:')} {share['freespace']} / {_('Total:')} {share['totalspace']}"
 			menu.append((display_text, share["mountpoint"]))
 
 		self.session.openWithCallback(
@@ -536,22 +454,9 @@ class BackupStart(Screen):
 			list=menu
 		)
 
-	def open_network_setup(self):
-		"""Open network mount configuration"""
-		try:
-			from Screens.NetworkSetup import NetworkAdapterSelection
-			self.session.open(NetworkAdapterSelection)
-		except ImportError:
-			self.session.open(
-				MessageBox,
-				_("Network configuration not available"),
-				MessageBox.TYPE_ERROR
-			)
-
 	def net_share_selected(self, selected_path):
 		"""Callback for share selection"""
 		if selected_path:
-			# Create backup directory if needed
 			backup_dir = join(selected_path, "backup")
 			if not exists(backup_dir):
 				try:
@@ -559,7 +464,7 @@ class BackupStart(Screen):
 				except Exception as e:
 					self.session.open(
 						MessageBox,
-						_("Could not create backup directory: %s\nError: %s") % (backup_dir, str(e)),
+						_("Could not create backup directory: {}\nError: {}").format(backup_dir, str(e)),
 						MessageBox.TYPE_ERROR
 					)
 					return
@@ -575,19 +480,19 @@ class BackupStart(Screen):
 					dev_type = device_tuple[2]
 
 		if dev_type:
-			# Get the device name for display
-			device_name = {
+			device_names = {
 				"HDD": _("Internal Hard Drive"),
 				"USB": _("USB Storage"),
 				"MMC": _("Internal Memory"),
 				"NET": _("Network Storage"),
 				"BA": _("Barry Allen")
-			}.get(dev_type, dev_type)
+			}
+			device_name = device_names.get(dev_type, dev_type)
 
 			self.session.openWithCallback(
 				lambda result: self.confirmBackup(result, dev_type),
 				MessageBox,
-				_("Do you want to make a backup to %s?\n\nThis may take several minutes.") % device_name,
+				_(f"Do you want to make a backup to {device_name}?\n\nThis may take several minutes."),
 				MessageBox.TYPE_YESNO
 			)
 
@@ -622,19 +527,19 @@ class BackupStart(Screen):
 			pass
 
 	def execute_backup(self, device_type, media_path=None):
-		print("[BackupSuite] Starting backup for: " + device_type)
+		print(f"[BackupSuite] Starting backup for: {device_type}")
 
 		script_path = get_script_path(device_type)
 		if not exists(script_path):
 			self.session.open(
 				MessageBox,
-				_("Backup script not found: %s") % basename(script_path),
+				_(f"Backup script not found: {basename(script_path)}"),
 				MessageBox.TYPE_ERROR
 			)
 			return
 
 		lang = get_lang()
-		title = _("%s Backup") % device_type
+		title = _(f"{device_type} Backup")
 
 		if device_type == "NET":
 			if not media_path:
@@ -647,38 +552,30 @@ class BackupStart(Screen):
 			try:
 				makedirs(backup_dir, exist_ok=True)
 				makedirs(image_dir, exist_ok=True)
-
-				marker_path = join(backup_dir, "backupstick")
-				with open(marker_path, "w") as f:
+				with open(join(backup_dir, "backupstick"), "w") as f:
 					f.write("")
-
 			except Exception as e:
 				error_msg = _(
 					"Failed to create backup directory:\n"
 					"Path: {}\n"
 					"Error: {}"
 				).format(backup_dir, str(e))
-
 				self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
 				return
 
-			cmd = "chmod +x '" + script_path + "'; '" + script_path + "' '" + lang + "' 'NET' '" + backup_dir + "'"
+			cmd = f"chmod +x '{script_path}'; '{script_path}' '{lang}' 'NET' '{backup_dir}'"
 		else:
-			cmd = "chmod +x '" + script_path + "'; '" + script_path + "' '" + lang + "' '" + device_type + "'"
+			cmd = f"chmod +x '{script_path}'; '{script_path}' '{lang}' '{device_type}'"
 
-		# Execute backup
-		print("[BackupSuite] Executing command: " + cmd)
+		print(f"[BackupSuite] Executing command: {cmd}")
 		self.session.openWithCallback(self.console_closed, Console, title, [cmd])
 
 	def console_closed(self, retval=None):
 		if retval is not None and retval != 0:
-			# Try to extract meaningful error information
-			error_msg = ""
 			try:
 				with open(LOGFILE, "r", encoding="utf-8", errors="replace") as f:
 					log_content = f.read()
 
-				# Look for common error patterns
 				if "No space left" in log_content:
 					error_msg = _("Backup failed: Not enough free space on device!")
 				elif "Permission denied" in log_content:
@@ -690,19 +587,14 @@ class BackupStart(Screen):
 				elif "Connection refused" in log_content or "Host is down" in log_content:
 					error_msg = _("Backup failed: Network connection lost!")
 				else:
-					# Extract the last 5 lines of the log
 					lines = log_content.splitlines()
-					if len(lines) > 5:
-						last_lines = "\n".join(lines[-5:])
-					else:
-						last_lines = log_content
+					last_lines = "\n".join(lines[-5:]) if len(lines) > 5 else log_content
 					error_msg = _("Backup failed! Last errors:") + "\n" + last_lines
 
 			except Exception as e:
-				print("[BackupSuite] Error reading log: " + str(e))
-				error_msg = _("Backup failed! Check log: %s") % LOGFILE
+				print(f"[BackupSuite] Error reading log: {e}")
+				error_msg = _(f"Backup failed! Check log: {LOGFILE}")
 
-			# Provide detailed error message
 			self.session.open(
 				MessageBox,
 				error_msg,
@@ -720,7 +612,7 @@ class FlashImageConfig(Screen):
 		self["key_green"] = StaticText("")
 		self["key_yellow"] = StaticText("")
 		self["key_blue"] = StaticText("")
-		self["curdir"] = StaticText(_("current:	 %s") % (curdir or ''))
+		self["curdir"] = StaticText(_(f"current: {curdir or ''}"))
 		self.founds = False
 		self.dualboot = is_dual_boot()
 		self.ForceMode = requires_force_mode()
@@ -755,11 +647,10 @@ class FlashImageConfig(Screen):
 		self["key_green"].setText("")
 		self["key_blue"].setText("")
 		current = self.get_current_selected()
-		self["curdir"].setText(_("Current: %s") % current)
+		self["curdir"].setText(_(f"Current: {current}"))
 
 		if not self.filelist.canDescent() and current and current.endswith(".zip"):
 			self["key_yellow"].setText(_("Unzip"))
-
 		elif self.filelist.canDescent() and current and current != '/':
 			self["key_green"].setText(_("Flash"))
 			if isfile(join(current, LOGFILE)) and isfile(join(current, VERSIONFILE)):
@@ -816,90 +707,121 @@ class FlashImageConfig(Screen):
 				no_backup_files = []
 				text = _("Select parameter for start flash!\n")
 				text += _('For flashing your receiver files are needed:\n')
+
+				# File pattern configuration
 				if exists('/var/lib/dpkg/info'):
 					if "dm9" in model:
-						backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel.bin", "rootfs.tar.bz2"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "kernel.bin, rootfs.tar.bz2"
 					elif model in ("dm520", "dm7080", "dm820"):
-						backup_files = [("*.xz")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["*.xz"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "kernel_auto.bin", "kernel.bin",
+										   "rootfs.tar.bz2", "uImage", "rootfs.ubi"]
 						text += "*.xz"
 					else:
-						backup_files = [("*.nfi")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["*.nfi"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "kernel.bin", "rootfs.tar.bz2",
+										   "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "*.nfi"
 				elif model.startswith("gb"):
 					if "4k" not in model:
-						backup_files = [("kernel.bin"), ("rootfs.bin")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel.bin", "rootfs.bin"]
+						no_backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "rootfs.tar.bz2", "kernel_auto.bin",
+										   "uImage", "rootfs.ubi"]
 						text += "kernel.bin, rootfs.bin"
 					else:
-						backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel.bin", "rootfs.tar.bz2"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "kernel.bin, rootfs.tar.bz2"
 				elif model.startswith("vu"):
 					if "4k" in model:
-						backup_files = [("kernel_auto.bin"), ("rootfs.tar.bz2")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel_auto.bin", "rootfs.tar.bz2"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "kernel.bin", "uImage", "rootfs.ubi"]
 						text += "kernel_auto.bin, rootfs.tar.bz2"
 					elif model in ("vuduo2", "vusolose", "vusolo2", "vuzero"):
-						backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.bin")]
-						no_backup_files = [("rootfs.bin"), ("root_cfe_auto.jffs2"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.bin"]
+						no_backup_files = ["rootfs.bin", "root_cfe_auto.jffs2", "oe_kernel.bin", "oe_rootfs.bin",
+										   "kernel.bin", "rootfs.tar.bz2", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "kernel_cfe_auto.bin, root_cfe_auto.bin"
 					else:
-						backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2")]
-						no_backup_files = [("rootfs.bin"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2"]
+						no_backup_files = ["rootfs.bin", "root_cfe_auto.bin", "oe_kernel.bin", "oe_rootfs.bin",
+										   "kernel.bin", "rootfs.tar.bz2", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "kernel_cfe_auto.bin, root_cfe_auto.jffs2"
-
 				else:
-					if model in ("hd51", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000", "bre2ze4k", "spycat4k", "spycat4kmini", "protek4k", "e4hdultra", "arivacombo", "arivatwin", "dual") or model.startswith(("anadol", "axashis4", "dinobot4", "ferguson4", "mediabox4", "axashisc4")):
-						backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+					if model in ("hd51", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000",
+								 "bre2ze4k", "spycat4k", "spycat4kmini", "protek4k", "e4hdultra", "arivacombo", "arivatwin", "dual") or \
+					   model.startswith(("anadol", "axashis4", "dinobot4", "ferguson4", "mediabox4", "axashisc4")):
+						backup_files = ["kernel.bin", "rootfs.tar.bz2"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "kernel.bin, rootfs.tar.bz2"
-					elif model in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8", "dinobotu55", "iziboxx3", "dinoboth265", "axashistwin", "protek4kx1"):
-						backup_files = [("uImage"), ("rootfs.ubi")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2")]
+					elif model in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8",
+								   "dinobotu55", "iziboxx3", "dinoboth265", "axashistwin", "protek4kx1"):
+						backup_files = ["uImage", "rootfs.ubi"]
+						no_backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "rootfs.tar.bz2", "kernel_auto.bin",
+										   "kernel.bin", "rootfs.tar.bz2"]
 						text += "uImage, rootfs.ubi"
 					elif model in ("hd60", "hd61", "multibox", "multiboxse", "multiboxplus", "pulse4k", "pulse4kmini"):
-						backup_files = [("uImage"), ("rootfs.tar.bz2")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.ubi"), ("kernel_auto.bin"), ("kernel.bin")]
+						backup_files = ["uImage", "rootfs.tar.bz2"]
+						no_backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "rootfs.ubi", "kernel_auto.bin", "kernel.bin"]
 						text += "uImage, rootfs.tar.bz2"
 					elif model.startswith(("et4", "et5", "et6", "et7", "et8", "et9", "et10")):
-						backup_files = [("kernel.bin"), ("rootfs.bin")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel.bin", "rootfs.bin"]
+						no_backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "rootfs.tar.bz2", "kernel_auto.bin",
+										   "uImage", "rootfs.ubi"]
 						text += "kernel.bin, rootfs.bin"
 					elif model.startswith("ebox"):
-						backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2")]
-						no_backup_files = [("rootfs.bin"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2"]
+						no_backup_files = ["rootfs.bin", "root_cfe_auto.bin", "oe_kernel.bin", "oe_rootfs.bin",
+										   "kernel.bin", "rootfs.tar.bz2", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "kernel_cfe_auto.bin, root_cfe_auto.jffs2"
 					elif model.startswith(("fusion", "pure", "optimus", "force", "iqon", "ios", "tm2", "tmn", "tmt", "tms", "lunix", "mediabox", "vala")):
-						backup_files = [("oe_kernel.bin"), ("oe_rootfs.bin")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["oe_kernel.bin", "oe_rootfs.bin"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "kernel.bin", "rootfs.tar.bz2", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "oe_kernel.bin, oe_rootfs.bin"
-					elif "4k" or "uhd" in model:
-						backup_files = [("oe_kernel.bin"), ("rootfs.tar.bz2")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+					elif "4k" in model or "uhd" in model:
+						backup_files = ["oe_kernel.bin", "rootfs.tar.bz2"]
+						no_backup_files = ["kernel_cfe_auto.bin", "rootfs.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_rootfs.bin", "kernel.bin", "kernel_auto.bin", "uImage", "rootfs.ubi"]
 						text += "oe_kernel.bin, rootfs.tar.bz2"
 					else:
-						backup_files = [("kernel.bin"), ("rootfs.bin")]
-						no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+						backup_files = ["kernel.bin", "rootfs.bin"]
+						no_backup_files = ["kernel_cfe_auto.bin", "root_cfe_auto.jffs2", "root_cfe_auto.bin",
+										   "oe_kernel.bin", "oe_rootfs.bin", "rootfs.tar.bz2", "kernel_auto.bin",
+										   "uImage", "rootfs.ubi"]
 						text += "kernel.bin, rootfs.bin"
-				try:
-					self.founds = False
-					text += _('\nThe found files:')
-					for name in listdir(dirname):
-						if name in backup_files:
-							text += _("	 %s (maybe ok)") % name
-							self.founds = True
-						if name in no_backup_files:
-							text += _("	 %s (maybe error)") % name
-							self.founds = True
-					if not self.founds:
-						text += _(' nothing!')
-				except:
-					pass
 
+				try:
+					text += _('\nThe found files:')
+					found_items = False
+					for name in listdir(dirname):
+						# Check if file matches any backup pattern
+						if any(fnmatch.fnmatch(name, pattern) for pattern in backup_files):
+							text += _(f"\t{name} (maybe ok)")
+							found_items = True
+						# Check if file is in no_backup_files list
+						elif name in no_backup_files:
+							text += _(f"\t{name} (maybe error)")
+							found_items = True
+					if not found_items:
+						text += _(' nothing!')
+					self.founds = found_items
+				except Exception as e:
+					print(f"[BackupSuite] Error listing directory: {e}")
+					text += _(' error reading directory!')
+					self.founds = False
 				if self.founds:
 					open_list = [
 						(_("Simulate (no write)"), "simulate"),
@@ -907,82 +829,60 @@ class FlashImageConfig(Screen):
 						(_("Only root"), "root"),
 						(_("Only kernel"), "kernel"),
 					]
-					open_list2 = [
-						(_("Simulate second partition (no write)"), "simulate2"),
-						(_("Second partition (root and kernel)"), "standard2"),
-						(_("Second partition (only root)"), "rootfs2"),
-						(_("Second partition (only kernel)"), "kernel2"),
-					]
 					if self.dualboot:
-						open_list += open_list2
+						open_list += [
+							(_("Simulate second partition (no write)"), "simulate2"),
+							(_("Second partition (root and kernel)"), "standard2"),
+							(_("Second partition (only root)"), "rootfs2"),
+							(_("Second partition (only kernel)"), "kernel2"),
+						]
 				else:
-					open_list = [
-						(_("Exit"), "exit"),
-					]
+					open_list = [(_("Exit"), "exit")]
+
 				self.session.openWithCallback(self.Callbackflashing, MessageBox, text, simple=True, list=open_list)
 
 	def Callbackflashing(self, ret):
-		if ret:
-			if ret == "exit":
-				self.close()
-				return
+		if not ret:
+			return
 
-			if self.session.nav.RecordTimer.isRecording():
-				self.session.open(MessageBox, _("A recording is currently running. Please stop the recording before trying to start a flashing."), MessageBox.TYPE_ERROR)
-				self.founds = False
-				return
+		if ret == "exit":
+			self.close()
+			return
 
-			dir_flash = self.getCurrentSelected()
-			text = _("Flashing: ")
-			cmd = "echo -e"
-			if ret == "simulate":
-				text += _("Simulate (no write)")
-				cmd = "%s -n '%s'" % (OFGWRITE_BIN, dir_flash)
-			elif ret == "standard":
-				text += _("Standard (root and kernel)")
-				if self.ForceMode:
-					cmd = "%s -f -r -k '%s' > /dev/null 2>&1 &" % (OFGWRITE_BIN, dir_flash)
-				else:
-					cmd = "%s -r -k '%s' > /dev/null 2>&1 &" % (OFGWRITE_BIN, dir_flash)
-			elif ret == "root":
-				text += _("Only root")
-				cmd = "%s -r '%s' > /dev/null 2>&1 &" % (OFGWRITE_BIN, dir_flash)
-			elif ret == "kernel":
-				text += _("Only kernel")
-				cmd = "%s -k '%s' > /dev/null 2>&1 &" % (OFGWRITE_BIN, dir_flash)
-			elif ret == "simulate2":
-				text += _("Simulate second partition (no write)")
-				cmd = "%s -kmtd3 -rmtd4 -n '%s'" % (OFGWRITE_BIN, dir_flash)
-			elif ret == "standard2":
-				text += _("Second partition (root and kernel)")
-				cmd = "%s -kmtd3 -rmtd4 '%s' > /dev/null 2>&1 &" % (OFGWRITE_BIN, dir_flash)
-			elif ret == "rootfs2":
-				text += _("Second partition (only root)")
-				cmd = "%s -rmtd4 '%s' > /dev/null 2>&1 &" % (OFGWRITE_BIN, dir_flash)
-			elif ret == "kernel2":
-				text += _("Second partition (only kernel)")
-				cmd = "%s -kmtd3 '%s' > /dev/null 2>&1 &" % (OFGWRITE_BIN, dir_flash)
-			else:
-				return
+		if self.session.nav.RecordTimer.isRecording():
+			self.session.open(MessageBox, _("A recording is currently running. Please stop the recording before trying to start a flashing."), MessageBox.TYPE_ERROR)
+			self.founds = False
+			return
 
-			message = "echo -e '\n"
-			message += _('NOT found files for flashing!\n')
-			message += "'"
+		dir_flash = self.getCurrentSelected()
+		commands = {
+			"simulate": (f"{OFGWRITE_BIN} -n '{dir_flash}'", _("Simulate (no write)")),
+			"standard": (f"{OFGWRITE_BIN} {'-f ' if self.ForceMode else ''}-r -k '{dir_flash}' > /dev/null 2>&1 &", _("Standard (root and kernel)")),
+			"root": (f"{OFGWRITE_BIN} -r '{dir_flash}' > /dev/null 2>&1 &", _("Only root")),
+			"kernel": (f"{OFGWRITE_BIN} -k '{dir_flash}' > /dev/null 2>&1 &", _("Only kernel")),
+			"simulate2": (f"{OFGWRITE_BIN} -kmtd3 -rmtd4 -n '{dir_flash}'", _("Simulate second partition (no write)")),
+			"standard2": (f"{OFGWRITE_BIN} -kmtd3 -rmtd4 '{dir_flash}' > /dev/null 2>&1 &", _("Second partition (root and kernel)")),
+			"rootfs2": (f"{OFGWRITE_BIN} -rmtd4 '{dir_flash}' > /dev/null 2>&1 &", _("Second partition (only root)")),
+			"kernel2": (f"{OFGWRITE_BIN} -kmtd3 '{dir_flash}' > /dev/null 2>&1 &", _("Second partition (only kernel)")),
+		}
 
-			if ret == "simulate" or ret == "simulate2":
-				if self.founds:
-					message = "echo -e '\n"
-					message += _('Show only found image and mtd partitions.\n')
-					message += "'"
-			else:
-				if self.founds:
-					message = "echo -e '\n"
-					message += _('ofgwrite will stop enigma2 now to run the flash.\n')
-					message += _('Your STB will freeze during the flashing process.\n')
-					message += _('Please: DO NOT reboot your STB and turn off the power.\n')
-					message += _('The image or kernel will be flashing and auto booted in few minutes.\n')
-					message += "'"
-			self.session.open(Console, text, [message, cmd])
+		if ret not in commands:
+			return
+
+		cmd, text_desc = commands[ret]
+		title = _(f"Flashing: {text_desc}")
+
+		if "simulate" in ret:
+			message = "echo -e '\n" + _('Show only found image and mtd partitions.\n') + "'"
+		else:
+			message = "echo -e '\n" + _(
+				'ofgwrite will stop enigma2 now to run the flash.\n'
+				'Your STB will freeze during the flashing process.\n'
+				'Please: DO NOT reboot your STB and turn off the power.\n'
+				'The image or kernel will be flashing and auto booted in few minutes.\n'
+			) + "'"
+
+		self.session.open(Console, title, [message, cmd])
 
 	def keyRed(self):
 		self.close()
@@ -991,16 +891,17 @@ class FlashImageConfig(Screen):
 		if self["key_yellow"].getText() == _("Unzip"):
 			filename = self.filelist.getFilename()
 			if filename and filename.endswith(".zip"):
-				self.session.openWithCallback(self.doUnzip, MessageBox, _("Do you really want to unpack %s ?") % filename, MessageBox.TYPE_YESNO)
+				self.session.openWithCallback(self.doUnzip, MessageBox, _(f"Do you really want to unpack {filename} ?"), MessageBox.TYPE_YESNO)
 		elif self["key_yellow"].getText() == _("Backup info"):
-			self.session.open(MessageBox, "\n\n\n%s" % self.getBackupInfo(), MessageBox.TYPE_INFO)
+			self.session.open(MessageBox, f"\n\n\n{self.getBackupInfo()}", MessageBox.TYPE_INFO)
 
 	def getBackupInfo(self):
 		backup_dir = self.getCurrentSelected()
-		backup_info = ""
-		for line in open(backup_dir + VERSIONFILE, "r"):
-			backup_info += line
-		return backup_info
+		try:
+			with open(join(backup_dir, VERSIONFILE), "r") as f:
+				return f.read()
+		except:
+			return _("No backup information available")
 
 	def doUnzip(self, answer):
 		if answer is True:
@@ -1008,7 +909,7 @@ class FlashImageConfig(Screen):
 			filename = self.filelist.getFilename()
 			if dirname and filename:
 				try:
-					os_system('unzip -o %s%s -d %s' % (dirname, filename, dirname))
+					os_system(f'unzip -o {join(dirname, filename)} -d {dirname}')
 					self.filelist.refresh()
 					self.update_ui()
 				except:
@@ -1016,14 +917,13 @@ class FlashImageConfig(Screen):
 
 	def KeyBlue(self):
 		if self["key_blue"].getText() == _("Delete"):
-			self.session.openWithCallback(self.confirmedDelete, MessageBox, _("You are about to delete this backup:\n\n%s\nContinue?") % self.getBackupInfo(), MessageBox.TYPE_YESNO)
+			self.session.openWithCallback(self.confirmedDelete, MessageBox, _(f"You are about to delete this backup:\n\n{self.getBackupInfo()}\nContinue?"), MessageBox.TYPE_YESNO)
 
 	def confirmedDelete(self, answer):
 		if answer is True:
 			backup_dir = self.getCurrentSelected()
-			cmdmessage = "echo -e 'Removing backup:	  %s\n'" % basename(backup_dir.rstrip('/'))
-			cmddelete = "rm -rf %s > /dev/null 2>&1" % backup_dir
-			self.update_ui()
+			cmdmessage = f"echo -e 'Removing backup: {basename(backup_dir.rstrip('/'))}\\n'"
+			cmddelete = f"rm -rf {backup_dir} > /dev/null 2>&1"
 			self.session.open(Console, _("Delete backup"), [cmdmessage, cmddelete], self.filelist.refresh)
 
 
@@ -1038,7 +938,7 @@ class BackupHelpScreen(Screen):
 		self.setTitle(_("BackupSuite Help"))
 		self["help_text"] = ScrollLabel()
 
-		help_content = _("BackupSuite v%s\n\n") % VERSION
+		help_content = _(f"BackupSuite v{VERSION}\n\n")
 		help_content += _("Welcome to BackupSuite help.\n\n")
 		help_content += _("Device List:\n")
 		help_content += _("• Use UP/DOWN buttons to navigate through backup options\n")
@@ -1060,10 +960,10 @@ class BackupHelpScreen(Screen):
 
 		help_content += _("NET Backup Instructions:\n")
 		help_content += _("1. Mount your network share first:\n")
-		help_content += _("	  - Go to Main Menu > Setup > System > Storage Manager\n")
-		help_content += _("	  - Select 'Network Storage' and add your NAS/SMB share\n")
-		help_content += _("	  - Enter server IP, share name, username and password\n")
-		help_content += _("	  - Mount the share and assign a name (e.g., NET_BACKUP)\n\n")
+		help_content += _("   - Go to Main Menu > Setup > System > Storage Manager\n")
+		help_content += _("   - Select 'Network Storage' and add your NAS/SMB share\n")
+		help_content += _("   - Enter server IP, share name, username and password\n")
+		help_content += _("   - Mount the share and assign a name (e.g., NET_BACKUP)\n\n")
 		help_content += _("2. Select 'NET Backup' from the device list\n")
 		help_content += _("3. Choose your mounted network share\n")
 		help_content += _("4. Confirm and start the backup process\n\n")
@@ -1093,6 +993,7 @@ class BackupHelpScreen(Screen):
 		help_content += _("Visit our GitHub repository:\n")
 		help_content += _("https://github.com/persianpros/BackupSuite-PLi\n")
 
+		self["help_text"].setText(help_content)
 		self["actions"] = ActionMap(
 			["NavigationActions", "SetupActions"],
 			{
@@ -1124,9 +1025,9 @@ class WhatisNewInfo(Screen):
 				"down": self["AboutScrollLabel"].pageDown
 			}
 		)
-		with open(resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")) as file:
-			whatsnew = file.read()
-		self["AboutScrollLabel"].setText(whatsnew)
+		whatsnew_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")
+		with open(whatsnew_path) as file:
+			self["AboutScrollLabel"].setText(file.read())
 
 
 def main(session, **kwargs):
@@ -1136,7 +1037,7 @@ def main(session, **kwargs):
 def Plugins(path, **kwargs):
 	global plugin_path
 	plugin_path = path
-	description = _("Backup and restore your image") + ", " + VERSION
+	description = _(f"Backup and restore your image, {VERSION}")
 	return [
 		PluginDescriptor(
 			name="BackupSuite",
