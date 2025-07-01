@@ -1,22 +1,49 @@
 #!/bin/sh
 
 ###############################################################################
+#          THIS BACKUP IS CREATED WITH THE BACKUPSUITE PLUGIN                 #
+#                https://github.com/persianpros/BackupSuite-PLi               #
+#                                                                             #
 #     FULL BACKUP UTILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
 #                   MAKES A FULL BACKUP READY FOR FLASHING.                   #
+#               SUPPORT FORUM: https://forums.openpli.org/                    #
+#                                                                             #
+#                       UPDATE 20250615 BY LULULLA                            #
 ###############################################################################
 
-# TERM=linux
-# export TERM
+### NOTES FOR BACKUP SUITE (LULULLA)
+# **GOAL:** Backup script style unification
+# **COLORS:**
+# TITLE BLOCK (PURPLE)
+# SYSTEM DETECTION (BLUE)
+# INITIALIZATION (BLUE)
+# ERROR HANDLING (RED)
+# DEVICE DETECTION (BLUE)
+# DEVICE INFORMATION (PURPLE)
+# BACKUP SIZE ESTIMATION (GREEN)
+# SIZE WARNING (YELLOW/RED)
+# SEPARED LINE (YELLOW)
+# PREPARING WORK ENVIRONMENT (BLUE)
+# BACKUP START (GREEN)
+# KERNEL BACKUP (BLUE)
+# ROOT FILESYSTEM BACKUP (GREEN)
+# FINALIZING BACKUP (BLUE)
+# ZIP ARCHIVE CREATION (GREEN)
+# EXTRA COPY TO USB (GREEN)
+# CLEANUP AND STATISTICS (GREEN)
+# PACKAGE LIST (WHITE)
+# FINAL LOG COPY (WHITE)
+# SUCCESS MESSAGE (GREEN)
 
-##TESTING IF PROGRAM IS RUN FROM COMMANDLINE OR CONSOLE, JUST FOR THE COLORS ##
-if tty > /dev/null ; then        # Commandline
-    RED='\e[00;31m'
-    GREEN='\e[00;32m'
-    YELLOW='\e[01;33m'
-    BLUE='\e[01;34m'
-    PURPLE='\e[01;31m'
-    WHITE='\e[00;37m'
-else                            # On the STB
+## TESTING IF PROGRAM IS RUN FROM COMMANDLINE OR CONSOLE, JUST FOR THE COLORS ##
+if tty > /dev/null ; then    # Commandline
+    RED='\e[00;31m'    # Errors/failures
+    GREEN='\e[00;32m'  # Success/positive messages
+    YELLOW='\e[01;33m' # Warnings/important info
+    BLUE='\e[01;34m'   # Phase headers
+    PURPLE='\e[01;31m' # Titles/model info
+    WHITE='\e[00;37m'  # Normal text
+else                     # On the STB
     RED='\c00??0000'
     GREEN='\c0000??00'
     YELLOW='\c00????00'
@@ -25,10 +52,30 @@ else                            # On the STB
     WHITE='\c00??????'
 fi
 
+# ========================= TITLE BLOCK (PURPLE) =============================
+LINE="------------------------------------------------------------"
+
+# ==================== SYSTEM DETECTION (BLUE) ==============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
+# Robust Python detection
+detect_python() {
+    if command -v python3 >/dev/null 2>&1; then
+        echo "python3"
+    elif command -v python2 >/dev/null 2>&1; then
+        echo "python2"
+    elif command -v python >/dev/null 2>&1; then
+        echo "python"
+    else
+        echo "Unable to find Python!" >&2
+        exit 1
+    fi
+}
+
+
+# Library directory detection
 if [ -d "/usr/lib64" ]; then
-	echo -n $BLUE
-    echo "multilib situation!"
-	echo -n $WHITE
     LIBDIR="/usr/lib64"
 else
     LIBDIR="/usr/lib"
@@ -75,14 +122,21 @@ if [ -f "$PYBASE/$PYNAME.$PY_EXT" ]; then
 elif [ -f "$PYBASE/$PYNAME.py" ]; then
     SHOW="$PYTHON_BIN $PYBASE/$PYNAME.py $LANG"
 else
-	echo -n $RED
+    echo -n "$RED"
     echo "Neither $PYBASE/$PYNAME.$PY_EXT nor .py found!" >&2
-	echo -n $WHITE
+    echo -n "$WHITE"
     exit 1
 fi
 
 export SHOW
+# echo -n "$YELLOW"
+# echo "$LINE"
+# echo -n "$WHITE"
 
+# ====================== INITIALIZATION (BLUE) ==============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
 # Dynamic HARDDISK setting based on device type
 if [ "$2" = "HDD" ]; then
     export HARDDISK=1
@@ -94,11 +148,15 @@ else
     export HARDDISK=0
 fi
 
-echo -n $YELLOW
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
+# ====================== DEVICE DETECTION (BLUE) =============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
 ## ADD A POSTRM ROUTINE TO ENSURE A CLEAN UNINSTALL
-## This is normally added while building but despite several requests it isn't added yet
-## So therefore this workaround.
 POSTRM="/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.postrm"
 if [ ! -f $POSTRM ] ; then
     echo "#!/bin/sh" > "$POSTRM"
@@ -107,7 +165,9 @@ if [ ! -f $POSTRM ] ; then
     echo "exit 0" >> "$POSTRM"
     chmod 755 "$POSTRM"
 fi
-## END WORKAROUND
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
 ###################### FIRST DEFINE SOME PROGRAM BLOCKS #######################
 ############################# START LOGGING ###################################
@@ -132,9 +192,9 @@ if [ -d $WORKDIR ] ; then
     ls $LS_OPTIONS $WORKDIR >> $LOGFILE
 fi
 clean_up
-echo $RED
+echo -n "$RED"
 $SHOW "message15" 2>&1 | tee -a $LOGFILE # Image creation FAILED!
-echo $WHITE
+echo -n "$WHITE"
 exit 0
 }
 ############################ DEFINE IMAGE_VERSION #############################
@@ -226,28 +286,11 @@ else
     VERSION=`$SHOW "message37"`
 fi
 WORKDIR="$MEDIA/bi"
-LINE="-----------------------------------------------------------------------"
-######################### START THE LOGFILE $LOGFILE ##########################
-echo -n "" > $LOGFILE
-echo $PURPLE
-log "*** THIS BACKUP IS CREATED WITH THE BACKUPSUITE PLUGIN ***"
-log "*****  https://github.com/persianpros/BackupSuite-PLi  ******"
-echo $YELLOW
-log $LINE
-echo $WHITE
-log "Plugin version     = "`cat /var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.control | grep "Version: " | cut -d "+" -f 2- | cut -d "-" -f1`
-log "Back-up media      = $MEDIA"
-df -h "$MEDIA"  >> $LOGFILE
-log $LINE
-image_version >> $LOGFILE
-log "Working directory  = $WORKDIR"
-###### TESTING IF ALL THE BINARIES FOR THE BUILDING PROCESS ARE PRESENT #######
-echo $RED
-checkbinary $NANDDUMP
-checkbinary $MKFS
-checkbinary $UBINIZE
-echo -n $WHITE
-#############################################################################
+
+# ====================== DEVICE INFORMATION (PURPLE) =========================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$PURPLE"
 # TEST IF RECEIVER IS SUPPORTED AND READ THE VARIABLES FROM THE LOOKUPTABLE #
 if [ -f /etc/modules-load.d/dreambox-dvb-modules-dm*.conf ] || [ -f /etc/modules-load.d/10-dreambox-dvb-modules-dm*.conf ] ; then
     log "It's a dreambox! Not compatible with this script."
@@ -273,7 +316,7 @@ else
         elif [ -f /proc/stb/info/vumodel ] ; then
             SEARCH=$( cat /proc/stb/info/vumodel | tr "A-Z" "a-z" | tr -d '[:space:]' )
         else
-            echo $RED
+            echo -n "$RED"
             $SHOW "message01" 2>&1 | tee -a $LOGFILE # No supported receiver found!
             big_fail
         fi
@@ -281,7 +324,7 @@ else
 fi
 cat $LOOKUP | cut -f 2 | grep -qw "$SEARCH"
 if [ "$?" = "1" ] ; then
-    echo $RED
+    echo -n "$RED"
     $SHOW "message01" 2>&1 | tee -a $LOGFILE # No supported receiver found!
     big_fail
 else
@@ -314,21 +357,27 @@ else
     fi
 fi
 log "Destination        = $MAINDEST"
-log $LINE
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ==================== BACKUP SIZE ESTIMATION (GREEN) =======================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 ############# START TO SHOW SOME INFORMATION ABOUT BRAND & MODEL ##############
-echo -n $PURPLE
 echo -n "$SHOWNAME " | tr  a-z A-Z        # Shows the receiver brand and model
 $SHOW "message02"            # BACK-UP TOOL FOR MAKING A COMPLETE BACK-UP
-echo $BLUE
+echo -n "$BLUE"
 log "RECEIVER = $SHOWNAME "
 log "MKUBIFS_ARGS = $MKUBIFS_ARGS"
 log "UBINIZE_ARGS = $UBINIZE_ARGS"
 echo "$VERSION"
-echo $WHITE
+echo -n "$WHITE"
 ############ CALCULATE SIZE, ESTIMATED SPEED AND SHOW IT ON SCREEN ############
-echo -n $GREEN
+echo -n "$GREEN"
 $SHOW "message06"     #"Some information about the task:"
-echo -n $WHITE
+echo -n "$WHITE"
 if [ $ROOTNAME != "rootfs.tar.bz2" ] ; then
     KERNELHEX=`cat /proc/mtd | grep -w "kernel" | cut -d " " -f 2` # Kernelsize in Hex
 else
@@ -350,29 +399,39 @@ else
 fi
 ESTMINUTES=$(( $ESTTIMESEC/60 ))
 ESTSECONDS=$(( $ESTTIMESEC-(( 60*$ESTMINUTES ))))
-echo $LINE
-echo -n $GREEN
+
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 {
 $SHOW "message03"  ; printf "%d.%02d " $ESTMINUTES $ESTSECONDS ; $SHOW "message25" # estimated time in minutes
 echo $LINE
 } 2>&1 | tee -a $LOGFILE
-echo -n $WHITE
+echo -n "$WHITE"
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
+# ========================= SIZE WARNING (RED) ==============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$RED"
 ####### WARNING IF THE IMAGE SIZE OF THE XTRENDS GETS TOO BIG TO RESTORE ########
 if [ ${MODEL:0:2} = "et" -a ${MODEL:0:3} != "et8" -a ${MODEL:0:3} != "et1" -a ${MODEL:0:3} != "et7" ] ; then
     if [ $MEGABYTES -gt 120 ] ; then
-    echo -n $RED
     $SHOW "message28" 2>&1 | tee -a $LOGFILE #Image probably too big to restore
-    echo $WHITE
     elif [ $MEGABYTES -gt 110 ] ; then
-    echo -n $YELLOW
     $SHOW "message29" 2>&1 | tee -a $LOGFILE #Image between 111 and 120MB could cause problems
-    echo $WHITE
     fi
 fi
-#=================================================================================
-#exit 0  #USE FOR DEBUGGING/TESTING ###########################################
-#=================================================================================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ================ PREPARING WORK ENVIRONMENT (BLUE) ========================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
 ##################### PREPARING THE BUILDING ENVIRONMENT ######################
 log "*** FIRST SOME HOUSEKEEPING ***"
 rm -rf "$WORKDIR"        # GETTING RID OF THE OLD REMAINS IF ANY
@@ -389,11 +448,24 @@ mount --bind / /tmp/bi/root # the complete root at /tmp/bi/root
 if [ -d /tmp/bi/root/var/lib/samba/private/msg.sock ] ; then
     rm -rf /tmp/bi/root/var/lib/samba/private/msg.sock
 fi
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
-echo -n $GREEN
+# ========================== BACKUP START (GREEN) ===========================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 # Inizio del backup - Messaggio di progresso
 $SHOW "message44" 2>&1 | tee -a $LOGFILE   # Backup started...
-echo -n $WHITE
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ========================= KERNEL BACKUP (BLUE) ============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
 ####################### START THE REAL BACK-UP PROCESS ########################
 ############################# MAKING UBINIZE.CFG ##############################
 if [ $ROOTNAME != "rootfs.tar.bz2" ] ; then
@@ -466,6 +538,14 @@ else
         dd if=/dev/kernel of=$WORKDIR/$KERNELNAME > /dev/null 2>&1
     fi
 fi
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ==================== ROOT FILESYSTEM BACKUP (GREEN) =======================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 #############################  MAKING ROOT.UBI(FS) ############################
 echo -n $GREEN
 $SHOW "message52" 2>&1 | tee -a $LOGFILE   # Creating root filesystem (50%)
@@ -507,6 +587,14 @@ else
     fi
     $BZIP2 $WORKDIR/rootfs.tar
 fi
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ======================== FINALIZING BACKUP (BLUE) =========================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
 ############################ ASSEMBLING THE IMAGE #############################
 echo -n $BLUE
 $SHOW "message47" 2>&1 | tee -a $LOGFILE   # Phase 3/3: Finalizing backup
@@ -552,7 +640,14 @@ if [ -f "$MAINDEST/$ROOTNAME" -a -f "$MAINDEST/$KERNELNAME" ] ; then
 else
     big_fail
 fi
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
+# ====================== ZIP ARCHIVE CREATION (GREEN) =======================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 ############# CREATE FOLDER imagebackups AND ZIP ARCHIVE ####################
 if ! [ -d $MEDIA/imagebackups ] ; then
     mkdir -p $MEDIA/imagebackups
@@ -568,7 +663,14 @@ if [ -d $MEDIA/imagebackups ] ; then
     VER=${ISSUE1%????}
     $ZIP -r $MEDIA/imagebackups/backup-$VER-$MODEL-$DATE.zip /$MAINDEST/*
 fi
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
+# ====================== EXTRA COPY TO USB (GREEN) ==========================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 #################### CHECKING FOR AN EXTRA BACKUP STORAGE #####################
 if  [ $HARDDISK = 1 ]; then                     # looking for a valid usb-stick
     for candidate in `cut -d ' ' -f 2 /proc/mounts | grep '^/media/'`
@@ -600,7 +702,14 @@ if  [ $HARDDISK = 1 ]; then                     # looking for a valid usb-stick
     fi
 sync
 fi
-######################### END OF EXTRA BACKUP STORAGE #########################
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ==================== CLEANUP AND STATISTICS (GREEN) =======================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 ################## CLEANING UP AND REPORTING SOME STATISTICS ##################
 echo -n $GREEN
 $SHOW "message55" 2>&1 | tee -a $LOGFILE   # Finalizing (95%)
@@ -628,12 +737,28 @@ echo $LINE >> $LOGFILE
 {
 $SHOW "message26" ; echo -n "$SPEED" ; $SHOW "message27"
 } 2>&1 | tee -a $LOGFILE
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ======================== PACKAGE LIST (WHITE) =============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 #### ADD A LIST OF THE INSTALLED PACKAGES TO THE BackupSuite.LOG ####
 echo $LINE >> $LOGFILE
 echo $LINE >> $LOGFILE
 $SHOW "message41" >> $LOGFILE
 echo "--------------------------------------------" >> $LOGFILE
 opkg list-installed >> $LOGFILE
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ======================= FINAL LOG COPY (WHITE) =============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 ######################## COPY LOGFILE TO MAINDESTINATION ######################
 echo -n $WHITE
 cp $LOGFILE "$MAINDEST"
@@ -648,4 +773,3 @@ if [ "$TARGET" != "XX" ] ; then
     cp $LOGFILE "$TARGET$FOLDER"
 fi
 exit
-############### END OF PROGRAM ################

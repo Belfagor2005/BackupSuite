@@ -1,11 +1,10 @@
 #!/bin/sh
 
 ###############################################################################
-#     FULL BACKUP UYILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
-#                   MAKES A FULLBACK-UP READY FOR FLASHING.                   #
+#     FULL BACKUP UTILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
+#                   MAKES A FULL BACKUP READY FOR FLASHING.                   #
+#                           UPDATE 20250615 BY LULULLA                        #
 ###############################################################################
-# TERM=linux
-# export TERM
 
 # Robust Python detection
 PYTHON=""
@@ -79,15 +78,16 @@ if [ ! -f $POSTRM ] ; then
     chmod 755 "$POSTRM"
 fi
 
-## TESTING IF PROGRAM IS RUN FROM COMMANDLINE OR CONSOLE ##
-if tty > /dev/null ; then
-    RED='-e \e[00;31m'
-    GREEN='-e \e[00;32m'
-    YELLOW='-e \e[01;33m'
-    BLUE='-e \e[01;34m'
-    PURPLE='-e \e[01;31m'
-    WHITE='-e \e[00;37m'
-else
+## TESTING IF PROGRAM IS RUN FROM COMMANDLINE OR CONSOLE, JUST FOR THE COLORS ##
+                      
+if tty > /dev/null ; then    # Commandline
+    RED='\e[00;31m'    # Errors/failures
+    GREEN='\e[00;32m'  # Success/positive messages
+    YELLOW='\e[01;33m' # Warnings/important info
+    BLUE='\e[01;34m'   # Phase headers
+    PURPLE='\e[01;31m' # Titles/model info
+    WHITE='\e[00;37m'  # Normal text
+else                     # On the STB
     RED='\c00??0000'
     GREEN='\c0000??00'
     YELLOW='\c00????00'

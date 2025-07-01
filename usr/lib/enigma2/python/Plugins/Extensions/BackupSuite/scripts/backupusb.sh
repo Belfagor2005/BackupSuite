@@ -1,23 +1,39 @@
 #!/bin/sh
 
 ###############################################################################
+#          BACKUP SUITE LAUNCHER - DETECTS MEDIA AND STARTS BACKUP            #
+#                https://github.com/persianpros/BackupSuite-PLi               #
+#                                                                             #
 #     FULL BACKUP UTILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
 #                   MAKES A FULL BACKUP READY FOR FLASHING.                   #
+#               SUPPORT FORUM: https://forums.openpli.org/                    #
+#                                                                             #
+#                       UPDATE 20250615 BY LULULLA                            #
 ###############################################################################
 
-# Robust Python detection
-detect_python() {
-    if command -v python3 >/dev/null 2>&1; then
-        echo "python3"
-    elif command -v python2 >/dev/null 2>&1; then
-        echo "python2"
-    elif command -v python >/dev/null 2>&1; then
-        echo "python"
-    else
-        echo "Unable to find Python!" >&2
-        exit 1
-    fi
-}
+### NOTES FOR BACKUP SUITE (LULULLA)
+# **GOAL:** Backup script style unification
+# **COLORS:**
+# TITLE BLOCK (PURPLE)
+# SYSTEM DETECTION (BLUE)
+# INITIALIZATION (BLUE)
+# ERROR HANDLING (RED)
+# DEVICE DETECTION (BLUE)
+# DEVICE INFORMATION (PURPLE)
+# BACKUP SIZE ESTIMATION (GREEN)
+# SIZE WARNING (YELLOW/RED)
+# SEPARED LINE (YELLOW)
+# PREPARING WORK ENVIRONMENT (BLUE)
+# BACKUP START (GREEN)
+# KERNEL BACKUP (BLUE)
+# ROOT FILESYSTEM BACKUP (GREEN)
+# FINALIZING BACKUP (BLUE)
+# ZIP ARCHIVE CREATION (GREEN)
+# EXTRA COPY TO USB (GREEN)
+# CLEANUP AND STATISTICS (GREEN)
+# PACKAGE LIST (WHITE)
+# FINAL LOG COPY (WHITE)
+# SUCCESS MESSAGE (GREEN)
 
 ## TESTING IF PROGRAM IS RUN FROM COMMANDLINE OR CONSOLE, JUST FOR THE COLORS ##
 if tty > /dev/null ; then    # Commandline
@@ -35,6 +51,36 @@ else                     # On the STB
     PURPLE='\c00?:55>7'
     WHITE='\c00??????'
 fi
+
+# ========================= TITLE BLOCK (PURPLE) =============================
+LINE="------------------------------------------------------------"
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$PURPLE"
+echo "***   BACKUPSUITE PLUGIN FOR ENIGMA2/OPENVISION    ***"
+echo "*** https://github.com/persianpros/BackupSuite-PLi ***"
+echo -n "$YELLOW"
+# echo "$LINE"
+# echo -n "$WHITE"
+
+# ==================== SYSTEM DETECTION (BLUE) ==============================
+# echo -n "$YELLOW"
+# echo "$LINE"
+echo -n "$BLUE"
+
+# Robust Python detection
+detect_python() {
+    if command -v python3 >/dev/null 2>&1; then
+        echo "python3"
+    elif command -v python2 >/dev/null 2>&1; then
+        echo "python2"
+    elif command -v python >/dev/null 2>&1; then
+        echo "python"
+    else
+        echo "Unable to find Python!" >&2
+        exit 1
+    fi
+}
 
 # Library directory detection
 if [ -d "/usr/lib64" ]; then
@@ -70,7 +116,8 @@ find_message_script() {
 
 # Parameters
 export LANG="${1:-en}"
-export SHOW="$PYTHON $(find_message_script) $LANG"
+MESSAGE_SCRIPT=$(find_message_script)
+export SHOW="$PYTHON $MESSAGE_SCRIPT $LANG"
 
 # Device type detection
 case "${2:-USB}" in
@@ -79,28 +126,14 @@ case "${2:-USB}" in
     "MMC") export HARDDISK=0 ;;
     *)     export HARDDISK=0 ;;
 esac
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
-echo -n $WHITE
-
-# Portable disk space calculation
-calculate_space() {
-    # Get used space in /usr
-    if command -v du >/dev/null; then
-        USEDSIZE=$(du -sk /usr 2>/dev/null | awk '{print $1}')
-    else
-        # Fallback to df if du not available
-        USEDSIZE=$(df -k /usr | awk 'NR>1 {print $3}')
-    fi
-
-    # Calculate needed space with buffer (original formula: 4*size/1024)
-    NEEDEDSPACE=$(((USEDSIZE * 41) / 10))  # in KB (original 4x = 400%, adding 2.5% buffer)
-
-    echo "$USEDSIZE $NEEDEDSPACE"
-}
-
-# Get space requirements
-read USEDSIZE NEEDEDSPACE <<< $(calculate_space)
-
+# ====================== DEVICE DETECTION (BLUE) =============================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
 # Find backup media
 find_backup_media() {
     # Try common mount points
@@ -137,67 +170,111 @@ find_backup_media() {
 
     echo ""
 }
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ===================== DEVICE INFORMATION (PURPLE) =========================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$PURPLE"
 
 # Find backup target
 TARGET=$(find_backup_media)
+# echo -n "$YELLOW"
+# echo "$LINE"
+# echo -n "$WHITE"
 
+# ======================== ERROR HANDLING (RED) =============================
+echo -n "$YELLOW"
+echo "$LINE"
 if [ -z "$TARGET" ]; then
-    echo -n $RED
+    echo -n "$RED"
     $SHOW "message21" 2>&1  # No backup media found!
-    echo -n $WHITE
+    echo -n "$WHITE"
     exit 1
 fi
-
 # Show target information
-echo -n $PURPLE
 $SHOW "message22" 2>&1  # Backup media found:
 
-# Get disk space info
+# =================== DEVICE INFORMATION (USB - YELLOW) =====================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# Get disk space info for USB target
 if command -v df >/dev/null; then
     # Try human-readable format first
     SIZE_INFO=$(df -h "$TARGET" | tail -n 1)
     if [ -n "$SIZE_INFO" ]; then
         TOTAL_SIZE=$(echo "$SIZE_INFO" | awk '{print $2}')
         FREE_SIZE=$(echo "$SIZE_INFO" | awk '{print $4}')
-        echo -n " -> $TARGET ($TOTAL_SIZE, " ; $SHOW "message16" ; echo "$FREE_SIZE)"
+        echo -n " -> $TARGET ($TOTAL_SIZE, "
+        $SHOW "message16"  # Free
+        echo "$FREE_SIZE)"
     else
-        # Fallback to block size
+        # Fallback to block size (KB), convert to MB
         SIZE_INFO=$(df -k "$TARGET" | tail -n 1)
         TOTAL_BLOCKS=$(echo "$SIZE_INFO" | awk '{print $2}')
         FREE_BLOCKS=$(echo "$SIZE_INFO" | awk '{print $4}')
         TOTAL_SIZE=$((TOTAL_BLOCKS / 1024))M
         FREE_SIZE=$((FREE_BLOCKS / 1024))M
-        echo -n " -> $TARGET (~${TOTAL_SIZE}MB, " ; $SHOW "message16" ; echo "${FREE_SIZE}MB)"
+        echo -n " -> $TARGET (~${TOTAL_SIZE}, "
+        $SHOW "message16"  # Free
+        echo "${FREE_SIZE})"
     fi
 else
     echo " -> $TARGET"
 fi
 
-# Check available space
-if command -v df >/dev/null; then
-    FREE_KB=$(df -k "$TARGET" | awk 'NR>1 {print $4}')
-    if [ -z "$FREE_KB" ] || [ "$FREE_KB" -lt "$NEEDEDSPACE" ]; then
-        echo -n $RED
-        $SHOW "message30" ; echo -n "$TARGET" ; $SHOW "message31"
-        printf '%5s' "$((FREE_KB / 1024))" ; $SHOW "message32"  # Available (MB):
-        printf '%5s' "$((NEEDEDSPACE / 1024))" ; $SHOW "message33"  # Needed (MB):
-        echo " "
-        $SHOW "message34"  # Please free space
-        echo $WHITE
-        exit 1
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ==================== BACKUP SIZE ESTIMATION (GREEN) =======================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
+
+# Calculate space required for backup (/usr)
+calculate_space() {
+    if command -v du >/dev/null; then
+        USEDSIZE=$(du -sk /usr 2>/dev/null | awk '{print $1}')
+    else
+        # Fallback if du is unavailable
+        USEDSIZE=$(df -k /usr | awk 'NR>1 {print $3}')
     fi
-fi
 
-# Preparation message
-# echo -n $BLUE
-# $SHOW "message45" 2>&1  # Phase 1/3: Preparing backup environment
-# echo -n $WHITE
-echo -n $BLUE; $SHOW "message45" 2>&1; echo -n $WHITE
+    # Add buffer: 410% of /usr size (4x + 2.5%)
+    NEEDEDSPACE=$(((USEDSIZE * 41) / 10))
+    echo "$USEDSIZE $NEEDEDSPACE"
+}
 
+# Run estimation
+read USEDSIZE NEEDEDSPACE <<< $(calculate_space)
+
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
+
+# ================ PREPARING WORK ENVIRONMENT (BLUE) ========================
+
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$BLUE"
+$SHOW "message45" 2>&1  # Phase 1/3: Preparing backup environment
+echo -n "$WHITE"
+# echo -n "$YELLOW"
+# echo "$LINE"
+# echo -n "$WHITE"
+
+# ========================== BACKUP START (GREEN) ===========================
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$GREEN"
 # Execute backup script
 BACKUP_SCRIPT="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh"
 if [ -x "$BACKUP_SCRIPT" ]; then
-    # Ensure executable
     chmod 755 "$BACKUP_SCRIPT" >/dev/null 2>&1
 
     # Run backup
@@ -205,20 +282,28 @@ if [ -x "$BACKUP_SCRIPT" ]; then
     ret=$?
     sync
 else
-    echo -n $RED
+    echo -n "$RED"
     $SHOW "message05" 2>&1  # Backup script not found!
-    echo -n $WHITE
+    echo -n "$WHITE"
     exit 1
 fi
+echo -n "$YELLOW"
+echo "$LINE"
+# echo -n "$WHITE"
 
+# ==================== CLEANUP AND STATISTICS (GREEN) =======================
+# echo -n "$YELLOW"
+# echo "$LINE"
+echo -n "$GREEN"
 # Completion message
 if [ $ret -eq 0 ]; then
-    echo -n $GREEN
     $SHOW "message48" 2>&1  # Backup completed successfully!
 else
-    echo -n $RED
+    echo -n "$RED"
     $SHOW "message15" 2>&1  # Image creation FAILED!
 fi
+echo -n "$YELLOW"
+echo "$LINE"
+echo -n "$WHITE"
 
-echo -n $WHITE
 exit $ret
