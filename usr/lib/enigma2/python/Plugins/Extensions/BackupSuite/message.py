@@ -230,19 +230,19 @@ def message44():
 
 
 def message45():
-	write(_("Phase 1/3: Preparing backup environment"), newline=False)
+	write(_("Phase 1/3: Preparing backup environment"), newline=True)
 
 
 def message46():
-	write(_("Phase 2/3: Creating backup image"), newline=False)
+	write(_("Phase 2/3: Creating backup image"), newline=True)
 
 
 def message47():
-	write(_("Phase 3/3: Finalizing backup"), newline=False)
+	write(_("Phase 3/3: Finalizing backup"), newline=True)
 
 
 def message48():
-	write(_("Backup completed successfully!"), newline=False)
+	write(_("Backup completed successfully!"), newline=True)
 
 
 def message49():
