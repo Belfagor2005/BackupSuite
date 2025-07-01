@@ -1,8 +1,10 @@
 #!/bin/sh
 
+
 ###############################################################################
-#     FULL BACKUP UYILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
-#                   MAKES A FULLBACK-UP READY FOR FLASHING.                   #
+#     FULL BACKUP UTILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
+#                   MAKES A FULL BACKUP READY FOR FLASHING.                   #
+#                           UPDATE 20250615 BY LULULLA                        #
 ###############################################################################
 
 # Robust Python detection
@@ -19,15 +21,16 @@ detect_python() {
     fi
 }
 
-# Terminal color setup
-if tty >/dev/null 2>&1 ; then
-    RED='-e \e[00;31m'
-    GREEN='-e \e[00;32m'
-    YELLOW='-e \e[01;33m'
-    BLUE='-e \e[00;34m'
-    PURPLE='-e \e[01;31m'
-    WHITE='-e \e[00;37m'
-else
+## TESTING IF PROGRAM IS RUN FROM COMMANDLINE OR CONSOLE, JUST FOR THE COLORS ##
+
+if tty > /dev/null ; then    # Commandline
+    RED='\e[00;31m'    # Errors/failures
+    GREEN='\e[00;32m'  # Success/positive messages
+    YELLOW='\e[01;33m' # Warnings/important info
+    BLUE='\e[01;34m'   # Phase headers
+    PURPLE='\e[01;31m' # Titles/model info
+    WHITE='\e[00;37m'  # Normal text
+else                     # On the STB
     RED='\c00??0000'
     GREEN='\c0000??00'
     YELLOW='\c00????00'
@@ -46,6 +49,7 @@ fi
 # Find Python and message script
 PYTHON=$(detect_python)
 MESSAGE_DIR="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite"
+MESSAGE_SCRIPT=""
 
 # Find the best message script version
 find_message_script() {
@@ -56,13 +60,13 @@ find_message_script() {
             return
         fi
     done
-    
+
     # Fallback to source version
     if [ -f "$MESSAGE_DIR/message.py" ]; then
         echo "$MESSAGE_DIR/message.py"
         return
     fi
-    
+
     echo "Error: No message script found!" >&2
     exit 1
 }
@@ -80,11 +84,6 @@ case "${2:-USB}" in
     *)     export HARDDISK=0 ;;
 esac
 
-# Show backup destination message
-echo -n $YELLOW
-$SHOW "message22" 2>&1  # "Backup media found:"
-echo -n $WHITE
-
 # Portable disk space calculation
 calculate_space() {
     # Get used space in /usr
@@ -94,10 +93,10 @@ calculate_space() {
         # Fallback to df if du not available
         USEDSIZE=$(df -k /usr | awk 'NR>1 {print $3}')
     fi
-    
+
     # Calculate needed space with buffer (original formula: 4*size/1024)
     NEEDEDSPACE=$(((USEDSIZE * 41) / 10))  # in KB (400% + 2.5% buffer)
-    
+
     echo "$USEDSIZE $NEEDEDSPACE"
 }
 
@@ -115,7 +114,7 @@ find_backup_media() {
                 echo "$candidate"
                 return
             fi
-            
+
             # Check for writable filesystem
             if touch "$candidate/backup_test_$$" 2>/dev/null; then
                 rm -f "$candidate/backup_test_$$"
@@ -124,7 +123,7 @@ find_backup_media() {
             fi
         fi
     done
-    
+
     # Fallback to scanning /proc/mounts
     grep '^/dev/' /proc/mounts | while read -r device mountpoint fstype _; do
         case "$fstype" in
@@ -137,7 +136,7 @@ find_backup_media() {
                 ;;
         esac
     done
-    
+
     echo ""
 }
 
@@ -152,8 +151,9 @@ if [ -z "$TARGET" ]; then
 fi
 
 # Show target information
-echo -n $YELLOW
+echo -n $PURPLE
 $SHOW "message22" 2>&1  # "Backup media found:"
+echo -n $WHITE
 
 # Get disk space info
 if command -v df >/dev/null; then
@@ -162,7 +162,11 @@ if command -v df >/dev/null; then
     if [ -n "$SIZE_INFO" ]; then
         TOTAL_SIZE=$(echo "$SIZE_INFO" | awk '{print $2}')
         FREE_SIZE=$(echo "$SIZE_INFO" | awk '{print $4}')
-        echo -n " -> $TARGET ($TOTAL_SIZE, " ; $SHOW "message16" ; echo "$FREE_SIZE)"
+        echo -n " -> $TARGET ($TOTAL_SIZE, "
+        echo -n $WHITE
+        $SHOW "message16"  # "free"
+        echo -n $PURPLE
+        echo "$FREE_SIZE)"
     else
         # Fallback to block size
         SIZE_INFO=$(df -k "$TARGET" | tail -n 1)
@@ -170,40 +174,49 @@ if command -v df >/dev/null; then
         FREE_BLOCKS=$(echo "$SIZE_INFO" | awk '{print $4}')
         TOTAL_SIZE=$((TOTAL_BLOCKS / 1024))M
         FREE_SIZE=$((FREE_BLOCKS / 1024))M
-        echo -n " -> $TARGET (~${TOTAL_SIZE}MB, " ; $SHOW "message16" ; echo "${FREE_SIZE}MB)"
+        echo -n " -> $TARGET (~${TOTAL_SIZE}MB, "
+        echo -n $WHITE
+        $SHOW "message16"  # "free"
+        echo -n $PURPLE
+        echo "${FREE_SIZE}MB)"
     fi
 else
     echo " -> $TARGET"
 fi
+
+echo -n $WHITE
 
 # Check available space
 if command -v df >/dev/null; then
     FREE_KB=$(df -k "$TARGET" | awk 'NR>1 {print $4}')
     if [ -z "$FREE_KB" ] || [ "$FREE_KB" -lt "$NEEDEDSPACE" ]; then
         echo -n $RED
-        $SHOW "message30" ; echo -n "$TARGET" ; $SHOW "message31"
-        printf '%5s' "$((FREE_KB / 1024))" ; $SHOW "message32"  # Available (MB):
-        printf '%5s' "$((NEEDEDSPACE / 1024))" ; $SHOW "message33"  # Needed (MB):
+        $SHOW "message30"  # "There is not enough space available on"
+        echo -n "$TARGET"
+        $SHOW "message31"  # "Only"
+        printf '%5s' "$((FREE_KB / 1024))"
+        $SHOW "message32"  # "MB available, but"
+        printf '%5s' "$((NEEDEDSPACE / 1024))"
+        $SHOW "message33"  # "MB are needed. Please free some space."
         echo " "
-        $SHOW "message34"  # Please free space
-        echo $WHITE
+        $SHOW "message34"  # "and try again."
+        echo -n $WHITE
         exit 1
     fi
 fi
-
 # Execute backup script
-BACKUP_SCRIPT="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupdmm.sh"
-if [ -f "$BACKUP_SCRIPT" ]; then
+BACKUP_SCRIPT="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh"
+if [ -x "$BACKUP_SCRIPT" ]; then
     # Ensure executable
     chmod 755 "$BACKUP_SCRIPT" >/dev/null 2>&1
-    
+
     # Run backup
     "$BACKUP_SCRIPT" "$TARGET"
     ret=$?
     sync
-    
+
     if [ $ret -eq 0 ]; then
-        echo -n $BLUE
+        echo -n $GREEN
         $SHOW "message48" 2>&1  # Backup completed successfully!
     else
         echo -n $RED
