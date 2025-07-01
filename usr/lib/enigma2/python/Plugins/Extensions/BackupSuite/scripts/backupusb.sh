@@ -1,8 +1,8 @@
 #!/bin/sh
 
 ###############################################################################
-#     FULL BACKUP UYILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
-#                   MAKES A FULLBACK-UP READY FOR FLASHING.                   #
+#     FULL BACKUP UTILITY FOR ENIGMA2/OPENVISION, SUPPORTS VARIOUS MODELS     #
+#                   MAKES A FULL BACKUP READY FOR FLASHING.                   #
 ###############################################################################
 
 # Robust Python detection
@@ -19,15 +19,15 @@ detect_python() {
     fi
 }
 
-# Terminal color setup
-if tty >/dev/null 2>&1 ; then
-    RED='-e \e[00;31m'
-    GREEN='-e \e[00;32m'
-    YELLOW='-e \e[01;33m'
-    BLUE='-e \e[00;34m'
-    PURPLE='-e \e[01;31m'
-    WHITE='-e \e[00;37m'
-else
+## TESTING IF PROGRAM IS RUN FROM COMMANDLINE OR CONSOLE, JUST FOR THE COLORS ##
+if tty > /dev/null ; then    # Commandline
+    RED='\e[00;31m'    # Errors/failures
+    GREEN='\e[00;32m'  # Success/positive messages
+    YELLOW='\e[01;33m' # Warnings/important info
+    BLUE='\e[01;34m'   # Phase headers
+    PURPLE='\e[01;31m' # Titles/model info
+    WHITE='\e[00;37m'  # Normal text
+else                     # On the STB
     RED='\c00??0000'
     GREEN='\c0000??00'
     YELLOW='\c00????00'
@@ -57,13 +57,13 @@ find_message_script() {
             return
         fi
     done
-    
+
     # Fallback to source version
     if [ -f "$MESSAGE_DIR/message.py" ]; then
         echo "$MESSAGE_DIR/message.py"
         return
     fi
-    
+
     echo "Error: No message script found!" >&2
     exit 1
 }
@@ -80,9 +80,6 @@ case "${2:-USB}" in
     *)     export HARDDISK=0 ;;
 esac
 
-# # Show backup start message
-# echo -n $GREEN
-# $SHOW "message44" 2>&1  # Backup started...
 echo -n $WHITE
 
 # Portable disk space calculation
@@ -94,10 +91,10 @@ calculate_space() {
         # Fallback to df if du not available
         USEDSIZE=$(df -k /usr | awk 'NR>1 {print $3}')
     fi
-    
+
     # Calculate needed space with buffer (original formula: 4*size/1024)
     NEEDEDSPACE=$(((USEDSIZE * 41) / 10))  # in KB (original 4x = 400%, adding 2.5% buffer)
-    
+
     echo "$USEDSIZE $NEEDEDSPACE"
 }
 
@@ -110,12 +107,12 @@ find_backup_media() {
     for candidate in /media/usb /media/hdd /media/mmc /media/sdb1 /media/sda1 /mnt/usb /mnt/hdd
     do
         if [ -d "$candidate" ] && grep -q "$candidate" /proc/mounts; then
-            # Check for backup indicator (file or directory)
+            # Check for backup indicator
             if [ -f "$candidate/backupstick" ] || [ -d "$candidate/backupstick" ]; then
                 echo "$candidate"
                 return
             fi
-            
+
             # Check for writable filesystem
             if touch "$candidate/backup_test_$$" 2>/dev/null; then
                 rm -f "$candidate/backup_test_$$"
@@ -124,7 +121,7 @@ find_backup_media() {
             fi
         fi
     done
-    
+
     # Fallback to scanning /proc/mounts
     grep '^/dev/' /proc/mounts | while read -r device mountpoint fstype _; do
         case "$fstype" in
@@ -137,7 +134,7 @@ find_backup_media() {
                 ;;
         esac
     done
-    
+
     echo ""
 }
 
@@ -152,7 +149,7 @@ if [ -z "$TARGET" ]; then
 fi
 
 # Show target information
-echo -n $YELLOW
+echo -n $PURPLE
 $SHOW "message22" 2>&1  # Backup media found:
 
 # Get disk space info
@@ -192,16 +189,17 @@ if command -v df >/dev/null; then
 fi
 
 # Preparation message
-echo -n $BLUE
-$SHOW "message45" 2>&1  # Phase 1/3: Preparing backup environment
-echo -n $WHITE
+# echo -n $BLUE
+# $SHOW "message45" 2>&1  # Phase 1/3: Preparing backup environment
+# echo -n $WHITE
+echo -n $BLUE; $SHOW "message45" 2>&1; echo -n $WHITE
 
 # Execute backup script
 BACKUP_SCRIPT="$LIBDIR/enigma2/python/Plugins/Extensions/BackupSuite/scripts/backupsuite.sh"
 if [ -x "$BACKUP_SCRIPT" ]; then
     # Ensure executable
     chmod 755 "$BACKUP_SCRIPT" >/dev/null 2>&1
-    
+
     # Run backup
     "$BACKUP_SCRIPT" "$TARGET"
     ret=$?
@@ -215,7 +213,7 @@ fi
 
 # Completion message
 if [ $ret -eq 0 ]; then
-    echo -n $BLUE
+    echo -n $GREEN
     $SHOW "message48" 2>&1  # Backup completed successfully!
 else
     echo -n $RED
