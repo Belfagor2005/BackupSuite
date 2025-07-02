@@ -114,6 +114,7 @@ find_message_script() {
     exit 1
 }
 
+# ====================== INITIALIZATION (BLUE) ==============================
 # Parameters
 export LANG="${1:-en}"
 MESSAGE_SCRIPT=$(find_message_script)

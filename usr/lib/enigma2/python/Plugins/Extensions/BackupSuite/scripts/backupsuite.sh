@@ -56,8 +56,8 @@ fi
 LINE="------------------------------------------------------------"
 
 # ==================== SYSTEM DETECTION (BLUE) ==============================
-echo -n "$YELLOW"
-echo "$LINE"
+# echo -n "$YELLOW"
+# echo "$LINE"
 echo -n "$BLUE"
 # Robust Python detection
 detect_python() {
@@ -72,7 +72,6 @@ detect_python() {
         exit 1
     fi
 }
-
 
 # Library directory detection
 if [ -d "/usr/lib64" ]; then
@@ -153,9 +152,9 @@ echo "$LINE"
 echo -n "$WHITE"
 
 # ====================== DEVICE DETECTION (BLUE) =============================
-echo -n "$YELLOW"
-echo "$LINE"
-echo -n "$BLUE"
+# echo -n "$YELLOW"
+# echo "$LINE"
+# echo -n "$BLUE"
 ## ADD A POSTRM ROUTINE TO ENSURE A CLEAN UNINSTALL
 POSTRM="/var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.postrm"
 if [ ! -f $POSTRM ] ; then
