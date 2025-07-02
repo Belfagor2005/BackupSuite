@@ -8,11 +8,14 @@
 ### **Main 
 <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/00.png?raw=true">
 
-### **On usb
+
+### **On Usb
 <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/11.png?raw=true">
 
 <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/22.png?raw=true">
 
+
+### **On Net
 <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/33.png?raw=true">
 
 ### **On MMC
