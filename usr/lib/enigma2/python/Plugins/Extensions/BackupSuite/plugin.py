@@ -120,7 +120,7 @@ def BackupDeviceEntryComponent(device):
         ),
         (
             eListboxPythonMultiContent.TYPE_TEXT,
-            100, 0, 620, 60,
+            100, 0, 700, 60,
             0, RT_HALIGN_LEFT | RT_VALIGN_CENTER,
             device[0]
         )
@@ -219,6 +219,7 @@ def get_backup_files_pattern():
 def get_mounted_network_shares():
     """Detect mounted network shares by reading /proc/mounts"""
     network_shares = []
+    processed = set()
     try:
         with open("/proc/mounts", "r") as f:
             for line in f:
@@ -242,6 +243,12 @@ def get_mounted_network_shares():
                     server_name = device.split("/")[-1].split(":")[0]
                     if not server_name:
                         server_name = mountpoint.split("/")[-1]
+
+                    # Skip if we've already processed this
+                    if server_name in processed:
+                        continue
+
+                    processed.add(server_name)
 
                     network_shares.append({
                         "server": server_name,
@@ -274,7 +281,7 @@ def get_root_device_type():
                 return "HDD"
     except:
         pass
-    return "FLASH"  # Safer default
+    return "USB"  # Safer default
 
 
 def get_device_type_from_sysfs(device_base):
