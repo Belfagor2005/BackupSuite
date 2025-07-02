@@ -1,12 +1,40 @@
 # -*- coding: utf-8 -*-
 
+"""
+BackupSuite Plugin
+FULL BACKUP UTILITY FOR ENIGMA2/OPENVISION
+SUPPORTS VARIOUS MODELS
+
+Original Developer: @persianpros
+GitHub: https://github.com/persianpros/BackupSuite-PLi
+
+SUPPORT FORUM: https://forums.openpli.org/
+
+This is a fully modded code of BackupSuite
+by @Lululla (2025-06-15).
+
+The plugin provides a comprehensive backup and restore solution for Enigma2-based receivers.
+It supports multiple device types (USB, MMC, HDD, Network shares, Barry Allen multi-boot),
+handles automatic device detection, backup script management, and user interaction through
+an intuitive GUI.
+
+Features include:
+- Automatic detection of mounted storage devices and network shares
+- Custom backup scripts for each device type
+- User prompts and error handling with detailed log analysis
+- Support for flashing backup images and restoring
+- Compatibility fixes for OpenPLi systems
+
+This rewrite aims to improve stability, usability, and maintainability compared to the original.
+"""
+
+
 from os import (
     listdir,
     system as os_system,
-    access,
-    W_OK,
     statvfs,
-    makedirs
+    makedirs,
+    getenv
 )
 from os.path import (
     basename,
@@ -14,6 +42,7 @@ from os.path import (
     exists,
     isfile,
     join,
+    realpath
 )
 
 from Components.ActionMap import ActionMap
@@ -43,19 +72,8 @@ from . import _
 from .schermen import *     # fallback for to screen..
 from .message import *      # fallback for to compile on test develop..
 
-# -----------------------------------------------
-# this BackupSuite rewrite from @Lululla 20250615
-
 # Global constants
 VERSION = '3.0-r6'
-BACKUP_SCRIPTS = {
-    'HDD': "backuphdd.sh",
-    'USB': "backupusb.sh",
-    'MMC': "backupmmc.sh",
-    'NET': "backupnet.sh",
-}
-
-
 LOGFILE = "/tmp/BackupSuite.log"
 VERSIONFILE = "imageversion"
 ENIGMA2VERSIONFILE = "/tmp/enigma2version"
@@ -74,19 +92,31 @@ class BackupDeviceList(MenuList):
 
 
 def getIconPath(icon_name):
-    icon_path = resolveFilename(SCOPE_PLUGINS, f"Extensions/BackupSuite/img/{icon_name}")
+    if not icon_name:
+        return join(ICONS_DIR, "hdd.png")
+
+    if exists(icon_name):
+        return icon_name
+
+    base_name = basename(icon_name)
+    icon_path = join(ICONS_DIR, base_name)
     if exists(icon_path):
         return icon_path
-    return resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/img/hdd.png")
+
+    return join(ICONS_DIR, "hdd.png")
 
 
 def BackupDeviceEntryComponent(device):
+    raw_icon = device[1]
+    icon_path = getIconPath(raw_icon)
+    print(f"[BackupSuite] Loading icon: {raw_icon} -> {icon_path}")
+
     res = [
         device,
         (
             eListboxPythonMultiContent.TYPE_PIXMAP_ALPHATEST,
             10, 5, 60, 60,
-            LoadPixmap(getIconPath(device[1]))
+            LoadPixmap(icon_path)
         ),
         (
             eListboxPythonMultiContent.TYPE_TEXT,
@@ -130,25 +160,6 @@ def requires_force_mode():
     return any(x in model for x in force_models)
 
 
-def get_script_path(device_type):
-    base_script = BACKUP_SCRIPTS.get(device_type, "backuphdd.sh")
-    box_type = get_box_type()
-
-    if box_type.startswith("dm"):
-        script_name = base_script.replace(".sh", "-dmm.sh")
-    else:
-        script_name = base_script
-
-    script_path = resolveFilename(
-        SCOPE_PLUGINS,
-        f"Extensions/BackupSuite/scripts/{script_name}"
-    )
-
-    print(f"[BackupSuite] Using script: {script_path} for {box_type}")
-
-    return script_path
-
-
 def get_skin(type):
     try:
         sz_w = getDesktop(0).size().width()
@@ -165,40 +176,41 @@ def get_skin(type):
 
 
 def get_backup_files_pattern():
+    """Return the regex pattern for backup file extensions based on the device model."""
     model = get_box_type()
 
-    if 'dm' in model:
-        if 'dm9' in model:
+    if "dm" in model:
+        if "dm9" in model:
             return r"\.(xz)$"
-        elif any(x in model for x in ['dm520', 'dm7080', 'dm820']):
+        elif any(x in model for x in ["dm520", "dm7080", "dm820"]):
             return r"\.(xz)$"
         else:
             return r"\.(nfi)$"
 
-    elif 'vu' in model:
-        if '4k' in model:
+    elif "vu" in model:
+        if "4k" in model:
             return r"\.(bin|bz2)$"
-        elif any(x in model for x in ['vuduo2', 'vusolose', 'vusolo2', 'vuzero']):
+        elif any(x in model for x in ["vuduo2", "vusolose", "vusolo2", "vuzero"]):
             return r"\.(bin|jffs2)$"
         else:
             return r"\.(bin|jffs2)$"
 
-    elif any(x in model for x in ['hd51', 'h7', 'sf4008', 'sf5008', 'sf8008', 'sf8008m', 'vs1500', 'et11000', 'et13000']):
+    elif any(x in model for x in ["hd51", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000"]):
         return r"\.(bin|bz2)$"
 
-    elif any(x in model for x in ['h9', 'h9se', 'h9combo', 'h9combose', 'i55plus', 'i55se', 'h10', 'hzero', 'h8']):
+    elif any(x in model for x in ["h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8"]):
         return r"\.(ubi)$"
 
-    elif any(x in model for x in ['hd60', 'hd61', 'multibox', 'multiboxse', 'multiboxplus']):
+    elif any(x in model for x in ["hd60", "hd61", "multibox", "multiboxse", "multiboxplus"]):
         return r"\.(bz2)$"
 
-    elif model.startswith(('et4', 'et5', 'et6', 'et7', 'et8', 'et9', 'et10')):
+    elif model.startswith(("et4", "et5", "et6", "et7", "et8", "et9", "et10")):
         return r"\.(bin)$"
 
-    elif 'ebox' in model:
+    elif "ebox" in model:
         return r"\.(jffs2)$"
 
-    elif any(x in model for x in ['4k', 'uhd']):
+    elif any(x in model for x in ["4k", "uhd"]):
         return r"\.(bz2)$"
 
     return r"\.(zip|bin|bz2)$"
@@ -243,100 +255,206 @@ def get_mounted_network_shares():
     return network_shares
 
 
-def get_available_backup_devices():
-    """Detect available backup devices using Enigma2's harddisk manager"""
-    devices = []
-    mounted_partitions = harddiskmanager.getMountedPartitions()
-    mmc_root_found = False
-
-    # Read the real device for root from /proc/mounts
-    root_real_device = None
+def get_root_device_type():
+    """Determine the type of the root filesystem device with special cases"""
     try:
-        with open("/proc/mounts", "r") as f:
-            for line in f:
-                parts = line.split()
-                if len(parts) > 1 and parts[1] == "/":
-                    root_real_device = parts[0]
-                    break
+        with open("/proc/cmdline", "r") as f:
+            cmdline = f.read()
+
+            # Check for special cases before generic checks
+            if "root=/dev/mmcblk0p1" in cmdline:
+                return "MMC_SWITCH_ERROR"
+            elif "root=/dev/mmc" in cmdline:
+                return "MMC"
+            elif "root=/dev/nand" in cmdline or "root=/dev/mtd" in cmdline:
+                return "FLASH"
+            elif "root=/dev/sd" in cmdline:
+                return "USB"
+            elif "root=/dev/hd" in cmdline:
+                return "HDD"
     except:
         pass
+    return "FLASH"  # Safer default
 
-    for partition in mounted_partitions:
-        if not partition.mountpoint or not ismount(partition.mountpoint):
+
+def get_device_type_from_sysfs(device_base):
+    """Determine the device type by analyzing sysfs block information."""
+    try:
+        sysfs_path = f"/sys/block/{device_base}"
+        if not exists(sysfs_path):
+            return "USB"  # Assume USB if the path doesn't exist
+
+        if device_base.startswith("mmcblk"):
+            return "MMC"
+
+        if device_base.startswith("nvme"):
+            return "HDD"
+
+        device_path = realpath(join(sysfs_path, "device"))
+
+        if "ata" in device_path or "sata" in device_path:
+            return "HDD"
+
+        if "usb" in device_path.lower():
+            return "USB"
+
+        uevent_path = join(sysfs_path, "device/uevent")
+        if exists(uevent_path):
+            with open(uevent_path, "r") as f:
+                content = f.read()
+                if "DRIVER=mmc" in content:
+                    return "MMC"
+                if "DRIVER=sd" in content and "ata" in content:
+                    return "HDD"
+
+        rotational_path = join(sysfs_path, "queue/rotational")
+        if exists(rotational_path):
+            with open(rotational_path, "r") as f:
+                if f.read().strip() == "1":
+                    return "HDD"
+
+    except Exception as e:
+        print(f"[BackupSuite] Error checking sysfs: {str(e)}")
+
+    return "USB"  # Fallback default
+
+
+# Global map for icons and scripts
+SCRIPTS_DIR = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/scripts")
+ICONS_DIR = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/img")
+
+DEVICE_PROFILES = {
+    "USB": {
+        "icon": join(ICONS_DIR, "usb.png"),
+        "script": join(SCRIPTS_DIR, "backupusb.sh"),
+        "desc": _("USB Storage")
+    },
+    "MMC": {
+        "icon": join(ICONS_DIR, "mmc.png"),
+        "script": join(SCRIPTS_DIR, "backupmmc.sh"),
+        "desc": _("SD Card")
+    },
+    "HDD": {
+        "icon": join(ICONS_DIR, "hdd.png"),
+        "script": join(SCRIPTS_DIR, "backuphdd.sh"),
+        "desc": _("Hard Disk")
+    },
+    "NET": {
+        "icon": join(ICONS_DIR, "network.png"),
+        "script": join(SCRIPTS_DIR, "backupnet.sh"),
+        "desc": _("Network Storage")
+    },
+    "BA": {
+        "icon": join(ICONS_DIR, "multiboot.png"),
+        "script": join(SCRIPTS_DIR, "backupba.sh"),
+        "desc": _("Barry Allen")
+    },
+    "RESTORE": {
+        "icon": join(ICONS_DIR, "restore.png"),
+        "script": "",
+        "desc": _("Restore Backup")
+    }
+}
+
+
+def get_device_type(device_name, description, model, mountpoint):
+    """Determine device type by combining multiple information sources."""
+    # Normalize texts for case-insensitive matching
+    desc = (description + " " + model + " " + mountpoint).lower()
+
+    # Search for specific keywords
+    if "mmc" in desc or "sd" in desc or "card" in desc or "emmc" in desc:
+        return "MMC"
+    elif "sata" in desc or "ata" in desc or "hdd" in desc or "hard disk" in desc:
+        return "HDD"
+    elif "nvme" in desc or "ssd" in desc:
+        return "HDD"
+    elif "usb" in desc or "flash" in desc or "pen" in desc:
+        return "USB"
+
+    # Analyze device name prefix
+    if device_name.startswith("mmcblk"):
+        return "MMC"
+    elif device_name.startswith("nvme"):
+        return "HDD"
+    elif device_name.startswith("sd"):
+        return "USB"
+
+    return "USB"  # Default fallback
+
+
+def get_available_backup_devices():
+    """Retrieve a list of available backup devices excluding the root filesystem."""
+    devices = []
+    partitions = harddiskmanager.getMountedPartitions()
+    root_device_type = get_root_device_type()
+
+    print(f"[BackupSuite] Found {len(partitions)} mounted partitions")
+    print(f"[BackupSuite] Root device type: {root_device_type}")
+
+    for p in partitions:
+        # Always exclude internal root filesystem
+        if not p.mountpoint or not ismount(p.mountpoint) or p.mountpoint == "/":
             continue
 
-        try:
-            if not access(partition.mountpoint, W_OK):
-                continue
-        except:
-            continue
+        device_name = getattr(p, "device", "") or ""
+        description = getattr(p, "description", "") or ""
+        model = getattr(p, "model", "") or ""
 
-        device_type = "HDD"  # default
-        description = partition.description
+        # Determine the device type
+        device_type = get_device_type(device_name, description, model, p.mountpoint)
+        print(f"[BackupSuite] Device: {device_name}, Mount: {p.mountpoint}, "
+              f"Desc: {description}, Model: {model} → Type: {device_type}")
 
-        # Special handling for root
-        if partition.mountpoint == "/":
-            # Use the real device from /proc/mounts
-            if root_real_device and "mmcblk" in root_real_device:
-                device_type = "MMC"
-                mmc_root_found = True
-                description = _("Internal MMC")  # Custom description
-            else:
-                device_type = "FLASH"
-                description = _("Internal Flash")
+        # Get device profile with fallback to USB
+        profile = DEVICE_PROFILES.get(device_type, DEVICE_PROFILES["USB"])
 
-        # Other MMC cases (non-root)
-        elif ("mmc" in partition.mountpoint.lower() or
-              "card" in partition.description.lower() or
-              (hasattr(partition, 'device') and partition.device and
-               ("mmcblk" in partition.device or "mmc" in partition.device))):
-            device_type = "MMC"
+        # Ensure icon path is valid
+        icon_path = getIconPath(profile.get("icon", ""))
+        script_path = profile.get("script", "")
 
-        # USB devices
-        elif ("usb" in partition.mountpoint.lower() or
-              "stick" in partition.description.lower() or
-              (hasattr(partition, 'device') and partition.device and
-               partition.device.startswith("sd"))):
-            device_type = "USB"
+        # Verify that the script exists
+        if script_path and not exists(script_path):
+            print(f"[BackupSuite] Script not found: {script_path}")
+            script_path = ""
 
-        # Network shares
-        elif ("net" in partition.mountpoint.lower() or
-              "network" in partition.description.lower()):
-            device_type = "NET"
-
-        # Add only if not a duplicate of root
-        if not (partition.mountpoint == "/" and mmc_root_found and device_type == "FLASH"):
-            devices.append({
-                "path": partition.mountpoint,
-                "type": device_type,
-                "description": description,
-                "free": partition.free(),
-                "total": partition.total()
-            })
+        devices.append({
+            "type": device_type,
+            "path": p.mountpoint,
+            "desc": profile["desc"],
+            "icon": icon_path,
+            "script": script_path,
+            "free": p.free(),
+            "total": p.total()
+        })
 
     return devices
 
 
+def requires_openpli_fix():
+    return exists("/usr/lib/enigma2/python/Plugins/PLi")
+
+
 def get_lang():
+    """Detect the current language code, falling back to 'en' if unsupported or on error."""
     try:
         from Components.config import config
         lng = config.osd.language.value
 
         if not lng:
-            import os
-            lng = os.getenv('LANG', 'en_US.UTF-8')
+            lng = getenv("LANG", "en_US.UTF-8")
 
-        if '.' not in lng and '_' in lng:
-            lng += '.UTF-8'
+        if "." not in lng and "_" in lng:
+            lng += ".UTF-8"
 
-        base_lng = lng.split('_')[0] if '_' in lng else lng.split('.')[0]
+        base_lng = lng.split("_")[0] if "_" in lng else lng.split(".")[0]
         base_lng = base_lng[:2] if len(base_lng) > 2 else base_lng
 
-        supported_languages = ['en', 'it', 'de', 'fr', 'es', 'nl', 'pl']
-        return base_lng if base_lng in supported_languages else 'en'
+        supported_languages = ["en", "it", "de", "fr", "es", "nl", "pl"]
+        return base_lng if base_lng in supported_languages else "en"
     except Exception as e:
         print(f"[BackupSuite] Language detection error: {str(e)}")
-        return 'en'
+        return "en"
 
 
 class BackupStart(Screen):
@@ -383,86 +501,228 @@ class BackupStart(Screen):
             -1
         )
         self.setTitle(self.setup_title)
-        self.onShown.append(self.populateDeviceList)
+        self.onShown.append(self.init_plugin)
         self.onLayoutFinish.append(self.setCustomTitle)
 
     def setCustomTitle(self):
         self.setTitle(_(f"Backup Suite v{VERSION}"))
 
+    def init_plugin(self):
+        """
+        # if not self.check_dependencies():
+            # self.close()
+        # else:
+        """
+        self.populateDeviceList()
+
     def check_dependencies(self):
+        """Verify the presence of required backup scripts for each device type."""
         missing_scripts = []
-        for device_type, script_name in BACKUP_SCRIPTS.items():
-            script_path = get_script_path(device_type)
+        print("[BackupSuite] Checking dependencies...")
+
+        for dev_type, profile in DEVICE_PROFILES.items():
+            script_path = profile.get("script")
+            if not script_path:  # Skip profiles without scripts
+                continue
+
+            print(f"[BackupSuite] Checking script: {script_path}")
+
             if not exists(script_path):
+                print(f"[BackupSuite] Script not found: {script_path}")
                 missing_scripts.append(basename(script_path))
 
         if missing_scripts:
+            error_msg = _(
+                "Missing backup scripts:\n\n"
+                "{}\n\n"
+                "Please reinstall the BackupSuite plugin."
+            ).format("\n".join(missing_scripts))
+
             self.session.open(
                 MessageBox,
-                _("Missing backup scripts: {}\nPlease install the complete package").format(", ".join(missing_scripts)),
+                error_msg,
                 MessageBox.TYPE_ERROR
             )
+            return False
+
+        print("[BackupSuite] All dependencies satisfied")
+        return True
 
     def populateDeviceList(self):
+        """Populate the device list with available backup devices and special options."""
+        print("[BackupSuite] Populating device list...")
         self.devicelist = []
-        device_types = {
-            "HDD": {"name": _("Internal Hard Drive"), "icon": "hdd.png"},
-            "USB": {"name": _("USB Storage"), "icon": "usb.png"},
-            "MMC": {"name": _("Internal MMC"), "icon": "mmc.png"},
-            "FLASH": {"name": _("Internal Flash"), "icon": "flash.png"},
-            "NET": {"name": _("Network Storage"), "icon": "network.png"}
-        }
-        try:
-            devices = get_available_backup_devices()
-            for dev in devices:
-                print(f"• {dev['description']} ({dev['type']}): {dev['path']}")
-        except Exception as e:
-            print(f"[BackupSuite] Error detecting devices: {str(e)}")
-            devices = []
+        devices = get_available_backup_devices()
+        added_paths = set()
 
-        added_types = set()
-        for device in devices:
-            dev_type = device["type"]
-            if dev_type in device_types and dev_type not in added_types:
-                label = _("Backup to {}").format(device_types[dev_type]["name"])
-                self.addDevice(label, device_types[dev_type]["icon"], dev_type)
-                added_types.add(dev_type)
+        for dev in devices:
+            print(f"[BackupSuite] Processing device: {dev['path']}")
+            print(f"  Type: {dev['type']}")
+            print(f"  Icon: {dev['icon']} - Exists: {exists(dev['icon'])}")
+            print(f"  Script: {dev['script']} - Exists: {exists(dev['script'])}")
 
-        self.addDevice(_("Backup to Network Storage"), "network.png", "NET")
+            dev_path = dev["path"]
+
+            if dev_path in added_paths:
+                print(f"[BackupSuite] Skipping duplicate path: {dev_path}")
+                continue
+
+            print(f"[BackupSuite] Processing device at {dev_path} (type: {dev['type']})")
+
+            # Create descriptive name
+            short_path = basename(dev_path.rstrip('/'))
+            description = f"{dev['desc']} ({short_path})"
+
+            self.addDevice(
+                _("Backup to {}").format(description),
+                dev["icon"],  # Icon from profile
+                dev["type"],
+                dev_path,
+                dev["script"]  # Script from profile
+            )
+            added_paths.add(dev_path)
+            print(f"[BackupSuite] Added device: {description} with icon {dev['icon']}")
+
+        # Add special options
+        network_shares = get_mounted_network_shares()
+        print(f"[BackupSuite] Found {len(network_shares)} network shares")
+
+        if network_shares:
+            print("[BackupSuite] Adding network backup option")
+            net_profile = DEVICE_PROFILES["NET"]
+            self.addDevice(
+                _("Backup to Network"),
+                net_profile["icon"],
+                "NET",
+                None,
+                net_profile["script"]
+            )
 
         if exists("/boot/barryhallen"):
-            self.addDevice(_("Barry Allen Multiboot"), "multiboot.png", "BA")
+            print("[BackupSuite] Adding Barry Allen option")
+            ba_profile = DEVICE_PROFILES["BA"]
+            self.addDevice(
+                _("Barry Allen"),
+                ba_profile["icon"],
+                "BA",
+                None,
+                ba_profile["script"]
+            )
 
-        self.addDevice(_("Restore Backup"), "restore.png", "RESTORE")
+        print("[BackupSuite] Adding restore option")
+        restore_profile = DEVICE_PROFILES["RESTORE"]
+        self.addDevice(
+            _("Restore Backup"),
+            restore_profile["icon"],
+            "RESTORE",
+            None,
+            restore_profile["script"]
+        )
 
-        self["devicelist"].setList([
-            BackupDeviceEntryComponent(entry) for entry in self.devicelist
-        ])
+        print(f"[BackupSuite] Total devices in list: {len(self.devicelist)}")
 
-    def addDevice(self, description, icon, dev_type):
-        self.devicelist.append((description, icon, dev_type))
+        # Build the menu items list
+        menu_items = []
+        for entry in self.devicelist:
+            menu_items.append(BackupDeviceEntryComponent(entry))
+
+        self["devicelist"].setList(menu_items)
+
+    def addDevice(self, description, icon, dev_type, dev_path, script_path):
+        """Add a device to the list with all details."""
+        self.devicelist.append((description, icon, dev_type, dev_path, script_path))
+        print(f"[BackupSuite] Added device: {description}, {icon}, {dev_type}, {dev_path}")
 
     def deviceSelected(self):
         selection = self["devicelist"].getCurrent()
         if selection and isinstance(selection, list) and len(selection) > 0:
             device_tuple = selection[0]
-            if isinstance(device_tuple, tuple) and len(device_tuple) >= 3:
+            if isinstance(device_tuple, tuple) and len(device_tuple) >= 5:  # Now 5 elements
                 dev_type = device_tuple[2]
+                dev_path = device_tuple[3]
+                dev_script = device_tuple[4]  # New field for the script
+
                 if dev_type == "NET":
                     self.start_net_backup()
-
                 elif dev_type == "RESTORE":
                     self.startRestore()
-
                 else:
-                    self.startBackup(dev_type)
+                    # Pass the script to the backup start method
+                    self.startBackup(dev_type, dev_path, dev_script)
             else:
-                print("[BackupSuite] Invalid device tuple: " + str(device_tuple))
+                print(f"[BackupSuite] Invalid device tuple: {device_tuple}")
         else:
-            print("[BackupSuite] Invalid selection format")
+            print("[BackupSuite] Invalid selection")
+
+    def startBackup(self, dev_type=None, dev_path=None, dev_script=None):
+        """Start the backup process, optionally using parameters or current selection."""
+        if not dev_type or not dev_path:
+            selection = self["devicelist"].getCurrent()
+            if selection and isinstance(selection, list) and len(selection) > 0:
+                device_tuple = selection[0]
+                if isinstance(device_tuple, tuple) and len(device_tuple) >= 5:
+                    if not dev_type:
+                        dev_type = device_tuple[2]
+                    if not dev_path:
+                        dev_path = device_tuple[3]
+                    if not dev_script:
+                        dev_script = device_tuple[4]  # Retrieve script if missing
+
+        if dev_type:
+            device_names = {
+                "MMC": _("SD Card"),
+                "USB": _("USB Storage"),
+                "HDD": _("Hard Disk"),
+                "NET": _("Network Storage"),
+                "BA": _("Barry Allen")
+            }
+            device_name = device_names.get(dev_type, dev_type)
+
+            self.session.openWithCallback(
+                # Pass dev_script to confirmation function
+                lambda result, dev_type=dev_type, dev_path=dev_path, dev_script=dev_script:
+                    self.confirmBackup(result, dev_type, dev_path, dev_script),
+                MessageBox,
+                _("Do you want to make a backup to {}?\n\nThis may take several minutes.").format(device_name),
+                MessageBox.TYPE_YESNO
+            )
+
+    def confirmBackup(self, result, dev_type, dev_path, dev_script):
+        """Execute the backup if the user confirmed."""
+        if result:
+            self.write_enigma2_version()
+            self.execute_backup(dev_type, dev_path, dev_script)
+
+    def execute_backup(self, device_type, media_path=None, script_path=None):
+        """Start the backup process using the given script for the device."""
+        print(f"[BackupSuite] Starting backup for: {device_type} at {media_path or ''}")
+
+        if not script_path:
+            profile = DEVICE_PROFILES.get(device_type, {})
+            script_path = profile.get("script", "")
+
+        # Check if the script exists
+        if not script_path or not exists(script_path):
+            error_msg = _("Backup script not found for {}: {}").format(
+                device_type,
+                basename(script_path) if script_path else "N/A"
+            )
+            print(f"[BackupSuite] {error_msg}")
+            self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
+            return
+
+        print(f"[BackupSuite] Using script: {script_path}")
+
+        lang = get_lang()
+        title = _(f"{device_type} Backup")
+
+        # Build the command
+        cmd = f"chmod +x '{script_path}'; '{script_path}' '{lang}' '{device_type}' '{media_path}'"
+        print(f"[BackupSuite] Executing command: {cmd}")
+        self.session.openWithCallback(self.console_closed, Console, title, [cmd])
 
     def start_net_backup(self):
-        """Start the network backup process"""
+        """Start the network backup process."""
         network_shares = get_mounted_network_shares()
 
         if not network_shares:
@@ -487,7 +747,7 @@ class BackupStart(Screen):
         )
 
     def net_share_selected(self, selected_path):
-        """Callback for share selection"""
+        """Callback for network share selection."""
         if selected_path:
             backup_dir = join(selected_path, "backup")
             if not exists(backup_dir):
@@ -503,54 +763,26 @@ class BackupStart(Screen):
 
             self.execute_backup("NET", backup_dir)
 
-    def startBackup(self, dev_type=None):
-        if not dev_type:
-            selection = self["devicelist"].getCurrent()
-            if selection and isinstance(selection, list) and len(selection) > 0:
-                device_tuple = selection[0]
-                if isinstance(device_tuple, tuple) and len(device_tuple) >= 3:
-                    dev_type = device_tuple[2]
-
-        if dev_type:
-            device_names = {
-                "HDD": _("Internal Hard Drive"),
-                "USB": _("USB Storage"),
-                "MMC": _("Internal Memory"),
-                "NET": _("Network Storage"),
-                "BA": _("Barry Allen")
-            }
-            device_name = device_names.get(dev_type, dev_type)
-
-            self.session.openWithCallback(
-                lambda result: self.confirmBackup(result, dev_type),
-                MessageBox,
-                _("Do you want to make a backup to {}?\n\nThis may take several minutes.").format(device_name),
-                MessageBox.TYPE_YESNO
-            )
-
-    def confirmBackup(self, result, dev_type):
-        if result:
-            self.write_enigma2_version()
-            self.execute_backup(dev_type)
-
     def startRestore(self):
+        """Start the restore process opening the FlashImageConfig with the backup file pattern."""
+        file_pattern = get_backup_files_pattern()
+        self.session.open(FlashImageConfig, '/media/', file_pattern)
+
+    def flash_image(self):
+        """Open FlashImageConfig to flash a backup image from /media/ with matching file pattern."""
         file_pattern = get_backup_files_pattern()
         self.session.open(FlashImageConfig, '/media/', file_pattern)
 
     def show_help(self):
+        """Open the help screen."""
         self.session.open(BackupHelpScreen)
 
-    def flash_image(self):
-        file_pattern = get_backup_files_pattern()
-        self.session.open(FlashImageConfig, '/media/', file_pattern)
-
-    def cancel(self):
-        self.close(False, self.session)
-
     def keyInfo(self):
+        """Open the 'What's New' info screen."""
         self.session.open(WhatisNewInfo)
 
     def write_enigma2_version(self):
+        """Write the current Enigma2 version string to a file."""
         try:
             from Components.About import getEnigmaVersionString
             with open(ENIGMA2VERSIONFILE, 'w') as f:
@@ -558,53 +790,8 @@ class BackupStart(Screen):
         except:
             pass
 
-    def execute_backup(self, device_type, media_path=None):
-        print(f"[BackupSuite] Starting backup for: {device_type}")
-
-        script_path = get_script_path(device_type)
-        if not exists(script_path):
-            self.session.open(
-                MessageBox,
-                _("Backup script not found: {}").format(basename(script_path)),
-                MessageBox.TYPE_ERROR
-            )
-            return
-
-        lang = get_lang()
-        title = _(f"{device_type} Backup")
-
-        if device_type == "NET":
-            if not media_path:
-                self.session.open(MessageBox, _("Network path not specified!"), MessageBox.TYPE_ERROR)
-                return
-
-            backup_dir = join(media_path, "backup")
-            image_dir = join(backup_dir, "image")
-
-            try:
-                makedirs(backup_dir, exist_ok=True)
-                makedirs(image_dir, exist_ok=True)
-                marker_path = join(backup_dir, "backupstick")
-                with open(marker_path, "w") as f:
-                    f.write("")
-            except Exception as e:
-                error_msg = _(
-                    "Failed to create backup directory:\n"
-                    "Path: {}\n"
-                    "Error: {}"
-                ).format(backup_dir, str(e))
-
-                self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
-                return
-
-            cmd = f"chmod +x '{script_path}'; '{script_path}' '{lang}' 'NET' '{backup_dir}'"
-        else:
-            cmd = f"chmod +x '{script_path}'; '{script_path}' '{lang}' '{device_type}'"
-
-        print(f"[BackupSuite] Executing command: {cmd}")
-        self.session.openWithCallback(self.console_closed, Console, title, [cmd])
-
     def console_closed(self, retval=None):
+        """Handle backup process completion and show errors if any."""
         if retval is not None and retval != 0:
             error_msg = ""
             try:
@@ -636,6 +823,9 @@ class BackupStart(Screen):
                 MessageBox.TYPE_ERROR,
                 timeout=30
             )
+
+    def cancel(self):
+        self.close(False, self.session)
 
 
 class FlashImageConfig(Screen):
@@ -725,6 +915,7 @@ class FlashImageConfig(Screen):
         return filename if filename else dirname
 
     def keyGreen(self):
+        """Handle the green key press: show warning before proceeding with backup."""
         backup_dir = self.get_current_selected()
         if not backup_dir:
             return
@@ -732,9 +923,23 @@ class FlashImageConfig(Screen):
         warning_text = "\n"
         if self.dualboot:
             warning_text += _("\nYou are using dual multiboot!")
-        self.session.openWithCallback(lambda r: self.confirmedWarning(r), MessageBox, _("Warning!\nUse at your own risk! Make always a backup before use!\nDon't use it if you use multiple ubi volumes in ubi layer!") + warning_text, MessageBox.TYPE_INFO)
+
+        message = (
+            _("Warning!\nUse at your own risk! Make always a backup before use!\n"
+              "Don't use it if you use multiple ubi volumes in ubi layer!")
+            + warning_text
+        )
+        self.session.openWithCallback(
+            lambda result: self.confirmedWarning(result),
+            MessageBox,
+            message,
+            MessageBox.TYPE_INFO
+        )
 
     def showparameterlist(self):
+        """
+        Display parameters and required files information for flashing, depending on the box model.
+        """
         if self["key_green"].getText() == _("Run flash"):
             dirname = self.getCurrentSelected()
             model = get_box_type()
@@ -915,14 +1120,25 @@ class FlashImageConfig(Screen):
         self.close()
 
     def keyYellow(self):
+        """Handle the yellow key action for unzip or backup info display."""
         if self["key_yellow"].getText() == _("Unzip"):
             filename = self.filelist.getFilename()
             if filename and filename.endswith(".zip"):
-                self.session.openWithCallback(self.doUnzip, MessageBox, _("Do you really want to unpack {} ?").format(filename), MessageBox.TYPE_YESNO)
+                self.session.openWithCallback(
+                    self.doUnzip,
+                    MessageBox,
+                    _("Do you really want to unpack {} ?").format(filename),
+                    MessageBox.TYPE_YESNO
+                )
         elif self["key_yellow"].getText() == _("Backup info"):
-            self.session.open(MessageBox, "\n\n\n{}".format(self.getBackupInfo()), MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox,
+                "\n\n\n{}".format(self.getBackupInfo()),
+                MessageBox.TYPE_INFO
+            )
 
     def getBackupInfo(self):
+        """Return the content of the VERSIONFILE in the selected backup directory."""
         backup_dir = self.getCurrentSelected()
         backup_info = ""
         try:
@@ -933,6 +1149,7 @@ class FlashImageConfig(Screen):
         return backup_info
 
     def doUnzip(self, answer):
+        """Unpack the selected zip file into its directory if confirmed."""
         if answer is True:
             dirname = self.filelist.getCurrentDirectory()
             filename = self.filelist.getFilename()
@@ -945,10 +1162,17 @@ class FlashImageConfig(Screen):
                     pass
 
     def KeyBlue(self):
+        """Handle blue key: prompt confirmation to delete the selected backup."""
         if self["key_blue"].getText() == _("Delete"):
-            self.session.openWithCallback(self.confirmedDelete, MessageBox, _("You are about to delete this backup:\n\n{}\nContinue?").format(self.getBackupInfo()), MessageBox.TYPE_YESNO)
+            self.session.openWithCallback(
+                self.confirmedDelete,
+                MessageBox,
+                _("You are about to delete this backup:\n\n{}\nContinue?").format(self.getBackupInfo()),
+                MessageBox.TYPE_YESNO
+            )
 
     def confirmedDelete(self, answer):
+        """Delete the selected backup directory if confirmed."""
         if answer is True:
             backup_dir = self.getCurrentSelected()
             cmdmessage = f"echo -e 'Removing backup:   {basename(backup_dir.rstrip('/'))}\\n'"
@@ -977,7 +1201,7 @@ class BackupHelpScreen(Screen):
         help_content += _("Backup Options:\n")
         help_content += _("• HDD Backup: Full system backup to internal hard drive\n")
         help_content += _("• USB Backup: Create a bootable USB recovery stick\n")
-        help_content += _("• MMC Backup: Backup to internal storage (eMMC)\n")
+        help_content += _("• MMC Backup: Backup to external storage (eMMC)\n")
         help_content += _("• NET Backup: Backup to network storage (NAS/SMB)\n")
         help_content += _("• Barry Allen: Multiboot backup (if installed)\n")
         help_content += _("• Restore: Flash a previously created backup or image\n\n")
@@ -1064,6 +1288,17 @@ class WhatisNewInfo(Screen):
 
 
 def main(session, **kwargs):
+    print("[BackupSuite] Starting plugin...")
+    if requires_openpli_fix():
+        print("[BackupSuite] OpenPLi detected, applying unmount fix")
+        # Only unmount potentially dangerous mounts
+        os_system("umount /media/mmc 2>/dev/null")
+        os_system("umount /media/sda 2>/dev/null")
+        os_system("umount /media/internal 2>/dev/null")
+        os_system("umount /media/sdcard 2>/dev/null")  # Added for safety
+    else:
+        print("[BackupSuite] Not OpenPLi, skipping unmount fix")
+
     session.open(BackupStart)
 
 
