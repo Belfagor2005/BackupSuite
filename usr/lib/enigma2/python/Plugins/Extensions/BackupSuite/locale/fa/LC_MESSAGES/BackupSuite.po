@@ -1,0 +1,851 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Backup Suite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-28 17:49+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+
+#: ../plugin.py:226 ../plugin.py:227 ../plugin.py:474 ../plugin.py:475
+msgid "GB"
+msgstr ""
+
+#: ../plugin.py:229 ../plugin.py:477
+msgid "Unknown"
+msgstr ""
+
+#: ../plugin.py:291 ../plugin.py:401
+msgid "Internal Flash"
+msgstr ""
+
+#: ../plugin.py:339
+msgid "Make or restore a backup"
+msgstr ""
+
+#: ../plugin.py:341 ../plugin.py:722 ../plugin.py:1119
+msgid "Close"
+msgstr ""
+
+#: ../plugin.py:342
+msgid "Backup"
+msgstr ""
+
+#: ../plugin.py:343
+msgid "Restore"
+msgstr ""
+
+#: ../plugin.py:344
+msgid "Help"
+msgstr ""
+
+#: ../plugin.py:369
+#, python-format
+msgid "Backup Suite v%s"
+msgstr ""
+
+#: ../plugin.py:381
+#, python-format
+msgid ""
+"Missing backup scripts: %s\n"
+"Please install the complete package"
+msgstr ""
+
+#: ../plugin.py:398 ../plugin.py:580
+msgid "Internal Hard Drive"
+msgstr ""
+
+#: ../plugin.py:399 ../plugin.py:581
+msgid "USB Storage"
+msgstr ""
+
+#: ../plugin.py:400
+msgid "MMC Memory"
+msgstr ""
+
+#: ../plugin.py:409
+#, python-format
+msgid "Backup to %s"
+msgstr ""
+
+#: ../plugin.py:414
+msgid "Backup to Network Storage"
+msgstr ""
+
+#: ../plugin.py:418
+msgid "Barry Allen Multiboot"
+msgstr ""
+
+#: ../plugin.py:421
+msgid "Restore Backup"
+msgstr ""
+
+#: ../plugin.py:520
+msgid "No network shares mounted! Please mount a share first."
+msgstr ""
+
+#: ../plugin.py:529
+msgid "Free:"
+msgstr ""
+
+#: ../plugin.py:529
+msgid "Total:"
+msgstr ""
+
+#: ../plugin.py:535
+msgid "Select network share for backup:"
+msgstr ""
+
+#: ../plugin.py:547
+msgid "Network configuration not available"
+msgstr ""
+
+#: ../plugin.py:562
+#, python-format
+msgid ""
+"Could not create backup directory: %s\n"
+"Error: %s"
+msgstr ""
+
+#: ../plugin.py:582
+msgid "Internal Memory"
+msgstr ""
+
+#: ../plugin.py:583
+msgid "Network Storage"
+msgstr ""
+
+#: ../plugin.py:584
+msgid "Barry Allen"
+msgstr ""
+
+#: ../plugin.py:590
+#, python-format
+msgid ""
+"Do you want to make a backup to %s?\n"
+"\n"
+"This may take several minutes."
+msgstr ""
+
+#: ../plugin.py:634
+#, python-format
+msgid "Backup script not found: %s"
+msgstr ""
+
+#: ../plugin.py:640
+#, python-format
+msgid "%s Backup"
+msgstr ""
+
+#: ../plugin.py:644
+msgid "Network path not specified!"
+msgstr ""
+
+#: ../plugin.py:660
+msgid ""
+"Failed to create backup directory:\n"
+"Path: {}\n"
+"Error: {}"
+msgstr ""
+
+#: ../plugin.py:686
+msgid "Backup failed: Not enough free space on device!"
+msgstr ""
+
+#: ../plugin.py:688
+msgid "Backup failed: Write permission denied!"
+msgstr ""
+
+#: ../plugin.py:690
+msgid "Backup failed: Device is read-only!"
+msgstr ""
+
+#: ../plugin.py:692
+msgid "Backup failed: Required files not found!"
+msgstr ""
+
+#: ../plugin.py:694
+msgid "Backup failed: Network connection lost!"
+msgstr ""
+
+#: ../plugin.py:702
+msgid "Backup failed! Last errors:"
+msgstr ""
+
+#: ../plugin.py:706
+#, python-format
+msgid "Backup failed! Check log: %s"
+msgstr ""
+
+#: ../plugin.py:721
+msgid "Select the folder with backup"
+msgstr ""
+
+#: ../plugin.py:726
+#, python-format
+msgid "current:  %s"
+msgstr ""
+
+#: ../plugin.py:761
+#, python-format
+msgid "Current: %s"
+msgstr ""
+
+#: ../plugin.py:764 ../plugin.py:994
+msgid "Unzip"
+msgstr ""
+
+#: ../plugin.py:767
+msgid "Flash"
+msgstr ""
+
+#: ../plugin.py:769
+msgid "About"
+msgstr ""
+
+#: ../plugin.py:770 ../plugin.py:1021
+msgid "Delete"
+msgstr ""
+
+#: ../plugin.py:810
+msgid ""
+"\n"
+"You are using dual multiboot!"
+msgstr ""
+
+#: ../plugin.py:811
+msgid ""
+"Warning!\n"
+"Use at your own risk! Make always a backup before use!\n"
+"Don't use it if you use multiple ubi volumes in ubi layer!"
+msgstr ""
+
+#: ../plugin.py:814
+msgid "Run flash"
+msgstr ""
+
+#: ../plugin.py:820
+msgid "Select parameter for start flash!\n"
+msgstr ""
+
+#: ../plugin.py:821
+msgid "For flashing your receiver files are needed:\n"
+msgstr ""
+
+#: ../plugin.py:893
+msgid ""
+"\n"
+"The found files:"
+msgstr ""
+
+#: ../plugin.py:896
+#, python-format
+msgid "  %s (maybe ok)"
+msgstr ""
+
+#: ../plugin.py:899
+#, python-format
+msgid "  %s (maybe error)"
+msgstr ""
+
+#: ../plugin.py:902
+msgid " nothing!"
+msgstr ""
+
+#: ../plugin.py:908 ../plugin.py:942
+msgid "Simulate (no write)"
+msgstr ""
+
+#: ../plugin.py:909 ../plugin.py:945
+msgid "Standard (root and kernel)"
+msgstr ""
+
+#: ../plugin.py:910 ../plugin.py:951
+msgid "Only root"
+msgstr ""
+
+#: ../plugin.py:911 ../plugin.py:954
+msgid "Only kernel"
+msgstr ""
+
+#: ../plugin.py:914 ../plugin.py:957
+msgid "Simulate second partition (no write)"
+msgstr ""
+
+#: ../plugin.py:915 ../plugin.py:960
+msgid "Second partition (root and kernel)"
+msgstr ""
+
+#: ../plugin.py:916 ../plugin.py:963
+msgid "Second partition (only root)"
+msgstr ""
+
+#: ../plugin.py:917 ../plugin.py:966
+msgid "Second partition (only kernel)"
+msgstr ""
+
+#: ../plugin.py:923
+msgid "Exit"
+msgstr ""
+
+#: ../plugin.py:934
+msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
+msgstr ""
+
+#: ../plugin.py:939
+msgid "Flashing: "
+msgstr ""
+
+#: ../plugin.py:972
+msgid "NOT found files for flashing!\n"
+msgstr ""
+
+#: ../plugin.py:978
+msgid "Show only found image and mtd partitions.\n"
+msgstr ""
+
+#: ../plugin.py:983
+msgid "ofgwrite will stop enigma2 now to run the flash.\n"
+msgstr ""
+
+#: ../plugin.py:984
+msgid "Your STB will freeze during the flashing process.\n"
+msgstr ""
+
+#: ../plugin.py:985
+msgid "Please: DO NOT reboot your STB and turn off the power.\n"
+msgstr ""
+
+#: ../plugin.py:986
+msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
+msgstr ""
+
+#: ../plugin.py:997
+#, python-format
+msgid "Do you really want to unpack %s ?"
+msgstr ""
+
+#: ../plugin.py:998
+msgid "Backup info"
+msgstr ""
+
+#: ../plugin.py:1022
+#, python-format
+msgid ""
+"You are about to delete this backup:\n"
+"\n"
+"%s\n"
+"Continue?"
+msgstr ""
+
+#: ../plugin.py:1030
+msgid "Delete backup"
+msgstr ""
+
+#: ../plugin.py:1041
+msgid "BackupSuite Help"
+msgstr ""
+
+#: ../plugin.py:1044
+#, python-format
+msgid ""
+"BackupSuite v%s\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1045
+msgid ""
+"Welcome to BackupSuite help.\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1046
+msgid "Device List:\n"
+msgstr ""
+
+#: ../plugin.py:1047
+msgid "• Use UP/DOWN buttons to navigate through backup options\n"
+msgstr ""
+
+#: ../plugin.py:1048
+msgid ""
+"• Press OK to select an option\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1050
+msgid "Backup Options:\n"
+msgstr ""
+
+#: ../plugin.py:1051
+msgid "• HDD Backup: Full system backup to internal hard drive\n"
+msgstr ""
+
+#: ../plugin.py:1052
+msgid "• USB Backup: Create a bootable USB recovery stick\n"
+msgstr ""
+
+#: ../plugin.py:1053
+msgid "• MMC Backup: Backup to internal storage (eMMC)\n"
+msgstr ""
+
+#: ../plugin.py:1054
+msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
+msgstr ""
+
+#: ../plugin.py:1055
+msgid "• Barry Allen: Multiboot backup (if installed)\n"
+msgstr ""
+
+#: ../plugin.py:1056
+msgid ""
+"• Restore: Flash a previously created backup or image\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1058
+msgid "Button Functions:\n"
+msgstr ""
+
+#: ../plugin.py:1059
+msgid "• GREEN: Start backup for selected device\n"
+msgstr ""
+
+#: ../plugin.py:1060
+msgid "• YELLOW: Start restore process\n"
+msgstr ""
+
+#: ../plugin.py:1061
+msgid "• BLUE: Show this help screen\n"
+msgstr ""
+
+#: ../plugin.py:1062
+msgid ""
+"• RED: Close BackupSuite\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1064
+msgid "NET Backup Instructions:\n"
+msgstr ""
+
+#: ../plugin.py:1065
+msgid "1. Mount your network share first:\n"
+msgstr ""
+
+#: ../plugin.py:1066
+msgid "   - Go to Main Menu > Setup > System > Storage Manager\n"
+msgstr ""
+
+#: ../plugin.py:1067
+msgid "   - Select 'Network Storage' and add your NAS/SMB share\n"
+msgstr ""
+
+#: ../plugin.py:1068
+msgid "   - Enter server IP, share name, username and password\n"
+msgstr ""
+
+#: ../plugin.py:1069
+msgid ""
+"   - Mount the share and assign a name (e.g., NET_BACKUP)\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1070
+msgid "2. Select 'NET Backup' from the device list\n"
+msgstr ""
+
+#: ../plugin.py:1071
+msgid "3. Choose your mounted network share\n"
+msgstr ""
+
+#: ../plugin.py:1072
+msgid ""
+"4. Confirm and start the backup process\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1074
+msgid "Best Practices:\n"
+msgstr ""
+
+#: ../plugin.py:1075
+msgid "- Keep regular backups of your system\n"
+msgstr ""
+
+#: ../plugin.py:1076
+msgid "- Verify you have enough free storage space\n"
+msgstr ""
+
+#: ../plugin.py:1077
+msgid "- Never interrupt backup/restore processes\n"
+msgstr ""
+
+#: ../plugin.py:1078
+msgid "- Use quality USB drives for recovery sticks\n"
+msgstr ""
+
+#: ../plugin.py:1079
+msgid ""
+"- For network backups, use wired connection instead of Wi-Fi\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1081
+msgid "Technical Notes:\n"
+msgstr ""
+
+#: ../plugin.py:1082
+msgid "- HDD backups: Stored in /media/hdd/backup\n"
+msgstr ""
+
+#: ../plugin.py:1083
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
+msgstr ""
+
+#: ../plugin.py:1084
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
+msgstr ""
+
+#: ../plugin.py:1085
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
+msgstr ""
+
+#: ../plugin.py:1086
+msgid ""
+"- Always choose 'Standard (root and kernel)' when restoring\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1088
+msgid "Troubleshooting NET Backup:\n"
+msgstr ""
+
+#: ../plugin.py:1089
+msgid "- Ensure NAS is powered on and accessible\n"
+msgstr ""
+
+#: ../plugin.py:1090
+msgid "- Verify username/password are correct\n"
+msgstr ""
+
+#: ../plugin.py:1091
+msgid "- Check share permissions (read/write)\n"
+msgstr ""
+
+#: ../plugin.py:1092
+msgid "- Test connection with ping command\n"
+msgstr ""
+
+#: ../plugin.py:1093
+msgid ""
+"- Use IP address instead of hostname if DNS fails\n"
+"\n"
+msgstr ""
+
+#: ../plugin.py:1095
+msgid "For detailed instructions and support:\n"
+msgstr ""
+
+#: ../plugin.py:1096
+msgid "Visit our GitHub repository:\n"
+msgstr ""
+
+#: ../plugin.py:1097
+msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgstr ""
+
+#: ../plugin.py:1118
+msgid "What is new since the last release?"
+msgstr ""
+
+#: ../plugin.py:1120
+msgid "Please wait"
+msgstr ""
+
+#: ../plugin.py:1142
+msgid "Backup and restore your image"
+msgstr ""
+
+#: ../message.py:27
+msgid "No supported receiver found!"
+msgstr ""
+
+#: ../message.py:32
+msgid "BACK-UP TOOL, FOR MAKING A COMPLETE BACK-UP"
+msgstr ""
+
+#: ../message.py:37
+msgid "Please be patient, a backup will now be made, this will take about: "
+msgstr ""
+
+#: ../message.py:42
+msgid " size to be backed up: "
+msgstr ""
+
+#: ../message.py:47
+msgid "not found, the backup process will be aborted!"
+msgstr ""
+
+#: ../message.py:52
+msgid "Some information about the task"
+msgstr ""
+
+#: ../message.py:57
+msgid "Create: root.ubifs"
+msgstr ""
+
+#: ../message.py:62
+msgid "Create: kerneldump"
+msgstr ""
+
+#: ../message.py:67
+msgid "Additional backup -> "
+msgstr ""
+
+#: ../message.py:72
+msgid "USB Image created in: "
+msgstr ""
+
+#: ../message.py:77
+msgid "and there is made an extra copy in: "
+msgstr ""
+
+#: ../message.py:82
+msgid "Please check the manual of the receiver on how to restore the image."
+msgstr ""
+
+#: ../message.py:87
+msgid "Image creation FAILED!"
+msgstr ""
+
+#: ../message.py:92
+msgid "available "
+msgstr ""
+
+#: ../message.py:97
+msgid "There is a valid USB-flashdrive detected in one of the USB-ports, therefore an extra copy of the back-up image will now be copied to that USB-flashdrive."
+msgstr ""
+
+#: ../message.py:98
+msgid "This only takes about 20 seconds....."
+msgstr ""
+
+#: ../message.py:103
+msgid "Backup finished and copied to your USB-flashdrive."
+msgstr ""
+
+#: ../message.py:108
+msgid "Full back-up to the harddisk"
+msgstr ""
+
+#: ../message.py:113
+msgid "There is NO valid USB-stick found, so I've got nothing to do."
+msgstr ""
+
+#: ../message.py:115
+msgid "PLEASE READ THIS:"
+msgstr ""
+
+#: ../message.py:116
+msgid "To back-up directly to the USB-stick, the USB-stick MUST contain a file with the name:"
+msgstr ""
+
+#: ../message.py:117
+msgid "backupstick or"
+msgstr ""
+
+#: ../message.py:118
+msgid "backupstick.txt"
+msgstr ""
+
+#: ../message.py:120
+msgid "If you place an USB-stick containing this file then the back-up will be automatically made onto the USB-stick and can be used to restore the current image if necessary."
+msgstr ""
+
+#: ../message.py:121
+msgid "The program will exit now."
+msgstr ""
+
+#: ../message.py:126
+msgid "Full back-up direct to USB"
+msgstr ""
+
+#: ../message.py:131
+msgid "The content of the folder is:"
+msgstr ""
+
+#: ../message.py:136
+msgid "Time required for this process: "
+msgstr ""
+
+#: ../message.py:141
+msgid "minutes"
+msgstr ""
+
+#: ../message.py:146
+msgid "Backup done with: "
+msgstr ""
+
+#: ../message.py:151
+msgid "KB per second"
+msgstr ""
+
+#: ../message.py:156
+msgid "Most likely this back-up can't be restored because of it's size, it's simply too big to restore. This is a limitation of the bootloader not of the back-up or the BackupSuite."
+msgstr ""
+
+#: ../message.py:161
+msgid "There COULD be a problem with restoring this back-up because the size of the back-up comes close to the maximum size. This is a limitation of the bootloader not of the back-up or the BackupSuite."
+msgstr ""
+
+#: ../message.py:166
+msgid "* * * WARNING * * *"
+msgstr ""
+
+#: ../message.py:167
+msgid "Not enough free space on "
+msgstr ""
+
+#: ../message.py:172
+msgid " to make a back-up!"
+msgstr ""
+
+#: ../message.py:177
+msgid " MB available space"
+msgstr ""
+
+#: ../message.py:182
+msgid " MB needed space"
+msgstr ""
+
+#: ../message.py:187
+msgid "The program will abort, please try another medium with more free space to create your back-up."
+msgstr ""
+
+#: ../message.py:192
+msgid "is not executable..."
+msgstr ""
+
+#: ../message.py:197
+msgid "Using your own custom lookuptable.txt from the folder /etc"
+msgstr ""
+
+#: ../message.py:202
+msgid "Version unknown, probably not installed the right way."
+msgstr ""
+
+#: ../message.py:207
+msgid "not installed yet, now installing"
+msgstr ""
+
+#: ../message.py:212
+msgid "Probably you are trying to make the back-up in flash memory"
+msgstr ""
+
+#: ../message.py:217
+msgid "No additional USB-stick found to copy an extra backup"
+msgstr ""
+
+#: ../message.py:222
+msgid "Installed packages contained in this backup:"
+msgstr ""
+
+#: ../message.py:227
+msgid "NFI Image created in: "
+msgstr ""
+
+#: ../message.py:232
+msgid "Mount point does not exist! Please check your network share configuration."
+msgstr ""
+
+#: ../message.py:237
+msgid "Not a mounted filesystem! Please mount the network share first."
+msgstr ""
+
+#: ../message.py:242
+msgid "Write permission denied! Check share permissions."
+msgstr ""
+
+#: ../message.py:247
+msgid "Insufficient free space on NAS!"
+msgstr ""
+
+#: ../message.py:252
+msgid "Unable to create backup directories!"
+msgstr ""
+
+#: ../message.py:257
+msgid "Unable to create the backup marker file!"
+msgstr ""
+
+#: ../message.py:262
+msgid "Full back-up to the MultiMediaCard"
+msgstr ""
+
+#: ../message.py:267
+msgid "Backup started..."
+msgstr ""
+
+#: ../message.py:272
+msgid "Phase 1/3: Preparing backup environment"
+msgstr ""
+
+#: ../message.py:277
+msgid "Phase 2/3: Creating backup image"
+msgstr ""
+
+#: ../message.py:282
+msgid "Phase 3/3: Finalizing backup"
+msgstr ""
+
+#: ../message.py:287
+msgid "Backup completed successfully!"
+msgstr ""
+
+#: ../message.py:292
+msgid "Backup statistics:"
+msgstr ""
+
+#: ../message.py:297
+msgid "Backup size:"
+msgstr ""
+
+#: ../message.py:302
+msgid "Backup progress:"
+msgstr ""
+
+#: ../message.py:307
+msgid "Backup created in:"
+msgstr ""
+
+#: ../message.py:312
+msgid "Dumping kernel (25%)"
+msgstr ""
+
+#: ../message.py:317
+msgid "Creating root filesystem (50%)"
+msgstr ""
+
+#: ../message.py:322
+msgid "Assembling image (75%)"
+msgstr ""
+
+#: ../message.py:327
+msgid "Making extra copy (90%)"
+msgstr ""
+
+#: ../message.py:332
+msgid "Finalizing (95%)"
+msgstr ""
+
+#: ../message.py:337
+msgid "Backup complete (100%)"
+msgstr ""
