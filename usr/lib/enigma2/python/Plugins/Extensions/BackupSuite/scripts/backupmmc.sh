@@ -155,7 +155,9 @@ tar -C / -cpf "$TMP_DIR/rootfs.tar" \
 # Create final zip
 echo -n "$GREEN"
 echo "Creating compressed archive..."
-MODEL=$(grep -i "model" /proc/cpuinfo | head -1 | cut -d: -f2 | tr -d ' ')
+MODEL=$(grep -m1 -i "model" /proc/cpuinfo | cut -d: -f2 | tr -d ' ')
+[ -z "$MODEL" ] && MODEL=$(uname -m)
+# MODEL=$(grep -i "model" /proc/cpuinfo | head -1 | cut -d: -f2 | tr -d ' ')
 ZIP_FILE="$MEDIA/backup_${MODEL}_$(date +%Y%m%d_%H%M).zip"
 
 if command -v zip >/dev/null; then
