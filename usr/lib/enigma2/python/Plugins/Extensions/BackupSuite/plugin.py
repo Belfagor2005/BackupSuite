@@ -28,7 +28,7 @@ Features include:
 This rewrite aims to improve stability, usability, and maintainability compared to the original.
 """
 
-
+from __future__ import print_function
 from os import (
 	listdir,
 	system as os_system,
@@ -71,12 +71,12 @@ from Tools.LoadPixmap import LoadPixmap
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 
 from . import _
-from .schermen import *         # fallback for to screen..
-from .message import *          # fallback for to compile on test develop..
-from .findkerneldevice import * # fallback for to compile on test develop..
+from .schermen import *             # fallback for to screen..
+from .message import *              # fallback for to compile on test develop..
+from .findkerneldevice import *     # fallback for to compile on test develop..
 
 # Global constants
-VERSION = '3.0-r7'
+VERSION = '3.0-r10'
 LOGFILE = "/tmp/BackupSuite.log"
 VERSIONFILE = "imageversion"
 ENIGMA2VERSIONFILE = "/tmp/enigma2version"
@@ -112,7 +112,7 @@ def getIconPath(icon_name):
 def BackupDeviceEntryComponent(device):
 	raw_icon = device[1]
 	icon_path = getIconPath(raw_icon)
-	print(f"[BackupSuite] Loading icon: {raw_icon} -> {icon_path}")
+	print("[BackupSuite] Loading icon: {0} -> {1}".format(raw_icon, icon_path))
 
 	res = [
 		device,
@@ -237,11 +237,11 @@ def get_mounted_network_shares():
 						stat = statvfs(mountpoint)
 						free_gb = (stat.f_bavail * stat.f_frsize) / (1024 ** 3)
 						total_gb = (stat.f_blocks * stat.f_frsize) / (1024 ** 3)
-						free_str = f"{free_gb:.2f} {_('GB')}"
-						total_str = f"{total_gb:.2f} {_('GB')}"
+						free_str = "{0:.2f} {1}".format(free_gb, _('GB'))
+						total_str = "{0:.2f} {1}".format(total_gb, _('GB'))
 					except Exception as e:
 						free_str = total_str = _("Unknown")
-						print(f'error: {str(e)}')
+						print('error: {0}'.format(str(e)))
 
 					server_name = device.split("/")[-1].split(":")[0]
 					if not server_name:
@@ -261,7 +261,7 @@ def get_mounted_network_shares():
 						"fstype": fstype.upper()
 					})
 	except Exception as e:
-		print(f"[BackupSuite] Error reading /proc/mounts: {str(e)}")
+		print("[BackupSuite] Error reading /proc/mounts: {0}".format(str(e)))
 	return network_shares
 
 
@@ -290,7 +290,7 @@ def get_root_device_type():
 def get_device_type_from_sysfs(device_base):
 	"""Determine the device type by analyzing sysfs block information."""
 	try:
-		sysfs_path = f"/sys/block/{device_base}"
+		sysfs_path = "/sys/block/{0}".format(device_base)
 		if not exists(sysfs_path):
 			return "USB"  # Assume USB if the path doesn't exist
 
@@ -324,7 +324,7 @@ def get_device_type_from_sysfs(device_base):
 					return "HDD"
 
 	except Exception as e:
-		print(f"[BackupSuite] Error checking sysfs: {str(e)}")
+		print("[BackupSuite] Error checking sysfs: {0}".format(str(e)))
 
 	return "USB"  # Fallback default
 
@@ -399,8 +399,8 @@ def get_available_backup_devices():
 	partitions = harddiskmanager.getMountedPartitions()
 	root_device_type = get_root_device_type()
 
-	print(f"[BackupSuite] Found {len(partitions)} mounted partitions")
-	print(f"[BackupSuite] Root device type: {root_device_type}")
+	print("[BackupSuite] Found {0} mounted partitions".format(len(partitions)))
+	print("[BackupSuite] Root device type: {0}".format(root_device_type))
 
 	for p in partitions:
 		# Always exclude internal root filesystem
@@ -412,7 +412,7 @@ def get_available_backup_devices():
 			# Get filesystem type by calling the function
 			fs_type = p.filesystem()
 			if fs_type and fs_type.lower() in ("cifs", "nfs", "nfs4", "smbfs"):
-				print(f"[BackupSuite] Skipping network filesystem: {p.mountpoint}")
+				print("[BackupSuite] Skipping network filesystem: {0}".format(p.mountpoint))
 				continue
 
 		device_name = getattr(p, "device", "") or ""
@@ -421,8 +421,8 @@ def get_available_backup_devices():
 
 		# Determine the device type
 		device_type = get_device_type(device_name, description, model, p.mountpoint)
-		print(f"[BackupSuite] Device: {device_name}, Mount: {p.mountpoint}, "
-			  f"Desc: {description}, Model: {model} → Type: {device_type}")
+		print("[BackupSuite] Device: {0}, Mount: {1}, Desc: {2}, Model: {3} -> Type: {4}".format(
+			device_name, p.mountpoint, description, model, device_type))
 
 		# Get device profile with fallback to USB
 		profile = DEVICE_PROFILES.get(device_type, DEVICE_PROFILES["USB"])
@@ -433,7 +433,7 @@ def get_available_backup_devices():
 
 		# Verify that the script exists
 		if script_path and not exists(script_path):
-			print(f"[BackupSuite] Script not found: {script_path}")
+			print("[BackupSuite] Script not found: {0}".format(script_path))
 			script_path = ""
 
 		devices.append({
@@ -471,7 +471,7 @@ def get_lang():
 		supported_languages = ["en", "it", "de", "fr", "es", "nl", "pl"]
 		return base_lng if base_lng in supported_languages else "en"
 	except Exception as e:
-		print(f"[BackupSuite] Language detection error: {str(e)}")
+		print("[BackupSuite] Language detection error: {0}".format(str(e)))
 		return "en"
 
 
@@ -523,7 +523,7 @@ class BackupStart(Screen):
 		self.onLayoutFinish.append(self.setCustomTitle)
 
 	def setCustomTitle(self):
-		self.setTitle(_(f"Backup Suite v{VERSION}"))
+		self.setTitle(_("Backup Suite v{0}").format(VERSION))
 
 	def init_plugin(self):
 		"""
@@ -543,16 +543,16 @@ class BackupStart(Screen):
 			if not script_path:  # Skip profiles without scripts
 				continue
 
-			print(f"[BackupSuite] Checking script: {script_path}")
+			print("[BackupSuite] Checking script: {0}".format(script_path))
 
 			if not exists(script_path):
-				print(f"[BackupSuite] Script not found: {script_path}")
+				print("[BackupSuite] Script not found: {0}".format(script_path))
 				missing_scripts.append(basename(script_path))
 
 		if missing_scripts:
 			error_msg = _(
 				"Missing backup scripts:\n\n"
-				"{}\n\n"
+				"{0}\n\n"
 				"Please reinstall the BackupSuite plugin."
 			).format("\n".join(missing_scripts))
 
@@ -574,36 +574,36 @@ class BackupStart(Screen):
 		added_paths = set()
 
 		for dev in devices:
-			print(f"[BackupSuite] Processing device: {dev['path']}")
-			print(f"  Type: {dev['type']}")
-			print(f"  Icon: {dev['icon']} - Exists: {exists(dev['icon'])}")
-			print(f"  Script: {dev['script']} - Exists: {exists(dev['script'])}")
+			print("[BackupSuite] Processing device: {0}".format(dev['path']))
+			print("  Type: {0}".format(dev['type']))
+			print("  Icon: {0} - Exists: {1}".format(dev['icon'], exists(dev['icon'])))
+			print("  Script: {0} - Exists: {1}".format(dev['script'], exists(dev['script'])))
 			dev_path = dev["path"]
 
 			if dev_path in added_paths:
-				print(f"[BackupSuite] Skipping duplicate path: {dev_path}")
+				print("[BackupSuite] Skipping duplicate path: {0}".format(dev_path))
 				continue
 
-			print(f"[BackupSuite] Processing device at {dev_path} (type: {dev['type']})")
+			print("[BackupSuite] Processing device at {0} (type: {1})".format(dev_path, dev['type']))
 
 			# Create descriptive name
 			short_path = basename(dev_path.rstrip('/'))
-			description = f"{dev['desc']} ({short_path})"
+			description = "{0} ({1})".format(dev['desc'], short_path)
 
 			self.addDevice(
-				_("Backup to {}").format(description),
+				_("Backup to {0}").format(description),
 				dev["icon"],
 				dev["type"],
 				dev_path,
 				dev["script"]
 			)
 			added_paths.add(dev_path)
-			print(f"[BackupSuite] Added device: {description} with icon {dev['icon']}")
+			print("[BackupSuite] Added device: {0} with icon {1}".format(description, dev['icon']))
 
 		# Add special options - only one network option regardless of shares
 		network_shares = get_mounted_network_shares()
 		if network_shares:
-			print(f"[BackupSuite] Found {len(network_shares)} network shares")
+			print("[BackupSuite] Found {0} network shares".format(len(network_shares)))
 			print("[BackupSuite] Adding network backup option")
 			net_profile = DEVICE_PROFILES["NET"]
 			self.addDevice(
@@ -635,7 +635,7 @@ class BackupStart(Screen):
 			restore_profile["script"]
 		)
 
-		print(f"[BackupSuite] Total devices in list: {len(self.devicelist)}")
+		print("[BackupSuite] Total devices in list: {0}".format(len(self.devicelist)))
 
 		# Build the menu items list
 		menu_items = []
@@ -647,7 +647,7 @@ class BackupStart(Screen):
 	def addDevice(self, description, icon, dev_type, dev_path, script_path):
 		"""Add a device to the list with all details."""
 		self.devicelist.append((description, icon, dev_type, dev_path, script_path))
-		print(f"[BackupSuite] Added device: {description}, {icon}, {dev_type}, {dev_path}")
+		print("[BackupSuite] Added device: {0}, {1}, {2}, {3}".format(description, icon, dev_type, dev_path))
 
 	def deviceSelected(self):
 		selection = self["devicelist"].getCurrent()
@@ -666,7 +666,7 @@ class BackupStart(Screen):
 					# Pass the script to the backup start method
 					self.startBackup(dev_type, dev_path, dev_script)
 			else:
-				print(f"[BackupSuite] Invalid device tuple: {device_tuple}")
+				print("[BackupSuite] Invalid device tuple: {0}".format(device_tuple))
 		else:
 			print("[BackupSuite] Invalid selection")
 
@@ -699,7 +699,7 @@ class BackupStart(Screen):
 				lambda result, dev_type=dev_type, dev_path=dev_path, dev_script=dev_script:
 					self.confirmBackup(result, dev_type, dev_path, dev_script),
 				MessageBox,
-				_("Do you want to make a backup to {}?\n\nThis may take several minutes.").format(device_name),
+				_("Do you want to make a backup to {0}?\n\nThis may take several minutes.").format(device_name),
 				MessageBox.TYPE_YESNO
 			)
 
@@ -711,7 +711,7 @@ class BackupStart(Screen):
 
 	def execute_backup(self, device_type, media_path=None, script_path=None):
 		"""Start the backup process using the given script for the device."""
-		print(f"[BackupSuite] Starting backup for: {device_type} at {media_path or ''}")
+		print("[BackupSuite] Starting backup for: {0} at {1}".format(device_type, media_path or ''))
 
 		if not script_path:
 			profile = DEVICE_PROFILES.get(device_type, {})
@@ -719,22 +719,22 @@ class BackupStart(Screen):
 
 		# Check if the script exists
 		if not script_path or not exists(script_path):
-			error_msg = _("Backup script not found for {}: {}").format(
+			error_msg = _("Backup script not found for {0}: {1}").format(
 				device_type,
 				basename(script_path) if script_path else "N/A"
 			)
-			print(f"[BackupSuite] {error_msg}")
+			print("[BackupSuite] {0}".format(error_msg))
 			self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
 			return
 
-		print(f"[BackupSuite] Using script: {script_path}")
+		print("[BackupSuite] Using script: {0}".format(script_path))
 
 		lang = get_lang()
-		title = _(f"{device_type} Backup")
+		title = _("{0} Backup").format(device_type)
 
 		# Build the command
-		cmd = f"chmod +x '{script_path}'; '{script_path}' '{lang}' '{device_type}' '{media_path}'"
-		print(f"[BackupSuite] Executing command: {cmd}")
+		cmd = "chmod +x '{0}'; '{0}' '{1}' '{2}' '{3}'".format(script_path, lang, device_type, media_path)
+		print("[BackupSuite] Executing command: {0}".format(cmd))
 		self.session.openWithCallback(self.console_closed, Console, title, [cmd])
 
 	def start_net_backup(self):
@@ -751,8 +751,8 @@ class BackupStart(Screen):
 
 		menu = []
 		for share in network_shares:
-			display_text = f"{share['server']} ({share['fstype']}) - {share['mountpoint']}\n"
-			display_text += f"{_('Free:')} {share['freespace']} / {_('Total:')} {share['totalspace']}"
+			display_text = "{0} ({1}) - {2}\n".format(share['server'], share['fstype'], share['mountpoint'])
+			display_text += "{0} {1} / {2} {3}".format(_('Free:'), share['freespace'], _('Total:'), share['totalspace'])
 			menu.append((display_text, share["mountpoint"]))
 
 		self.session.openWithCallback(
@@ -773,17 +773,17 @@ class BackupStart(Screen):
 		if not exists(backup_dir):
 			try:
 				makedirs(backup_dir)
-				print(f"[BackupSuite] Created backup directory: {backup_dir}")
+				print("[BackupSuite] Created backup directory: {0}".format(backup_dir))
 			except Exception as e:
-				error_msg = _("Could not create backup directory: {}\nError: {}").format(backup_dir, str(e))
-				print(f"[BackupSuite] {error_msg}")
+				error_msg = _("Could not create backup directory: {0}\nError: {1}").format(backup_dir, str(e))
+				print("[BackupSuite] {0}".format(error_msg))
 				self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
 				return
 		
 		# Verify we can write to the directory
 		if not access(backup_dir, W_OK):
-			error_msg = _("No write permission for: {}").format(backup_dir)
-			print(f"[BackupSuite] {error_msg}")
+			error_msg = _("No write permission for: {0}").format(backup_dir)
+			print("[BackupSuite] {0}".format(error_msg))
 			self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
 			return
 
@@ -821,7 +821,7 @@ class BackupStart(Screen):
 		if retval is not None and retval != 0:
 			error_msg = ""
 			try:
-				with open(LOGFILE, "r", encoding="utf-8", errors="replace") as f:
+				with open(LOGFILE, "r") as f:
 					log_content = f.read()
 
 				if "No space left" in log_content:
@@ -840,8 +840,8 @@ class BackupStart(Screen):
 					error_msg = _("Backup failed! Last errors:") + "\n" + last_lines
 
 			except Exception as e:
-				print(f"[BackupSuite] Error reading log: {str(e)}")
-				error_msg = _("Backup failed! Check log: {}").format(LOGFILE)
+				print("[BackupSuite] Error reading log: {0}".format(str(e)))
+				error_msg = _("Backup failed! Check log: {0}").format(LOGFILE)
 
 			self.session.open(
 				MessageBox,
@@ -863,7 +863,7 @@ class FlashImageConfig(Screen):
 		self["key_green"] = StaticText("")
 		self["key_yellow"] = StaticText("")
 		self["key_blue"] = StaticText("")
-		self["curdir"] = StaticText(_("current:  {}").format(curdir or ''))
+		self["curdir"] = StaticText(_("current:  {0}").format(curdir or ''))
 		self.founds = False
 		self.dualboot = is_dual_boot()
 		self.ForceMode = requires_force_mode()
@@ -898,8 +898,7 @@ class FlashImageConfig(Screen):
 		self["key_green"].setText("")
 		self["key_blue"].setText("")
 		current = self.get_current_selected()
-		self["curdir"].setText(_("Current: {}").format(current))
-
+		self["curdir"].setText(_("Current: {0}").format(current))
 		if not self.filelist.canDescent() and current and current.endswith(".zip"):
 			self["key_yellow"].setText(_("Unzip"))
 
@@ -1048,10 +1047,10 @@ class FlashImageConfig(Screen):
 					text += _('\nThe found files:')
 					for name in listdir(dirname):
 						if name in backup_files:
-							text += _("  {} (maybe ok)").format(name)
+							text += _("  {0} (maybe ok)").format(name)
 							self.founds = True
 						if name in no_backup_files:
-							text += _("  {} (maybe error)").format(name)
+							text += _("  {0} (maybe error)").format(name)
 							self.founds = True
 					if not self.founds:
 						text += _(' nothing!')
@@ -1095,31 +1094,31 @@ class FlashImageConfig(Screen):
 			cmd = "echo -e"
 			if ret == "simulate":
 				text += _("Simulate (no write)")
-				cmd = f"{OFGWRITE_BIN} -n '{dir_flash}'"
+				cmd = "{0} -n '{1}'".format(OFGWRITE_BIN, dir_flash)
 			elif ret == "standard":
 				text += _("Standard (root and kernel)")
 				if self.ForceMode:
-					cmd = f"{OFGWRITE_BIN} -f -r -k '{dir_flash}' > /dev/null 2>&1 &"
+					cmd = "{0} -f -r -k '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
 				else:
-					cmd = f"{OFGWRITE_BIN} -r -k '{dir_flash}' > /dev/null 2>&1 &"
+					cmd = "{0} -r -k '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
 			elif ret == "root":
 				text += _("Only root")
-				cmd = f"{OFGWRITE_BIN} -r '{dir_flash}' > /dev/null 2>&1 &"
+				cmd = "{0} -r '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
 			elif ret == "kernel":
 				text += _("Only kernel")
-				cmd = f"{OFGWRITE_BIN} -k '{dir_flash}' > /dev/null 2>&1 &"
+				cmd = "{0} -k '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
 			elif ret == "simulate2":
 				text += _("Simulate second partition (no write)")
-				cmd = f"{OFGWRITE_BIN} -kmtd3 -rmtd4 -n '{dir_flash}'"
+				cmd = "{0} -kmtd3 -rmtd4 -n '{1}'".format(OFGWRITE_BIN, dir_flash)
 			elif ret == "standard2":
 				text += _("Second partition (root and kernel)")
-				cmd = f"{OFGWRITE_BIN} -kmtd3 -rmtd4 '{dir_flash}' > /dev/null 2>&1 &"
+				cmd = "{0} -kmtd3 -rmtd4 '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
 			elif ret == "rootfs2":
 				text += _("Second partition (only root)")
-				cmd = f"{OFGWRITE_BIN} -rmtd4 '{dir_flash}' > /dev/null 2>&1 &"
+				cmd = "{0} -rmtd4 '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
 			elif ret == "kernel2":
 				text += _("Second partition (only kernel)")
-				cmd = f"{OFGWRITE_BIN} -kmtd3 '{dir_flash}' > /dev/null 2>&1 &"
+				cmd = "{0} -kmtd3 '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
 			else:
 				return
 
@@ -1153,13 +1152,13 @@ class FlashImageConfig(Screen):
 				self.session.openWithCallback(
 					self.doUnzip,
 					MessageBox,
-					_("Do you really want to unpack {} ?").format(filename),
+					_("Do you really want to unpack {0} ?").format(filename),
 					MessageBox.TYPE_YESNO
 				)
 		elif self["key_yellow"].getText() == _("Backup info"):
 			self.session.open(
 				MessageBox,
-				"\n\n\n{}".format(self.getBackupInfo()),
+				"\n\n\n{0}".format(self.getBackupInfo()),
 				MessageBox.TYPE_INFO
 			)
 
@@ -1181,7 +1180,7 @@ class FlashImageConfig(Screen):
 			filename = self.filelist.getFilename()
 			if dirname and filename:
 				try:
-					os_system(f'unzip -o "{join(dirname, filename)}" -d "{dirname}"')
+					os_system('unzip -o "{0}" -d "{1}"'.format(join(dirname, filename), dirname))
 					self.filelist.refresh()
 					self.update_ui()
 				except:
@@ -1193,7 +1192,7 @@ class FlashImageConfig(Screen):
 			self.session.openWithCallback(
 				self.confirmedDelete,
 				MessageBox,
-				_("You are about to delete this backup:\n\n{}\nContinue?").format(self.getBackupInfo()),
+				_("You are about to delete this backup:\n\n{0}\nContinue?").format(self.getBackupInfo()),
 				MessageBox.TYPE_YESNO
 			)
 
@@ -1201,8 +1200,8 @@ class FlashImageConfig(Screen):
 		"""Delete the selected backup directory if confirmed."""
 		if answer is True:
 			backup_dir = self.getCurrentSelected()
-			cmdmessage = f"echo -e 'Removing backup:   {basename(backup_dir.rstrip('/'))}\\n'"
-			cmddelete = f"rm -rf '{backup_dir}' > /dev/null 2>&1"
+			cmdmessage = "echo -e 'Removing backup:   {0}\\n'".format(basename(backup_dir.rstrip('/')))
+			cmddelete = "rm -rf '{0}' > /dev/null 2>&1".format(backup_dir)
 			self.update_ui()
 			self.session.open(Console, _("Delete backup"), [cmdmessage, cmddelete], self.filelist.refresh)
 
@@ -1218,7 +1217,7 @@ class BackupHelpScreen(Screen):
 		self.setTitle(_("BackupSuite Help"))
 		self["help_text"] = ScrollLabel()
 
-		help_content = _("BackupSuite v{}\n\n").format(VERSION)
+		help_content = _("BackupSuite v{0}\n\n").format(VERSION)
 		help_content += _("Welcome to BackupSuite help.\n\n")
 		help_content += _("Device List:\n")
 		help_content += _("• Use UP/DOWN buttons to navigate through backup options\n")
@@ -1331,7 +1330,7 @@ def main(session, **kwargs):
 def Plugins(path, **kwargs):
 	global plugin_path
 	plugin_path = path
-	description = f"{_('Backup and restore your image')}, {VERSION}"
+	description = "{0}, {1}".format(_('Backup and restore your image'), VERSION)
 	return [
 		PluginDescriptor(
 			name="BackupSuite",
