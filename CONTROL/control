@@ -1,12 +1,12 @@
-Package: enigma2-plugin-extensions-backupsuite
-Version: 3.0_r1
-Section: base
-Priority: optional
 Architecture: all
-Maintainer: Open Vision Developers
-Description: backupsuite
-Depends: *
-Source: *
-Homepage: *
-OE: *
+Depends: bzip2, enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubifs, ofgwrite
+Description: Enigma2 Plugin: extensions-backupsuite
+Homepage: 
 License: GPLv3
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org> - Lululla
+OE: enigma2-plugin-extensions-backupsuite
+Package: enigma2-plugin-extensions-backupsuite
+Priority: optional
+Section: base
+Source: enigma2-plugin-extensions-backupsuite.bb
+Version: 3.0-r10
