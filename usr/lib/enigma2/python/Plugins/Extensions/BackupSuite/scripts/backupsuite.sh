@@ -578,36 +578,11 @@ if [ $ROOTNAME != "rootfs.tar.bz2" ] ; then
         big_fail
     fi
     echo
-
 else
-    # Check if this is eMMC device (Ustym 4K Pro)
-    if [ -b "/dev/mmcblk0p16" ] && [ -b "/dev/mmcblk0p12" ]; then
-        echo "eMMC device detected - using direct tar from mounted rootfs"
-        
-        # Mount rootfs partition and create tar directly
-        mkdir -p /tmp/rootfs_mount
-        if mount /dev/mmcblk0p16 /tmp/rootfs_mount; then
-            cd /tmp/rootfs_mount
-            $MKFS -cf $WORKDIR/rootfs.tar .
-            cd /
-            umount /tmp/rootfs_mount
-            rm -rf /tmp/rootfs_mount
-            echo "RootFS tar created directly from eMMC partition"
-        else
-            echo "ERROR: Cannot mount rootfs partition, using standard method"
-            if [ $VISIONVERSION == "7" ]; then
-                $MKFS -cf $WORKDIR/rootfs.tar -C /tmp/bi/root --exclude=/var/nmbd/* .
-            else
-                $MKFS -cf $WORKDIR/rootfs.tar -C /tmp/bi/root .
-            fi
-        fi
+    if [ $VISIONVERSION == "7" ]; then
+        $MKFS -cf $WORKDIR/rootfs.tar -C /tmp/bi/root --exclude=/var/nmbd/* .
     else
-        # Standard method for other devices
-        if [ $VISIONVERSION == "7" ]; then
-            $MKFS -cf $WORKDIR/rootfs.tar -C /tmp/bi/root --exclude=/var/nmbd/* .
-        else
-            $MKFS -cf $WORKDIR/rootfs.tar -C /tmp/bi/root .
-        fi
+        $MKFS -cf $WORKDIR/rootfs.tar -C /tmp/bi/root .
     fi
     $BZIP2 $WORKDIR/rootfs.tar
 fi
