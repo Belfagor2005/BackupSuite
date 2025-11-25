@@ -586,6 +586,7 @@ else
     fi
     $BZIP2 $WORKDIR/rootfs.tar
 fi
+
 echo -n "$YELLOW"
 echo "$LINE"
 echo -n "$WHITE"

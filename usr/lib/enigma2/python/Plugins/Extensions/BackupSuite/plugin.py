@@ -71,9 +71,9 @@ from Tools.LoadPixmap import LoadPixmap
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 
 from . import _
-from .schermen import *             # fallback for to screen..
-from .message import *              # fallback for to compile on test develop..
-from .findkerneldevice import *     # fallback for to compile on test develop..
+from .schermen import *				# fallback for to screen..
+from .message import *				# fallback for to compile on test develop..
+from .findkerneldevice import *		# fallback for to compile on test develop..
 
 # Global constants
 VERSION = '3.0-r10'
@@ -540,7 +540,7 @@ class BackupStart(Screen):
 
 		for dev_type, profile in DEVICE_PROFILES.items():
 			script_path = profile.get("script")
-			if not script_path:  # Skip profiles without scripts
+			if not script_path:	 # Skip profiles without scripts
 				continue
 
 			print("[BackupSuite] Checking script: {0}".format(script_path))
@@ -575,9 +575,9 @@ class BackupStart(Screen):
 
 		for dev in devices:
 			print("[BackupSuite] Processing device: {0}".format(dev['path']))
-			print("  Type: {0}".format(dev['type']))
-			print("  Icon: {0} - Exists: {1}".format(dev['icon'], exists(dev['icon'])))
-			print("  Script: {0} - Exists: {1}".format(dev['script'], exists(dev['script'])))
+			print("	 Type: {0}".format(dev['type']))
+			print("	 Icon: {0} - Exists: {1}".format(dev['icon'], exists(dev['icon'])))
+			print("	 Script: {0} - Exists: {1}".format(dev['script'], exists(dev['script'])))
 			dev_path = dev["path"]
 
 			if dev_path in added_paths:
@@ -589,7 +589,6 @@ class BackupStart(Screen):
 			# Create descriptive name
 			short_path = basename(dev_path.rstrip('/'))
 			description = "{0} ({1})".format(dev['desc'], short_path)
-
 			self.addDevice(
 				_("Backup to {0}").format(description),
 				dev["icon"],
@@ -597,8 +596,8 @@ class BackupStart(Screen):
 				dev_path,
 				dev["script"]
 			)
-			added_paths.add(dev_path)
-			print("[BackupSuite] Added device: {0} with icon {1}".format(description, dev['icon']))
+			print("[BackupSuite] Added: {0} -> Type: {1}, Path: {2}, Script: {3}".format(
+				description, dev['type'], dev_path, dev["script"]))
 
 		# Add special options - only one network option regardless of shares
 		network_shares = get_mounted_network_shares()
@@ -650,25 +649,46 @@ class BackupStart(Screen):
 		print("[BackupSuite] Added device: {0}, {1}, {2}, {3}".format(description, icon, dev_type, dev_path))
 
 	def deviceSelected(self):
-		selection = self["devicelist"].getCurrent()
-		if selection and isinstance(selection, list) and len(selection) > 0:
-			device_tuple = selection[0]
-			if isinstance(device_tuple, tuple) and len(device_tuple) >= 5:  # Now 5 elements
-				dev_type = device_tuple[2]
-				dev_path = device_tuple[3]
-				dev_script = device_tuple[4]  # New field for the script
+		try:
+			selection = self["devicelist"].getCurrent()
+			if not selection:
+				print("[BackupSuite] No selection available")
+				return
+
+			if isinstance(selection, list) and len(selection) > 0:
+				device_data = selection[0]
+			else:
+				device_data = selection
+
+			if isinstance(device_data, tuple) and len(device_data) >= 5:
+				description, icon, dev_type, dev_path, dev_script = device_data
+
+				print("[BackupSuite] Selected: {0} (Type: {1})".format(description, dev_type))
 
 				if dev_type == "NET":
 					self.start_net_backup()
 				elif dev_type == "RESTORE":
 					self.startRestore()
-				else:
-					# Pass the script to the backup start method
+				elif dev_type in ["USB", "MMC", "HDD", "BA"]:
+					# Backup normale per dispositivi di storage
 					self.startBackup(dev_type, dev_path, dev_script)
+				else:
+					print("[BackupSuite] Unknown device type: {0}".format(dev_type))
+					self.session.open(
+						MessageBox,
+						_("Unknown device type selected"),
+						MessageBox.TYPE_ERROR
+					)
 			else:
-				print("[BackupSuite] Invalid device tuple: {0}".format(device_tuple))
-		else:
-			print("[BackupSuite] Invalid selection")
+				print("[BackupSuite] Invalid device data format")
+
+		except Exception as e:
+			print("[BackupSuite] Error in deviceSelected: {0}".format(str(e)))
+			self.session.open(
+				MessageBox,
+				_("Error selecting device: {0}").format(str(e)),
+				MessageBox.TYPE_ERROR
+			)
 
 	def startBackup(self, dev_type=None, dev_path=None, dev_script=None):
 		"""Start the backup process, optionally using parameters or current selection."""
@@ -682,26 +702,33 @@ class BackupStart(Screen):
 					if not dev_path:
 						dev_path = device_tuple[3]
 					if not dev_script:
-						dev_script = device_tuple[4]  # Retrieve script if missing
+						dev_script = device_tuple[4]
 
-		if dev_type:
-			device_names = {
-				"MMC": _("SD Card"),
-				"USB": _("USB Storage"),
-				"HDD": _("Hard Disk"),
-				"NET": _("Network Storage"),
-				"BA": _("Barry Allen")
-			}
-			device_name = device_names.get(dev_type, dev_type)
-
-			self.session.openWithCallback(
-				# Pass dev_script to confirmation function
-				lambda result, dev_type=dev_type, dev_path=dev_path, dev_script=dev_script:
-					self.confirmBackup(result, dev_type, dev_path, dev_script),
+		if not dev_type:
+			print("[BackupSuite] No device type specified")
+			self.session.open(
 				MessageBox,
-				_("Do you want to make a backup to {0}?\n\nThis may take several minutes.").format(device_name),
-				MessageBox.TYPE_YESNO
+				_("No device type selected"),
+				MessageBox.TYPE_ERROR
 			)
+			return
+
+		device_names = {
+			"MMC": _("SD Card"),
+			"USB": _("USB Storage"),
+			"HDD": _("Hard Disk"),
+			"NET": _("Network Storage"),
+			"BA": _("Barry Allen")
+		}
+		device_name = device_names.get(dev_type, dev_type)
+
+		self.session.openWithCallback(
+			lambda result, dev_type=dev_type, dev_path=dev_path, dev_script=dev_script:
+				self.confirmBackup(result, dev_type, dev_path, dev_script),
+			MessageBox,
+			_("Do you want to make a backup to {0}?\n\nThis may take several minutes.").format(device_name),
+			MessageBox.TYPE_YESNO
+		)
 
 	def confirmBackup(self, result, dev_type, dev_path, dev_script):
 		"""Execute the backup if the user confirmed."""
@@ -766,9 +793,9 @@ class BackupStart(Screen):
 		"""Callback for network share selection."""
 		if not selected_path:
 			return
-			
+
 		backup_dir = join(selected_path, "backup")
-		
+
 		# Create backup directory if needed
 		if not exists(backup_dir):
 			try:
@@ -779,7 +806,7 @@ class BackupStart(Screen):
 				print("[BackupSuite] {0}".format(error_msg))
 				self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
 				return
-		
+
 		# Verify we can write to the directory
 		if not access(backup_dir, W_OK):
 			error_msg = _("No write permission for: {0}").format(backup_dir)
@@ -863,7 +890,7 @@ class FlashImageConfig(Screen):
 		self["key_green"] = StaticText("")
 		self["key_yellow"] = StaticText("")
 		self["key_blue"] = StaticText("")
-		self["curdir"] = StaticText(_("current:  {0}").format(curdir or ''))
+		self["curdir"] = StaticText(_("current:	 {0}").format(curdir or ''))
 		self.founds = False
 		self.dualboot = is_dual_boot()
 		self.ForceMode = requires_force_mode()
@@ -1047,10 +1074,10 @@ class FlashImageConfig(Screen):
 					text += _('\nThe found files:')
 					for name in listdir(dirname):
 						if name in backup_files:
-							text += _("  {0} (maybe ok)").format(name)
+							text += _("	 {0} (maybe ok)").format(name)
 							self.founds = True
 						if name in no_backup_files:
-							text += _("  {0} (maybe error)").format(name)
+							text += _("	 {0} (maybe error)").format(name)
 							self.founds = True
 					if not self.founds:
 						text += _(' nothing!')
@@ -1200,7 +1227,7 @@ class FlashImageConfig(Screen):
 		"""Delete the selected backup directory if confirmed."""
 		if answer is True:
 			backup_dir = self.getCurrentSelected()
-			cmdmessage = "echo -e 'Removing backup:   {0}\\n'".format(basename(backup_dir.rstrip('/')))
+			cmdmessage = "echo -e 'Removing backup:	  {0}\\n'".format(basename(backup_dir.rstrip('/')))
 			cmddelete = "rm -rf '{0}' > /dev/null 2>&1".format(backup_dir)
 			self.update_ui()
 			self.session.open(Console, _("Delete backup"), [cmdmessage, cmddelete], self.filelist.refresh)
@@ -1239,10 +1266,10 @@ class BackupHelpScreen(Screen):
 
 		help_content += _("NET Backup Instructions:\n")
 		help_content += _("1. Mount your network share first:\n")
-		help_content += _("   - Go to Main Menu > Setup > System > Storage Manager\n")
-		help_content += _("   - Select 'Network Storage' and add your NAS/SMB share\n")
-		help_content += _("   - Enter server IP, share name, username and password\n")
-		help_content += _("   - Mount the share and assign a name (e.g., NET_BACKUP)\n\n")
+		help_content += _("	  - Go to Main Menu > Setup > System > Storage Manager\n")
+		help_content += _("	  - Select 'Network Storage' and add your NAS/SMB share\n")
+		help_content += _("	  - Enter server IP, share name, username and password\n")
+		help_content += _("	  - Mount the share and assign a name (e.g., NET_BACKUP)\n\n")
 		help_content += _("2. Select 'NET Backup' from the device list\n")
 		help_content += _("3. Choose your mounted network share\n")
 		help_content += _("4. Confirm and start the backup process\n\n")

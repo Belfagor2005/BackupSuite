@@ -1,64 +1,75 @@
 #!/bin/sh
 
-# BackupSuite post-installation script
-# Version: 3.0-r9
-# Author: BackupSuite Team
+echo ""
+echo " *******************************************  "
+echo "  *  BackupSuite installed successfully  *    "
+echo "   *      E2 restart is required       *      "
+echo " *******************************************  "
+echo ""
 
-set -e  # Exit on any error
+# Fix permissions for ALL backup scripts
+chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/scripts/*.sh
 
-SCRIPT_NAME="backupsuite-postinst"
-INSTALL_PATH="/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite"
-LOG_FILE="/tmp/backupsuite_install.log"
+# Fix permissions for critical binaries used by backup scripts
+if [ -f "/usr/bin/ubinize" ]; then
+    chmod +x /usr/bin/ubinize
+    echo "Fixed ubinize permissions"
+fi
 
-# Logging function
-log_message() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
-}
+if [ -f "/usr/sbin/mkfs.ubifs" ]; then
+    chmod +x /usr/sbin/mkfs.ubifs
+    echo "Fixed mkfs.ubifs permissions"
+fi
 
-# Error handling function
-error_exit() {
-    log_message "ERROR: $1"
-    exit 1
-}
+if [ -f "/usr/sbin/nanddump" ]; then
+    chmod +x /usr/sbin/nanddump
+    echo "Fixed nanddump permissions"
+fi
 
-# Check if running as root
-check_privileges() {
-    if [ "$(id -u)" -ne 0 ]; then
-        error_exit "This script must be run as root"
-    fi
-}
+if [ -f "/usr/bin/bzip2" ]; then
+    chmod +x /usr/bin/bzip2
+    echo "Fixed bzip2 permissions"
+fi
 
-# Validate installation directory
-validate_installation() {
-    if [ ! -d "$INSTALL_PATH" ]; then
-        error_exit "Installation directory not found: $INSTALL_PATH"
-    fi
-    
-    if [ ! -f "$INSTALL_PATH/backupusb.sh" ]; then
-        error_exit "Core backup scripts not found in $INSTALL_PATH"
-    fi
-}
+if [ -f "/usr/bin/bunzip2" ]; then
+    chmod +x /usr/bin/bunzip2
+    echo "Fixed bunzip2 permissions"
+fi
 
-# Set executable permissions
-set_permissions() {
-    log_message "Setting executable permissions for backup scripts..."
-    
-    # Find and make all shell scripts executable
-    find "$INSTALL_PATH" -name "*.sh" -type f | while read -r script; do
-        if [ -f "$script" ]; then
-            chmod 755 "$script"
-            log_message "Set permissions for: $(basename "$script")"
-        fi
-    done
-    
-    # Count scripts processed
-    script_count=$(find "$INSTALL_PATH" -name "*.sh" -type f | wc -l)
-    log_message "Processed $script_count backup scripts"
-}
+if [ -f "/usr/bin/zip" ]; then
+    chmod +x /usr/bin/zip
+    echo "Fixed zip permissions"
+fi
 
-# Restart Enigma2 gracefully
-restart_enigma2() {
-    log_message "Initiating Enigma2 restart sequence..."
-    
-    # Stop Enigma2 gracefully
-    init 4
+if [ -f "/usr/sbin/mkfs.jffs2" ]; then
+    chmod +x /usr/sbin/mkfs.jffs2
+    echo "Fixed mkfs.jffs2 permissions"
+fi
+
+if [ -f "/usr/bin/buildimage" ]; then
+    chmod +x /usr/bin/buildimage
+    echo "Fixed buildimage permissions"
+fi
+
+# Fix permissions for Python scripts and compiled files
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.py 2>/dev/null
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.pyc 2>/dev/null
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.pyo 2>/dev/null
+
+# Fix permissions for data files
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.txt 2>/dev/null
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/locale/*/LC_MESSAGES/*.mo 2>/dev/null
+
+# Fix permissions for images
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/img/*.png 2>/dev/null
+
+echo "All BackupSuite permissions fixed successfully"
+
+echo "Restarting Enigma2..."
+init 4
+sleep 2
+killall enigma2 > /dev/null 2>&1
+sleep 2
+init 3
+
+exit 0
