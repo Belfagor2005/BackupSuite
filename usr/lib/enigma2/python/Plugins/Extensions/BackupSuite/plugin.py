@@ -71,9 +71,9 @@ from Tools.LoadPixmap import LoadPixmap
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 
 from . import _
-from .schermen import *             # fallback for to screen..
-from .message import *              # fallback for to compile on test develop..
-from .findkerneldevice import *     # fallback for to compile on test develop..
+from .schermen import *				# fallback for to screen..
+from .message import *				# fallback for to compile on test develop..
+from .findkerneldevice import *		# fallback for to compile on test develop..
 
 # Global constants
 VERSION = '3.0-r10'
@@ -540,7 +540,7 @@ class BackupStart(Screen):
 
 		for dev_type, profile in DEVICE_PROFILES.items():
 			script_path = profile.get("script")
-			if not script_path:  # Skip profiles without scripts
+			if not script_path:	 # Skip profiles without scripts
 				continue
 
 			print("[BackupSuite] Checking script: {0}".format(script_path))
@@ -575,9 +575,9 @@ class BackupStart(Screen):
 
 		for dev in devices:
 			print("[BackupSuite] Processing device: {0}".format(dev['path']))
-			print("  Type: {0}".format(dev['type']))
-			print("  Icon: {0} - Exists: {1}".format(dev['icon'], exists(dev['icon'])))
-			print("  Script: {0} - Exists: {1}".format(dev['script'], exists(dev['script'])))
+			print("	 Type: {0}".format(dev['type']))
+			print("	 Icon: {0} - Exists: {1}".format(dev['icon'], exists(dev['icon'])))
+			print("	 Script: {0} - Exists: {1}".format(dev['script'], exists(dev['script'])))
 			dev_path = dev["path"]
 
 			if dev_path in added_paths:
@@ -890,7 +890,7 @@ class FlashImageConfig(Screen):
 		self["key_green"] = StaticText("")
 		self["key_yellow"] = StaticText("")
 		self["key_blue"] = StaticText("")
-		self["curdir"] = StaticText(_("current:  {0}").format(curdir or ''))
+		self["curdir"] = StaticText(_("current:	 {0}").format(curdir or ''))
 		self.founds = False
 		self.dualboot = is_dual_boot()
 		self.ForceMode = requires_force_mode()
@@ -1074,10 +1074,10 @@ class FlashImageConfig(Screen):
 					text += _('\nThe found files:')
 					for name in listdir(dirname):
 						if name in backup_files:
-							text += _("  {0} (maybe ok)").format(name)
+							text += _("	 {0} (maybe ok)").format(name)
 							self.founds = True
 						if name in no_backup_files:
-							text += _("  {0} (maybe error)").format(name)
+							text += _("	 {0} (maybe error)").format(name)
 							self.founds = True
 					if not self.founds:
 						text += _(' nothing!')
@@ -1227,7 +1227,7 @@ class FlashImageConfig(Screen):
 		"""Delete the selected backup directory if confirmed."""
 		if answer is True:
 			backup_dir = self.getCurrentSelected()
-			cmdmessage = "echo -e 'Removing backup:   {0}\\n'".format(basename(backup_dir.rstrip('/')))
+			cmdmessage = "echo -e 'Removing backup:	  {0}\\n'".format(basename(backup_dir.rstrip('/')))
 			cmddelete = "rm -rf '{0}' > /dev/null 2>&1".format(backup_dir)
 			self.update_ui()
 			self.session.open(Console, _("Delete backup"), [cmdmessage, cmddelete], self.filelist.refresh)
@@ -1266,10 +1266,10 @@ class BackupHelpScreen(Screen):
 
 		help_content += _("NET Backup Instructions:\n")
 		help_content += _("1. Mount your network share first:\n")
-		help_content += _("   - Go to Main Menu > Setup > System > Storage Manager\n")
-		help_content += _("   - Select 'Network Storage' and add your NAS/SMB share\n")
-		help_content += _("   - Enter server IP, share name, username and password\n")
-		help_content += _("   - Mount the share and assign a name (e.g., NET_BACKUP)\n\n")
+		help_content += _("	  - Go to Main Menu > Setup > System > Storage Manager\n")
+		help_content += _("	  - Select 'Network Storage' and add your NAS/SMB share\n")
+		help_content += _("	  - Enter server IP, share name, username and password\n")
+		help_content += _("	  - Mount the share and assign a name (e.g., NET_BACKUP)\n\n")
 		help_content += _("2. Select 'NET Backup' from the device list\n")
 		help_content += _("3. Choose your mounted network share\n")
 		help_content += _("4. Confirm and start the backup process\n\n")
