@@ -148,7 +148,7 @@ def is_dual_boot():
         with open("/proc/mtd") as f:
             content = f.read()
             return 'rootfs2' in content and 'kernel2' in content
-    except:
+    except BaseException:
         return False
 
 
@@ -164,7 +164,7 @@ def requires_force_mode():
 def get_skin(type):
     try:
         sz_w = getDesktop(0).size().width()
-    except:
+    except BaseException:
         sz_w = 720
 
     skin_prefix = "skin" + str(type)
@@ -234,7 +234,8 @@ def get_mounted_network_shares():
                     try:
                         stat = statvfs(mountpoint)
                         free_gb = (stat.f_bavail * stat.f_frsize) / (1024 ** 3)
-                        total_gb = (stat.f_blocks * stat.f_frsize) / (1024 ** 3)
+                        total_gb = (stat.f_blocks *
+                                    stat.f_frsize) / (1024 ** 3)
                         free_str = "{0:.2f} {1}".format(free_gb, _('GB'))
                         total_str = "{0:.2f} {1}".format(total_gb, _('GB'))
                     except Exception as e:
@@ -280,7 +281,7 @@ def get_root_device_type():
                 return "USB"
             elif "root=/dev/hd" in cmdline:
                 return "HDD"
-    except:
+    except BaseException:
         pass
     return "USB"  # Safer default
 
@@ -402,7 +403,8 @@ def get_available_backup_devices():
 
     for p in partitions:
         # Always exclude internal root filesystem
-        if not p.mountpoint or not ismount(p.mountpoint) or p.mountpoint == "/":
+        if not p.mountpoint or not ismount(
+                p.mountpoint) or p.mountpoint == "/":
             continue
 
         # Skip network filesystems (handled separately)
@@ -410,7 +412,9 @@ def get_available_backup_devices():
             # Get filesystem type by calling the function
             fs_type = p.filesystem()
             if fs_type and fs_type.lower() in ("cifs", "nfs", "nfs4", "smbfs"):
-                print("[BackupSuite] Skipping network filesystem: {0}".format(p.mountpoint))
+                print(
+                    "[BackupSuite] Skipping network filesystem: {0}".format(
+                        p.mountpoint))
                 continue
 
         device_name = getattr(p, "device", "") or ""
@@ -418,9 +422,15 @@ def get_available_backup_devices():
         model = getattr(p, "model", "") or ""
 
         # Determine the device type
-        device_type = get_device_type(device_name, description, model, p.mountpoint)
-        print("[BackupSuite] Device: {0}, Mount: {1}, Desc: {2}, Model: {3} -> Type: {4}".format(
-            device_name, p.mountpoint, description, model, device_type))
+        device_type = get_device_type(
+            device_name, description, model, p.mountpoint)
+        print(
+            "[BackupSuite] Device: {0}, Mount: {1}, Desc: {2}, Model: {3} -> Type: {4}".format(
+                device_name,
+                p.mountpoint,
+                description,
+                model,
+                device_type))
 
         # Get device profile with fallback to USB
         profile = DEVICE_PROFILES.get(device_type, DEVICE_PROFILES["USB"])
@@ -500,21 +510,21 @@ class BackupStart(Screen):
         self.devicelist = []
         self["devicelist"] = BackupDeviceList([])
         self["help"] = StaticText()
-        self["actions"] = ActionMap(
-            ["SetupActions", "ColorActions", "EPGSelectActions", "HelpActions"],
-            {
-                "red": self.cancel,
-                "green": self.startBackup,
-                "yellow": self.startRestore,
-                "blue": self.show_help,
-                "info": self.keyInfo,
-                "cancel": self.cancel,
-                "displayHelp": self.show_help,
-                "help": self.show_help,
-                "ok": self.deviceSelected,
-            },
-            -1
-        )
+        self["actions"] = ActionMap(["SetupActions",
+                                     "ColorActions",
+                                     "EPGSelectActions",
+                                     "HelpActions"],
+                                    {"red": self.cancel,
+                                     "green": self.startBackup,
+                                     "yellow": self.startRestore,
+                                     "blue": self.show_help,
+                                     "info": self.keyInfo,
+                                     "cancel": self.cancel,
+                                     "displayHelp": self.show_help,
+                                     "help": self.show_help,
+                                     "ok": self.deviceSelected,
+                                     },
+                                    -1)
         self.setTitle(self.setup_title)
         self.onShown.append(self.init_plugin)
         self.onLayoutFinish.append(self.setCustomTitle)
@@ -543,7 +553,8 @@ class BackupStart(Screen):
             print("[BackupSuite] Checking script: {0}".format(script_path))
 
             if not exists(script_path):
-                print("[BackupSuite] Script not found: {0}".format(script_path))
+                print(
+                    "[BackupSuite] Script not found: {0}".format(script_path))
                 missing_scripts.append(basename(script_path))
 
         if missing_scripts:
@@ -573,15 +584,20 @@ class BackupStart(Screen):
         for dev in devices:
             print("[BackupSuite] Processing device: {0}".format(dev['path']))
             print("  Type: {0}".format(dev['type']))
-            print("  Icon: {0} - Exists: {1}".format(dev['icon'], exists(dev['icon'])))
-            print("  Script: {0} - Exists: {1}".format(dev['script'], exists(dev['script'])))
+            print(
+                "  Icon: {0} - Exists: {1}".format(dev['icon'], exists(dev['icon'])))
+            print(
+                "  Script: {0} - Exists: {1}".format(dev['script'], exists(dev['script'])))
             dev_path = dev["path"]
 
             if dev_path in added_paths:
-                print("[BackupSuite] Skipping duplicate path: {0}".format(dev_path))
+                print(
+                    "[BackupSuite] Skipping duplicate path: {0}".format(dev_path))
                 continue
 
-            print("[BackupSuite] Processing device at {0} (type: {1})".format(dev_path, dev['type']))
+            print(
+                "[BackupSuite] Processing device at {0} (type: {1})".format(
+                    dev_path, dev['type']))
 
             # Create descriptive name
             short_path = basename(dev_path.rstrip('/'))
@@ -599,7 +615,9 @@ class BackupStart(Screen):
         # Add special options - only one network option regardless of shares
         network_shares = get_mounted_network_shares()
         if network_shares:
-            print("[BackupSuite] Found {0} network shares".format(len(network_shares)))
+            print(
+                "[BackupSuite] Found {0} network shares".format(
+                    len(network_shares)))
             print("[BackupSuite] Adding network backup option")
             net_profile = DEVICE_PROFILES["NET"]
             self.addDevice(
@@ -631,7 +649,8 @@ class BackupStart(Screen):
             restore_profile["script"]
         )
 
-        print("[BackupSuite] Total devices in list: {0}".format(len(self.devicelist)))
+        print("[BackupSuite] Total devices in list: {0}".format(
+            len(self.devicelist)))
 
         # Build the menu items list
         menu_items = []
@@ -642,8 +661,14 @@ class BackupStart(Screen):
 
     def addDevice(self, description, icon, dev_type, dev_path, script_path):
         """Add a device to the list with all details."""
-        self.devicelist.append((description, icon, dev_type, dev_path, script_path))
-        print("[BackupSuite] Added device: {0}, {1}, {2}, {3}".format(description, icon, dev_type, dev_path))
+        self.devicelist.append(
+            (description, icon, dev_type, dev_path, script_path))
+        print(
+            "[BackupSuite] Added device: {0}, {1}, {2}, {3}".format(
+                description,
+                icon,
+                dev_type,
+                dev_path))
 
     def deviceSelected(self):
         try:
@@ -660,7 +685,9 @@ class BackupStart(Screen):
             if isinstance(device_data, tuple) and len(device_data) >= 5:
                 description, icon, dev_type, dev_path, dev_script = device_data
 
-                print("[BackupSuite] Selected: {0} (Type: {1})".format(description, dev_type))
+                print(
+                    "[BackupSuite] Selected: {0} (Type: {1})".format(
+                        description, dev_type))
 
                 if dev_type == "NET":
                     self.start_net_backup()
@@ -670,7 +697,8 @@ class BackupStart(Screen):
                     # Backup normale per dispositivi di storage
                     self.startBackup(dev_type, dev_path, dev_script)
                 else:
-                    print("[BackupSuite] Unknown device type: {0}".format(dev_type))
+                    print(
+                        "[BackupSuite] Unknown device type: {0}".format(dev_type))
                     self.session.open(
                         MessageBox,
                         _("Unknown device type selected"),
@@ -691,7 +719,8 @@ class BackupStart(Screen):
         """Start the backup process, optionally using parameters or current selection."""
         if not dev_type or not dev_path:
             selection = self["devicelist"].getCurrent()
-            if selection and isinstance(selection, list) and len(selection) > 0:
+            if selection and isinstance(
+                    selection, list) and len(selection) > 0:
                 device_tuple = selection[0]
                 if isinstance(device_tuple, tuple) and len(device_tuple) >= 5:
                     if not dev_type:
@@ -720,12 +749,17 @@ class BackupStart(Screen):
         device_name = device_names.get(dev_type, dev_type)
 
         self.session.openWithCallback(
-            lambda result, dev_type=dev_type, dev_path=dev_path, dev_script=dev_script:
-                self.confirmBackup(result, dev_type, dev_path, dev_script),
+            lambda result,
+            dev_type=dev_type,
+            dev_path=dev_path,
+            dev_script=dev_script: self.confirmBackup(
+                result,
+                dev_type,
+                dev_path,
+                dev_script),
             MessageBox,
             _("Do you want to make a backup to {0}?\n\nThis may take several minutes.").format(device_name),
-            MessageBox.TYPE_YESNO
-        )
+            MessageBox.TYPE_YESNO)
 
     def confirmBackup(self, result, dev_type, dev_path, dev_script):
         """Execute the backup if the user confirmed."""
@@ -735,7 +769,10 @@ class BackupStart(Screen):
 
     def execute_backup(self, device_type, media_path=None, script_path=None):
         """Start the backup process using the given script for the device."""
-        print("[BackupSuite] Starting backup for: {0} at {1}".format(device_type, media_path or ''))
+        print(
+            "[BackupSuite] Starting backup for: {0} at {1}".format(
+                device_type,
+                media_path or ''))
 
         if not script_path:
             profile = DEVICE_PROFILES.get(device_type, {})
@@ -757,9 +794,11 @@ class BackupStart(Screen):
         title = _("{0} Backup").format(device_type)
 
         # Build the command
-        cmd = "chmod +x '{0}'; '{0}' '{1}' '{2}' '{3}'".format(script_path, lang, device_type, media_path)
+        cmd = "chmod +x '{0}'; '{0}' '{1}' '{2}' '{3}'".format(
+            script_path, lang, device_type, media_path)
         print("[BackupSuite] Executing command: {0}".format(cmd))
-        self.session.openWithCallback(self.console_closed, Console, title, [cmd])
+        self.session.openWithCallback(
+            self.console_closed, Console, title, [cmd])
 
     def start_net_backup(self):
         """Start the network backup process."""
@@ -775,8 +814,10 @@ class BackupStart(Screen):
 
         menu = []
         for share in network_shares:
-            display_text = "{0} ({1}) - {2}\n".format(share['server'], share['fstype'], share['mountpoint'])
-            display_text += "{0} {1} / {2} {3}".format(_('Free:'), share['freespace'], _('Total:'), share['totalspace'])
+            display_text = "{0} ({1}) - {2}\n".format(
+                share['server'], share['fstype'], share['mountpoint'])
+            display_text += "{0} {1} / {2} {3}".format(
+                _('Free:'), share['freespace'], _('Total:'), share['totalspace'])
             menu.append((display_text, share["mountpoint"]))
 
         self.session.openWithCallback(
@@ -797,9 +838,11 @@ class BackupStart(Screen):
         if not exists(backup_dir):
             try:
                 makedirs(backup_dir)
-                print("[BackupSuite] Created backup directory: {0}".format(backup_dir))
+                print(
+                    "[BackupSuite] Created backup directory: {0}".format(backup_dir))
             except Exception as e:
-                error_msg = _("Could not create backup directory: {0}\nError: {1}").format(backup_dir, str(e))
+                error_msg = _("Could not create backup directory: {0}\nError: {1}").format(
+                    backup_dir, str(e))
                 print("[BackupSuite] {0}".format(error_msg))
                 self.session.open(MessageBox, error_msg, MessageBox.TYPE_ERROR)
                 return
@@ -837,7 +880,7 @@ class BackupStart(Screen):
             from Components.About import getEnigmaVersionString
             with open(ENIGMA2VERSIONFILE, 'w') as f:
                 f.write(getEnigmaVersionString())
-        except:
+        except BaseException:
             pass
 
     def console_closed(self, retval=None):
@@ -849,7 +892,8 @@ class BackupStart(Screen):
                     log_content = f.read()
 
                 if "No space left" in log_content:
-                    error_msg = _("Backup failed: Not enough free space on device!")
+                    error_msg = _(
+                        "Backup failed: Not enough free space on device!")
                 elif "Permission denied" in log_content:
                     error_msg = _("Backup failed: Write permission denied!")
                 elif "Read-only file system" in log_content:
@@ -860,8 +904,10 @@ class BackupStart(Screen):
                     error_msg = _("Backup failed: Network connection lost!")
                 else:
                     lines = log_content.splitlines()
-                    last_lines = "\n".join(lines[-5:]) if len(lines) > 5 else log_content
-                    error_msg = _("Backup failed! Last errors:") + "\n" + last_lines
+                    last_lines = "\n".join(
+                        lines[-5:]) if len(lines) > 5 else log_content
+                    error_msg = _("Backup failed! Last errors:") + \
+                        "\n" + last_lines
 
             except Exception as e:
                 print("[BackupSuite] Error reading log: {0}".format(str(e)))
@@ -898,7 +944,10 @@ class FlashImageConfig(Screen):
         else:
             combined_pattern = r"\.(zip)$"
 
-        self.filelist = FileList(curdir, matchingPattern=combined_pattern, enableWrapAround=True)
+        self.filelist = FileList(
+            curdir,
+            matchingPattern=combined_pattern,
+            enableWrapAround=True)
         self.filelist.onSelectionChanged.append(self.__selChanged)
         self["filelist"] = self.filelist
         self["FilelistActions"] = ActionMap(
@@ -944,7 +993,13 @@ class FlashImageConfig(Screen):
 
         elif self.filelist.canDescent() and current and current != '/':
             self["key_green"].setText(_("Flash"))
-            if isfile(join(current, LOGFILE)) and isfile(join(current, VERSIONFILE)):
+            if isfile(
+                join(
+                    current,
+                    LOGFILE)) and isfile(
+                join(
+                    current,
+                    VERSIONFILE)):
                 self["key_yellow"].setText(_("About"))
                 self["key_blue"].setText(_("Delete"))
 
@@ -1000,71 +1055,247 @@ class FlashImageConfig(Screen):
                 if exists('/var/lib/dpkg/info'):
                     if "dm9" in model:
                         backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel.bin, rootfs.tar.bz2"
                     elif model in ("dm520", "dm7080", "dm820"):
                         backup_files = [("*.xz")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel_auto.bin"),
+                            ("kernel.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "*.xz"
                     else:
                         backup_files = [("*.nfi")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel_auto.bin"),
+                            ("kernel.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "*.nfi"
                 elif model.startswith("gb"):
                     if "4k" not in model:
                         backup_files = [("kernel.bin"), ("rootfs.bin")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel.bin, rootfs.bin"
                     else:
                         backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel.bin, rootfs.tar.bz2"
                 elif model.startswith("vu"):
                     if "4k" in model:
-                        backup_files = [("kernel_auto.bin"), ("rootfs.tar.bz2")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("uImage"), ("rootfs.ubi")]
+                        backup_files = [
+                            ("kernel_auto.bin"), ("rootfs.tar.bz2")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel_auto.bin, rootfs.tar.bz2"
                     elif model in ("vuduo2", "vusolose", "vusolo2", "vuzero"):
-                        backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.bin")]
-                        no_backup_files = [("rootfs.bin"), ("root_cfe_auto.jffs2"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        backup_files = [
+                            ("kernel_cfe_auto.bin"), ("root_cfe_auto.bin")]
+                        no_backup_files = [
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel_cfe_auto.bin, root_cfe_auto.bin"
                     else:
-                        backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2")]
-                        no_backup_files = [("rootfs.bin"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("root_cfe_auto.jffs2")]
+                        no_backup_files = [
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel_cfe_auto.bin, root_cfe_auto.jffs2"
 
                 else:
-                    if model in ("hd51", "h7", "sf4008", "sf5008", "sf8008", "sf8008m", "vs1500", "et11000", "et13000", "bre2ze4k", "spycat4k", "spycat4kmini", "protek4k", "e4hdultra", "arivacombo", "arivatwin", "dual") or model.startswith(("anadol", "axashis4", "dinobot4", "ferguson4", "mediabox4", "axashisc4")):
+                    if model in (
+                        "hd51",
+                        "h7",
+                        "sf4008",
+                        "sf5008",
+                        "sf8008",
+                        "sf8008m",
+                        "vs1500",
+                        "et11000",
+                        "et13000",
+                        "bre2ze4k",
+                        "spycat4k",
+                        "spycat4kmini",
+                        "protek4k",
+                        "e4hdultra",
+                        "arivacombo",
+                        "arivatwin",
+                        "dual") or model.startswith(
+                        ("anadol",
+                         "axashis4",
+                         "dinobot4",
+                         "ferguson4",
+                         "mediabox4",
+                         "axashisc4")):
                         backup_files = [("kernel.bin"), ("rootfs.tar.bz2")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel.bin, rootfs.tar.bz2"
                     elif model in ("h9", "h9se", "h9combo", "h9combose", "i55plus", "i55se", "h10", "hzero", "h8", "dinobotu55", "iziboxx3", "dinoboth265", "axashistwin", "protek4kx1"):
                         backup_files = [("uImage"), ("rootfs.ubi")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("kernel.bin"),
+                            ("rootfs.tar.bz2")]
                         text += "uImage, rootfs.ubi"
                     elif model in ("hd60", "hd61", "multibox", "multiboxse", "multiboxplus", "pulse4k", "pulse4kmini"):
                         backup_files = [("uImage"), ("rootfs.tar.bz2")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.ubi"), ("kernel_auto.bin"), ("kernel.bin")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("rootfs.ubi"),
+                            ("kernel_auto.bin"),
+                            ("kernel.bin")]
                         text += "uImage, rootfs.tar.bz2"
                     elif model.startswith(("et4", "et5", "et6", "et7", "et8", "et9", "et10")):
                         backup_files = [("kernel.bin"), ("rootfs.bin")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel.bin, rootfs.bin"
                     elif model.startswith("ebox"):
-                        backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2")]
-                        no_backup_files = [("rootfs.bin"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("root_cfe_auto.jffs2")]
+                        no_backup_files = [
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel_cfe_auto.bin, root_cfe_auto.jffs2"
                     elif model.startswith(("fusion", "pure", "optimus", "force", "iqon", "ios", "tm2", "tmn", "tmt", "tms", "lunix", "mediabox", "vala")):
                         backup_files = [("oe_kernel.bin"), ("oe_rootfs.bin")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("kernel.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("kernel.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "oe_kernel.bin, oe_rootfs.bin"
                     elif "4k" or "uhd" in model:
                         backup_files = [("oe_kernel.bin"), ("rootfs.tar.bz2")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("rootfs.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_rootfs.bin"), ("kernel.bin"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("rootfs.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_rootfs.bin"),
+                            ("kernel.bin"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "oe_kernel.bin, rootfs.tar.bz2"
                     else:
                         backup_files = [("kernel.bin"), ("rootfs.bin")]
-                        no_backup_files = [("kernel_cfe_auto.bin"), ("root_cfe_auto.jffs2"), ("root_cfe_auto.bin"), ("oe_kernel.bin"), ("oe_rootfs.bin"), ("rootfs.tar.bz2"), ("kernel_auto.bin"), ("uImage"), ("rootfs.ubi")]
+                        no_backup_files = [
+                            ("kernel_cfe_auto.bin"),
+                            ("root_cfe_auto.jffs2"),
+                            ("root_cfe_auto.bin"),
+                            ("oe_kernel.bin"),
+                            ("oe_rootfs.bin"),
+                            ("rootfs.tar.bz2"),
+                            ("kernel_auto.bin"),
+                            ("uImage"),
+                            ("rootfs.ubi")]
                         text += "kernel.bin, rootfs.bin"
                 try:
                     self.founds = False
@@ -1078,7 +1309,7 @@ class FlashImageConfig(Screen):
                             self.founds = True
                     if not self.founds:
                         text += _(' nothing!')
-                except:
+                except BaseException:
                     pass
 
                 if self.founds:
@@ -1100,7 +1331,12 @@ class FlashImageConfig(Screen):
                     open_list = [
                         (_("Exit"), "exit"),
                     ]
-                self.session.openWithCallback(self.Callbackflashing, MessageBox, text, simple=True, list=open_list)
+                self.session.openWithCallback(
+                    self.Callbackflashing,
+                    MessageBox,
+                    text,
+                    simple=True,
+                    list=open_list)
 
     def Callbackflashing(self, ret):
         if ret:
@@ -1109,7 +1345,10 @@ class FlashImageConfig(Screen):
                 return
 
             if self.session.nav.RecordTimer.isRecording():
-                self.session.open(MessageBox, _("A recording is currently running. Please stop the recording before trying to start a flashing."), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("A recording is currently running. Please stop the recording before trying to start a flashing."),
+                    MessageBox.TYPE_ERROR)
                 self.founds = False
                 return
 
@@ -1122,27 +1361,35 @@ class FlashImageConfig(Screen):
             elif ret == "standard":
                 text += _("Standard (root and kernel)")
                 if self.ForceMode:
-                    cmd = "{0} -f -r -k '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
+                    cmd = "{0} -f -r -k '{1}' > /dev/null 2>&1 &".format(
+                        OFGWRITE_BIN, dir_flash)
                 else:
-                    cmd = "{0} -r -k '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
+                    cmd = "{0} -r -k '{1}' > /dev/null 2>&1 &".format(
+                        OFGWRITE_BIN, dir_flash)
             elif ret == "root":
                 text += _("Only root")
-                cmd = "{0} -r '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
+                cmd = "{0} -r '{1}' > /dev/null 2>&1 &".format(
+                    OFGWRITE_BIN, dir_flash)
             elif ret == "kernel":
                 text += _("Only kernel")
-                cmd = "{0} -k '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
+                cmd = "{0} -k '{1}' > /dev/null 2>&1 &".format(
+                    OFGWRITE_BIN, dir_flash)
             elif ret == "simulate2":
                 text += _("Simulate second partition (no write)")
-                cmd = "{0} -kmtd3 -rmtd4 -n '{1}'".format(OFGWRITE_BIN, dir_flash)
+                cmd = "{0} -kmtd3 -rmtd4 -n '{1}'".format(
+                    OFGWRITE_BIN, dir_flash)
             elif ret == "standard2":
                 text += _("Second partition (root and kernel)")
-                cmd = "{0} -kmtd3 -rmtd4 '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
+                cmd = "{0} -kmtd3 -rmtd4 '{1}' > /dev/null 2>&1 &".format(
+                    OFGWRITE_BIN, dir_flash)
             elif ret == "rootfs2":
                 text += _("Second partition (only root)")
-                cmd = "{0} -rmtd4 '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
+                cmd = "{0} -rmtd4 '{1}' > /dev/null 2>&1 &".format(
+                    OFGWRITE_BIN, dir_flash)
             elif ret == "kernel2":
                 text += _("Second partition (only kernel)")
-                cmd = "{0} -kmtd3 '{1}' > /dev/null 2>&1 &".format(OFGWRITE_BIN, dir_flash)
+                cmd = "{0} -kmtd3 '{1}' > /dev/null 2>&1 &".format(
+                    OFGWRITE_BIN, dir_flash)
             else:
                 return
 
@@ -1193,7 +1440,7 @@ class FlashImageConfig(Screen):
         try:
             with open(join(backup_dir, VERSIONFILE), "r") as f:
                 backup_info = f.read()
-        except:
+        except BaseException:
             pass
         return backup_info
 
@@ -1204,10 +1451,11 @@ class FlashImageConfig(Screen):
             filename = self.filelist.getFilename()
             if dirname and filename:
                 try:
-                    os_system('unzip -o "{0}" -d "{1}"'.format(join(dirname, filename), dirname))
+                    os_system(
+                        'unzip -o "{0}" -d "{1}"'.format(join(dirname, filename), dirname))
                     self.filelist.refresh()
                     self.update_ui()
-                except:
+                except BaseException:
                     pass
 
     def KeyBlue(self):
@@ -1216,18 +1464,21 @@ class FlashImageConfig(Screen):
             self.session.openWithCallback(
                 self.confirmedDelete,
                 MessageBox,
-                _("You are about to delete this backup:\n\n{0}\nContinue?").format(self.getBackupInfo()),
-                MessageBox.TYPE_YESNO
-            )
+                _("You are about to delete this backup:\n\n{0}\nContinue?").format(
+                    self.getBackupInfo()),
+                MessageBox.TYPE_YESNO)
 
     def confirmedDelete(self, answer):
         """Delete the selected backup directory if confirmed."""
         if answer is True:
             backup_dir = self.getCurrentSelected()
-            cmdmessage = "echo -e 'Removing backup:   {0}\\n'".format(basename(backup_dir.rstrip('/')))
+            cmdmessage = "echo -e 'Removing backup:   {0}\\n'".format(
+                basename(backup_dir.rstrip('/')))
             cmddelete = "rm -rf '{0}' > /dev/null 2>&1".format(backup_dir)
             self.update_ui()
-            self.session.open(Console, _("Delete backup"), [cmdmessage, cmddelete], self.filelist.refresh)
+            self.session.open(
+                Console, _("Delete backup"), [
+                    cmdmessage, cmddelete], self.filelist.refresh)
 
 
 class BackupHelpScreen(Screen):
@@ -1328,11 +1579,12 @@ class WhatisNewInfo(Screen):
                 "down": self["AboutScrollLabel"].pageDown
             }
         )
-        whatsnew_path = resolveFilename(SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")
+        whatsnew_path = resolveFilename(
+            SCOPE_PLUGINS, "Extensions/BackupSuite/whatsnew.txt")
         try:
             with open(whatsnew_path) as file:
                 self["AboutScrollLabel"].setText(file.read())
-        except:
+        except BaseException:
             self["AboutScrollLabel"].setText(_("Change log not available"))
 
 
@@ -1354,7 +1606,8 @@ def main(session, **kwargs):
 def Plugins(path, **kwargs):
     global plugin_path
     plugin_path = path
-    description = "{0}, {1}".format(_('Backup and restore your image'), VERSION)
+    description = "{0}, {1}".format(
+        _('Backup and restore your image'), VERSION)
     return [
         PluginDescriptor(
             name="BackupSuite",

@@ -4,577 +4,328 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
-msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-28 13:03+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-SearchPath-0: findkerneldevice.py\n"
-"X-Poedit-SearchPath-1: help.txt\n"
-"X-Poedit-SearchPath-2: plugin.py\n"
 
-#: plugin.py:238 plugin.py:239
-msgid "GB"
-msgstr ""
 
-#: plugin.py:241
-msgid "Unknown"
-msgstr ""
-
-#: plugin.py:338 plugin.py:715
-msgid "USB Storage"
-msgstr ""
-
-#: plugin.py:343 plugin.py:714
-msgid "SD Card"
-msgstr ""
-
-#: plugin.py:348 plugin.py:716
-msgid "Hard Disk"
-msgstr ""
-
-#: plugin.py:353 plugin.py:717
-msgid "Network Storage"
-msgstr ""
-
-#: plugin.py:358 plugin.py:617 plugin.py:718
-msgid "Barry Allen"
-msgstr ""
-
-#: plugin.py:363 plugin.py:627
-msgid "Restore Backup"
-msgstr ""
-
-#: plugin.py:493
-msgid "Make or restore a backup"
-msgstr ""
-
-#: plugin.py:495 plugin.py:886 plugin.py:1320
-msgid "Close"
-msgstr ""
-
-#: plugin.py:496
-msgid "Backup"
-msgstr ""
-
-#: plugin.py:497
-msgid "Restore"
-msgstr ""
-
-#: plugin.py:498
-msgid "Help"
-msgstr ""
-
-#: plugin.py:523
-#, python-brace-format
-msgid "Backup Suite v{0}"
-msgstr ""
-
-#: plugin.py:551
-#, python-brace-format
-msgid ""
-"Missing backup scripts:\n"
-"\n"
-"{0}\n"
-"\n"
-"Please reinstall the BackupSuite plugin."
-msgstr ""
-
-#: plugin.py:590
-#, python-brace-format
-msgid "Backup to {0}"
-msgstr ""
-
-#: plugin.py:606
-msgid "Backup to Network"
-msgstr ""
-
-#: plugin.py:676
-msgid "Unknown device type selected"
-msgstr ""
-
-#: plugin.py:686
-#, python-brace-format
-msgid "Error selecting device: {0}"
-msgstr ""
-
-#: plugin.py:708
-msgid "No device type selected"
-msgstr ""
-
-#: plugin.py:726
-#, python-brace-format
-msgid ""
-"Do you want to make a backup to {0}?\n"
-"\n"
-"This may take several minutes."
-msgstr ""
-
-#: plugin.py:746
-#, python-brace-format
-msgid "Backup script not found for {0}: {1}"
-msgstr ""
-
-#: plugin.py:757
-#, python-brace-format
-msgid "{0} Backup"
-msgstr ""
-
-#: plugin.py:771
-msgid "No network shares mounted! Please mount a share first."
-msgstr ""
-
-#: plugin.py:779
-msgid "Free:"
-msgstr ""
-
-#: plugin.py:779
-msgid "Total:"
-msgstr ""
-
-#: plugin.py:785
-msgid "Select network share for backup:"
-msgstr ""
-
-#: plugin.py:802
-#, python-brace-format
-msgid ""
-"Could not create backup directory: {0}\n"
-"Error: {1}"
-msgstr ""
-
-#: plugin.py:809
-#, python-brace-format
-msgid "No write permission for: {0}"
-msgstr ""
-
-#: plugin.py:852
-msgid "Backup failed: Not enough free space on device!"
-msgstr ""
-
-#: plugin.py:854
-msgid "Backup failed: Write permission denied!"
-msgstr ""
-
-#: plugin.py:856
-msgid "Backup failed: Device is read-only!"
-msgstr ""
-
-#: plugin.py:858
-msgid "Backup failed: Required files not found!"
-msgstr ""
-
-#: plugin.py:860
-msgid "Backup failed: Network connection lost!"
-msgstr ""
-
-#: plugin.py:864
-msgid "Backup failed! Last errors:"
-msgstr ""
-
-#: plugin.py:868
-#, python-brace-format
-msgid "Backup failed! Check log: {0}"
-msgstr ""
-
-#: plugin.py:885
-msgid "Select the folder with backup"
-msgstr ""
-
-#: plugin.py:890
-#, python-brace-format
-msgid "current:  {0}"
-msgstr ""
-
-#: plugin.py:941
-#, python-brace-format
-msgid "Current: {0}"
-msgstr ""
-
-#: plugin.py:943 plugin.py:1173
-msgid "Unzip"
-msgstr ""
-
-#: plugin.py:946
-msgid "Flash"
-msgstr ""
-
-#: plugin.py:948
-msgid "About"
-msgstr ""
-
-#: plugin.py:949 plugin.py:1215
-msgid "Delete"
-msgstr ""
-
-#: plugin.py:974
-msgid ""
-"\n"
-"You are using dual multiboot!"
-msgstr ""
-
-#: plugin.py:977
-msgid ""
-"Warning!\n"
-"Use at your own risk! Make always a backup before use!\n"
-"Don't use it if you use multiple ubi volumes in ubi layer!"
-msgstr ""
-
-#: plugin.py:992
-msgid "Run flash"
-msgstr ""
-
-#: plugin.py:998
-msgid "Select parameter for start flash!\n"
-msgstr ""
-
-#: plugin.py:999
-msgid "For flashing your receiver files are needed:\n"
-msgstr ""
-
-#: plugin.py:1071
-msgid ""
-"\n"
-"The found files:"
-msgstr ""
-
-#: plugin.py:1074
-#, python-brace-format
-msgid "  {0} (maybe ok)"
-msgstr ""
-
-#: plugin.py:1077
-#, python-brace-format
-msgid "  {0} (maybe error)"
-msgstr ""
-
-#: plugin.py:1080
-msgid " nothing!"
-msgstr ""
-
-#: plugin.py:1086 plugin.py:1120
-msgid "Simulate (no write)"
-msgstr ""
-
-#: plugin.py:1087 plugin.py:1123
-msgid "Standard (root and kernel)"
-msgstr ""
-
-#: plugin.py:1088 plugin.py:1129
-msgid "Only root"
-msgstr ""
-
-#: plugin.py:1089 plugin.py:1132
-msgid "Only kernel"
-msgstr ""
-
-#: plugin.py:1092 plugin.py:1135
-msgid "Simulate second partition (no write)"
-msgstr ""
-
-#: plugin.py:1093 plugin.py:1138
-msgid "Second partition (root and kernel)"
-msgstr ""
-
-#: plugin.py:1094 plugin.py:1141
-msgid "Second partition (only root)"
-msgstr ""
-
-#: plugin.py:1095 plugin.py:1144
-msgid "Second partition (only kernel)"
-msgstr ""
-
-#: plugin.py:1101
-msgid "Exit"
-msgstr ""
-
-#: plugin.py:1112
-msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
-
-#: plugin.py:1117
-msgid "Flashing: "
-msgstr ""
-
-#: plugin.py:1150
-msgid "NOT found files for flashing!\n"
-msgstr ""
-
-#: plugin.py:1156
-msgid "Show only found image and mtd partitions.\n"
-msgstr ""
-
-#: plugin.py:1161
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
-
-#: plugin.py:1162
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
-
-#: plugin.py:1163
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
-
-#: plugin.py:1164
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
-
-#: plugin.py:1179
-#, python-brace-format
-msgid "Do you really want to unpack {0} ?"
-msgstr ""
-
-#: plugin.py:1182
-msgid "Backup info"
-msgstr ""
-
-#: plugin.py:1219
-#, python-brace-format
-msgid ""
-"You are about to delete this backup:\n"
-"\n"
-"{0}\n"
-"Continue?"
-msgstr ""
-
-#: plugin.py:1230
-msgid "Delete backup"
-msgstr ""
-
-#: plugin.py:1241
-msgid "BackupSuite Help"
-msgstr ""
-
-#: plugin.py:1244
-#, python-brace-format
-msgid ""
-"BackupSuite v{0}\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1245
-msgid ""
-"Welcome to BackupSuite help.\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1246
-msgid "Device List:\n"
-msgstr ""
-
-#: plugin.py:1247
-msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
-
-#: plugin.py:1248
-msgid ""
-"• Press OK to select an option\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1250
-msgid "Backup Options:\n"
-msgstr ""
-
-#: plugin.py:1251
-msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
-
-#: plugin.py:1252
-msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
-
-#: plugin.py:1253
-msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
-
-#: plugin.py:1254
-msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
-
-#: plugin.py:1255
-msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
-
-#: plugin.py:1256
-msgid ""
-"• Restore: Flash a previously created backup or image\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1258
-msgid "Button Functions:\n"
-msgstr ""
-
-#: plugin.py:1259
-msgid "• GREEN: Start backup for selected device\n"
-msgstr ""
-
-#: plugin.py:1260
-msgid "• YELLOW: Start restore process\n"
-msgstr ""
-
-#: plugin.py:1261
-msgid "• BLUE: Show this help screen\n"
-msgstr ""
-
-#: plugin.py:1262
-msgid ""
-"• RED: Close BackupSuite\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1264
-msgid "NET Backup Instructions:\n"
-msgstr ""
-
-#: plugin.py:1265
-msgid "1. Mount your network share first:\n"
-msgstr ""
-
-#: plugin.py:1266
-msgid "   - Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
-
-#: plugin.py:1267
-msgid "   - Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
-
-#: plugin.py:1268
-msgid "   - Enter server IP, share name, username and password\n"
-msgstr ""
-
-#: plugin.py:1269
-msgid ""
-"   - Mount the share and assign a name (e.g., NET_BACKUP)\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1270
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
-
-#: plugin.py:1271
-msgid "3. Choose your mounted network share\n"
-msgstr ""
-
-#: plugin.py:1272
-msgid ""
-"4. Confirm and start the backup process\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1274
-msgid "Best Practices:\n"
-msgstr ""
-
-#: plugin.py:1275
-msgid "- Keep regular backups of your system\n"
-msgstr ""
-
-#: plugin.py:1276
-msgid "- Verify you have enough free storage space\n"
-msgstr ""
-
-#: plugin.py:1277
-msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
-
-#: plugin.py:1278
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
-
-#: plugin.py:1279
-msgid ""
-"- For network backups, use wired connection instead of Wi-Fi\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1281
-msgid "Technical Notes:\n"
-msgstr ""
-
-#: plugin.py:1282
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
-
-#: plugin.py:1283
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
-
-#: plugin.py:1284
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
-
-#: plugin.py:1285
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
-
-#: plugin.py:1286
-msgid ""
-"- Always choose 'Standard (root and kernel)' when restoring\n"
-"\n"
-msgstr ""
-
-#: plugin.py:1288
-msgid "Troubleshooting NET Backup:\n"
-msgstr ""
-
-#: plugin.py:1289
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
-
-#: plugin.py:1290
-msgid "- Verify username/password are correct\n"
-msgstr ""
-
-#: plugin.py:1291
 msgid "- Check share permissions (read/write)\n"
 msgstr ""
 
-#: plugin.py:1292
+msgid "- Ensure NAS is powered on and accessible\n"
+msgstr ""
+
+msgid "- Enter server IP, share name, username and password\n"
+msgstr ""
+
+msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
+msgstr ""
+
+msgid "- HDD backups: Stored in /media/hdd/backup\n"
+msgstr ""
+
+msgid "- Keep regular backups of your system\n"
+msgstr ""
+
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
+msgstr ""
+
+msgid "- Never interrupt backup/restore processes\n"
+msgstr ""
+
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
+msgstr ""
+
+msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
+msgstr ""
+
 msgid "- Test connection with ping command\n"
 msgstr ""
 
-#: plugin.py:1293
-msgid ""
-"- Use IP address instead of hostname if DNS fails\n"
-"\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
 msgstr ""
 
-#: plugin.py:1295
-msgid "For detailed instructions and support:\n"
+msgid "- Use quality USB drives for recovery sticks\n"
 msgstr ""
 
-#: plugin.py:1296
-msgid "Visit our GitHub repository:\n"
+msgid "- Verify username/password are correct\n"
 msgstr ""
 
-#: plugin.py:1297
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "- Verify you have enough free storage space\n"
 msgstr ""
 
-#: plugin.py:1319
-msgid "What is new since the last release?"
+msgid "1. Mount your network share first:\n"
 msgstr ""
 
-#: plugin.py:1321
-msgid "Please wait"
+msgid "2. Select 'NET Backup' from the device list\n"
 msgstr ""
 
-#: plugin.py:1336
+msgid "3. Choose your mounted network share\n"
+msgstr ""
+
+msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Backup"
+msgstr ""
+
+msgid "Backup Options:\n"
+msgstr ""
+
+msgid "Backup Suite v{0}"
+msgstr ""
+
+msgid "Backup and restore your image"
+msgstr ""
+
+msgid "Backup failed! Check log: {0}"
+msgstr ""
+
+msgid "Backup failed! Last errors:"
+msgstr ""
+
+msgid "Backup failed: Device is read-only!"
+msgstr ""
+
+msgid "Backup failed: Network connection lost!"
+msgstr ""
+
+msgid "Backup failed: Not enough free space on device!"
+msgstr ""
+
+msgid "Backup failed: Required files not found!"
+msgstr ""
+
+msgid "Backup failed: Write permission denied!"
+msgstr ""
+
+msgid "Backup info"
+msgstr ""
+
+msgid "Backup script not found for {0}: {1}"
+msgstr ""
+
+msgid "Backup to Network"
+msgstr ""
+
+msgid "Backup to {0}"
+msgstr ""
+
+msgid "BackupSuite Help"
+msgstr ""
+
+msgid "Barry Allen"
+msgstr ""
+
+msgid "Best Practices:\n"
+msgstr ""
+
+msgid "Button Functions:\n"
+msgstr ""
+
 msgid "Change log not available"
 msgstr ""
 
-#: plugin.py:1357
-msgid "Backup and restore your image"
+msgid "Close"
+msgstr ""
+
+msgid "Current: {0}"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete backup"
+msgstr ""
+
+msgid "Device List:\n"
+msgstr ""
+
+msgid "Do you really want to unpack {0} ?"
+msgstr ""
+
+msgid "Error selecting device: {0}"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Flash"
+msgstr ""
+
+msgid "Flashing:"
+msgstr ""
+
+msgid "For detailed instructions and support:\n"
+msgstr ""
+
+msgid "For flashing your receiver files are needed:\n"
+msgstr ""
+
+msgid "Free:"
+msgstr ""
+
+msgid "GB"
+msgstr ""
+
+msgid "Hard Disk"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Make or restore a backup"
+msgstr ""
+
+msgid "NET Backup Instructions:\n"
+msgstr ""
+
+msgid "NOT found files for flashing!\n"
+msgstr ""
+
+msgid "Network Storage"
+msgstr ""
+
+msgid "No device type selected"
+msgstr ""
+
+msgid "No network shares mounted! Please mount a share first."
+msgstr ""
+
+msgid "No write permission for: {0}"
+msgstr ""
+
+msgid "Only kernel"
+msgstr ""
+
+msgid "Only root"
+msgstr ""
+
+msgid "Please wait"
+msgstr ""
+
+msgid "Please: DO NOT reboot your STB and turn off the power.\n"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Restore Backup"
+msgstr ""
+
+msgid "Run flash"
+msgstr ""
+
+msgid "SD Card"
+msgstr ""
+
+msgid "Second partition (only kernel)"
+msgstr ""
+
+msgid "Second partition (only root)"
+msgstr ""
+
+msgid "Second partition (root and kernel)"
+msgstr ""
+
+msgid "Select network share for backup:"
+msgstr ""
+
+msgid "Select parameter for start flash!\n"
+msgstr ""
+
+msgid "Select the folder with backup"
+msgstr ""
+
+msgid "Show only found image and mtd partitions.\n"
+msgstr ""
+
+msgid "Simulate (no write)"
+msgstr ""
+
+msgid "Simulate second partition (no write)"
+msgstr ""
+
+msgid "Standard (root and kernel)"
+msgstr ""
+
+msgid "Technical Notes:\n"
+msgstr ""
+
+msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
+msgstr ""
+
+msgid "Total:"
+msgstr ""
+
+msgid "Troubleshooting NET Backup:\n"
+msgstr ""
+
+msgid "USB Storage"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unknown device type selected"
+msgstr ""
+
+msgid "Unzip"
+msgstr ""
+
+msgid "Visit our GitHub repository:\n"
+msgstr ""
+
+msgid "What is new since the last release?"
+msgstr ""
+
+msgid "Your STB will freeze during the flashing process.\n"
+msgstr ""
+
+msgid "current:  {0}"
+msgstr ""
+
+msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgstr ""
+
+msgid "nothing!"
+msgstr ""
+
+msgid "ofgwrite will stop enigma2 now to run the flash.\n"
+msgstr ""
+
+msgid "{0} (maybe error)"
+msgstr ""
+
+msgid "{0} (maybe ok)"
+msgstr ""
+
+msgid "{0} Backup"
+msgstr ""
+
+msgid "• BLUE: Show this help screen\n"
+msgstr ""
+
+msgid "• Barry Allen: Multiboot backup (if installed)\n"
+msgstr ""
+
+msgid "• GREEN: Start backup for selected device\n"
+msgstr ""
+
+msgid "• HDD Backup: Full system backup to internal hard drive\n"
+msgstr ""
+
+msgid "• MMC Backup: Backup to external storage (eMMC)\n"
+msgstr ""
+
+msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
+msgstr ""
+
+msgid "• USB Backup: Create a bootable USB recovery stick\n"
+msgstr ""
+
+msgid "• Use UP/DOWN buttons to navigate through backup options\n"
+msgstr ""
+
+msgid "• YELLOW: Start restore process\n"
 msgstr ""
