@@ -35,91 +35,93 @@ Q flags
 
 
 def _make_fmt(name, format, extras=[]):
-	type_and_name = [line.split(None, 1) for line in format.strip().splitlines()]
-	fmt = "<" + "".join(t for t, _ in type_and_name)
-	fields = [n for t, n in type_and_name if n != "_"] + extras
-	tupletype = collections.namedtuple(name, fields)
-	return fmt, tupletype
+    type_and_name = [line.split(None, 1)
+                     for line in format.strip().splitlines()]
+    fmt = "<" + "".join(t for t, _ in type_and_name)
+    fields = [n for t, n in type_and_name if n != "_"] + extras
+    tupletype = collections.namedtuple(name, fields)
+    return fmt, tupletype
 
 
 class GPTError(Exception):
-	pass
+    pass
 
 
 def read_header(fp, lba_size=512):
-	fp.seek(1 * lba_size)  # skip protective MBR
-	fmt, GPTHeader = _make_fmt("GPTHeader", GPT_HEADER_FORMAT)
-	data = fp.read(struct.calcsize(fmt))
-	header = GPTHeader._make(struct.unpack(fmt, data))
-	if header.signature != b"EFI PART":
-		raise GPTError("Bad signature: {0!r}".format(header.signature))
-	if header.revision != b"\x00\x00\x01\x00":
-		raise GPTError("Bad revision: {0!r}".format(header.revision))
-	if header.header_size < 92:
-		raise GPTError("Bad header size: {0!r}".format(header.header_size))
-	return header._replace(
-		disk_guid=str(uuid.UUID(bytes_le=header.disk_guid))
-	)
+    fp.seek(1 * lba_size)  # skip protective MBR
+    fmt, GPTHeader = _make_fmt("GPTHeader", GPT_HEADER_FORMAT)
+    data = fp.read(struct.calcsize(fmt))
+    header = GPTHeader._make(struct.unpack(fmt, data))
+    if header.signature != b"EFI PART":
+        raise GPTError("Bad signature: {0!r}".format(header.signature))
+    if header.revision != b"\x00\x00\x01\x00":
+        raise GPTError("Bad revision: {0!r}".format(header.revision))
+    if header.header_size < 92:
+        raise GPTError("Bad header size: {0!r}".format(header.header_size))
+    return header._replace(
+        disk_guid=str(uuid.UUID(bytes_le=header.disk_guid))
+    )
 
 
 def read_partitions(fp, header, lba_size=512):
-	fp.seek(header.part_entry_start_lba * lba_size)
-	fmt, GPTPartition = _make_fmt("GPTPartition", GPT_PARTITION_FORMAT, extras=["index"])
-	for idx in range(1, 1 + header.num_part_entries):
-		data = fp.read(header.part_entry_size)
-		if len(data) < struct.calcsize(fmt):
-			raise GPTError("Short partition entry")
-		part = GPTPartition._make(struct.unpack(fmt, data) + (idx,))
-		if part.type == b"\x00" * 16:
-			continue
-		part = part._replace(
-			type=str(uuid.UUID(bytes_le=part.type)),
-			unique=str(uuid.UUID(bytes_le=part.unique)),
-			name=part.name.decode("utf-16").split("\x00", 1)[0]
-		)
-		yield part
+    fp.seek(header.part_entry_start_lba * lba_size)
+    fmt, GPTPartition = _make_fmt(
+        "GPTPartition", GPT_PARTITION_FORMAT, extras=["index"])
+    for idx in range(1, 1 + header.num_part_entries):
+        data = fp.read(header.part_entry_size)
+        if len(data) < struct.calcsize(fmt):
+            raise GPTError("Short partition entry")
+        part = GPTPartition._make(struct.unpack(fmt, data) + (idx,))
+        if part.type == b"\x00" * 16:
+            continue
+        part = part._replace(
+            type=str(uuid.UUID(bytes_le=part.type)),
+            unique=str(uuid.UUID(bytes_le=part.unique)),
+            name=part.name.decode("utf-16").split("\x00", 1)[0]
+        )
+        yield part
 
 
 def find_kernel_device_udevadm(kernelpartition, name=None):
-	try:
-		for partition in os.listdir("/sys/block/mmcblk0"):
-			if partition.startswith("mmcblk0p") and kernelpartition == name:
-				return "/dev/{0}".format(partition)
-		return ""
-	except Exception:
-		return ""
+    try:
+        for partition in os.listdir("/sys/block/mmcblk0"):
+            if partition.startswith("mmcblk0p") and kernelpartition == name:
+                return "/dev/{0}".format(partition)
+        return ""
+    except Exception:
+        return ""
 
 
 def find_kernel_device_gpt(kernelpartition):
-	device = "/dev/mmcblk0"
-	try:
-		with open("/proc/cmdline", "r") as f:
-			match = re.search(r"/dev/mmcblk\d+", f.read())
-			if match:
-				device = match.group(0)
-	except Exception:
-		pass
-	try:
-		with open(device, "rb") as f:
-			header = read_header(f)
-		with open(device, "rb") as f:
-			for p, part in enumerate(read_partitions(f, header), start=1):
-				if kernelpartition == part.name:
-					return "{0}p{1}".format(device, p)
-		return ""
-	except Exception:
-		return ""
+    device = "/dev/mmcblk0"
+    try:
+        with open("/proc/cmdline", "r") as f:
+            match = re.search(r"/dev/mmcblk\d+", f.read())
+            if match:
+                device = match.group(0)
+    except Exception:
+        pass
+    try:
+        with open(device, "rb") as f:
+            header = read_header(f)
+        with open(device, "rb") as f:
+            for p, part in enumerate(read_partitions(f, header), start=1):
+                if kernelpartition == part.name:
+                    return "{0}p{1}".format(device, p)
+        return ""
+    except Exception:
+        return ""
 
 
 try:
-	with open("/sys/firmware/devicetree/base/chosen/kerneldev", "r") as f:
-		kerneldev = f.readline().split(".")
-		if "emmcflash0" in kerneldev[0]:
-			partition_name = kerneldev[1].strip("\0")
-			kerneldevice = find_kernel_device_udevadm(partition_name)
-			if not kerneldevice:
-				kerneldevice = find_kernel_device_gpt(partition_name)
-			if kerneldevice:
-				os.symlink(kerneldevice, "/dev/kernel")
+    with open("/sys/firmware/devicetree/base/chosen/kerneldev", "r") as f:
+        kerneldev = f.readline().split(".")
+        if "emmcflash0" in kerneldev[0]:
+            partition_name = kerneldev[1].strip("\0")
+            kerneldevice = find_kernel_device_udevadm(partition_name)
+            if not kerneldevice:
+                kerneldevice = find_kernel_device_gpt(partition_name)
+            if kerneldevice:
+                os.symlink(kerneldevice, "/dev/kernel")
 except Exception:
-	pass
+    pass
