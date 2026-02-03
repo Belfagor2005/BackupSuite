@@ -1,13 +1,75 @@
 #!/bin/sh
+
 echo ""
-chmod 755 /usr/bin/bzip*
-chmod 755 /usr/bin/bzip2
-chmod 755 /usr/sbin/mkfs*.*
-chmod 755 /usr/sbin/ubi*
-chmod 755 /var/lib/opkg/info/enigma2-plugin-extensions-backupsuite.*
-chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.sh
+echo " *******************************************  "
+echo "  *  BackupSuite installed successfully  *    "
+echo "   *      E2 restart is required       *      "
+echo " *******************************************  "
+echo ""
+
+# Fix permissions for ALL backup scripts
+chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/scripts/*.sh
+
+# Fix permissions for critical binaries used by backup scripts
+if [ -f "/usr/bin/ubinize" ]; then
+    chmod +x /usr/bin/ubinize
+    echo "Fixed ubinize permissions"
+fi
+
+if [ -f "/usr/sbin/mkfs.ubifs" ]; then
+    chmod +x /usr/sbin/mkfs.ubifs
+    echo "Fixed mkfs.ubifs permissions"
+fi
+
+if [ -f "/usr/sbin/nanddump" ]; then
+    chmod +x /usr/sbin/nanddump
+    echo "Fixed nanddump permissions"
+fi
+
+if [ -f "/usr/bin/bzip2" ]; then
+    chmod +x /usr/bin/bzip2
+    echo "Fixed bzip2 permissions"
+fi
+
+if [ -f "/usr/bin/bunzip2" ]; then
+    chmod +x /usr/bin/bunzip2
+    echo "Fixed bunzip2 permissions"
+fi
+
+if [ -f "/usr/bin/zip" ]; then
+    chmod +x /usr/bin/zip
+    echo "Fixed zip permissions"
+fi
+
+if [ -f "/usr/sbin/mkfs.jffs2" ]; then
+    chmod +x /usr/sbin/mkfs.jffs2
+    echo "Fixed mkfs.jffs2 permissions"
+fi
+
+if [ -f "/usr/bin/buildimage" ]; then
+    chmod +x /usr/bin/buildimage
+    echo "Fixed buildimage permissions"
+fi
+
+# Fix permissions for Python scripts and compiled files
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.py 2>/dev/null
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.pyc 2>/dev/null
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.pyo 2>/dev/null
+
+# Fix permissions for data files
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/*.txt 2>/dev/null
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/locale/*/LC_MESSAGES/*.mo 2>/dev/null
+
+# Fix permissions for images
+chmod 644 /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/img/*.png 2>/dev/null
+
+echo "All BackupSuite permissions fixed successfully"
+
 echo "Restarting Enigma2..."
-# init 4
-# killall enigma2  > /dev/null 2>&1
-# init 3
+init 4
+sleep 2
+killall enigma2 > /dev/null 2>&1
+sleep 2
+init 3
+
 exit 0

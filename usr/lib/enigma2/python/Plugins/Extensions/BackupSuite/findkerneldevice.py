@@ -52,11 +52,11 @@ def read_header(fp, lba_size=512):
 	data = fp.read(struct.calcsize(fmt))
 	header = GPTHeader._make(struct.unpack(fmt, data))
 	if header.signature != b"EFI PART":
-		raise GPTError(f"Bad signature: {header.signature!r}")
+		raise GPTError("Bad signature: {0!r}".format(header.signature))
 	if header.revision != b"\x00\x00\x01\x00":
-		raise GPTError(f"Bad revision: {header.revision!r}")
+		raise GPTError("Bad revision: {0!r}".format(header.revision))
 	if header.header_size < 92:
-		raise GPTError(f"Bad header size: {header.header_size!r}")
+		raise GPTError("Bad header size: {0!r}".format(header.header_size))
 	return header._replace(
 		disk_guid=str(uuid.UUID(bytes_le=header.disk_guid))
 	)
@@ -84,7 +84,7 @@ def find_kernel_device_udevadm(kernelpartition, name=None):
 	try:
 		for partition in os.listdir("/sys/block/mmcblk0"):
 			if partition.startswith("mmcblk0p") and kernelpartition == name:
-				return f"/dev/{partition}"
+				return "/dev/{0}".format(partition)
 		return ""
 	except Exception:
 		return ""
@@ -105,7 +105,7 @@ def find_kernel_device_gpt(kernelpartition):
 		with open(device, "rb") as f:
 			for p, part in enumerate(read_partitions(f, header), start=1):
 				if kernelpartition == part.name:
-					return f"{device}p{p}"
+					return "{0}p{1}".format(device, p)
 		return ""
 	except Exception:
 		return ""

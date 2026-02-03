@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function  # Per compatibilità print
 from Components.Language import language
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 import gettext
@@ -20,7 +21,7 @@ def _(txt):
 	if translated:
 		return translated
 	else:
-		print(f"[{PluginLanguageDomain}] fallback to default translation for {txt}")
+		print("[{0}] fallback to default translation for {1}".format(PluginLanguageDomain, txt))
 		return gettext.gettext(txt)
 
 

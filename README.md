@@ -3,30 +3,44 @@
 
 ---
 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/plugin.png?raw=true">
+<!-- Icona plugin -->
+<p align="center">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/plugin.png?raw=true" height="120">
+</p>
 
-### **Main 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/00.png?raw=true">
+## 📺 Screenshots
 
-### **On Usb
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/11.png?raw=true">
+### **Main**
+<p align="center">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/00.png?raw=true" height="220">
+</p>
 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/22.png?raw=true">
+### **On USB**
+<p align="center">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/11.png?raw=true" height="220">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/22.png?raw=true" height="220">
+</p>
 
-### **On Net
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/33.png?raw=true">
+### **On Net**
+<p align="center">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/33.png?raw=true" height="220">
+</p>
 
-### **On MMC
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/mmc1.png?raw=true">
+### **On MMC**
+<p align="center">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/mmc1.png?raw=true" height="220">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/mmc2.png?raw=true" height="220">
+</p>
 
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/mmc2.png?raw=true">
+### **Info**
+<p align="center">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/info.png?raw=true" height="220">
+</p>
 
-### **Info
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/info.png?raw=true">
-
-### **Help
-<img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/help.png?raw=true">
-
+### **Help**
+<p align="center">
+  <img src="https://github.com/Belfagor2005/BackupSuite/blob/main/screen/help.png?raw=true" height="220">
+</p>
 
 ---
 
