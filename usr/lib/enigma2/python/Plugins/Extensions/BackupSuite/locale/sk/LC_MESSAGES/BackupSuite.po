@@ -14,64 +14,64 @@ msgstr ""
 "X-Generator: Poedit 2.4.2\n"
 
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Skontrolujte povolenia zdieľania (čítanie/zápis)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Uistite sa, že je NAS zapnutý a dostupný\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Zadajte IP servera, názov zdieľania, meno používateľa a heslo\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Prejdite do Hlavná ponuka > Nastavenie > Systém > Správca ukladania\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Zálohy HDD: Uložené v /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Pravidelne si zálohujte systém\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET zálohy: Vyžaduje pripojené zdieľanie CIFS/NFS s oprávneniami na zápis\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Nikdy neprerušujte procesy zálohovania/obnovy\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Obnovenie: Funguje z HDD, USB, NET alebo MMC úložiska\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Vyberte 'Sieťové úložisko' a pridajte zdieľanie NAS/SMB\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Otestujte pripojenie pomocou príkazu ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Zálohy USB: Vyžaduje sa disk naformátovaný na FAT32 so súborom „záložnej tyčinky“\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Použite kvalitné USB disky pre obnovovacie kľúče\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Overte správnosť používateľského mena/hesla\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "– Overte, či máte dostatok voľného miesta v úložisku\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Najprv pripojte sieťové zdieľanie:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Vyberte 'NET Backup' zo zoznamu zariadení\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Vyberte si pripojené sieťové zdieľanie\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "V súčasnej dobe prebieha nahrávanie. Pred pokusom o spustenie obnovy prosím zastavte nahrávanie."
 
 msgid "About"
-msgstr ""
+msgstr "O"
 
 #, fuzzy
 msgid "Backup"
@@ -89,32 +89,32 @@ msgid "Backup and restore your image"
 msgstr "Zálohovať a obnoviť zálohu systému"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Zálohovanie zlyhalo! Kontrola denníka: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Zálohovanie zlyhalo! Posledné chyby:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Zálohovanie zlyhalo: Zariadenie je len na čítanie!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Zálohovanie zlyhalo: Sieťové pripojenie sa stratilo!"
 
 #, fuzzy
 msgid "Backup failed: Not enough free space on device!"
 msgstr "Nedostatok volného miesta na "
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Zálohovanie zlyhalo: Požadované súbory sa nenašli!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Zálohovanie zlyhalo: Povolenie na zápis bolo odmietnuté!"
 
 msgid "Backup info"
 msgstr "Informácia o zálohe"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Nenašiel sa záložný skript pre {0}: {1}"
 
 #, fuzzy
 msgid "Backup to Network"
@@ -132,13 +132,13 @@ msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Osvedčené postupy:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Funkcie tlačidiel:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Denník zmien nie je k dispozícii"
 
 msgid "Close"
 msgstr "Zatvoriť"
@@ -154,14 +154,14 @@ msgid "Delete backup"
 msgstr "Vymazať zálohu"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Zoznam zariadení:\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
 msgstr "Naozaj chcete rozbaliť %s ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Chyba pri výbere zariadenia: {0}"
 
 msgid "Exit"
 msgstr "Ukončiť"
@@ -175,44 +175,44 @@ msgid "Flashing:"
 msgstr "Flashing: "
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Podrobné pokyny a podporu:\n"
 
 msgid "For flashing your receiver files are needed:\n"
 msgstr "Pre obnovenie sú potrebné súbory:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "zadarmo:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Pevný disk"
 
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 #, fuzzy
 msgid "Make or restore a backup"
 msgstr "Vytvoriť zálohu alebo obnoviť zálohu"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "Pokyny na zálohovanie NET:\n"
 
 msgid "NOT found files for flashing!\n"
 msgstr "Neboli nájdené súbory pre obnovenie zálohy!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Sieťové úložisko"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Nie je vybratý žiadny typ zariadenia"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Nie sú pripojené žiadne sieťové zdieľania! Najprv pripojte zdieľanie."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Žiadne povolenie na zápis pre: {0}"
 
 msgid "Only kernel"
 msgstr "Iba kernel"
@@ -238,7 +238,7 @@ msgid "Run flash"
 msgstr "Spustiť obnovu"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD karta"
 
 msgid "Second partition (only kernel)"
 msgstr "Druhá partícia (iba kernel)"
@@ -272,31 +272,31 @@ msgid "Standard (root and kernel)"
 msgstr "Štandard (root a kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Technické poznámky:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
 msgstr "Image alebo kernel bude obnovený a prijímač sa automaticky do niekolkých minút reštartuje.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Celkom:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Riešenie problémov so zálohovaním NET:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "Úložisko USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámy"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Vybrali ste neznámy typ zariadenia"
 
 msgid "Unzip"
 msgstr "Rozbaliť"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Navštívte naše úložisko GitHub:\n"
 
 msgid "What is new since the last release?"
 msgstr "Čo je nové od poslednej verzie?"
@@ -331,31 +331,31 @@ msgid "{0} Backup"
 msgstr "Informácia o zálohe"
 
 msgid "• BLUE: Show this help screen\n"
-msgstr ""
+msgstr "• MODRÁ: Zobraziť túto obrazovku pomocníka\n"
 
 msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "• Barry Allen: Multiboot záloha (ak je nainštalovaná)\n"
 
 msgid "• GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "• ZELENÁ: Spustenie zálohovania pre vybrané zariadenie\n"
 
 msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "• Záloha HDD: Úplná záloha systému na interný pevný disk\n"
 
 msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "• Záloha MMC: Zálohovanie na externé úložisko (eMMC)\n"
 
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "• NET Backup: Zálohovanie do sieťového úložiska (NAS/SMB)\n"
 
 msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "• USB Backup: Vytvorte bootovateľný USB kľúč na obnovenie\n"
 
 msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "• Na navigáciu cez možnosti zálohovania použite tlačidlá HORE/DOLE\n"
 
 msgid "• YELLOW: Start restore process\n"
-msgstr ""
+msgstr "• ŽLTÉ: Spustite proces obnovy\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

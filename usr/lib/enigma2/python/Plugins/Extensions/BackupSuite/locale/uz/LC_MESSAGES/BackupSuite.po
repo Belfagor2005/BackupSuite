@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Ulashish ruxsatlarini tekshiring (o'qish/yozish)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS yoqilganligini va undan foydalanish mumkinligiga ishonch hosil qiling\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Server IP, baham nomi, foydalanuvchi nomi va parolni kiriting\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Asosiy menyu > Sozlash > Tizim > Saqlash menejeriga o‘ting\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD zaxira nusxalari: /media/hdd/backup\n ichida saqlanadi"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Tizimingizning muntazam zaxira nusxalarini saqlang\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET zahiralari: yozish ruxsati bilan oʻrnatilgan CIFS/NFS almashishni talab qiling\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Zaxiralash/tiklash jarayonlarini hech qachon to'xtatmang\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Qayta tiklash: HDD, USB, NET yoki MMC xotiradan ishlaydi\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- “Tarmoq xotirasi”ni tanlang va NAS/SMB ulushini qo‘shing\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Ping buyrug'i bilan ulanishni sinab ko'ring\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB zaxira nusxalari: FAT32 formatidagi “zaxira stiker” fayli bilan disk talab qilinadi\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Qayta tiklash disklari uchun sifatli USB drayverlardan foydalaning\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Foydalanuvchi nomi/parol toʻgʻriligini tekshiring\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Xotirada yetarli joy borligini tekshiring\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Avval tarmoq ulushini ulang:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Qurilmalar ro‘yxatidan “NET Backup” ni tanlang\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Ulangan tarmoq ulushini tanlang\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Yozuv hozirda bajarilmoqda. Iltimos, miltillashni boshlashdan oldin yozishni to'xtating."
 
 msgid "About"
-msgstr ""
+msgstr "Haqida"
 
 msgid "Backup"
-msgstr ""
+msgstr "Zaxira"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Zaxiralash imkoniyatlari:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Tasviringizni zaxiralang va tiklang"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Zaxiralash amalga oshmadi! Tekshirish jurnali: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Zaxiralash amalga oshmadi! Oxirgi xatolar:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Zaxiralash amalga oshmadi: qurilma faqat o‘qish uchun!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Zaxiralash amalga oshmadi: tarmoq ulanishi uzildi!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Zaxiralash amalga oshmadi: qurilmada boʻsh joy yetarli emas!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Zaxiralash amalga oshmadi: Kerakli fayllar topilmadi!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Zaxiralash amalga oshmadi: yozish ruxsati rad etildi!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Zaxira ma'lumotlari"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0} uchun zaxira skripti topilmadi: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Tarmoqqa zaxiralash"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Zaxiralash: {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite yordami"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Barri Allen"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Eng yaxshi amaliyotlar:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Tugma funktsiyalari:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "O'zgartirish jurnali mavjud emas"
 
 msgid "Close"
-msgstr ""
+msgstr "Yopish"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Joriy: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Oʻchirish"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Zaxira nusxasini o'chirish"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Qurilmalar roʻyxati:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Haqiqatan ham {0} paketini ochmoqchimisiz?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Qurilmani tanlashda xatolik yuz berdi: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Chiqish"
 
 msgid "Flash"
 msgstr ""
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Miltillovchi:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Batafsil ko'rsatmalar va yordam uchun:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Miltillash uchun qabul qiluvchining fayllari kerak bo'ladi:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Bepul:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Qattiq disk"
 
 msgid "Help"
-msgstr ""
+msgstr "Yordam"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Zaxira nusxasini yarating yoki tiklang"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Zaxiralash ko'rsatmalari:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Miltillovchi fayllar topilmadi!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Tarmoq xotirasi"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Hech qanday qurilma turi tanlanmagan"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Hech qanday tarmoq ulushi o'rnatilmagan! Iltimos, avval ulashing."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "{0} uchun yozish ruxsati yoʻq"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Faqat yadro"
 
 msgid "Only root"
-msgstr ""
+msgstr "Faqat ildiz"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Iltimos kuting"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Iltimos: STBni qayta yoqmang va quvvatni oʻchiring.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Qayta tiklash"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Zaxira nusxasini tiklash"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Chiroqni ishga tushiring"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD karta"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Ikkinchi bo'lim (faqat yadro)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Ikkinchi bo'lim (faqat ildiz)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Ikkinchi bo'lim (ildiz va yadro)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Zaxiralash uchun tarmoq ulushini tanlang:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Chiroqni boshlash parametrini tanlang!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Zaxira nusxasi bo'lgan jildni tanlang"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Faqat topilgan rasm va mtd bo‘limlarini ko‘rsatish.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulyatsiya (yozish yo'q)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Ikkinchi qismni simulyatsiya qilish (yozish yo'q)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standart (ildiz va yadro)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Texnik eslatmalar:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Rasm yoki yadro bir necha daqiqada miltillaydi va avtomatik yuklanadi.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Jami:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET Backup bilan bog‘liq muammolarni bartaraf etish:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB xotirasi"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Noma'lum"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Noma'lum qurilma turi tanlandi"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Zipni oching"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "GitHub omborimizga tashrif buyuring:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Oxirgi nashrdan beri nima yangilik?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Sizning STB miltillash jarayonida muzlaydi.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "joriy: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "hech narsa!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite fleshni ishga tushirish uchun enigma2 ni hozir to‘xtatadi.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (xato boʻlishi mumkin)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (bo‘lishi mumkin)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Zaxira"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "KO‘K: Bu yordam ekranini ko‘rsatish\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot zaxira nusxasi (agar o'rnatilgan bo'lsa)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "YASIL: Tanlangan qurilma uchun zaxiralashni boshlang\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD zaxira nusxasi: ichki qattiq diskda tizimning to'liq zaxira nusxasi\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC zaxira: tashqi xotiraga (eMMC) zaxiralash\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Zaxira: Tarmoq xotirasiga (NAS/SMB) zaxiralash\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB zaxira nusxasi: yuklanadigan USB qutqaruv stikini yarating\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Zaxiralash variantlari boʻylab harakatlanish uchun YUQORI/PASTGA tugmalaridan foydalaning\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "SARI: Qayta tiklash jarayonini boshlang\n"

@@ -14,64 +14,64 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Controleer de deelrechten (lezen/schrijven)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Zorg ervoor dat de NAS is ingeschakeld en toegankelijk\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Voer het server-IP, de sharenaam, de gebruikersnaam en het wachtwoord in\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Ga naar Hoofdmenu > Instellingen > Systeem > Opslagbeheer\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD-back-ups: opgeslagen in /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Maak regelmatig back-ups van uw systeem\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET-back-ups: vereist een gekoppelde CIFS/NFS-share met schrijfrechten\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Onderbreek nooit back-up-/herstelprocessen\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Herstellen: werkt vanaf HDD, USB, NET of MMC-opslag\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Selecteer 'Netwerkopslag' en voeg uw NAS/SMB-share toe\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Test de verbinding met ping-commando\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB-back-ups: vereist een FAT32-geformatteerde schijf met 'back-upstick'-bestand\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Gebruik hoogwaardige USB-drives voor herstelsticks\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Controleer of gebruikersnaam en wachtwoord juist zijn\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Controleer of u voldoende vrije opslagruimte heeft\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Koppel eerst uw netwerkshare:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Selecteer 'NET Backup' uit de apparatenlijst\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Kies uw gekoppelde netwerkshare\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Er loopt momenteel een opname. Stop deze opname voordat geprobeerd wordt om te flashen"
 
 msgid "About"
-msgstr ""
+msgstr "Over"
 
 #, fuzzy
 msgid "Backup"
@@ -86,36 +86,36 @@ msgid "Backup Suite v{0}"
 msgstr "BackupSuite"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Maak een back-up en herstel uw afbeelding"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Back-up mislukt! Controleer logboek: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Back-up mislukt! Laatste fouten:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Back-up mislukt: apparaat is alleen-lezen!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Back-up mislukt: netwerkverbinding verbroken!"
 
 #, fuzzy
 msgid "Backup failed: Not enough free space on device!"
 msgstr "Niet genoeg vrije ruimte op "
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Back-up mislukt: vereiste bestanden niet gevonden!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Back-up mislukt: schrijfrechten geweigerd!"
 
 #, fuzzy
 msgid "Backup info"
 msgstr "BackupSuite"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Back-upscript niet gevonden voor {0}: {1}"
 
 #, fuzzy
 msgid "Backup to Network"
@@ -133,37 +133,37 @@ msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Beste praktijken:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Knopfuncties:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Wijzigingslog niet beschikbaar"
 
 msgid "Close"
-msgstr ""
+msgstr "Dichtbij"
 
 #, fuzzy
 msgid "Current: {0}"
 msgstr "huidig:  %s"
 
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #, fuzzy
 msgid "Delete backup"
 msgstr "Backup terugzetten"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Apparaatlijst:\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
 msgstr "Wil je echt %s uitpakken?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Fout bij selecteren van apparaat: {0}"
 
 msgid "Exit"
 msgstr "Einde"
@@ -177,44 +177,44 @@ msgid "Flashing:"
 msgstr "Flashing"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Voor gedetailleerde instructies en ondersteuning:\n"
 
 msgid "For flashing your receiver files are needed:\n"
 msgstr "Benodigde bestanden om de ontvanger te flashen:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Vrij:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Harde schijf"
 
 msgid "Help"
-msgstr ""
+msgstr "Hulp"
 
 #, fuzzy
 msgid "Make or restore a backup"
 msgstr "Maak een backup of herstel een backup"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Backup-instructies:\n"
 
 msgid "NOT found files for flashing!\n"
 msgstr "GEEN bestanden gevonden om te flashen!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Netwerkopslag"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Geen apparaattype geselecteerd"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Geen netwerkshares geactiveerd! Mount eerst een share."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Geen schrijfrechten voor: {0}"
 
 msgid "Only kernel"
 msgstr "Alleen kernel"
@@ -223,7 +223,7 @@ msgid "Only root"
 msgstr "Alleen root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Wacht alstublieft"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
 msgstr "AUB: De ontvanger NIET HERSTARTEN en NIET de stroom onderbreken.\n"
@@ -240,14 +240,14 @@ msgid "Run flash"
 msgstr "Start flash"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD-kaart"
 
 #, fuzzy
 msgid "Second partition (only kernel)"
 msgstr "Standaard (root en kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Tweede partitie (alleen root)"
 
 #, fuzzy
 msgid "Second partition (root and kernel)"
@@ -277,31 +277,31 @@ msgid "Standard (root and kernel)"
 msgstr "Standaard (root en kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Technische opmerkingen:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
 msgstr "De image en/of de kernel worden geflasht en automatisch herstart binnen een paar minuten.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Totaal:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Problemen met NET Backup oplossen:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB-opslag"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Onbekend"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Onbekend apparaattype geselecteerd"
 
 msgid "Unzip"
 msgstr "Unzip"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Bezoek onze GitHub-repository:\n"
 
 msgid "What is new since the last release?"
 msgstr "Wat is nieuw sinds de laatste uitgave?"
@@ -336,31 +336,31 @@ msgid "{0} Backup"
 msgstr "BackupSuite"
 
 msgid "• BLUE: Show this help screen\n"
-msgstr ""
+msgstr "• BLAUW: toon dit helpscherm\n"
 
 msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "• Barry Allen: Multiboot-back-up (indien geïnstalleerd)\n"
 
 msgid "• GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "• GROEN: Start back-up voor geselecteerd apparaat\n"
 
 msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "• HDD-back-up: volledige systeemback-up naar interne harde schijf\n"
 
 msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "• MMC-back-up: back-up naar externe opslag (eMMC)\n"
 
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "• NET Backup: Back-up naar netwerkopslag (NAS/SMB)\n"
 
 msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "• USB-back-up: maak een opstartbare USB-herstelstick\n"
 
 msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "• Gebruik de knoppen OMHOOG/OMLAAG om door de back-upopties te navigeren\n"
 
 msgid "• YELLOW: Start restore process\n"
-msgstr ""
+msgstr "• GEEL: Start het herstelproces\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

@@ -19,64 +19,64 @@ msgstr ""
 "X-Generator: Poedit 2.2.1\n"
 
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Paylaşım izinlerini kontrol edin (okuma/yazma)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS'ın açık ve erişilebilir olduğundan emin olun\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Sunucu IP'sini, paylaşım adını, kullanıcı adını ve şifreyi girin\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Ana Menü > Kurulum > Sistem > Depolama Yöneticisi'ne gidin\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD yedeklemeleri: /media/hdd/backup\n konumunda saklanır"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Sisteminizin düzenli yedeklerini alın\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET yedeklemeleri: Yazma izinlerine sahip takılı CIFS/NFS paylaşımı gerektirir\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Yedekleme/geri yükleme işlemlerini asla kesintiye uğratmayın\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Geri Yükleme: HDD, USB, NET veya MMC depolama alanından çalışır\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Ağ Depolama'yı seçin ve NAS/SMB paylaşımınızı ekleyin\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Bağlantıyı ping komutuyla test edin\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB yedeklemeleri: 'Yedekleme çubuğu' dosyasına sahip FAT32 biçimli sürücü gerektirir\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Kurtarma çubukları için kaliteli USB sürücüleri kullanın\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Kullanıcı adının/şifrenin doğru olduğunu doğrulayın\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Yeterli boş depolama alanınız olduğunu doğrulayın\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Önce ağ paylaşımınızı bağlayın:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Cihaz listesinden 'NET Backup'ı seçin\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Bağlanan ağ paylaşımınızı seçin\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Kayıt şu anda çalışıyor. Lütfen yanıp sönmeye başlamadan önce kaydı durdurun."
 
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 #, fuzzy
 msgid "Backup"
@@ -94,32 +94,32 @@ msgid "Backup and restore your image"
 msgstr "Resminizi yedekleyin ve geri yükleyin"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Yedekleme başarısız oldu! Günlüğü kontrol et: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Yedekleme başarısız oldu! Son hatalar:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Yedekleme başarısız oldu: Cihaz salt okunur!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Yedekleme başarısız oldu: Ağ bağlantısı kesildi!"
 
 #, fuzzy
 msgid "Backup failed: Not enough free space on device!"
 msgstr "Yeterli boş alan yok "
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Yedekleme başarısız oldu: Gerekli dosyalar bulunamadı!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Yedekleme başarısız oldu: Yazma izni reddedildi!"
 
 msgid "Backup info"
 msgstr "Yedek bilgi"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0} için yedekleme komut dosyası bulunamadı: {1}"
 
 #, fuzzy
 msgid "Backup to Network"
@@ -137,13 +137,13 @@ msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "En İyi Uygulamalar:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Düğme İşlevleri:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Değişiklik günlüğü kullanılamıyor"
 
 msgid "Close"
 msgstr "Kapat"
@@ -159,14 +159,14 @@ msgid "Delete backup"
 msgstr "Yedeği sil"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Cihaz Listesi:\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
 msgstr "Gerçekten %s paketini açmak istiyor musunuz ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Cihaz seçilirken hata oluştu: {0}"
 
 msgid "Exit"
 msgstr "Çıkış"
@@ -180,44 +180,44 @@ msgid "Flashing:"
 msgstr "Flaş yapiyor: "
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Ayrıntılı talimatlar ve destek için:\n"
 
 msgid "For flashing your receiver files are needed:\n"
 msgstr "Yanıp sönen alıcı dosyalarınız için:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Özgür:"
 
 msgid "GB"
-msgstr ""
+msgstr "Büyük Britanya"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Sabit Disk"
 
 msgid "Help"
-msgstr ""
+msgstr "Yardım"
 
 #, fuzzy
 msgid "Make or restore a backup"
 msgstr "Yedekleme yapın veya yedeklemeyi geri yükleyin"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Yedekleme Talimatları:\n"
 
 msgid "NOT found files for flashing!\n"
 msgstr "Yanıp sönen dosyalar bulunamadı!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Ağ Depolama"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Hiçbir cihaz türü seçilmedi"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Hiçbir ağ paylaşımı bağlanmadı! Lütfen önce bir paylaşım ekleyin."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Şunun için yazma izni yok: {0}"
 
 msgid "Only kernel"
 msgstr "Sadece çekirdek"
@@ -243,7 +243,7 @@ msgid "Run flash"
 msgstr "Flaş çalıştır"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD Kart"
 
 msgid "Second partition (only kernel)"
 msgstr "İkinci bölüm (sadece çekirdek)"
@@ -277,31 +277,31 @@ msgid "Standard (root and kernel)"
 msgstr "Standart (kök ve çekirdek)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Teknik Notlar:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
 msgstr "Görüntü veya çekirdek birkaç dakika içinde yanıp sönecek ve otomatik olarak önyüklenecektir.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Toplam:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET Yedekleme Sorunlarını Giderme:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB Depolama"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmiyor"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Bilinmeyen cihaz türü seçildi"
 
 msgid "Unzip"
 msgstr "Sıkıştır"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "GitHub depomuzu ziyaret edin:\n"
 
 msgid "What is new since the last release?"
 msgstr "Son sürümden beri yeni olan nedir?"
@@ -336,31 +336,31 @@ msgid "{0} Backup"
 msgstr "Yedek bilgi"
 
 msgid "• BLUE: Show this help screen\n"
-msgstr ""
+msgstr "• MAVİ: Bu yardım ekranını göster\n"
 
 msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "• Barry Allen: Çoklu önyükleme yedeklemesi (kuruluysa)\n"
 
 msgid "• GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "• YEŞİL: Seçilen cihaz için yedeklemeyi başlat\n"
 
 msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "• HDD Yedekleme: Dahili sabit sürücüye tam sistem yedeklemesi\n"
 
 msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "• MMC Yedekleme: Harici depolamaya (eMMC) yedekleme\n"
 
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "• NET Yedekleme: Ağ depolama alanına yedekleme (NAS/SMB)\n"
 
 msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "• USB Yedekleme: Önyüklenebilir bir USB kurtarma çubuğu oluşturun\n"
 
 msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "• Yedekleme seçenekleri arasında gezinmek için YUKARI/AŞAĞI düğmelerini kullanın\n"
 
 msgid "• YELLOW: Start restore process\n"
-msgstr ""
+msgstr "• SARI: Geri yükleme işlemini başlatın\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

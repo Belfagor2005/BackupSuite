@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- קוק ייַנטיילן פּערמישאַנז (לייענען / שרייַבן)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- ענשור אַז NAS איז פּאַוערד אויף און צוטריטלעך\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- אַרייַן סערווער IP, ייַנטיילן נאָמען, נאמען און פּאַראָל\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- גיין צו הויפּט מעניו > סעטאַפּ > סיסטעם > סטאָרידזש מאַנאַגער\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- הדד באַקאַפּס: סטאָרד אין /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- האַלטן רעגולער באַקאַפּס פון דיין סיסטעם\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- נעץ באַקאַפּס: דאַרפן מאָונטעד CIFS / NFS ייַנטיילן מיט שרייַבן פּערמישאַנז \ n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- קיינמאָל יבעררייַסן באַקאַפּ / ומקערן פּראַסעסאַז\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- ריסטאָר: אַרבעט פֿון הדד, וסב, נעץ אָדער MMC סטאָרידזש\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- סעלעקטירן 'נעטוואָרק סטאָרידזש' און לייגן דיין NAS / SMB ייַנטיילן\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- טעסט קשר מיט פּינג באַפֿעל\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- וסב באַקאַפּס: דאַרפן FAT32 פאָרמאַטטעד פאָר מיט 'באַקאַפּסטיקק' טעקע\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- ניצן קוואַליטעט וסב דרייווז פֿאַר אָפּזוך סטיקס\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- באַשטעטיקן די באַניצער נאָמען / פּאַראָל זענען ריכטיק\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- באַשטעטיקן אַז איר האָט גענוג פריי סטאָרידזש פּלאַץ\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. אָנקלאַפּן דיין נעץ טיילן ערשטער:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. אויסקלייַבן 'נעץ באַקקופּ' פון די מיטל רשימה\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. קלייַבן דיין מאָונטעד נעץ ייַנטיילן\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "א רעקאָרדינג איז איצט פליסנדיק. ביטע האַלטן די רעקאָרדינג איידער איר פּרובירן צו אָנהייבן אַ פלאַשינג."
 
 msgid "About"
-msgstr ""
+msgstr "וועגן"
 
 msgid "Backup"
-msgstr ""
+msgstr "באַקקופּ"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "באַקקופּ אָפּציעס:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "באַקקופּ סוויט וו{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "באַקקופּ און ומקערן דיין בילד"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "באַקקופּ דורכפאַל! טשעק לאג: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "באַקקופּ דורכפאַל! לעצטע טעותים:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "באַקקופּ ניט אַנדערש: מיטל איז ליינען בלויז!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "באַקקופּ דורכפאַל: נעץ קשר פאַרפאַלן!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "באַקקופּ ניט אַנדערש: ניט גענוג פריי פּלאַץ אויף מיטל!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "באַקקופּ ניט אַנדערש: פארלאנגט טעקעס ניט געפֿונען!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "באַקקופּ דורכפאַל: שרייב דערלויבעניש געלייקנט!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "באַקקופּ אינפֿאָרמאַציע"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "באַקקופּ שריפט ניט געפֿונען פֿאַר {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "באַקקופּ צו נעץ"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "באַקקופּ צו {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "באַקקופּסויטע הילף"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "בארי אלן"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "בעסטער פּראַקטיסיז:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "קנעפּל פאַנגקשאַנז:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "טוישן קלאָץ ניט בנימצא"
 
 msgid "Close"
-msgstr ""
+msgstr "נאָענט"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "איצטיקע: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "ויסמעקן"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "ויסמעקן באַקאַפּ"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "דיווייס רשימה:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "צי איר טאַקע ווילן צו ויספּאַקן {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "טעות ביי סעלעקטינג מיטל: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "אַרויסגאַנג"
 
 msgid "Flash"
-msgstr ""
+msgstr "פלאַש"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "פלאַשינג:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "פֿאַר דיטיילד ינסטראַקשאַנז און שטיצן:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "פֿאַר פלאַשינג דיין ופנעמער טעקעס זענען דארף:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "פריי:"
 
 msgid "GB"
-msgstr ""
+msgstr "גיגאבייט"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "שווער דיסק"
 
 msgid "Help"
-msgstr ""
+msgstr "הילף"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "מאַכן אָדער ומקערן אַ באַקאַפּ"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "נעץ באַקקופּ ינסטרוקטיאָנס:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "ניט געפֿונען טעקעס פֿאַר פלאַשינג!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "נעץ סטאָרידזש"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "קיין מיטל טיפּ אויסגעקליבן"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "קיין נעץ שאַרעס מאָונטעד! ביטע אָנקלאַפּן אַ שער ערשטער."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "קיין שרייבן דערלויבעניש פֿאַר: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "נאָר קערן"
 
 msgid "Only root"
-msgstr ""
+msgstr "נאָר וואָרצל"
 
 msgid "Please wait"
-msgstr ""
+msgstr "ביטע וואַרטן"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "ביטע: טאָן ניט רעבאָאָט דיין STB און קער אַוועק די מאַכט.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "ריסטאָר"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "ומקערן באַקקופּ"
 
 msgid "Run flash"
-msgstr ""
+msgstr "לויפן בליץ"
 
 msgid "SD Card"
-msgstr ""
+msgstr "סד קאָרט"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "צווייטע צעטיילונג (בלויז קערן)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "צווייטע צעטיילונג (בלויז וואָרצל)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "צווייטע צעטיילונג (וואָרצל און קערן)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "אויסקלייַבן נעץ ייַנטיילן פֿאַר באַקאַפּ:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "אויסקלייַבן פּאַראַמעטער פֿאַר אָנהייב בליץ!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "סעלעקטירן דעם טעקע מיט באַקאַפּ"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "ווייַזן בלויז געפֿונען בילד און מטד פּאַרטישאַנז.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "סימולירן (ניט שרייַבן)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "סימולירן רגע צעטיילונג (ניט שרייַבן)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "נאָרמאַל (וואָרצל און קערן)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "טעכניש נאָטעס:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "דער בילד אָדער קערן וועט זיין פלאַשינג און אַוטאָ בוטיד אין עטלעכע מינוט.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "גאַנץ:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "טראָובלעשאָאָטינג נעץ באַקקופּ:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "וסב סטאָרידזש"
 
 msgid "Unknown"
-msgstr ""
+msgstr "אומבאַקאַנט"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "אומבאַקאַנט מיטל טיפּ אויסגעקליבן"
 
 msgid "Unzip"
-msgstr ""
+msgstr "אַנזיפּ"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "באַזוכן אונדזער GitHub ריפּאַזאַטאָרי:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "וואָס איז נייַ זינט די לעצטע מעלדונג?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "דיין STB וועט פרירן בעשאַס די פלאַשינג פּראָצעס.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "קראַנט: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "גאָרנישט!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite וועט איצט האַלטן enigma2 צו לויפן די בליץ.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (אפֿשר טעות)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (אפֿשר גוט)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} באַקקופּ"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLUE: ווייַזן דעם הילף פאַרשטעלן\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: מולטיבאָאָט באַקאַפּ (אויב אינסטאַלירן)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "גרין: אָנהייב באַקאַפּ פֿאַר אויסגעקליבן מיטל\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "הדד באַקקופּ: גאַנץ סיסטעם באַקאַפּ צו ינערלעך שווער פאָר\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC באַקקופּ: באַקקופּ צו פונדרויסנדיק סטאָרידזש (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "נעץ באַקקופּ: באַקקופּ צו נעץ סטאָרידזש (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "וסב באַקקופּ: שאַפֿן אַ באָאָטאַבלע וסב אָפּזוך שטעקן\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "ניצן UP/DOWN קנעפּלעך צו נאַוויגירן דורך באַקאַפּ אָפּציעס\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "YELLOW: אָנהייב ריסטאָר פּראָצעס\n"

@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Ստուգեք համօգտագործման թույլտվությունները (կարդալ/գրել)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Համոզվեք, որ NAS-ը միացված է և հասանելի\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Մուտքագրեք սերվերի IP-ն, համօգտագործման անունը, օգտվողի անունը և գաղտնաբառը\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Գնացեք Հիմնական ընտրացանկ > Կարգավորում > Համակարգ > Պահպանման կառավարիչ\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD-ի կրկնօրինակներ. պահվում է /media/hdd/backup\n-ում"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Պահպանեք ձեր համակարգի կանոնավոր կրկնօրինակում\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET կրկնօրինակումներ. պահանջվում է մոնտաժված CIFS/NFS համօգտագործում գրելու թույլտվություններով\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Երբեք մի ընդհատեք պահուստավորման/վերականգնման գործընթացները\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Վերականգնել. աշխատում է HDD-ից, USB-ից, NET-ից կամ MMC պահեստից\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Ընտրեք «Ցանցային պահեստավորում» և ավելացրեք ձեր NAS/SMB համօգտագործումը\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Փորձարկել կապը ping հրամանով\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB կրկնօրինակումներ. պահանջվում է FAT32 ձևաչափով սկավառակ «backupstick» ֆայլով\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Օգտագործեք որակյալ USB կրիչներ վերականգնման ձողիկների համար\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Ստուգեք, որ օգտվողի անունը/գաղտնաբառը ճիշտ է\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Համոզվեք, որ ունեք բավարար ազատ տարածք\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Նախ միացրեք ձեր ցանցի համօգտագործումը.\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Սարքերի ցանկից ընտրեք «NET Backup»\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Ընտրեք ձեր տեղադրված ցանցի համօգտագործումը\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Ձայնագրությունն այժմ աշխատում է: Խնդրում ենք դադարեցնել ձայնագրությունը նախքան թարթումը սկսելը:"
 
 msgid "About"
-msgstr ""
+msgstr "Մոտ"
 
 msgid "Backup"
-msgstr ""
+msgstr "Կրկնօրինակում"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Պահուստավորման ընտրանքներ.\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Կրկնօրինակեք և վերականգնեք ձեր պատկերը"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Պահուստավորումը ձախողվեց: Ստուգման մատյան՝ {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Պահուստավորումը ձախողվեց: Վերջին սխալները."
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Պահուստավորումը ձախողվեց. սարքը միայն կարդալու է:"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Պահուստավորումը ձախողվեց. ցանցային կապը կորավ:"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Պահուստավորումը ձախողվեց. սարքում բավարար ազատ տարածք չկա:"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Պահուստավորումը ձախողվեց. պարտադիր ֆայլերը չեն գտնվել:"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Պահուստավորումը ձախողվեց. Գրելու թույլտվությունը մերժվեց:"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Պահուստային տեղեկատվություն"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Պահուստային սցենար չի գտնվել {0}-ի համար՝ {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Կրկնօրինակում ցանցին"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Պահուստավորում {0}-ում"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite-ի օգնություն"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Բարրի Ալեն"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Լավագույն պրակտիկա՝\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Կոճակի գործառույթները՝\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Փոփոխությունների մատյան հասանելի չէ"
 
 msgid "Close"
-msgstr ""
+msgstr "Փակել"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Ընթացիկ՝ {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Ջնջել"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Ջնջել կրկնօրինակը"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Սարքի ցանկ՝\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Իսկապե՞ս ցանկանում եք բացել {0} փաթեթը:"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Սարքի ընտրության սխալ՝ {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ելք"
 
 msgid "Flash"
-msgstr ""
+msgstr "Ֆլեշ"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Ջրամեկուսացում:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Մանրամասն հրահանգների և աջակցության համար՝\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Ձեր ընդունիչի ֆայլերը թարթելու համար անհրաժեշտ են՝\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Անվճար:"
 
 msgid "GB"
-msgstr ""
+msgstr "ԳԲ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Կոշտ սկավառակ"
 
 msgid "Help"
-msgstr ""
+msgstr "Օգնություն"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Կրկնօրինակեք կամ վերականգնեք"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET կրկնօրինակման հրահանգներ.\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Ջրամեկուսացման համար ֆայլեր ՉԵՆ գտնվել:\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Ցանցային պահեստավորում"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Սարքի տեսակ ընտրված չէ"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Ցանցային բաժնետոմսեր չեն տեղադրվել: Խնդրում ենք նախ տեղադրել բաժնետոմս:"
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Գրելու թույլտվություն չկա՝ {0}-ի համար"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Միայն միջուկը"
 
 msgid "Only root"
-msgstr ""
+msgstr "Միայն արմատ"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Խնդրում ենք սպասել"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Խնդրում ենք. ՄԻ վերագործարկեք ձեր STB-ն և անջատեք հոսանքը:\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Վերականգնել"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Վերականգնել Պահուստավորումը"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Գործարկել ֆլեշ"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD քարտ"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Երկրորդ բաժին (միայն միջուկ)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Երկրորդ բաժին (միայն արմատ)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Երկրորդ բաժանումը (արմատ և միջուկ)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Պահուստավորման համար ընտրեք ցանցի համօգտագործում."
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Ընտրեք պարամետրը բռնկման մեկնարկի համար:\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Ընտրեք պահուստով թղթապանակը"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Ցուցադրել միայն գտնված պատկերը և mtd բաժինները։\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Մոդելավորում (առանց գրելու)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Երկրորդ բաժանման նմանակում (առանց գրելու)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Ստանդարտ (արմատ և միջուկ)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Տեխնիկական նշումներ.\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Պատկերը կամ միջուկը մի քանի րոպեից կթողնեն և ավտոմատ կերպով կբեռնվեն:\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Ընդամենը:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET Backup-ի անսարքությունների վերացում՝\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB պահեստ"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Անհայտ"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Ընտրված է սարքի անհայտ տեսակը"
 
 msgid "Unzip"
 msgstr ""
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Այցելեք մեր GitHub պահոցը՝\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Ի՞նչ նորություն կա վերջին թողարկումից հետո:"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Ձեր STB-ը կսառչի թարթման գործընթացում:\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "ընթացիկ՝ {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ոչինչ!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite-ն այժմ կդադարեցնի enigma2-ը՝ ֆլեշը գործարկելու համար:\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (գուցե սխալ)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (գուցե լավ)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Պահուստավորում"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ԿԱՊՈՒՅՏ. Ցույց տալ այս օգնության էկրանը\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen. Multiboot կրկնօրինակում (եթե տեղադրված է)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "ԿԱՆԱՉ. Սկսեք պահուստավորումն ընտրված սարքի համար\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD-ի կրկնօրինակում. համակարգի ամբողջական կրկնօրինակում ներքին կոշտ սկավառակի վրա\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Պահուստավորում. Պահուստավորում արտաքին պահեստում (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Պահուստավորում. կրկնօրինակում ցանցային պահեստում (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB պահուստավորում. ստեղծեք բեռնվող USB վերականգնման քարտ\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Օգտագործեք UP/DOWN կոճակները՝ նավարկելու պահուստային տարբերակներում\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ԴԵՂԻՆ. Սկսեք վերականգնման գործընթացը\n"

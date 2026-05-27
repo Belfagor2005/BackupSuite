@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- ពិនិត្យការអនុញ្ញាតចែករំលែក (អាន/សរសេរ)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- ត្រូវប្រាកដថា NAS ត្រូវបានបើក និងអាចចូលប្រើបាន\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- បញ្ចូល IP ម៉ាស៊ីនមេ ឈ្មោះចែករំលែក ឈ្មោះអ្នកប្រើប្រាស់ និងពាក្យសម្ងាត់\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- ចូលទៅកាន់ Main Menu > Setup > System > Storage Manager\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- ការបម្រុងទុក HDD៖ រក្សាទុកក្នុង /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- រក្សាការបម្រុងទុកជាប្រចាំនៃប្រព័ន្ធរបស់អ្នក\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- ការបម្រុងទុក NET៖ ទាមទារការចែករំលែក CIFS/NFS ដែលបានម៉ោនជាមួយនឹងការអនុញ្ញាតសរសេរ\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- កុំរំខានដំណើរការបម្រុងទុក/ស្តារឡើងវិញ\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- ស្ដារ៖ ដំណើរការពី HDD, USB, NET ឬ MMC storage\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- ជ្រើសរើស 'Network Storage' ហើយបន្ថែម NAS/SMB share របស់អ្នក\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- សាកល្បងការតភ្ជាប់ជាមួយពាក្យបញ្ជា ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- ការបម្រុងទុក USB៖ ទាមទារដ្រាយដែលមានទម្រង់ FAT32 ជាមួយនឹងឯកសារ 'backupstick'\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- ប្រើដ្រាយ USB ដែលមានគុណភាពសម្រាប់ដំបងសង្គ្រោះ\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- ផ្ទៀងផ្ទាត់ឈ្មោះអ្នកប្រើប្រាស់/ពាក្យសម្ងាត់គឺត្រឹមត្រូវ\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- ផ្ទៀងផ្ទាត់ថាអ្នកមានកន្លែងផ្ទុកទំនេរគ្រប់គ្រាន់\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. ភ្ជាប់ការចែករំលែកបណ្តាញរបស់អ្នកជាមុនសិន៖\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. ជ្រើសរើស 'NET Backup' ពីបញ្ជីឧបករណ៍\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. ជ្រើសរើសការចែករំលែកបណ្តាញដែលបានភ្ជាប់របស់អ្នក\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "ការថតកំពុងដំណើរការ។ សូមបញ្ឈប់ការថត មុនពេលព្យាយាមចាប់ផ្តើមពន្លឺ។"
 
 msgid "About"
-msgstr ""
+msgstr "អំពី"
 
 msgid "Backup"
-msgstr ""
+msgstr "បម្រុងទុក"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "ជម្រើសបម្រុងទុក៖\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "បម្រុងទុក និងស្ដាររូបភាពរបស់អ្នក។"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "ការបម្រុងទុកបានបរាជ័យ! ពិនិត្យកំណត់ហេតុ៖ {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "ការបម្រុងទុកបានបរាជ័យ! កំហុសចុងក្រោយ៖"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "ការបម្រុងទុកបានបរាជ័យ៖ ឧបករណ៍គឺបានតែអាន!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "ការបម្រុងទុកបានបរាជ័យ៖ ការភ្ជាប់បណ្តាញបានបាត់បង់!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "ការបម្រុងទុកបានបរាជ័យ៖ មិនមានទំហំទំនេរគ្រប់គ្រាន់នៅលើឧបករណ៍ទេ!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "ការបម្រុងទុកបានបរាជ័យ៖ រកមិនឃើញឯកសារដែលត្រូវការ!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "ការបម្រុងទុកបានបរាជ័យ៖ ការអនុញ្ញាតសរសេរត្រូវបានបដិសេធ!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "ព័ត៌មានបម្រុងទុក"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "រកមិនឃើញស្គ្រីបបម្រុងទុកសម្រាប់ {0}៖ {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "បម្រុងទុកទៅបណ្តាញ"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "បម្រុងទុកទៅ {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "ជំនួយ BackupSuite"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "លោក Barry Allen"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "ការអនុវត្តល្អបំផុត៖\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "មុខងារប៊ូតុង៖\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "ការផ្លាស់ប្តូរកំណត់ហេតុមិនមានទេ។"
 
 msgid "Close"
-msgstr ""
+msgstr "បិទ"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "បច្ចុប្បន្ន៖ {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "លុប"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "លុបការបម្រុងទុក"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "បញ្ជីឧបករណ៍៖\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "តើអ្នកពិតជាចង់ស្រាយកញ្ចប់ {0} មែនទេ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "កំហុសក្នុងការជ្រើសរើសឧបករណ៍៖ {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "ចេញ"
 
 msgid "Flash"
-msgstr ""
+msgstr "ពន្លឺ"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "ពន្លឺ៖"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "សម្រាប់ការណែនាំលម្អិត និងជំនួយ៖\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "សម្រាប់ការបំភ្លឺឯកសារអ្នកទទួលរបស់អ្នកគឺចាំបាច់៖\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "ឥតគិតថ្លៃ៖"
 
 msgid "GB"
-msgstr ""
+msgstr "ជីកាបៃ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "ថាសរឹង"
 
 msgid "Help"
-msgstr ""
+msgstr "ជំនួយ"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "បង្កើត ឬស្ដារការបម្រុងទុក"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "សេចក្តីណែនាំអំពីការបម្រុងទុក NET៖\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "រកមិនឃើញឯកសារសម្រាប់បញ្ចេញពន្លឺទេ!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "ការផ្ទុកបណ្តាញ"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "មិនបានជ្រើសរើសប្រភេទឧបករណ៍ទេ។"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "មិនបានភ្ជាប់ការចែករំលែកបណ្តាញទេ! សូមស៊ែរចែករំលែកជាមុន។"
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "គ្មានការអនុញ្ញាតសរសេរសម្រាប់៖ {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "មានតែខឺណែលប៉ុណ្ណោះ។"
 
 msgid "Only root"
-msgstr ""
+msgstr "មានតែឫសប៉ុណ្ណោះ។"
 
 msgid "Please wait"
-msgstr ""
+msgstr "សូមរង់ចាំ"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "សូម៖ កុំចាប់ផ្ដើម STB របស់អ្នកឡើងវិញ ហើយបិទថាមពល។\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "ស្តារ"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "ស្តារការបម្រុងទុក"
 
 msgid "Run flash"
-msgstr ""
+msgstr "ដំណើរការពន្លឺ"
 
 msgid "SD Card"
-msgstr ""
+msgstr "កាត SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "ភាគថាសទីពីរ (តែខឺណែល)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "ភាគថាសទីពីរ (តែជា root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "ភាគថាសទីពីរ (ឫស និងខឺណែល)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "ជ្រើសរើសការចែករំលែកបណ្តាញសម្រាប់ការបម្រុងទុក៖"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "ជ្រើសរើសប៉ារ៉ាម៉ែត្រសម្រាប់ចាប់ផ្តើមពន្លឺ!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "ជ្រើសរើសថតជាមួយការបម្រុងទុក"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "បង្ហាញតែរូបភាពដែលបានរកឃើញ និងភាគថាស mtd។\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "ក្លែងធ្វើ (មិនសរសេរ)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "ក្លែងធ្វើភាគទីពីរ (មិនសរសេរ)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "ស្តង់ដារ (ឫស និងខឺណែល)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "កំណត់សម្គាល់បច្ចេកទេស៖\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "រូបភាព ឬខឺណែលនឹងភ្លឺ ហើយចាប់ផ្ដើមដោយស្វ័យប្រវត្តិក្នុងរយៈពេលពីរបីនាទីទៀត។\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "សរុប៖"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "ការដោះស្រាយបញ្ហាការបម្រុងទុក NET៖\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "ឧបករណ៍ផ្ទុក USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "មិនស្គាល់"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "បានជ្រើសរើសប្រភេទឧបករណ៍មិនស្គាល់"
 
 msgid "Unzip"
-msgstr ""
+msgstr "ពន្លា"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "ចូលទៅកាន់ឃ្លាំង GitHub របស់យើង៖\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "តើមានអ្វីថ្មីចាប់តាំងពីការចេញផ្សាយចុងក្រោយ?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB របស់អ្នកនឹងបង្កកកំឡុងពេលដំណើរការពន្លឺ។\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "បច្ចុប្បន្ន៖ {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "គ្មានអ្វីទេ!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite នឹងបញ្ឈប់ enigma2 ឥឡូវនេះ ដើម្បីដំណើរការពន្លឺ។\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (ប្រហែលជាមានកំហុស)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (ប្រហែលជាមិនអីទេ)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "ការបម្រុងទុក {0}"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ពណ៌ខៀវ៖ បង្ហាញអេក្រង់ជំនួយនេះ\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen៖ ការបម្រុងទុក Multiboot (ប្រសិនបើបានដំឡើង)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "បៃតង៖ ចាប់ផ្តើមការបម្រុងទុកសម្រាប់ឧបករណ៍ដែលបានជ្រើសរើស\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "ការបម្រុងទុក HDD៖ ការបម្រុងទុកប្រព័ន្ធពេញលេញទៅកាន់ថាសរឹងខាងក្នុង\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "ការបម្រុងទុក MMC៖ បម្រុងទុកទៅកន្លែងផ្ទុកខាងក្រៅ (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup៖ បម្រុងទុកទៅកន្លែងផ្ទុកបណ្តាញ (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "ការបម្រុងទុក USB៖ បង្កើតដំបងសង្គ្រោះ USB ដែលអាចចាប់ផ្ដើមបាន\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "ប្រើប៊ូតុងឡើង/ចុះក្រោម ដើម្បីរុករកតាមជម្រើសបម្រុងទុក\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ពណ៌លឿង៖ ចាប់ផ្តើមដំណើរការស្តារ\n"

@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Verificar las permissions de partatge (legir/escriure)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Asseguratz-vos que lo NAS es alimentat e accessible"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Picatz l'IP del servidor, lo nom de partatge, lo nom d'utilizaire e lo senhal\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Anar al Menú principal > Configuracion > Sistèma > Gestionari d'emmagazinatge\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Sauvagardas HDD : Enregistradas dins /media/hdd/sauvagarda\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Gardar de còpias de seguretat regularas de vòstre sistèma\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- Sauvagardas NET : Requerisson lo partatge CIFS/NFS montat amb d'autorizacions d'escritura\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Interrompre pas jamai los processus de salvament/restauracion\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Restaurar: Fonciona a partir d'emmagazinatge HDD, USB, NET o MMC"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Seleccionatz 'Emagazinatge en ret' e apondètz vòstre partatge NAS/SMB"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Testar la connexion amb la comanda ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Sauvagardas USB : Necessitan un disc formatat FAT32 amb un fichièr 'backupstick'\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Utilizar de discs USB de qualitat pels bastonets de recuperacion\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Verificar que lo nom d'utilizaire/senhal son corrèctes\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Verificatz qu'avètz pro d'espaci d'emmagazinatge liure\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Montatz vòstre partatge de ret d'en primièr:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Seleccionatz 'NET Backup' dins la lista dels periferics\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Causissètz vòstre partatge de ret montat"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Un enregistrament es actualament en cors. Mercés d'arrestar l'enregistrament abans d'ensajar de començar un relambi."
 
 msgid "About"
-msgstr ""
+msgstr "A prepaus"
 
 msgid "Backup"
-msgstr ""
+msgstr "Sauvagarda"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Opcions de salvament:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "Suite de salvament v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Sauvagardatz e restauratz vòstra imatge"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "La salvagarda a fracassat! Jornal de verificacion : {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "La salvagarda a fracassat! Darrièras errors :"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "La sauvagarda a fracassat : lo periferic es en lectura sola !"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "La sauvagarda a fracassat : la connexion ret perduda !"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "La sauvagarda a fracassat : Pas pro d'espaci liure sul periferic !"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "La sauvagarda a fracassat : Los fichièrs requerits pas trobats !"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "La sauvagarda a fracassat : l'autorizacion d'escritura refusada !"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Informacions de salvament"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Escript de sauvagarda pas trobat per {0} : {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Sauvagarda sus la ret"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Sauvagarda cap a {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Ajuda de BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Las melhoras practicas:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Foncions de boton:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Lo jornal de las modificacions pas disponible"
 
 msgid "Close"
-msgstr ""
+msgstr "Barrar"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Actual: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Escafar"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Suprimir la còpia de seguretat"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Lista de periferics:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Volètz vertadièrament despaquetar {0} ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Error al moment de la seleccion del periferic : {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Sortida"
 
 msgid "Flash"
-msgstr ""
+msgstr "Laucet"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Clignotant:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Per d'instruccions e de supòrt detalhats:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Per flashar vòstres fichièrs de receptor son necessaris :\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Liure:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Disc dur"
 
 msgid "Help"
-msgstr ""
+msgstr "Ajudar"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Far o restablir una còpia de seguretat"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "Instruccions de salvagarda NET:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "PAS trobats de fichièrs per flashing!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Emmagazinatge de ret"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Cap de tipe de periferic seleccionat"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Cap de partatge de ret montat! Mercés de montar un partatge d'en primièr."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Pas d'autorizacion d'escritura per : {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Sonque lo nuclèu"
 
 msgid "Only root"
-msgstr ""
+msgstr "Solament root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Mercés d'esperar"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Mercés : reaviatz PAS vòstre STB e apagatz l'alimentacion.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Restaurar"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Restaurar la sauvagarda"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Executar lo flash"
 
 msgid "SD Card"
-msgstr ""
+msgstr "Carta SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Segonda particion (sonque lo nuclèu)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Segonda particion (sonque root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Segonda particion (raiç e nuclèu)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Seleccionatz lo partatge de ret per la salvagarda :"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Seleccionar lo paramètre per començar lo flash!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Seleccionatz lo dorsièr amb sauvagarda"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Afichar pas que las particions d'imatge e mtd trobadas.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simular (pas d'escritura)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simular la segonda particion (pas d'escritura)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Estandard (raiç e nuclèu)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Nòtas tecnicas:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "L'imatge o lo nuclèu serà clignotant e automaticament aviat dins qualques minutas.\n"
 
 msgid "Total:"
 msgstr ""
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Resolucion de problèmas de sauvagarda NET:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "Emmagazinatge USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Desconegut"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Tipe de periferic desconegut seleccionat"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Descomprimir"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Visitatz nòstre depaus GitHub:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Qué i a de nòu dempuèi la darrièra sortida?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Vòstre STB se congelarà pendent lo processus de clignotatge.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "actual: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "res!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite arrestarà enigma2 ara per executar lo flash.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (benlèu error)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (benlèu d'acòrdi)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Sauvagarda"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLAU: Afichar aqueste ecran d'ajuda\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Sauvagarda multiarrenjament (se installat)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "VERD : aviar la sauvagarda pel periferic seleccionat\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Sauvagarda de HDD: Sauvagarda completa del sistèma sul disc dur intèrne\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "Sauvagarda MMC: Sauvagarda dins un emmagazinatge extèrne (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup: Sauvagarda dins l'emmagazinatge de ret (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "Sauvagarda USB : Crear un stick de recuperacion USB arrencable"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Utilizatz los botons NAUT/BASS per navegar a travèrs las opcions de salvament\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "JAUNE: Aviar lo procès de restauracion\n"

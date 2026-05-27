@@ -16,325 +16,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Zkontrolujte oprávnění ke sdílení (čtení/zápis)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Ujistěte se, že je NAS zapnutý a dostupný\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Zadejte IP serveru, název sdílení, uživatelské jméno a heslo\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Přejděte do Hlavní nabídky > Nastavení > Systém > Správce úložiště\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Zálohy HDD: Uložené v /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Udržujte pravidelné zálohy systému\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET zálohy: Vyžadují připojené sdílení CIFS/NFS s oprávněním k zápisu\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Nikdy nepřerušujte procesy zálohování/obnovy\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Obnovit: Funguje z HDD, USB, NET nebo MMC úložiště\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Vyberte 'Síťové úložiště' a přidejte sdílenou složku NAS/SMB\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Otestujte připojení pomocí příkazu ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Zálohy USB: Vyžaduje disk ve formátu FAT32 se souborem „backupstick“\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Používejte kvalitní USB disky pro obnovení.\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Ověřte správnost uživatelského jména/hesla\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Ověřte, že máte dostatek volného místa v úložišti\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Nejprve připojte síťovou sdílenou složku:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Vyberte 'NET Backup' ze seznamu zařízení\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Vyberte připojenou sdílenou síť\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Právě probíhá nahrávání. Před pokusem o spuštění blikání zastavte nahrávání."
 
 msgid "About"
-msgstr ""
+msgstr "O"
 
 msgid "Backup"
-msgstr ""
+msgstr "Zálohování"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Možnosti zálohování:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Zálohujte a obnovte svůj obraz"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Zálohování se nezdařilo! Kontrola protokolu: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Zálohování se nezdařilo! Poslední chyby:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Zálohování se nezdařilo: Zařízení je pouze pro čtení!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Zálohování se nezdařilo: Síťové připojení bylo ztraceno!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Zálohování se nezdařilo: V zařízení není dostatek volného místa!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Zálohování se nezdařilo: Požadované soubory nebyly nalezeny!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Zálohování se nezdařilo: oprávnění k zápisu odepřeno!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Záložní informace"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Záložní skript nebyl nalezen pro {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Zálohování do sítě"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Zálohovat do {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Nápověda BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Doporučené postupy:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Funkce tlačítek:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Protokol změn není k dispozici"
 
 msgid "Close"
-msgstr ""
+msgstr "Blízko"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Aktuální: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Vymazat"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Smazat zálohu"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Seznam zařízení:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Opravdu chcete rozbalit {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Chyba při výběru zařízení: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Výstup"
 
 msgid "Flash"
-msgstr ""
+msgstr "Blikat"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Bliká:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Podrobné pokyny a podporu:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Pro flashování souborů přijímače jsou potřeba:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Uvolnit:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Pevný disk"
 
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Vytvořte nebo obnovte zálohu"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "Pokyny pro zálohování NET:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "NEnalezeny soubory pro flashování!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Síťové úložiště"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Není vybrán žádný typ zařízení"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Nejsou připojeny žádné síťové sdílené položky! Nejprve prosím připojte sdílení."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Žádné oprávnění k zápisu pro: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Pouze jádro"
 
 msgid "Only root"
-msgstr ""
+msgstr "Pouze root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Čekejte prosím"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Prosím: NEREBOTUJTE STB a nevypínejte napájení.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Obnovit"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Obnovit zálohu"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Spusťte flash"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD karta"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Druhý oddíl (pouze jádro)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Druhý oddíl (pouze root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Druhý oddíl (kořen a jádro)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Vyberte síťové sdílení pro zálohování:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Vyberte parametr pro spuštění flash!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Vyberte složku se zálohou"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Zobrazit pouze nalezené obrazové a mtd oddíly.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulovat (bez zápisu)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simulovat druhý oddíl (bez zápisu)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standardní (kořen a jádro)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Technické poznámky:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Obraz nebo jádro bude blikat a automaticky se spustí za několik minut.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Celkový:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Odstraňování problémů se zálohováním NET:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "Úložiště USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámý"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Je vybrán neznámý typ zařízení"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Rozbalte zip"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Navštivte naše úložiště GitHub:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Co je nového od posledního vydání?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Váš STB během procesu blikání zamrzne.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "aktuální: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "nic!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite nyní zastaví enigmu2, aby spustil flash.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (možná chyba)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (možná v pořádku)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Záloha"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "MODRÁ: Zobrazit tuto obrazovku nápovědy\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot záloha (pokud je nainstalována)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "ZELENÁ: Spustit zálohování pro vybrané zařízení\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD Backup: Úplná záloha systému na interní pevný disk\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "Záloha MMC: Zálohování na externí úložiště (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup: Zálohování do síťového úložiště (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "Záloha USB: Vytvořte spouštěcí klíč pro obnovení USB\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Pomocí tlačítek NAHORU/DOLŮ procházejte možnostmi zálohování\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ŽLUTÁ: Spusťte proces obnovy\n"

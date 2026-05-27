@@ -15,109 +15,109 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Kontrolearje dielrjochten (lêze/skriuwe)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Soargje derfoar dat NAS ynskeakele is en tagonklik is\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Fier server IP yn, diele namme, brûkersnamme en wachtwurd\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Gean nei Haadmenu > Ynstelling > Systeem > Opslachbehearder\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD-backups: Opslein yn /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Hâld regelmjittige backups fan jo systeem\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET-backups: Fereaskje monteare CIFS/NFS-diel mei skriuwrjochten\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Nea ûnderbrekke backup-/herstelprosessen\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Weromsette: Wurket fan HDD, USB, NET of MMC opslach\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Selektearje 'Netwurkopslach' en foegje jo NAS/SMB-diel ta\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Test ferbining mei ping kommando\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB-backups: Fereaskje FAT32-opmaak drive mei 'backupstick'-bestân\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Brûk USB-skiven fan kwaliteit foar herstelsticks\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Kontrolearje dat brûkersnamme/wachtwurd goed binne\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Kontrolearje dat jo genôch frije opslachromte hawwe\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Befestigje jo netwurkdiel earst:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Selektearje 'NET Reservekopy' út de apparaatlist\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Kies jo oanmakke netwurk share\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Der rint op it stuit in opname. Stopje asjebleaft de opname foardat jo besykje te begjinnen mei in knipperjen."
 
 msgid "About"
-msgstr ""
+msgstr "Oer"
 
 msgid "Backup"
-msgstr ""
+msgstr "Reservekopy"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Reservekopy-opsjes:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Reservekopy en weromsette jo ôfbylding"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Reservekopy mislearre! Kontrolearje log: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Reservekopy mislearre! Lêste flaters:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Reservekopy mislearre: Apparaat is allinnich-lês!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Reservekopy mislearre: netwurkferbining ferlern!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Reservekopy mislearre: net genôch frije romte op apparaat!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Reservekopy mislearre: fereaske bestannen net fûn!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Reservekopy mislearre: skriuwtastimming wegere!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Reservekopy ynformaasje"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Reservekopyskript net fûn foar {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Reservekopy nei netwurk"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Reservekopy nei {0}"
 
 msgid "BackupSuite Help"
 msgstr ""
@@ -126,100 +126,100 @@ msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Bêste praktyk:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Knopfunksjes:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Feroaringslog net beskikber"
 
 msgid "Close"
-msgstr ""
+msgstr "Slute"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Aktueel: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Wiskje"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Wiskje backup"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "List fan apparaten:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Wolle jo {0} wirklik útpakke?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Flater by it selektearjen fan apparaat: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Útgong"
 
 msgid "Flash"
 msgstr ""
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Knipperjend:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Foar detaillearre ynstruksjes en stipe:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Foar flashen binne jo ûntfangerbestannen nedich:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Frij:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Hurde skiif"
 
 msgid "Help"
 msgstr ""
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Meitsje of weromsette in reservekopy"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Backup Ynstruksjes:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "NET fûn triemmen foar flitsende!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Netwurk Storage"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Gjin apparaattype selektearre"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Gjin netwurk oandielen monteard! Graach mount in oandiel earst."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Gjin skriuwtastimming foar: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Allinnich kernel"
 
 msgid "Only root"
-msgstr ""
+msgstr "Allinne woartel"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Wachtsje asjebleaft"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Asjebleaft: NET jo STB opnij opstarte en de stroom útsette.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Weromsette"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Reservekopy weromsette"
 
 msgid "Run flash"
 msgstr ""
@@ -228,43 +228,43 @@ msgid "SD Card"
 msgstr ""
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Twadde partysje (allinich kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Twadde partysje (allinich root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Twadde partysje (root en kernel)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Selektearje netwurkdiel foar reservekopy:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Selektearje parameter foar startflits!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Selektearje de map mei reservekopy"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Lit allinnich fûn ôfbylding en mtd partysjes sjen.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulearje (gjin skriuwen)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simulearje twadde partysje (gjin skriuwen)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standert (root en kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Technyske notysjes:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "De ôfbylding of kernel sil flikkerje en yn in pear minuten automatysk opstarte.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Totaal:"
 
 msgid "Troubleshooting NET Backup:\n"
 msgstr ""
@@ -273,67 +273,67 @@ msgid "USB Storage"
 msgstr ""
 
 msgid "Unknown"
-msgstr ""
+msgstr "Ûnbekend"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Unbekend apparaattype selektearre"
 
 msgid "Unzip"
 msgstr ""
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Besykje ús GitHub-repository:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Wat is nij sûnt de lêste release?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Jo STB sil befrieze tidens it flitsende proses.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "aktueel: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "neat!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite sil enigma2 no stopje om de flitser út te fieren.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (miskien flater)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (miskien ok)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Reservekopy"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLAUW: Dit helpskerm sjen litte\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot-backup (as ynstallearre)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "GREEN: Begjin reservekopy foar selektearre apparaat\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD Reservekopy: Folsleine systeembackup nei ynterne hurde skiif\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Reservekopy: Reservekopy nei eksterne opslach (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Reservekopy: Reservekopy nei netwurk opslach (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB Reservekopy: Meitsje in bootbere USB-herstelstick\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Brûk knoppen UP/DOWN om troch backup-opsjes te navigearjen\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "GEEL: Begjin weromsetteproses\n"

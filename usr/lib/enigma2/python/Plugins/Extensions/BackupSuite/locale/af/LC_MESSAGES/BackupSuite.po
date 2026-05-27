@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Gaan deeltoestemmings na (lees/skryf)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Maak seker dat NAS aangeskakel en toeganklik is\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Voer bediener IP, deel naam, gebruikersnaam en wagwoord in\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Gaan na Hoofkieslys > Opstelling > Stelsel > Bergingbestuurder\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD-rugsteun: Geberg in /media/hdd/rugsteun\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Hou gereelde rugsteun van jou stelsel\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET-rugsteun: Vereis gemonteerde CIFS/NFS-deel met skryftoestemmings\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Moet nooit rugsteun-/herstelprosesse onderbreek nie\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Herstel: Werk vanaf HDD, USB, NET of MMC-berging\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Kies 'Netwerkberging' en voeg jou NAS/SMB-deel by\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Toets verbinding met ping-opdrag\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB-rugsteun: Vereis FAT32-geformateerde skyf met 'rugsteun'-lêer\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Gebruik kwaliteit USB-aandrywers vir herstelstokkies\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Verifieer dat die gebruikersnaam/wagwoord korrek is\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Verifieer dat jy genoeg gratis bergingspasie het\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Monteer eers jou netwerkaandeel:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Kies 'NET Backup' uit die toestellys\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Kies jou gemonteerde netwerkdeel\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "'n Opname is tans aan die gang. Stop asseblief die opname voordat jy probeer om te begin flikker."
 
 msgid "About"
-msgstr ""
+msgstr "Oor"
 
 msgid "Backup"
-msgstr ""
+msgstr "Rugsteun"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Rugsteunopsies:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Rugsteun en herstel jou beeld"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Rugsteun het misluk! Kontroleer log: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Rugsteun het misluk! Laaste foute:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Rugsteun het misluk: Toestel is leesalleen!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Rugsteun het misluk: Netwerkverbinding verloor!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Rugsteun het misluk: nie genoeg vrye spasie op toestel nie!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Rugsteun het misluk: Vereiste lêers nie gevind nie!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Rugsteun het misluk: Skryftoestemming geweier!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Rugsteun inligting"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Rugsteunskrip nie gevind vir {0} nie: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Rugsteun na netwerk"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Rugsteun na {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite Hulp"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Beste praktyke:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Knoppie Funksies:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Veranderlogboek nie beskikbaar nie"
 
 msgid "Close"
-msgstr ""
+msgstr "Maak toe"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Huidig: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Vee uit"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Vee rugsteun uit"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Toestellys:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Wil jy regtig {0} uitpak?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Kon nie toestel kies nie: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Verlaat"
 
 msgid "Flash"
-msgstr ""
+msgstr "Flits"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Flitsend:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Vir gedetailleerde instruksies en ondersteuning:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Vir flits word jou ontvangerlêers benodig:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Gratis:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Hardeskyf"
 
 msgid "Help"
 msgstr ""
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Maak of herstel 'n rugsteun"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET-rugsteuninstruksies:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "NIE lêers gevind om te flits nie!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Netwerkberging"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Geen toesteltipe gekies nie"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Geen netwerkaandele gemonteer nie! Monteer asseblief eers 'n deel."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Geen skryftoestemming vir: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Slegs kern"
 
 msgid "Only root"
-msgstr ""
+msgstr "Slegs wortel"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Wag asseblief"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Asseblief: MOENIE jou STB herlaai en die krag afskakel nie.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Herstel"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Herstel rugsteun"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Hardloop flits"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD kaart"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Tweede partisie (slegs kern)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Tweede partisie (slegs wortel)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Tweede partisie (wortel en kern)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Kies netwerkdeel vir rugsteun:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Kies parameter vir begin flits!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Kies die gids met rugsteun"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Wys net gevind beeld en mtd partisies.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simuleer (geen skryf nie)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simuleer tweede partisie (geen skryf nie)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standaard (wortel en kern)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Tegniese notas:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Die prent of kern sal flikker en binne 'n paar minute outomaties begin.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Totaal:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Foutsporing van NET Backup:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB-berging"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Onbekend"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Onbekende toesteltipe gekies"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Pak uit"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Besoek ons ​​GitHub-bewaarplek:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Wat is nuut sedert die laaste vrystelling?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Jou STB sal vries tydens die flitsproses.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "huidige: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "niks!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite sal enigma2 nou stop om die flits te laat loop.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (dalk fout)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (dalk ok)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Rugsteun"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLOU: Wys hierdie hulpskerm\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot-rugsteun (indien geïnstalleer)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "GROEN: Begin rugsteun vir geselekteerde toestel\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD-rugsteun: Volledige stelselrugsteun na interne hardeskyf\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC-rugsteun: Rugsteun na eksterne berging (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET-rugsteun: Rugsteun na netwerkberging (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB-rugsteun: Skep 'n selflaaibare USB-herstelstokkie\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Gebruik OP/AF-knoppies om deur rugsteunopsies te navigeer\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "GEEL: Begin herstelproses\n"

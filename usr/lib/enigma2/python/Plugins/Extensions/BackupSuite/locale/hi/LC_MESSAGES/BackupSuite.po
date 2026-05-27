@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- शेयर अनुमतियाँ जाँचें (पढ़ें/लिखें)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- सुनिश्चित करें कि NAS चालू है और पहुंच योग्य है\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- सर्वर आईपी दर्ज करें, नाम, उपयोगकर्ता नाम और पासवर्ड साझा करें\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- मुख्य मेनू > सेटअप > सिस्टम > स्टोरेज मैनेजर\n पर जाएं"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- एचडीडी बैकअप: /मीडिया/एचडीडी/बैकअप\n में संग्रहीत"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- अपने सिस्टम का नियमित बैकअप रखें\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- नेट बैकअप: लिखने की अनुमति के साथ माउंटेड CIFS/NFS शेयर की आवश्यकता है\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- बैकअप/पुनर्स्थापना प्रक्रियाओं को कभी बाधित न करें\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- पुनर्स्थापित करें: HDD, USB, NET या MMC स्टोरेज से काम करता है"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'नेटवर्क स्टोरेज' चुनें और अपना NAS/SMB शेयर जोड़ें\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- पिंग कमांड के साथ कनेक्शन का परीक्षण करें\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- यूएसबी बैकअप: 'बैकअपस्टिक' फ़ाइल के साथ FAT32-स्वरूपित ड्राइव की आवश्यकता है\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- रिकवरी स्टिक के लिए गुणवत्तापूर्ण यूएसबी ड्राइव का उपयोग करें\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- सत्यापित करें कि उपयोगकर्ता नाम/पासवर्ड सही है\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- सत्यापित करें कि आपके पास पर्याप्त खाली संग्रहण स्थान है\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. पहले अपना नेटवर्क शेयर माउंट करें:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. डिवाइस सूची से 'नेट बैकअप' चुनें\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. अपना माउंटेड नेटवर्क शेयर चुनें\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "वर्तमान में एक रिकॉर्डिंग चल रही है. फ्लैशिंग शुरू करने का प्रयास करने से पहले कृपया रिकॉर्डिंग बंद कर दें।"
 
 msgid "About"
-msgstr ""
+msgstr "के बारे में"
 
 msgid "Backup"
-msgstr ""
+msgstr "बैकअप"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "बैकअप विकल्प:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "बैकअप सुइट v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "बैकअप लें और अपनी छवि पुनर्स्थापित करें"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "बैकअप विफल! लॉग जांचें: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "बैकअप विफल! अंतिम त्रुटियाँ:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "बैकअप विफल: डिवाइस केवल पढ़ने के लिए है!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "बैकअप विफल: नेटवर्क कनेक्शन टूट गया!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "बैकअप विफल: डिवाइस पर पर्याप्त खाली स्थान नहीं!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "बैकअप विफल: आवश्यक फ़ाइलें नहीं मिलीं!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "बैकअप विफल: लिखने की अनुमति अस्वीकृत!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "बैकअप जानकारी"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0} के लिए बैकअप स्क्रिप्ट नहीं मिली: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "नेटवर्क पर बैकअप"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0} पर बैकअप"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "बैकअपसुइट सहायता"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "बैरी एलन"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "सर्वोत्तम प्रथाएँ:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "बटन के कार्य:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "परिवर्तन लॉग उपलब्ध नहीं है"
 
 msgid "Close"
-msgstr ""
+msgstr "बंद करना"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "वर्तमान: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "मिटाना"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "बैकअप हटाएँ"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "डिवाइस सूची:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "क्या आप सचमुच {0} को अनपैक करना चाहते हैं?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "डिवाइस चुनने में त्रुटि: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "बाहर निकलना"
 
 msgid "Flash"
-msgstr ""
+msgstr "चमक"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "चमकती:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "विस्तृत निर्देशों और सहायता के लिए:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "आपके रिसीवर को फ्लैश करने के लिए फाइलों की आवश्यकता होती है:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "मुक्त:"
 
 msgid "GB"
-msgstr ""
+msgstr "जीबी"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "हार्ड डिस्क"
 
 msgid "Help"
-msgstr ""
+msgstr "मदद"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "बैकअप बनाएं या पुनर्स्थापित करें"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "नेट बैकअप निर्देश:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "फ़्लैश करने के लिए फ़ाइलें नहीं मिलीं!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "नेटवर्क संग्रहण"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "कोई उपकरण प्रकार चयनित नहीं"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "कोई नेटवर्क शेयर माउंट नहीं किया गया! कृपया पहले एक शेयर माउंट करें."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "इसके लिए कोई लिखने की अनुमति नहीं: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "केवल कर्नेल"
 
 msgid "Only root"
-msgstr ""
+msgstr "केवल जड़"
 
 msgid "Please wait"
-msgstr ""
+msgstr "कृपया प्रतीक्षा करें"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "कृपया: अपने एसटीबी को रीबूट न ​​करें और बिजली बंद न करें।\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "पुनर्स्थापित करना"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "बैकअप बहाल"
 
 msgid "Run flash"
-msgstr ""
+msgstr "फ़्लैश चलाएँ"
 
 msgid "SD Card"
-msgstr ""
+msgstr "एसडी कार्ड"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "दूसरा विभाजन (केवल कर्नेल)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "दूसरा विभाजन (केवल रूट)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "दूसरा विभाजन (रूट और कर्नेल)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "बैकअप के लिए नेटवर्क शेयर चुनें:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "फ़्लैश प्रारंभ करने के लिए पैरामीटर चुनें!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "बैकअप वाले फ़ोल्डर का चयन करें"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "केवल पाई गई छवि और एमटीडी विभाजन दिखाएं।\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "अनुकरण करें (कोई लिखें नहीं)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "दूसरे विभाजन का अनुकरण करें (कोई लेखन नहीं)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "मानक (रूट और कर्नेल)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "तकनीकी टिप्पणियाँ:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "छवि या कर्नेल कुछ ही मिनटों में चमकने लगेगा और स्वतः बूट हो जाएगा।\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "कुल:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "नेट बैकअप समस्या निवारण:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "यूएसबी स्टोरेज"
 
 msgid "Unknown"
-msgstr ""
+msgstr "अज्ञात"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "अज्ञात डिवाइस प्रकार चयनित"
 
 msgid "Unzip"
-msgstr ""
+msgstr "खोलना"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "हमारे GitHub रिपोजिटरी पर जाएँ:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "पिछली रिलीज़ के बाद से नया क्या है?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "फ़्लैशिंग प्रक्रिया के दौरान आपका एसटीबी फ़्रीज़ हो जाएगा।\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "वर्तमान: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "कुछ नहीं!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "फ़्लैश चलाने के लिए ofgwrite अब enigma2 को बंद कर देगा।\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (शायद त्रुटि)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (शायद ठीक है)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} बैकअप"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "नीला: यह सहायता स्क्रीन दिखाएं\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "बैरी एलन: मल्टीबूट बैकअप (यदि स्थापित है)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "हरा: चयनित डिवाइस के लिए बैकअप प्रारंभ करें\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "एचडीडी बैकअप: आंतरिक हार्ड ड्राइव पर पूर्ण सिस्टम बैकअप\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "एमएमसी बैकअप: बाह्य भंडारण के लिए बैकअप (ईएमएमसी)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "नेट बैकअप: नेटवर्क स्टोरेज पर बैकअप (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "यूएसबी बैकअप: एक बूट करने योग्य यूएसबी रिकवरी स्टिक बनाएं\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "बैकअप विकल्पों के माध्यम से नेविगेट करने के लिए ऊपर/नीचे बटन का उपयोग करें\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "पीला: पुनर्स्थापना प्रक्रिया प्रारंभ करें\n"

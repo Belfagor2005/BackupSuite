@@ -15,163 +15,163 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- မျှဝေခွင့်ပြုချက်များကို စစ်ဆေးပါ (ဖတ်/ရေး)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS ကို ပါဝါဖွင့်ထားပြီး အသုံးပြုနိုင်ကြောင်း သေချာပါစေ။\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- ဆာဗာ IP၊ အမည်၊ အသုံးပြုသူအမည်နှင့် စကားဝှက်ကို မျှဝေပါ\n ထည့်သွင်းပါ။"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Main Menu > Setup > System > Storage Manager\n သို့သွားပါ။"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD မိတ္တူများ- /media/hdd/backup\n တွင် သိမ်းဆည်းထားသည်။"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- သင့်စနစ်၏ ပုံမှန်အရန်သိမ်းဆည်းမှုများ\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET မိတ္တူများ- တပ်ဆင်ထားသော CIFS/NFS မျှဝေမှုကို စာရေးခွင့်ပြုချက်များ လိုအပ်သည်\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- အရန်သိမ်းခြင်း/ပြန်လည်ရယူခြင်းလုပ်ငန်းစဉ်များကို ဘယ်တော့မှ မနှောင့်ယှက်ပါ\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- ပြန်လည်ရယူခြင်း- HDD၊ USB၊ NET သို့မဟုတ် MMC သိုလှောင်မှုမှ အလုပ်လုပ်သည်\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Network Storage' ကိုရွေးချယ်ပြီး သင်၏ NAS/SMB မျှဝေခြင်း\n ကိုထည့်ပါ။"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- ping command\n ဖြင့် ချိတ်ဆက်မှုကို စမ်းသပ်ပါ။"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB အရန်သိမ်းဆည်းမှုများ- 'backupstick' ဖိုင်ပါသည့် FAT32-ဖောမတ်ဒရိုက်ကို လိုအပ်သည်\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- ပြန်လည်ရယူရေးချောင်းများအတွက် အရည်အသွေးရှိသော USB ဒရိုက်ကို သုံးပါ\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- အသုံးပြုသူအမည်/စကားဝှက် မှန်ကန်ကြောင်း အတည်ပြုပါ\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- သင့်တွင် လုံလောက်သော အခမဲ့ သိုလှောင်ခန်းရှိသည်\n အတည်ပြုပါ။"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. သင့်ကွန်ရက်မျှဝေမှုကို ဦးစွာတပ်ဆင်ပါ-\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. စက်ပစ္စည်းစာရင်းမှ 'NET Backup' ကို ရွေးပါ\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. သင်၏တပ်ဆင်ထားသောကွန်ရက်မျှဝေခြင်း\nကိုရွေးချယ်ပါ။"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "အသံသွင်းခြင်းကို လောလောဆယ် လုပ်ဆောင်နေပါသည်။ မှိတ်တုတ်မှိတ်တုတ်မှိတ်တုတ်မပြမီ အသံသွင်းခြင်းကို ရပ်ပါ။"
 
 msgid "About"
-msgstr ""
+msgstr "အကြောင်း"
 
 msgid "Backup"
-msgstr ""
+msgstr "မိတ္တူ"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "အရန်ရွေးချယ်စရာများ-\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "အရန်သိမ်းပြီး သင့်ပုံကို ပြန်လည်ရယူပါ။"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "အရန်သိမ်းခြင်း မအောင်မြင်ပါ။ မှတ်တမ်းကို စစ်ဆေးပါ- {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "အရန်သိမ်းခြင်း မအောင်မြင်ပါ။ နောက်ဆုံးအမှားများ-"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "အရန်သိမ်းခြင်း မအောင်မြင်ပါ- စက်ပစ္စည်းသည် ဖတ်ရန်သာဖြစ်သည်။"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "မိတ္တူကူးခြင်း မအောင်မြင်ပါ- ကွန်ရက်ချိတ်ဆက်မှု ပြတ်တောက်သွားသည်။"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "မိတ္တူကူးခြင်း မအောင်မြင်ပါ- စက်တွင် နေရာလွတ် မလုံလောက်ပါ။"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "အရန်သိမ်းခြင်း မအောင်မြင်ပါ- လိုအပ်သောဖိုင်များကို ရှာမတွေ့ပါ။"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "မိတ္တူကူးခြင်း မအောင်မြင်ပါ- ရေးသားခွင့်ကို ငြင်းဆိုထားသည်။"
 
 msgid "Backup info"
-msgstr ""
+msgstr "အရန်အချက်အလက်"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0} အတွက် အရန်စာညွှန်းကို ရှာမတွေ့ပါ- {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "ကွန်ရက်သို့ မိတ္တူကူးပါ။"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0} သို့ မိတ္တူကူးရန်"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite အကူအညီ"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "ဘယ်ရီအယ်လန်"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "အကောင်းဆုံး အလေ့အကျင့်များ-\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "ခလုတ်လုပ်ဆောင်ချက်များ-\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "မှတ်တမ်းကို ပြောင်း၍မရပါ။"
 
 msgid "Close"
-msgstr ""
+msgstr "ပိတ်လိုက်"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "လက်ရှိ- {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "ဖျက်ပါ။"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "အရန်သိမ်းခြင်းကို ဖျက်ပါ။"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "စက်ပစ္စည်းစာရင်း-\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "သင်သည် {0} ကို အမှန်တကယ် ထုပ်ပိုးလိုပါသလား။"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "စက်ပစ္စည်းကို ရွေးချယ်ရာတွင် အမှားအယွင်းရှိပါသည်- {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "ထွက်ပေါက်"
 
 msgid "Flash"
-msgstr ""
+msgstr "မီးရောင်"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Flashing-"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "အသေးစိတ်လမ်းညွှန်ချက်နှင့် ပံ့ပိုးမှုများအတွက်-\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "သင့်လက်ခံရရှိသည့်ဖိုင်များကို ဖလက်မှိတ်ပြရန်အတွက် လိုအပ်သည်-\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "အခမဲ့-"
 
 msgid "GB"
 msgstr ""
@@ -180,160 +180,160 @@ msgid "Hard Disk"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "ကူညီကြပါ"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "အရန်ကူးယူပါ သို့မဟုတ် ပြန်လည်ရယူပါ။"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Backup ညွှန်ကြားချက်များ-\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "မှိတ်တုတ်မှိတ်တုတ်လုပ်ရန် ဖိုင်များကို ရှာမတွေ့ပါ။\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "ကွန်ရက်သိုလှောင်မှု"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "စက်ပစ္စည်းအမျိုးအစားကို ရွေးထားခြင်းမရှိပါ။"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "ကွန်ရက်မျှဝေမှုများ တပ်ဆင်ထားခြင်းမရှိပါ။ ကျေးဇူးပြု၍ ဦးစွာမျှဝေပါ။"
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "ရေးသားခွင့်မရှိပါ- {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "kernel သာဖြစ်သည်။"
 
 msgid "Only root"
-msgstr ""
+msgstr "root ပဲရှိတယ်။"
 
 msgid "Please wait"
-msgstr ""
+msgstr "ကျေးဇူးပြုပြီးခဏစောင့်ပါ"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "ကျေးဇူးပြု၍- သင်၏ STB ကို ပြန်လည်စတင်ပြီး ပါဝါပိတ်ပါ ။\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "ပြန်ယူပါ။"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Backup ကိုပြန်ယူပါ။"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Flash ကို Run လိုက်ပါ။"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD ကတ်"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "ဒုတိယအပိုင်း (kernel သာ)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "ဒုတိယအပိုင်း ( root သာ)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "ဒုတိယအပိုင်း (အမြစ်နှင့် kernel)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "အရန်ကူးရန်အတွက် ကွန်ရက်မျှဝေခြင်းကို ရွေးပါ-"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "စတင် flash အတွက် ဘောင်ကို ရွေးပါ။\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "အရန်သိမ်းဆည်းထားသော ဖိုင်တွဲကို ရွေးပါ။"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "တွေ့ရသော ပုံနှင့် mtd အပိုင်းများကိုသာ ပြပါ။\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "အတုယူပါ (မရေးပါ)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "ဒုတိယအပိုင်းကို အတုယူပါ (မရေးပါ)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "စံ (root နှင့် kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "နည်းပညာမှတ်စုများ-\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "ရုပ်ပုံ သို့မဟုတ် ကာနယ်သည် မှိတ်တုတ်မှိတ်တုတ်မှိတ်တုတ်မှိတ်တုတ်ဖြစ်ကာ မိနစ်အနည်းငယ်အတွင်း အလိုအလျောက်စတင်ပါမည်။\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "စုစုပေါင်း-"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET Backup ကို ပြဿနာဖြေရှင်းခြင်း-\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB သိုလှောင်မှု"
 
 msgid "Unknown"
-msgstr ""
+msgstr "မသိ"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "အမည်မသိ စက်အမျိုးအစားကို ရွေးထားသည်။"
 
 msgid "Unzip"
-msgstr ""
+msgstr "ဇစ်ဖွင့်ပါ။"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "ကျွန်ုပ်တို့၏ GitHub သိုလှောင်ခန်းသို့ သွားရောက်ပါ-\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "နောက်ဆုံးထွက်ရှိကတည်းက ဘာအသစ်တွေလဲ။"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "မှိတ်တုတ်မှိတ်တုတ်ဖြစ်စဉ်အတွင်း သင့် STB အေးသွားပါမည်။\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "လက်ရှိ- {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ဘာမှ!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite သည် flash ကိုဖွင့်ရန် enigma2 ကိုယခုရပ်တန့်ပါမည်။\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (အမှားဖြစ်နိုင်သည်)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (ဖြစ်ကောင်းဖြစ်နိုင်သည်)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} အရန်သိမ်းခြင်း။"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "အပြာ- ဤအကူအညီစခရင်ကို ပြပါ\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen- Multiboot အရန်ကူး (ထည့်သွင်းပါက)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "အစိမ်းရောင်- ရွေးချယ်ထားသော စက်အတွက် အရန်ကူးခြင်းကို စတင်ပါ\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD မိတ္တူကူးခြင်း- စက်တွင်း ဟာ့ဒ်ဒရိုက်သို့ စနစ်အပြည့် အရန်ကူးခြင်း\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Backup- ပြင်ပသိုလှောင်မှု (eMMC) သို့ အရန်သိမ်းခြင်း\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup- ကွန်ရက်သိုလှောင်မှုသို့ အရန်သိမ်းခြင်း (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB အရန်သိမ်းခြင်း- စတင်နိုင်သော USB ပြန်လည်ရယူရေးချောင်းကို ဖန်တီးပါ\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "အရန်ရွေးချယ်စရာများမှတဆင့် လမ်းညွှန်ရန် အပေါ်/အောက် ခလုတ်များကို သုံးပါ\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "အဝါရောင်- ပြန်လည်ရယူခြင်းလုပ်ငန်းစဉ်ကို စတင်ပါ\n"

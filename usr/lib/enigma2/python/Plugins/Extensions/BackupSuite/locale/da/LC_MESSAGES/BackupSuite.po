@@ -16,325 +16,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Tjek deletilladelser (læse/skrive)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Sørg for, at NAS er tændt og tilgængelig\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Indtast server-IP, delenavn, brugernavn og adgangskode\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Gå til Hovedmenu > Opsætning > System > Lagerstyring\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD-sikkerhedskopier: Gemt i /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Hold regelmæssige sikkerhedskopier af dit system\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET-sikkerhedskopier: Kræv monteret CIFS/NFS-deling med skrivetilladelser\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Afbryd aldrig backup/gendannelsesprocesser\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Gendan: Virker fra HDD, USB, NET eller MMC-lager\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Vælg 'Netværkslager' og tilføj din NAS/SMB-deling\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Test forbindelse med ping-kommando\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB-sikkerhedskopier: Kræv FAT32-formateret drev med 'backupstick'-fil\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Brug kvalitets USB-drev til genoprettelsessticks\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Bekræft, at brugernavn/adgangskode er korrekt\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Bekræft, at du har nok ledig lagerplads\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Monter din netværksshare først:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Vælg 'NET Backup' fra enhedslisten\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Vælg din monterede netværksshare\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "En optagelse kører i øjeblikket. Stop venligst optagelsen, før du prøver at begynde at blinke."
 
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 msgid "Backup"
 msgstr ""
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Sikkerhedskopieringsmuligheder:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Sikkerhedskopier og gendan dit billede"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Sikkerhedskopiering mislykkedes! Tjek log: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Sikkerhedskopiering mislykkedes! Sidste fejl:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Sikkerhedskopiering mislykkedes: Enheden er skrivebeskyttet!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Sikkerhedskopiering mislykkedes: Netværksforbindelse mistet!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Sikkerhedskopiering mislykkedes: Ikke nok ledig plads på enheden!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Sikkerhedskopiering mislykkedes: Påkrævede filer blev ikke fundet!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Sikkerhedskopiering mislykkedes: Skrivetilladelse nægtet!"
 
 msgid "Backup info"
 msgstr ""
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Backupscript blev ikke fundet for {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Sikkerhedskopier til netværk"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Sikkerhedskopier til {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Hjælp til BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Bedste fremgangsmåder:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Knapfunktioner:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Ændringslog er ikke tilgængelig"
 
 msgid "Close"
-msgstr ""
+msgstr "Tæt"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Nuværende: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Slet"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Slet backup"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Enhedsliste:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Vil du virkelig pakke {0} ud?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Fejl ved valg af enhed: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Udgang"
 
 msgid "Flash"
-msgstr ""
+msgstr "Blitz"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Blinker:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "For detaljerede instruktioner og support:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "For at blinke er dine modtagerfiler nødvendige:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Gratis:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Harddisk"
 
 msgid "Help"
-msgstr ""
+msgstr "Hjælp"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Lav eller gendan en sikkerhedskopi"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Backup Instruktioner:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "IKKE fundet filer til at blinke!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Netværkslagring"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Ingen enhedstype valgt"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Ingen netværksshares monteret! Monter venligst en share først."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Ingen skrivetilladelse til: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Kun kerne"
 
 msgid "Only root"
-msgstr ""
+msgstr "Kun rod"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Vent venligst"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Venligst: GENstart IKKE din STB og sluk for strømmen.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Gendan"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Gendan sikkerhedskopi"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Kør flash"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD-kort"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Anden partition (kun kerne)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Anden partition (kun root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Anden partition (rod og kerne)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Vælg netværksdeling til sikkerhedskopiering:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Vælg parameter for start flash!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Vælg mappen med backup"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Vis kun fundet billede og mtd-partitioner.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simuler (ingen skrivning)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simuler anden partition (ingen skrivning)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standard (rod og kerne)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Tekniske noter:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Billedet eller kernen vil blinke og autostartes om få minutter.\n"
 
 msgid "Total:"
 msgstr ""
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Fejlfinding NET Backup:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB-lager"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Ukendt"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Ukendt enhedstype valgt"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Pak ud"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Besøg vores GitHub-lager:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Hvad er nyt siden sidste udgivelse?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Din STB vil fryse under blinkprocessen.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "nuværende: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "intet!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite vil stoppe enigma2 nu for at køre flashen.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (måske fejl)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (måske ok)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Sikkerhedskopiering"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLÅ: Vis denne hjælpeskærm\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot backup (hvis installeret)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "GRØN: Start sikkerhedskopiering for valgt enhed\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD Backup: Fuld systemsikkerhedskopiering til intern harddisk\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Backup: Backup til eksternt lager (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup: Sikkerhedskopiering til netværkslager (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB-sikkerhedskopi: Opret en bootbar USB-gendannelsesstick\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Brug OP/NED-knapperne til at navigere gennem sikkerhedskopieringsmuligheder\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "GUL: Start gendannelsesprocessen\n"

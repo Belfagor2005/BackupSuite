@@ -43,7 +43,7 @@ msgid "- Never interrupt backup/restore processes\n"
 msgstr "- Non interrompere mai i processi di backup/ripristino\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Ripristino: funziona da archivio HDD, USB, NET o MMC\n"
 "- Ripristino: funziona da HDD, USB, NET o storage MMC\n"
 "\n"
 
@@ -76,7 +76,7 @@ msgid "3. Choose your mounted network share\n"
 msgstr "3. Scegli la condivisione di rete montata\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "È attualmente in corso una registrazione. Si prega di interrompere la registrazione prima di provare ad avviare un flashing."
 
 msgid "About"
 msgstr "Info"
@@ -185,7 +185,7 @@ msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Disco rigido"
 
 msgid "Help"
 msgstr "Aiuto"
@@ -233,7 +233,7 @@ msgid "Run flash"
 msgstr "Iniziare il Flash"
 
 msgid "SD Card"
-msgstr ""
+msgstr "Scheda SD"
 
 msgid "Second partition (only kernel)"
 msgstr "Seconda partizione (solo kernel)"
@@ -281,7 +281,7 @@ msgid "USB Storage"
 msgstr "Memoria USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Sconosciuto"
 
 msgid "Unknown device type selected"
 msgstr "Tipo di dispositivo sconosciuto selezionato"

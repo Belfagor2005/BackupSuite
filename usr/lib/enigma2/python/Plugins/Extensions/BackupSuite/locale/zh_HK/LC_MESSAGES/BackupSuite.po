@@ -15,82 +15,82 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- 檢查共用權限（讀取/寫入）\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- 確保 NAS 已開啟且可存取\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- 輸入伺服器 IP、共享名稱、使用者名稱和密碼\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- 前往主選單 > 設定 > 系統 > 儲存管理器\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD 備份：儲存在 /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- 定期備份您的系統\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET 備份: 需要安裝具有寫入權限的 CIFS/NFS 共用\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- 切勿中斷備份/復原流程\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- 復原：適用於 HDD、USB、NET 或 MMC 儲存體\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 選擇「網路儲存」並新增您的 NAS/SMB 共用\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- 使用 ping 指令測試連線\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB 備份：需要具有「backupstick」檔案的 FAT32 格式磁碟機\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- 使用優質 USB 隨身碟作為恢復棒\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- 驗證使用者名稱/密碼是否正確\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- 驗證您有足夠的可用儲存空間\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. 先安裝您的網路共用:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2.從設備清單中選擇“NET Backup”\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3.選擇您安裝的網路共用\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "目前正在運行錄音。請在嘗試開始閃爍之前停止錄製。"
 
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 msgid "Backup"
-msgstr ""
+msgstr "備份"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "備份選項:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "備份和恢復您的映像"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "備份失敗！檢查日誌：{0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "備份失敗！最後的錯誤："
 
 msgid "Backup failed: Device is read-only!"
 msgstr ""
@@ -99,241 +99,241 @@ msgid "Backup failed: Network connection lost!"
 msgstr ""
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "備份失敗：設備上沒有足夠的可用空間！"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "備份失敗：找不到所需的檔案！"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "備份失敗：寫入權限被拒絕！"
 
 msgid "Backup info"
-msgstr ""
+msgstr "備份訊息"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "找不到 {0} 的備份腳本：{1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "備份到網絡"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "備份到{0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "備份套件幫助"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "巴里·艾倫"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "最佳實踐：\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "按鈕功能：\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "更改日誌不可用"
 
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "目前：{0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "刪除備份"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "設備清單:\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr ""
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "選擇設備時發生錯誤：{0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "Flash"
-msgstr ""
+msgstr "閃光"
 
 msgid "Flashing:"
 msgstr ""
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "如需詳細說明和支援：\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "要刷新您的接收器文件，需要：\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "自由的："
 
 msgid "GB"
-msgstr ""
+msgstr "國標"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "硬碟"
 
 msgid "Help"
-msgstr ""
+msgstr "幫助"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "製作或恢復備份"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET 備份說明:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "未找到用於刷新的檔案！ \n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "網路儲存"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "未選擇設備類型"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "沒有安裝網路共用！請先安裝共用。"
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "沒有寫入權限：{0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "僅內核"
 
 msgid "Only root"
-msgstr ""
+msgstr "僅root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "請稍等"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "請：請勿重新啟動 STB 並關閉電源。 \n"
 
 msgid "Restore"
-msgstr ""
+msgstr "恢復"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "恢復備份"
 
 msgid "Run flash"
-msgstr ""
+msgstr "運行閃光燈"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD卡"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "第二個分區（僅內核）"
 
 msgid "Second partition (only root)"
 msgstr ""
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "第二個分區（根和內核）"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "選擇用於備份的網路共用："
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "選擇啟動閃光的參數！ \n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "選擇有備份的資料夾"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "僅顯示找到的映像和 mtd 分區。 \n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "模擬（不寫）"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "模擬第二個分區（不寫入）"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "標準（根和內核）"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "技術說明：\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "映像或核心將在幾分鐘內閃爍並自動啟動。 \n"
 
 msgid "Total:"
-msgstr ""
+msgstr "全部的："
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET 備份疑難排解:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB儲存裝置"
 
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "選擇了未知的設備類型"
 
 msgid "Unzip"
-msgstr ""
+msgstr "解壓縮"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "存取我們的 GitHub 儲存庫：\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "自上次發布以來有哪些新內容？"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "您的 STB 將在刷新過程中凍結。 \n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "目前：{0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "沒有什麼！"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite 現在將停止 enigma2 以運行閃存。 \n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0}（可能是錯誤）"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0}（或許可以）"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0}備份"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "藍色：顯示此幫助畫面\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen：多重啟動備份（如果已安裝）\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "綠色：開始備份所選設備\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD 備份: 完整系統備份到內部硬碟\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC 備份: 備份到外部儲存(eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET 備份: 備份到網路儲存(NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB 備份: 建立可啟動 USB 復原棒\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "使用向上/向下按鈕瀏覽備份選項\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "黃色：開始恢復過程\n"

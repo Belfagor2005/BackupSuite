@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Semak kebenaran perkongsian (baca/tulis)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Pastikan NAS dihidupkan dan boleh diakses\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Masukkan IP pelayan, nama kongsi, nama pengguna dan kata laluan\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Pergi ke Menu Utama > Persediaan > Sistem > Pengurus Storan\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Sandaran HDD: Disimpan dalam /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Simpan sandaran biasa sistem anda\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- Sandaran BERSIH: Memerlukan perkongsian CIFS/NFS yang dipasang dengan kebenaran tulis\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Jangan sekali-kali mengganggu proses sandaran/pemulihan\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Pulihkan: Berfungsi daripada storan HDD, USB, NET atau MMC\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Pilih 'Storan Rangkaian' dan tambahkan bahagian NAS/SMB anda\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Uji sambungan dengan arahan ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Sandaran USB: Memerlukan pemacu berformat FAT32 dengan fail 'backupstick'\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Gunakan pemacu USB berkualiti untuk kayu pemulihan\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Sahkan nama pengguna/kata laluan adalah betul\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Sahkan anda mempunyai ruang storan kosong yang mencukupi\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Lekapkan bahagian rangkaian anda dahulu:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Pilih 'Sandaran BERSIH' daripada senarai peranti\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Pilih bahagian rangkaian anda yang dipasang\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Rakaman sedang dijalankan. Sila hentikan rakaman sebelum cuba memulakan flashing."
 
 msgid "About"
-msgstr ""
+msgstr "Tentang"
 
 msgid "Backup"
-msgstr ""
+msgstr "Sandaran"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Pilihan Sandaran:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "Suite Sandaran v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Sandarkan dan pulihkan imej anda"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Sandaran gagal! Semak log: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Sandaran gagal! Ralat terakhir:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Sandaran gagal: Peranti adalah baca sahaja!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Sandaran gagal: Sambungan rangkaian terputus!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Sandaran gagal: Tidak cukup ruang kosong pada peranti!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Sandaran gagal: Fail yang diperlukan tidak ditemui!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Sandaran gagal: Kebenaran tulis ditolak!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Maklumat sandaran"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Skrip sandaran tidak ditemui untuk {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Sandaran ke Rangkaian"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Sandaran ke {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Bantuan BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Amalan Terbaik:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Fungsi Butang:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Log perubahan tidak tersedia"
 
 msgid "Close"
-msgstr ""
+msgstr "tutup"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Semasa: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Padam"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Padamkan sandaran"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Senarai Peranti:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Adakah anda benar-benar mahu membongkar {0} ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Ralat semasa memilih peranti: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Keluar"
 
 msgid "Flash"
-msgstr ""
+msgstr "kilat"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Berkelip:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Untuk arahan dan sokongan terperinci:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Untuk memancarkan fail penerima anda diperlukan:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Percuma:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Cakera Keras"
 
 msgid "Help"
-msgstr ""
+msgstr "Tolong"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Buat atau pulihkan sandaran"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "Arahan Sandaran BERSIH:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "TIDAK menjumpai fail untuk berkelip!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Storan Rangkaian"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Tiada jenis peranti dipilih"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Tiada perkongsian rangkaian dipasang! Sila pasangkan perkongsian dahulu."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Tiada kebenaran menulis untuk: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Hanya kernel"
 
 msgid "Only root"
-msgstr ""
+msgstr "Hanya akar"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Sila tunggu"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Sila: JANGAN but semula STB anda dan matikan kuasa.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Pulihkan"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Pulihkan Sandaran"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Jalankan kilat"
 
 msgid "SD Card"
-msgstr ""
+msgstr "Kad SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Partition kedua (hanya kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Partition kedua (hanya akar)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Partition kedua (root dan kernel)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Pilih bahagian rangkaian untuk sandaran:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Pilih parameter untuk mulakan denyar!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Pilih folder dengan sandaran"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Tunjukkan hanya imej yang ditemui dan partition mtd.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulasi (tiada tulis)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simulasikan partition kedua (tiada tulis)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standard (root dan kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Nota Teknikal:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Imej atau kernel akan berkelip dan dibut secara automatik dalam beberapa minit.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Jumlah:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Menyelesaikan masalah Sandaran BERSIH:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "Storan USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Tidak diketahui"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Jenis peranti tidak diketahui dipilih"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Buka zip"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Lawati repositori GitHub kami:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Apakah yang baharu sejak keluaran terakhir?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB anda akan membeku semasa proses berkelip.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "semasa: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "tiada apa!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite akan menghentikan enigma2 sekarang untuk menjalankan denyar.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (mungkin ralat)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (mungkin ok)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Sandaran"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BIRU: Tunjukkan skrin bantuan ini\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Sandaran berbilang but (jika dipasang)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "HIJAU: Mulakan sandaran untuk peranti yang dipilih\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Sandaran HDD: Sandaran sistem penuh ke pemacu keras dalaman\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "Sandaran MMC: Sandaran ke storan luaran (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "Sandaran NET: Sandaran ke storan rangkaian (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "Sandaran USB: Cipta kayu pemulihan USB boleh boot\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Gunakan butang ATAS/BAWAH untuk menavigasi melalui pilihan sandaran\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "KUNING: Mulakan proses pemulihan\n"

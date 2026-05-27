@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- შეამოწმეთ გაზიარების ნებართვები (წაკითხვა/ჩაწერა)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- დარწმუნდით, რომ NAS ჩართულია და ხელმისაწვდომია\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- შეიყვანეთ სერვერის IP, გაზიარების სახელი, მომხმარებლის სახელი და პაროლი\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- გადადით მთავარ მენიუში > დაყენება > სისტემა > მეხსიერების მენეჯერი\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD-ის სარეზერვო ასლები: ინახება /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- შეინახეთ თქვენი სისტემის რეგულარული სარეზერვო ასლები\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET-ის სარეზერვო ასლები: მოითხოვს დამონტაჟებულ CIFS/NFS გაზიარებას ჩაწერის ნებართვით\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- არასოდეს შეწყვიტოთ სარეზერვო/აღდგენის პროცესები\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- აღდგენა: მუშაობს HDD, USB, NET ან MMC მეხსიერებიდან\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- აირჩიეთ „ქსელის საცავი“ და დაამატეთ თქვენი NAS/SMB წილი\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- შეამოწმეთ კავშირი ping ბრძანებით\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB სარეზერვო ასლები: საჭიროა FAT32 ფორმატირებული დისკი 'backupstick' ფაილით\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- გამოიყენეთ ხარისხიანი USB დისკები აღდგენის ჯოხებისთვის\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- შეამოწმეთ მომხმარებლის სახელი/პაროლი სწორია\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- დაადასტურეთ, რომ საკმარისი თავისუფალი ადგილი გაქვთ\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. ჯერ დააინსტალირეთ თქვენი ქსელის გაზიარება:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. აირჩიეთ „NET Backup“ მოწყობილობების სიიდან\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. აირჩიეთ თქვენი დამონტაჟებული ქსელის გაზიარება\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "ჩანაწერი ამჟამად მიმდინარეობს. გთხოვთ, შეწყვიტოთ ჩაწერა ციმციმის დაწყებამდე."
 
 msgid "About"
-msgstr ""
+msgstr "შესახებ"
 
 msgid "Backup"
-msgstr ""
+msgstr "სარეზერვო"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "სარეზერვო ოფციები:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "სარეზერვო კომპლექტი v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "სარეზერვო და აღადგინეთ თქვენი სურათი"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა! შემოწმების ჟურნალი: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა! ბოლო შეცდომები:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა: მოწყობილობა მხოლოდ წაკითხვადია!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა: ქსელის კავშირი დაიკარგა!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა: არ არის საკმარისი თავისუფალი ადგილი მოწყობილობაზე!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა: საჭირო ფაილები ვერ მოიძებნა!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "სარეზერვო ასლის შექმნა ვერ მოხერხდა: დაწერის ნებართვა უარყოფილია!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "სარეზერვო ინფორმაცია"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "სარეზერვო სკრიპტი ვერ მოიძებნა {0}-ისთვის: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "სარეზერვო ასლი ქსელში"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "სარეზერვო ასლი {0}-ზე"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite დახმარება"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "ბარი ალენი"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "საუკეთესო პრაქტიკა:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "ღილაკის ფუნქციები:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "ცვლილების ჟურნალი მიუწვდომელია"
 
 msgid "Close"
-msgstr ""
+msgstr "დახურვა"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "მიმდინარე: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "სარეზერვო ასლის წაშლა"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "მოწყობილობების სია:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "ნამდვილად გსურთ {0}-ის ამოლაგება?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "შეცდომა მოწყობილობის არჩევისას: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "გასვლა"
 
 msgid "Flash"
-msgstr ""
+msgstr "ფლეში"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "ციმციმებს:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "დეტალური ინსტრუქციებისა და მხარდაჭერისთვის:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "თქვენი მიმღების ფაილების ციმციმისთვის საჭიროა:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "უფასო:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "მყარი დისკი"
 
 msgid "Help"
-msgstr ""
+msgstr "დახმარება"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "შექმენით ან აღადგინეთ სარეზერვო ასლი"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET სარეზერვო ინსტრუქციები:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "ვერ მოიძებნა გასანათებელი ფაილები!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "ქსელის შენახვა"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "მოწყობილობის ტიპი არ არის არჩეული"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "ქსელის გაზიარებები არ არის დამონტაჟებული! გთხოვთ, ჯერ დააინსტალირეთ გაზიარება."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "არ არის ჩაწერის უფლება: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "მხოლოდ ბირთვი"
 
 msgid "Only root"
-msgstr ""
+msgstr "მხოლოდ root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "გთხოვთ დაელოდოთ"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "გთხოვთ: არ გადატვირთოთ თქვენი STB და გამორთეთ დენი.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "აღდგენა"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "სარეზერვო ასლის აღდგენა"
 
 msgid "Run flash"
-msgstr ""
+msgstr "ფლეშის გაშვება"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD ბარათი"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "მეორე დანაყოფი (მხოლოდ ბირთვი)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "მეორე დანაყოფი (მხოლოდ root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "მეორე დანაყოფი (ძირი და ბირთვი)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "აირჩიეთ ქსელის გაზიარება სარეზერვო ასლისთვის:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "აირჩიეთ პარამეტრი ფლეშის დასაწყებად!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "აირჩიეთ საქაღალდე სარეზერვო ასლით"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "აჩვენე მხოლოდ ნაპოვნი სურათი და mtd ტიხრები.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "სიმულაცია (ჩაწერის გარეშე)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "მეორე დანაყოფის სიმულაცია (ჩაწერის გარეშე)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "სტანდარტული (ძირი და ბირთვი)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "ტექნიკური შენიშვნები:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "სურათი ან ბირთვი ციმციმდება და ავტომატურად ჩაიტვირთება რამდენიმე წუთში.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "სულ:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET სარეზერვო ასლის აღმოფხვრა:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB საცავი"
 
 msgid "Unknown"
-msgstr ""
+msgstr "უცნობი"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "არჩეულია მოწყობილობის უცნობი ტიპი"
 
 msgid "Unzip"
-msgstr ""
+msgstr "გახსენით"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "ეწვიეთ ჩვენს GitHub საცავს:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "რა არის ახალი ბოლო გამოშვების შემდეგ?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "თქვენი STB გაიყინება ციმციმის პროცესში.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "მიმდინარე: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "არაფერი!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite შეაჩერებს enigma2-ს ახლა ფლეშის გასაშვებად.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (შესაძლოა შეცდომა)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (შესაძლოა კარგი)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} სარეზერვო ასლი"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ცისფერი: ამ დახმარების ეკრანის ჩვენება\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "ბარი ალენი: Multiboot სარეზერვო ასლი (თუ დაინსტალირებულია)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "მწვანე: დაიწყეთ არჩეული მოწყობილობის სარეზერვო ასლის შექმნა\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD-ის სარეზერვო ასლი: სისტემის სრული სარეზერვო ასლი შიდა მყარ დისკზე\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC სარეზერვო: სარეზერვო ასლი გარე მეხსიერებაში (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET სარეზერვო ასლი: სარეზერვო ასლი ქსელის მეხსიერებაში (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB სარეზერვო ასლი: შექმენით ჩამტვირთავი USB აღდგენის ჯოხი\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "გამოიყენეთ UP/DOWN ღილაკები სარეზერვო ვარიანტებში ნავიგაციისთვის\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ყვითელი: დაიწყე აღდგენის პროცესი\n"

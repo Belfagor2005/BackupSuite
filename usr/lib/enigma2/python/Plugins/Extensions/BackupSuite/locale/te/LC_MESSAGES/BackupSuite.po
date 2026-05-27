@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- భాగస్వామ్య అనుమతులను తనిఖీ చేయండి (చదవడానికి/వ్రాయడానికి)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS పవర్ ఆన్ చేయబడిందని మరియు యాక్సెస్ చేయగలదని నిర్ధారించుకోండి\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- సర్వర్ IP, షేర్ పేరు, వినియోగదారు పేరు మరియు పాస్‌వర్డ్‌ను నమోదు చేయండి\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- మెయిన్ మెనూ > సెటప్ > సిస్టమ్ > స్టోరేజ్ మేనేజర్\nకి వెళ్లండి"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD బ్యాకప్‌లు: /media/hdd/backup\nలో నిల్వ చేయబడతాయి"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- మీ సిస్టమ్ యొక్క సాధారణ బ్యాకప్‌లను ఉంచండి\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET బ్యాకప్‌లు: వ్రాత అనుమతులతో మౌంటెడ్ CIFS/NFS షేర్ అవసరం\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- బ్యాకప్/పునరుద్ధరణ ప్రక్రియలకు ఎప్పుడూ అంతరాయం కలిగించవద్దు\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- పునరుద్ధరించు: HDD, USB, NET లేదా MMC నిల్వ నుండి పని చేస్తుంది\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'నెట్‌వర్క్ స్టోరేజ్'ని ఎంచుకుని, మీ NAS/SMB షేర్‌ని జోడించండి\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- పింగ్ కమాండ్‌తో కనెక్షన్‌ని పరీక్షించండి\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB బ్యాకప్‌లు: 'బ్యాకప్‌స్టిక్' ఫైల్‌తో FAT32-ఫార్మాట్ చేసిన డ్రైవ్ అవసరం\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- రికవరీ స్టిక్‌ల కోసం నాణ్యమైన USB డ్రైవ్‌లను ఉపయోగించండి\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- వినియోగదారు పేరు/పాస్‌వర్డ్ సరైనదేనని ధృవీకరించండి\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- మీకు తగినంత ఉచిత నిల్వ స్థలం ఉందని ధృవీకరించండి\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. ముందుగా మీ నెట్‌వర్క్ షేర్‌ని మౌంట్ చేయండి:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. పరికర జాబితా నుండి 'NET బ్యాకప్' ఎంచుకోండి\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. మీ మౌంటెడ్ నెట్‌వర్క్ షేర్‌ని ఎంచుకోండి\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "ప్రస్తుతం రికార్డింగ్ నడుస్తోంది. ఫ్లాషింగ్‌ని ప్రారంభించడానికి ప్రయత్నించే ముందు దయచేసి రికార్డింగ్‌ను ఆపివేయండి."
 
 msgid "About"
-msgstr ""
+msgstr "గురించి"
 
 msgid "Backup"
-msgstr ""
+msgstr "బ్యాకప్"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "బ్యాకప్ ఎంపికలు:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "బ్యాకప్ సూట్ v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "మీ చిత్రాన్ని బ్యాకప్ చేయండి మరియు పునరుద్ధరించండి"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "బ్యాకప్ విఫలమైంది! లాగ్ తనిఖీ చేయండి: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "బ్యాకప్ విఫలమైంది! చివరి లోపాలు:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "బ్యాకప్ విఫలమైంది: పరికరం చదవడానికి మాత్రమే!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "బ్యాకప్ విఫలమైంది: నెట్‌వర్క్ కనెక్షన్ పోయింది!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "బ్యాకప్ విఫలమైంది: పరికరంలో తగినంత ఖాళీ స్థలం లేదు!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "బ్యాకప్ విఫలమైంది: అవసరమైన ఫైల్‌లు కనుగొనబడలేదు!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "బ్యాకప్ విఫలమైంది: వ్రాయడానికి అనుమతి నిరాకరించబడింది!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "బ్యాకప్ సమాచారం"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0}: {1} కోసం బ్యాకప్ స్క్రిప్ట్ కనుగొనబడలేదు"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "నెట్‌వర్క్‌కు బ్యాకప్ చేయండి"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0}కి బ్యాకప్ చేయండి"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "బ్యాకప్‌సూట్ సహాయం"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "బారీ అలెన్"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "ఉత్తమ పద్ధతులు:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "బటన్ విధులు:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "మార్పు లాగ్ అందుబాటులో లేదు"
 
 msgid "Close"
-msgstr ""
+msgstr "మూసివేయి"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "ప్రస్తుత: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "తొలగించు"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "బ్యాకప్‌ను తొలగించండి"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "పరికర జాబితా:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "మీరు నిజంగా {0}ని అన్‌ప్యాక్ చేయాలనుకుంటున్నారా?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "పరికరాన్ని ఎంచుకోవడంలో లోపం: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "నిష్క్రమించు"
 
 msgid "Flash"
-msgstr ""
+msgstr "ఫ్లాష్"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "ఫ్లాషింగ్:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "వివరణాత్మక సూచనలు మరియు మద్దతు కోసం:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "ఫ్లాషింగ్ కోసం మీ రిసీవర్ ఫైల్‌లు అవసరం:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "ఉచిత:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "హార్డ్ డిస్క్"
 
 msgid "Help"
-msgstr ""
+msgstr "సహాయం"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "బ్యాకప్ చేయండి లేదా పునరుద్ధరించండి"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET బ్యాకప్ సూచనలు:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "ఫ్లాషింగ్ కోసం ఫైల్‌లు కనుగొనబడలేదు!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "నెట్‌వర్క్ నిల్వ"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "పరికర రకం ఎంచుకోబడలేదు"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "నెట్‌వర్క్ షేర్‌లు ఏవీ మౌంట్ చేయబడలేదు! దయచేసి ముందుగా షేర్‌ని మౌంట్ చేయండి."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "దీని కోసం వ్రాయడానికి అనుమతి లేదు: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "కెర్నల్ మాత్రమే"
 
 msgid "Only root"
-msgstr ""
+msgstr "రూట్ మాత్రమే"
 
 msgid "Please wait"
-msgstr ""
+msgstr "దయచేసి వేచి ఉండండి"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "దయచేసి: మీ STBని రీబూట్ చేయకండి మరియు పవర్ ఆఫ్ చేయండి.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "పునరుద్ధరించు"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "బ్యాకప్‌ని పునరుద్ధరించండి"
 
 msgid "Run flash"
-msgstr ""
+msgstr "ఫ్లాష్‌ని అమలు చేయండి"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD కార్డ్"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "రెండవ విభజన (కెర్నల్ మాత్రమే)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "రెండవ విభజన (రూట్ మాత్రమే)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "రెండవ విభజన (రూట్ మరియు కెర్నల్)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "బ్యాకప్ కోసం నెట్‌వర్క్ షేర్‌ని ఎంచుకోండి:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "స్టార్ట్ ఫ్లాష్ కోసం పరామితిని ఎంచుకోండి!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "బ్యాకప్ ఉన్న ఫోల్డర్‌ను ఎంచుకోండి"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "కనుగొనబడిన చిత్రం మరియు mtd విభజనలను మాత్రమే చూపు.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "అనుకరించండి (రాయడం లేదు)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "రెండవ విభజనను అనుకరించండి (రాయడం లేదు)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "ప్రామాణిక (రూట్ మరియు కెర్నల్)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "సాంకేతిక గమనికలు:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "చిత్రం లేదా కెర్నల్ ఫ్లాషింగ్ అవుతుంది మరియు కొన్ని నిమిషాల్లో స్వయంచాలకంగా బూట్ అవుతుంది.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "మొత్తం:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET బ్యాకప్ ట్రబుల్షూటింగ్:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB నిల్వ"
 
 msgid "Unknown"
-msgstr ""
+msgstr "తెలియదు"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "తెలియని పరికర రకం ఎంచుకోబడింది"
 
 msgid "Unzip"
-msgstr ""
+msgstr "అన్జిప్ చేయండి"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "మా GitHub రిపోజిటరీని సందర్శించండి:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "గత విడుదల నుండి కొత్తది ఏమిటి?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "ఫ్లాషింగ్ ప్రక్రియలో మీ STB స్తంభింపజేస్తుంది.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "ప్రస్తుత: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ఏమీ లేదు!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite ఇప్పుడు ఫ్లాష్‌ని అమలు చేయడానికి enigma2ని ఆపివేస్తుంది.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (బహుశా లోపం)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (బహుశా సరే)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} బ్యాకప్"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "నీలం: ఈ సహాయ స్క్రీన్‌ని చూపించు\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "బారీ అలెన్: మల్టీబూట్ బ్యాకప్ (ఇన్‌స్టాల్ చేయబడితే)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "ఆకుపచ్చ: ఎంచుకున్న పరికరం కోసం బ్యాకప్‌ని ప్రారంభించండి\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD బ్యాకప్: అంతర్గత హార్డ్ డ్రైవ్‌కు పూర్తి సిస్టమ్ బ్యాకప్\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC బ్యాకప్: బాహ్య నిల్వకు బ్యాకప్ (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET బ్యాకప్: నెట్‌వర్క్ నిల్వకు బ్యాకప్ (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB బ్యాకప్: బూటబుల్ USB రికవరీ స్టిక్‌ను సృష్టించండి\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "బ్యాకప్ ఎంపికల ద్వారా నావిగేట్ చేయడానికి అప్/డౌన్ బటన్‌లను ఉపయోగించండి\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "పసుపు: పునరుద్ధరణ ప్రక్రియను ప్రారంభించండి\n"

@@ -16,325 +16,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Pārbaudiet koplietošanas atļaujas (lasīt/rakstīt)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Nodrošiniet, lai NAS būtu ieslēgta un būtu pieejama\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Ievadiet servera IP, koplietošanas vārdu, lietotājvārdu un paroli\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Atveriet galveno izvēlni > Iestatīšana > Sistēma > Krātuves pārvaldnieks\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD dublējumkopijas: saglabātas mapē /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Regulāri veiciet sistēmas dublējumkopijas\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET dublējumkopijas: nepieciešama iebūvēta CIFS/NFS koplietošana ar rakstīšanas atļaujām\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Nekad nepārtrauciet dublēšanas/atkopšanas procesus\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Atjaunot: darbojas no HDD, USB, NET vai MMC krātuves\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Atlasiet “Tīkla krātuve” un pievienojiet savu NAS/SMB koplietojumu\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Pārbaudīt savienojumu ar ping komandu\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB dublējumkopijas: nepieciešams FAT32 formatēts disks ar dublējuma failu\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Izmantojiet kvalitatīvus USB diskus atkopšanas zibatmiņām\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Pārbaudiet, vai lietotājvārds/parole ir pareiza\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Pārbaudiet, vai krātuvē ir pietiekami daudz brīvas vietas\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Vispirms pievienojiet tīkla daļu:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Ierīču sarakstā atlasiet 'NET Backup'\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Izvēlieties uzstādīto tīkla koplietojumu\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Pašlaik notiek ieraksts. Lūdzu, pārtrauciet ierakstīšanu, pirms mēģināt sākt mirgot."
 
 msgid "About"
-msgstr ""
+msgstr "Par"
 
 msgid "Backup"
-msgstr ""
+msgstr "Dublējums"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Rezerves opcijas:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Dublējiet un atjaunojiet attēlu"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Dublēšana neizdevās! Pārbaudes žurnāls: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Dublēšana neizdevās! Pēdējās kļūdas:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Dublēšana neizdevās: ierīce ir tikai lasāma!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Dublēšana neizdevās: zaudēts tīkla savienojums!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Dublēšana neizdevās: ierīcē nav pietiekami daudz brīvas vietas!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Dublēšana neizdevās: nepieciešamie faili netika atrasti!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Dublēšana neizdevās: rakstīšanas atļauja liegta!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Dublējuma informācija"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Rezerves skripts nav atrasts vietnei {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Dublēšana tīklā"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Dublēšana uz {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite palīdzība"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Barijs Alens"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Labākā prakse:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Pogu funkcijas:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Izmaiņu žurnāls nav pieejams"
 
 msgid "Close"
-msgstr ""
+msgstr "Aizvērt"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Pašreizējais: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Dzēst"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Dzēst dublējumu"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Ierīču saraksts:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Vai tiešām vēlaties izpakot {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Kļūda, izvēloties ierīci: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Iziet"
 
 msgid "Flash"
-msgstr ""
+msgstr "Zibspuldze"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Mirgo:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Lai iegūtu detalizētus norādījumus un atbalstu:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Lai mirgotu, ir nepieciešami uztvērēja faili:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Bezmaksas:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Cietais disks"
 
 msgid "Help"
-msgstr ""
+msgstr "Palīdzība"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Izveidojiet vai atjaunojiet dublējumu"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET dublēšanas instrukcijas:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "NAV atrasti faili mirgošanai!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Tīkla krātuve"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Nav atlasīts neviens ierīces veids"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Nav pievienots neviens tīkla koplietojums! Lūdzu, vispirms pievienojiet akciju."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Nav rakstīšanas atļaujas: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Tikai kodols"
 
 msgid "Only root"
-msgstr ""
+msgstr "Tikai sakne"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Lūdzu, uzgaidiet"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Lūdzu: NEpārstartējiet STB un neizslēdziet barošanu.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Atjaunot"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Atjaunot dublējumu"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Palaist zibspuldzi"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD karte"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Otrais nodalījums (tikai kodols)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Otrais nodalījums (tikai saknes)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Otrais nodalījums (sakne un kodols)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Atlasiet tīkla koplietošanu dublēšanai:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Izvēlieties parametru zibspuldzes palaišanai!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Atlasiet mapi ar dublējumu"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Rādīt tikai atrastos attēlus un mtd nodalījumus.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulēt (bez rakstīšanas)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simulēt otro nodalījumu (bez rakstīšanas)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standarta (sakne un kodols)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Tehniskas piezīmes:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Attēls vai kodols mirgos un tiks automātiski palaists pēc dažām minūtēm.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Kopā:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET dublēšanas problēmu novēršana:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB atmiņa"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Nezināms"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Atlasīts nezināms ierīces veids"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Atskrūvējiet"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Apmeklējiet mūsu GitHub repozitoriju:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Kas jauns kopš pēdējās izlaišanas?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Mirgošanas procesa laikā jūsu STB sastings.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "pašreizējais: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "nekas!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite apturēs enigma2 tūlīt, lai palaistu zibatmiņu.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (varbūt kļūda)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (varbūt labi)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Dublējums"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ZILS: parādiet šo palīdzības ekrānu\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barijs Allens: vairāku sāknēšanas dublējums (ja ir instalēts)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "ZAĻS: sāciet atlasītās ierīces dublēšanu\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD dublēšana: pilnīga sistēmas dublēšana iekšējā cietajā diskā\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC dublēšana: dublēšana ārējā atmiņā (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET dublēšana: dublēšana tīkla krātuvē (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB dublēšana: izveidojiet sāknējamu USB atkopšanas zibatmiņu\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Izmantojiet pogas AUGŠU/UZ LEJU, lai pārvietotos pa rezerves opcijām\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "DZELTENS: sāciet atjaunošanas procesu\n"

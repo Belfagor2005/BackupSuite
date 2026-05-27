@@ -15,67 +15,67 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Paylaşım icazələrini yoxlayın (oxumaq/yazmaq)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS-ın işə salındığından və əlçatan olduğundan əmin olun\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Server IP, paylaşım adı, istifadəçi adı və parol daxil edin\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Əsas Menyu > Quraşdırma > Sistem > Yaddaş Menecerinə keçin\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD ehtiyat nüsxələri: /media/hdd/backup-da saxlanılır\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Sisteminizin müntəzəm ehtiyat nüsxələrini saxlayın\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET ehtiyat nüsxələri: Yazma icazələri ilə quraşdırılmış CIFS/NFS paylaşımını tələb edin\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Yedəkləmə/bərpa proseslərini heç vaxt kəsməyin\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Bərpa: HDD, USB, NET və ya MMC yaddaşından işləyir\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Şəbəkə Yaddaşı' seçin və NAS/SMB paylaşımınızı əlavə edin\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Ping əmri ilə əlaqəni yoxlayın\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB ehtiyat nüsxələri: "backupstick" faylı ilə FAT32 formatlı disk tələb olunur\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Bərpa çubuqları üçün keyfiyyətli USB disklərdən istifadə edin\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- İstifadəçi adının/parolun düzgünlüyünü yoxlayın\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Kifayət qədər boş yaddaş yeriniz olduğunu yoxlayın\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Əvvəlcə şəbəkə paylaşımınızı quraşdırın:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Cihaz siyahısından 'NET Backup' seçin\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Quraşdırılmış şəbəkə paylaşımınızı seçin\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Hazırda səsyazma aparılır. Lütfən, yanıb-sönməyə başlamazdan əvvəl qeydi dayandırın."
 
 msgid "About"
-msgstr ""
+msgstr "Haqqında"
 
 msgid "Backup"
-msgstr ""
+msgstr "Yedəkləmə"
 
 msgid "Backup Options:\n"
 msgstr ""
@@ -84,256 +84,256 @@ msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Şəklinizin ehtiyat nüsxəsini çıxarın və bərpa edin"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Yedəkləmə alınmadı! Yoxlama jurnalı: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Yedəkləmə alınmadı! Son səhvlər:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Yedəkləmə alınmadı: Cihaz yalnız oxunur!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Yedəkləmə uğursuz oldu: Şəbəkə bağlantısı itdi!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Yedəkləmə alınmadı: Cihazda kifayət qədər boş yer yoxdur!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Yedəkləmə alınmadı: Tələb olunan fayllar tapılmadı!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Yedəkləmə alınmadı: Yazma icazəsi rədd edildi!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Yedək məlumat"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0} üçün ehtiyat skripti tapılmadı: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Şəbəkəyə Yedəkləmə"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0} ünvanına yedəkləyin"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite Yardımı"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Ən yaxşı təcrübələr:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Düymə funksiyaları:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Dəyişiklik jurnalı mövcud deyil"
 
 msgid "Close"
-msgstr ""
+msgstr "Bağlayın"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Cari: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Yedəkləməni silin"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Cihaz siyahısı:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Həqiqətən {0} paketini açmaq istəyirsiniz?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Cihaz seçərkən xəta oldu: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çıx"
 
 msgid "Flash"
 msgstr ""
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Yanıb-sönür:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Ətraflı təlimat və dəstək üçün:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Yanıb-söndürmək üçün qəbuledici fayllarınız lazımdır:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Pulsuz:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Sərt Disk"
 
 msgid "Help"
-msgstr ""
+msgstr "Kömək edin"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Yedəkləyin və ya bərpa edin"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Yedəkləmə Təlimatları:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Yanıb-sönmək üçün fayl tapılmadı!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Şəbəkə yaddaşı"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Heç bir cihaz növü seçilməyib"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Heç bir şəbəkə paylaşımı quraşdırılmayıb! Zəhmət olmasa əvvəlcə paylaşım edin."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "{0} üçün yazma icazəsi yoxdur"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Yalnız kernel"
 
 msgid "Only root"
-msgstr ""
+msgstr "Yalnız kök"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Zəhmət olmasa gözləyin"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Lütfən: STB-ni yenidən işə salmayın və enerjini söndürməyin.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Bərpa et"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Yedəkləməni bərpa edin"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Flaşı işə salın"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD Kart"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "İkinci bölmə (yalnız kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "İkinci bölmə (yalnız kök)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "İkinci bölmə (kök və nüvə)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Yedəkləmə üçün şəbəkə paylaşımını seçin:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Başlanğıc flaşı üçün parametr seçin!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Yedək nüsxəsi olan qovluğu seçin"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Yalnız tapılmış şəkli və mtd bölmələrini göstərin.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulyasiya edin (yazmaq yoxdur)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "İkinci bölməni simulyasiya edin (yazmaq yoxdur)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standart (kök və nüvə)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Texniki Qeydlər:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Şəkil və ya nüvə bir neçə dəqiqə ərzində yanıb-sönəcək və avtomatik yüklənəcək.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Cəmi:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET Yedəkləmə ilə bağlı problemlərin aradan qaldırılması:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB Yaddaş"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Naməlum"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Naməlum cihaz növü seçildi"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Zip açın"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "GitHub repozitorumuza baş çəkin:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Son buraxılışdan bəri nə yenilik var?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Yanıb-sönmə prosesi zamanı STB-niz donacaq.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "cari: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "heç nə!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite flaşı işə salmaq üçün enigma2-ni indi dayandıracaq.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (bəlkə xəta)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (bəlkə də yaxşı)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Yedəkləmə"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "MAVİ: Bu yardım ekranını göstərin\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot ehtiyat nüsxəsi (quraşdırılıbsa)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "YAŞIL: Seçilmiş cihaz üçün yedəkləməni başladın\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD Yedəkləmə: Daxili sabit diskə tam sistem ehtiyat nüsxəsi\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Yedəkləmə: Xarici yaddaşa (eMMC) yedəkləmə\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Yedəkləmə: Şəbəkə yaddaşına ehtiyat nüsxə (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB Yedəkləmə: Yüklənə bilən USB bərpa diski yaradın\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Yedəkləmə seçimləri arasında getmək üçün YUKARI/AŞAĞI düymələrindən istifadə edin\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "SARI: Bərpa prosesini başladın\n"

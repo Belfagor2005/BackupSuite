@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Thoir sùil air ceadan roinneadh (leugh / sgrìobh)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Dèan cinnteach gu bheil cumhachd aig NAS air agus ruigsinneach\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Cuir a-steach IP an fhrithealaiche, roinn ainm, ainm-cleachdaidh agus facal-faire\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Rach gu Prìomh chlàr> Setup> Siostam> Manaidsear Stòraidh\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Cùl-taic HDD: Air a stòradh ann an / media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Cùm cùl-taic cunbhalach den t-siostam agad\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- Cùl-taic NET: Feumaidh tu co-roinn CIFS / NFS le cead sgrìobhaidh \ n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Na cuir stad air pròiseasan cùl-taic / ath-nuadhachadh \ n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Ath-nuadhachadh: Ag obair bho stòradh HDD, USB, NET no MMC\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Tagh 'Network Storage' agus cuir do chuibhreann NAS/SMB\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Dèan deuchainn air ceangal le òrdugh ping \ n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Cùl-taic USB: Feumaidh draibhear cruth FAT32 le faidhle ‘backupstick’\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Cleachd draibhearan USB càileachd airson bataichean ath-bheothachaidh\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Dearbhaich gu bheil an t-ainm-cleachdaidh/facal-faire ceart\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Dèan cinnteach gu bheil àite stòraidh gu leòr an-asgaidh agad\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Stàlaich an roinn lìonraidh agad an toiseach:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Tagh 'NET Backup' bho liosta nan innealan\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Tagh an roinn lìonraidh agad\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Tha clàradh a' ruith an-dràsta. Feuch an stad thu an clàradh mus feuch thu ri frasadh a thòiseachadh."
 
 msgid "About"
-msgstr ""
+msgstr "Mu dheidhinn"
 
 msgid "Backup"
-msgstr ""
+msgstr "Cùl-taic"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Roghainnean cùl-taice:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Dèan cùl-taic agus cuir air ais an ìomhaigh agad"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Dh'fhàillig lethbhreac-glèidhidh! Thoir sùil air loga: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Dh'fhàillig lethbhreac-glèidhidh! Mearachdan mu dheireadh:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Dh’ fhàillig an cùl-taic: tha an inneal ri leughadh a-mhàin!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Dh'fhàillig lethbhreac-glèidhidh: Chaill an ceangal lìonraidh!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Dh’ fhàillig cùl-taic: Chan eil àite gu leòr an-asgaidh air an inneal!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Dh'fhàillig lethbhreac-glèidhidh: Cha deach na faidhlichean riatanach a lorg!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Dh'fhàillig lethbhreac-glèidhidh: Chaidh cead sgrìobhaidh a dhiùltadh!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Cùl-fhiosrachadh fiosrachaidh"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Cha deach sgriobt lethbhreac-glèidhidh a lorg airson {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Cùl-taic don Lìonra"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Cùl-taic gu {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Taic BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Cleachdaidhean as Fheàrr:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Gnìomhan putan:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Chan eil log atharrachaidh ri fhaighinn"
 
 msgid "Close"
-msgstr ""
+msgstr "Dùin"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "An-dràsta: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Sguab às"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Sguab às cùl-taic"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Liosta innealan:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "A bheil thu dha-rìribh ag iarraidh {0} a dhì-phapadh?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Mearachd a' taghadh inneal: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ar-a-mach"
 
 msgid "Flash"
 msgstr ""
 
 msgid "Flashing:"
-msgstr ""
+msgstr "A' frasadh:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Airson stiùireadh mionaideach agus taic:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Airson frasadh tha feum air na faidhlichean glacadair agad:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Saor an-asgaidh:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Diosca cruaidh"
 
 msgid "Help"
-msgstr ""
+msgstr "Cuideachadh"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Dèan no cuir air ais cùl-taic"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "Stiùiridhean cùl-taic NET:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "CHAN EIL faidhlichean a lorg airson an lasadh!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Stòradh lìonra"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Chan eil seòrsa inneal air a thaghadh"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Chan eil earrannan lìonra air an cur suas! Feuch an cuir thu a-steach cuibhreann an toiseach."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Chan eil cead sgrìobhaidh ann airson: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "A-mhàin kernel"
 
 msgid "Only root"
-msgstr ""
+msgstr "A-mhàin freumh"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Feuch an fuirich thu"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Feuch: NA dèan ath-thòisich an STB agad is cuir dheth an cumhachd.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Ath-bheothaich"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Thoir air ais cùl-taic"
 
 msgid "Run flash"
-msgstr ""
+msgstr "A ' ruith flash"
 
 msgid "SD Card"
-msgstr ""
+msgstr "Cairt SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "An dàrna sgaradh (a-mhàin kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "An dàrna sgaradh (freumh a-mhàin)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "An dàrna sgaradh (freumh agus kernel)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Tagh roinn lìonra airson cùl-taic:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Tagh paramadair airson flash tòiseachaidh!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Tagh am pasgan le lethbhreac glèidhidh"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Na seall ach dealbhan a chaidh a lorg agus pìosan mtd.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Samhlachadh (gun sgrìobhadh)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Samhlaich an dàrna sgaradh (gun sgrìobhadh)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Coitcheann (freumh agus kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Notaichean Teicnigeach:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Bidh an dealbh no an kernel a’ lasadh is a’ tòiseachadh gu fèin-obrachail an ceann beagan mhionaidean.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Iomlan:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Fuasgladh dhuilgheadasan cùl-taic NET:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "Stòradh USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Neo-aithnichte"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Seòrsa inneal neo-aithnichte air a thaghadh"
 
 msgid "Unzip"
 msgstr ""
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Tadhail air an stòr GitHub againn: \ n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Dè tha ùr bhon fhoillseachadh mu dheireadh?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Reothaidh an STB agad tron ​​phròiseas lasachaidh.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "làithreach: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "dad!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "cuiridh ofwrite stad air enigma2 a-nis gus an flash a ruith.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (mearachd 's dòcha)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} ('s dòcha ceart gu leòr)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Cùl-taic"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "GORM: Seall an sgrìn-cuideachaidh seo\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Cùl-taic Multiboot (ma tha e air a chuir a-steach)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "GREEN: Tòisich cùl-taic airson an inneal taghte\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Cùl-taic HDD: Cùl-taic siostam slàn don chlàr cruaidh a-staigh\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "Cùl-taic MMC: Cùl-taic gu stòradh a-muigh (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "Cùl-taic NET: Cùl-taic gu stòradh lìonra (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "Cùl-taic USB: Cruthaich bata ath-bheothachaidh USB bootable\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Cleachd putanan UP/DOWN gus seòladh tro roghainnean cùl-taic\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "YELLOW: Tòisich am pròiseas ath-nuadhachaidh\n"

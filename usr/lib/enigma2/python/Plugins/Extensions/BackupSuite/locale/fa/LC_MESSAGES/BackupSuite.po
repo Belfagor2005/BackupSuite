@@ -15,325 +15,325 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- مجوزهای اشتراک گذاری (خواندن/نوشتن) را بررسی کنید\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- مطمئن شوید NAS روشن و در دسترس است\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- IP سرور، نام اشتراک، نام کاربری و رمز عبور را وارد کنید\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- به منوی اصلی > راه اندازی > سیستم > مدیر فضای ذخیره سازی\n بروید"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- پشتیبان‌گیری از HDD: در /media/hdd/backup\n ذخیره می‌شود"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- به طور منظم از سیستم خود نسخه پشتیبان تهیه کنید\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- پشتیبان‌گیری NET: نیاز به اشتراک‌گذاری CIFS/NFS نصب‌شده با مجوزهای نوشتن\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- هرگز فرآیندهای پشتیبان‌گیری/بازیابی را قطع نکنید\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- بازیابی: از حافظه HDD، USB، NET یا MMC کار می کند\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- "Network Storage" را انتخاب کنید و اشتراک NAS/SMB خود را اضافه کنید\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- تست اتصال با دستور ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- پشتیبان‌گیری USB: به درایو با فرمت FAT32 با فایل پشتیبان نیاز دارید\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- از درایوهای USB با کیفیت برای استیک های بازیابی استفاده کنید\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- بررسی کنید که نام کاربری/رمز عبور صحیح باشد\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- بررسی کنید که فضای ذخیره‌سازی رایگان کافی دارید\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. ابتدا اشتراک شبکه خود را سوار کنید:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. «NET Backup» را از لیست دستگاه انتخاب کنید\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. اشتراک شبکه نصب شده خود را انتخاب کنید\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "یک ضبط در حال حاضر در حال اجرا است. لطفاً قبل از شروع چشمک زدن، ضبط را متوقف کنید."
 
 msgid "About"
-msgstr ""
+msgstr "درباره"
 
 msgid "Backup"
-msgstr ""
+msgstr "پشتیبان گیری"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "گزینه های پشتیبان:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "مجموعه نسخه پشتیبان {0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "از تصویر خود نسخه پشتیبان تهیه و بازیابی کنید"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "پشتیبان گیری انجام نشد! گزارش بررسی: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "پشتیبان گیری انجام نشد! آخرین خطاها:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "پشتیبان‌گیری انجام نشد: دستگاه فقط خواندنی است!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "پشتیبان گیری انجام نشد: اتصال شبکه قطع شد!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "پشتیبان‌گیری انجام نشد: فضای خالی کافی در دستگاه وجود ندارد!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "پشتیبان گیری انجام نشد: فایل های مورد نیاز یافت نشد!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "پشتیبان گیری انجام نشد: اجازه نوشتن رد شد!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "اطلاعات پشتیبان"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "اسکریپت پشتیبان برای {0} یافت نشد: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "پشتیبان گیری در شبکه"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "پشتیبان گیری در {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "راهنمای BackupSuite"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "بری آلن"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "بهترین شیوه ها:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "عملکرد دکمه:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "گزارش تغییر در دسترس نیست"
 
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "فعلی: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "حذف کنید"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "پشتیبان را حذف کنید"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "لیست دستگاه:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "آیا واقعاً می خواهید بسته بندی {0} را باز کنید؟"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "خطا در انتخاب دستگاه: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "خارج شوید"
 
 msgid "Flash"
-msgstr ""
+msgstr "فلش"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "چشمک زن:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "برای دستورالعمل های دقیق و پشتیبانی:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "برای فلش کردن فایل های گیرنده شما نیاز است:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "رایگان:"
 
 msgid "GB"
-msgstr ""
+msgstr "گیگابایت"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "هارد دیسک"
 
 msgid "Help"
-msgstr ""
+msgstr "کمک کنید"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "یک نسخه پشتیبان تهیه یا بازیابی کنید"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "دستورالعمل های پشتیبان گیری NET:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "فایل هایی برای چشمک زدن یافت نشد!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "ذخیره سازی شبکه"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "هیچ نوع دستگاهی انتخاب نشده است"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "هیچ اشتراک شبکه نصب نشده است! لطفا ابتدا یک اشتراک گذاری کنید."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "بدون اجازه نوشتن برای: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "فقط هسته"
 
 msgid "Only root"
-msgstr ""
+msgstr "فقط روت"
 
 msgid "Please wait"
-msgstr ""
+msgstr "لطفا صبر کنید"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "لطفاً: STB خود را راه اندازی مجدد نکنید و برق را خاموش نکنید.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "بازیابی کنید"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "بازیابی نسخه پشتیبان"
 
 msgid "Run flash"
-msgstr ""
+msgstr "فلش را اجرا کنید"
 
 msgid "SD Card"
-msgstr ""
+msgstr "کارت SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "پارتیشن دوم (فقط هسته)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "پارتیشن دوم (فقط روت)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "پارتیشن دوم (ریشه و کرنل)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "اشتراک شبکه را برای پشتیبان‌گیری انتخاب کنید:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "پارامتر شروع فلاش را انتخاب کنید!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "پوشه دارای پشتیبان را انتخاب کنید"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "فقط تصویر یافت شده و پارتیشن‌های mtd را نشان دهید.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "شبیه سازی (بدون نوشتن)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "شبیه سازی پارتیشن دوم (بدون نوشتن)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "استاندارد (ریشه و هسته)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "نکات فنی:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "تصویر یا هسته در عرض چند دقیقه چشمک می زند و به طور خودکار بوت می شود.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "مجموع:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "عیب یابی NET Backup:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "حافظه USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "ناشناس"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "نوع دستگاه ناشناس انتخاب شده است"
 
 msgid "Unzip"
-msgstr ""
+msgstr "از حالت فشرده خارج کنید"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "از مخزن GitHub ما دیدن کنید:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "از آخرین نسخه چه خبر است؟"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB شما در طول فرآیند چشمک زدن منجمد می شود.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "فعلی: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "هیچی"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite اکنون enigma2 را برای اجرای فلش متوقف می کند.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (شاید خطا)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (شاید خوب باشد)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} پشتیبان گیری"
 
 msgid "• BLUE: Show this help screen\n"
-msgstr ""
+msgstr "• آبی: نمایش این صفحه راهنما\n"
 
 msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "• Barry Allen: پشتیبان گیری چند بوت (در صورت نصب)\n"
 
 msgid "• GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "• سبز: پشتیبان‌گیری را برای دستگاه انتخابی شروع کنید\n"
 
 msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "• پشتیبان‌گیری از HDD: پشتیبان‌گیری کامل سیستم در هارد دیسک داخلی\n"
 
 msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "• پشتیبان‌گیری MMC: پشتیبان‌گیری در حافظه خارجی (eMMC)\n"
 
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "• پشتیبان‌گیری NET: پشتیبان‌گیری در فضای ذخیره‌سازی شبکه (NAS/SMB)\n"
 
 msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "• پشتیبان‌گیری USB: یک کارت بازیابی USB قابل بوت ایجاد کنید\n"
 
 msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "• از دکمه های UP/DOWN برای پیمایش در میان گزینه های پشتیبان استفاده کنید\n"
 
 msgid "• YELLOW: Start restore process\n"
-msgstr ""
+msgstr "• زرد: شروع فرآیند بازیابی\n"

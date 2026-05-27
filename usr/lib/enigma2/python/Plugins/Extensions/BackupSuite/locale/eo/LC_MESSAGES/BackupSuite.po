@@ -16,325 +16,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Kontrolu kundividajn permesojn (legi/skribi)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Certigu, ke NAS estas ŝaltita kaj alirebla\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Enigu IP-on de la servilo, kundividan nomon, uzantnomon kaj pasvorton\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Iru al Ĉefa Menuo > Agordo > Sistemo > Stokado-Administranto\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Sekurkopioj de HDD: Konservitaj en /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Konservu regulajn sekurkopiojn de via sistemo\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- REtaj sekurkopioj: Postulas muntitan CIFS/NFS kundividon kun skribaj permesoj\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Neniam interrompu sekurkopiajn/restarajn procezojn\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Restarigi: Funkcias de HDD, USB, NET aŭ MMC-stokado\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Elektu 'Retan Stokadon' kaj aldonu vian NAS/SMB-dividadon\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Provu konekton per ping-komando\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB-sekurkopioj: Postulas FAT32-formatan diskon kun 'sekurkopio' dosiero\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Uzu kvalitajn USB-diskojn por reakiraj bastonoj\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Kontrolu uzantnomo/pasvorto estas ĝusta\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Kontrolu, ke vi havas sufiĉe da libera konserva spaco\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Muntu vian retan kunhavon unue:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Elektu 'NET Backup' el la aparatolisto\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Elektu vian muntitan retan kunhavon\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Registrado funkcias nuntempe. Bonvolu ĉesigi la registradon antaŭ ol provi ekbrili."
 
 msgid "About"
-msgstr ""
+msgstr "Pri"
 
 msgid "Backup"
-msgstr ""
+msgstr "Rezervo"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Rezervaj Opcioj:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "Rezerva Suite v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Rezervu kaj restarigu vian bildon"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Rezervo malsukcesis! Kontrolu protokolon: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Rezervo malsukcesis! Lastaj eraroj:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Rezervo malsukcesis: Aparato estas nurlegebla!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Rezervo malsukcesis: Reta konekto perdis!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Rezervo malsukcesis: ne sufiĉas libera spaco sur la aparato!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Rezervo malsukcesis: Bezonataj dosieroj ne trovitaj!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Rezervo malsukcesis: Skriba permeso rifuzita!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Rezervaj informoj"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Rezerva skripto ne trovita por {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Rezervo al Reto"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Rezervo al {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Helpo de BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Plej bonaj Praktikoj:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Butonaj Funkcioj:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Ŝanĝprotokolo ne havebla"
 
 msgid "Close"
-msgstr ""
+msgstr "Fermu"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Aktuala: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Forigi"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Forigi sekurkopion"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Listo de aparatoj:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Ĉu vi vere volas malpakigi {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Eraro elektante aparaton: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Eliro"
 
 msgid "Flash"
-msgstr ""
+msgstr "Ekbrilo"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Ekbrilante:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Por detalaj instrukcioj kaj subteno:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Por ekbrili viajn ricevildosierojn necesas:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Senpaga:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Malmola Disko"
 
 msgid "Help"
-msgstr ""
+msgstr "Helpu"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Faru aŭ restarigi sekurkopion"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Rezervaj Instrukcioj:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "NE trovitaj dosieroj por ekbrili!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Reta Stokado"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Neniu aparato tipo elektita"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Neniuj retaj akcioj muntitaj! Bonvolu unue munti akcion."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Neniu skribpermeso por: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Nur kerno"
 
 msgid "Only root"
-msgstr ""
+msgstr "Nur radiko"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Bonvolu atendi"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Bonvolu: NE rekomencu vian STB kaj malŝaltu la potencon.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Restarigi"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Restarigi Rezervon"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Kuru ekbrilon"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD-karto"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Dua sekcio (nur kerno)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Dua sekcio (nur radiko)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Dua sekcio (radiko kaj kerno)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Elektu retan kundividon por sekurkopio:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Elektu parametron por ekbrilo!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Elektu la dosierujon kun sekurkopio"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Montru nur trovitajn bildojn kaj mtd-diskojn.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simuli (sen skribi)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simuli duan sekcion (neniu skribado)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Normo (radiko kaj kerno)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Teknikaj Notoj:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "La bildo aŭ kerno ekbrilos kaj aŭtomate startos post kelkaj minutoj.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Totalo:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Solvado de NET-Sekurkopio:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB Stokado"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Nekonata"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Nekonata aparato tipo elektita"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Malfermu"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Vizitu nian GitHub-deponejon:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Kio estas nova ekde la lasta eldono?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Via STB frostos dum la ekbrila procezo.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "aktuala: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "nenio!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite ĉesos enigma2 nun por ruli la ekbrilon.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (eble eraro)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (eble bone)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Rezervo"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLUA: Montru ĉi tiun helpan ekranon\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot-sekurkopio (se instalite)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "VERDA: Komencu sekurkopion por elektita aparato\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Sekurkopio de HDD: Plena sekurkopio de la sistemo al interna malmola disko\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Rezervo: Rezervo al ekstera stokado (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "RETA Rezervo: Rezervo al retstokado (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB-Sekurkopio: Kreu starteblan USB-reakiran bastonon\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Uzu la butonojn SUPREN/SUBEN por navigi tra sekurkopioj\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "FLAVA: Komencu restarigan procezon\n"

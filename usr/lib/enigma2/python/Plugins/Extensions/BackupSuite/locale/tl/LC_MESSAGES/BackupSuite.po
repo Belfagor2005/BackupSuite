@@ -15,163 +15,163 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Suriin ang mga pahintulot sa pagbabahagi (magbasa/magsulat)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Tiyaking naka-on at naa-access ang NAS\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Ipasok ang IP ng server, pangalan ng pagbabahagi, username at password\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Pumunta sa Main Menu > Setup > System > Storage Manager\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Mga backup ng HDD: Naka-imbak sa /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Panatilihin ang mga regular na backup ng iyong system\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET backups: Mangailangan ng naka-mount na CIFS/NFS share na may mga pahintulot sa pagsulat\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Huwag kailanman matakpan ang mga proseso ng backup/restore\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- I-restore: Gumagana mula sa HDD, USB, NET o MMC storage\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Piliin ang 'Network Storage' at idagdag ang iyong NAS/SMB share\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Subukan ang koneksyon gamit ang ping command\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Mga USB backup: Nangangailangan ng FAT32-formatted drive na may 'backupstick' file\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Gumamit ng mga de-kalidad na USB drive para sa mga recovery stick\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- I-verify na tama ang username/password\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- I-verify na mayroon kang sapat na libreng espasyo sa storage\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. I-mount muna ang iyong network share:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Piliin ang 'NET Backup' mula sa listahan ng device\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Piliin ang iyong naka-mount na bahagi ng network\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Kasalukuyang tumatakbo ang isang pag-record. Pakitigil ang pagre-record bago subukang magsimula ng flashing."
 
 msgid "About"
-msgstr ""
+msgstr "Tungkol sa"
 
 msgid "Backup"
 msgstr ""
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Mga Pagpipilian sa Pag-backup:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "I-backup at i-restore ang iyong larawan"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Nabigo ang backup! Suriin ang log: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Nabigo ang backup! Mga huling error:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Nabigo ang pag-backup: Read-only ang device!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Nabigo ang pag-backup: Nawala ang koneksyon sa network!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Nabigo ang pag-backup: Walang sapat na libreng espasyo sa device!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Nabigo ang pag-backup: Hindi nahanap ang mga kinakailangang file!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Nabigo ang pag-backup: Tinanggihan ang pahintulot sa pagsulat!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Backup na impormasyon"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Hindi nahanap ang backup na script para sa {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "I-backup sa Network"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "I-backup sa {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Tulong sa BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Pinakamahuhusay na Kasanayan:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Mga Function ng Button:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Hindi available ang log ng pagbabago"
 
 msgid "Close"
-msgstr ""
+msgstr "Isara"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Kasalukuyan: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Tanggalin"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Tanggalin ang backup"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Listahan ng Device:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Gusto mo ba talagang i-unpack ang {0} ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Error sa pagpili ng device: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Lumabas"
 
 msgid "Flash"
 msgstr ""
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Kumikislap:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Para sa mga detalyadong tagubilin at suporta:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Para sa pag-flash ng iyong receiver file ay kailangan:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Libre:"
 
 msgid "GB"
 msgstr ""
@@ -180,160 +180,160 @@ msgid "Hard Disk"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "Tulong"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Gumawa o mag-restore ng backup"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Backup na Mga Tagubilin:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "HINDI nahanap ang mga file para sa pag-flash!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Imbakan ng Network"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Walang napiling uri ng device"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Walang naka-mount na pagbabahagi sa network! Mangyaring i-mount muna ang isang pagbabahagi."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Walang pahintulot na magsulat para sa: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Tanging kernel"
 
 msgid "Only root"
-msgstr ""
+msgstr "Tanging ugat"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Mangyaring maghintay"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Mangyaring: HUWAG i-reboot ang iyong STB at i-off ang power.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Ibalik"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Ibalik ang Backup"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Patakbuhin ang flash"
 
 msgid "SD Card"
 msgstr ""
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Pangalawang partition (tanging kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Pangalawang partition (ugat lamang)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Pangalawang partition (root at kernel)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Pumili ng network share para sa backup:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Pumili ng parameter para sa pagsisimula ng flash!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Piliin ang folder na may backup"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Ipakita lamang ang nakitang larawan at mtd partition.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Gayahin (walang isulat)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Gayahin ang pangalawang partition (walang pagsusulat)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standard (root at kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Mga Teknikal na Tala:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Ang imahe o kernel ay magfa-flash at awtomatikong magbo-boot sa loob ng ilang minuto.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Kabuuan:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Pag-troubleshoot ng NET Backup:\n"
 
 msgid "USB Storage"
 msgstr ""
 
 msgid "Unknown"
-msgstr ""
+msgstr "Hindi alam"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Napili ang hindi kilalang uri ng device"
 
 msgid "Unzip"
-msgstr ""
+msgstr "I-unzip"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Bisitahin ang aming GitHub repository:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Ano ang bago mula noong huling paglabas?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Magi-freeze ang iyong STB sa panahon ng proseso ng pag-flash.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "kasalukuyan: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "wala!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ihihinto ngayon ng ofgwrite ang enigma2 para patakbuhin ang flash.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (marahil error)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (siguro ok)"
 
 msgid "{0} Backup"
 msgstr ""
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLUE: Ipakita ang screen ng tulong na ito\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot backup (kung naka-install)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "BERDE: Simulan ang pag-backup para sa napiling device\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD Backup: Full system backup sa internal hard drive\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Backup: Backup sa external storage (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup: Backup sa network storage (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB Backup: Gumawa ng bootable USB recovery stick\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Gumamit ng UP/DOWN na button para mag-navigate sa mga backup na opsyon\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "DILAW: Simulan ang proseso ng pagpapanumbalik\n"

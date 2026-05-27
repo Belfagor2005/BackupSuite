@@ -291,7 +291,7 @@ msgid "Your STB will freeze during the flashing process.\n"
 msgstr ""
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "current: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
@@ -312,28 +312,28 @@ msgid "{0} Backup"
 msgstr ""
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLUE: Show this help screen\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot backup (if installed)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "GREEN: Start backup for selected device\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD Backup: Full system backup to internal hard drive\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC Backup: Backup to external storage (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup: Backup to network storage (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB Backup: Create a bootable USB recovery stick\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Use UP/DOWN buttons to navigate through backup options\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "YELLOW: Start restore process\n"

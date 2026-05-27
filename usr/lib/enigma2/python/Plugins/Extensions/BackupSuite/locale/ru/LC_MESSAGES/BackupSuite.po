@@ -15,71 +15,71 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Проверьте права доступа к общему ресурсу (чтение/запись)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Убедитесь, что NAS включен и доступен\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Введите IP-адрес сервера, имя общего ресурса, имя пользователя и пароль\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Перейдите в Главное меню > Настройка > Система > Диспетчер хранилища\n."
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Резервные копии жесткого диска: хранятся в /media/hdd/backup\n."
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Регулярно делайте резервные копии вашей системы\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- Резервные копии NET: требуется смонтированный общий ресурс CIFS/NFS с разрешениями на запись\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Никогда не прерывайте процессы резервного копирования/восстановления\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Восстановление: работает с жесткого диска, USB, NET или MMC-накопителя.\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Выберите «Сетевое хранилище» и добавьте общий ресурс NAS/SMB\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Проверьте соединение с помощью команды ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Резервные копии USB: требуется диск в формате FAT32 с файлом резервной копии\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Используйте качественные USB-накопители для флешек восстановления\n."
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Проверьте правильность имени пользователя и пароля\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Убедитесь, что у вас достаточно свободного места\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Сначала смонтируйте общий сетевой ресурс:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Выберите «NET Backup» из списка устройств\n."
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Выберите подключенный сетевой ресурс\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "В данный момент выполняется запись. Пожалуйста, остановите её, перед началом прошивки!"
 
 msgid "About"
-msgstr ""
+msgstr "О"
 
 #, fuzzy
 msgid "Backup"
 msgstr "BackupSuite"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Параметры резервного копирования:\n"
 
 #, fuzzy
 msgid "Backup Suite v{0}"
@@ -89,33 +89,33 @@ msgid "Backup and restore your image"
 msgstr "Бэкап/восстановление имиджа"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Резервное копирование не удалось! Проверьте журнал: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Резервное копирование не удалось! Последние ошибки:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Не удалось выполнить резервное копирование: устройство доступно только для чтения!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Резервное копирование не выполнено: потеряно сетевое соединение!"
 
 #, fuzzy
 msgid "Backup failed: Not enough free space on device!"
 msgstr "Недостаточно свободного места на "
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Не удалось выполнить резервное копирование: необходимые файлы не найдены!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Не удалось выполнить резервное копирование: разрешение на запись запрещено!"
 
 #, fuzzy
 msgid "Backup info"
 msgstr "BackupSuite"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Сценарий резервного копирования не найден для {0}: {1}"
 
 #, fuzzy
 msgid "Backup to Network"
@@ -130,40 +130,40 @@ msgid "BackupSuite Help"
 msgstr "BackupSuite"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Барри Аллен"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Рекомендации:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Функции кнопок:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Журнал изменений недоступен"
 
 msgid "Close"
-msgstr ""
+msgstr "Закрывать"
 
 #, fuzzy
 msgid "Current: {0}"
 msgstr "Текущая:  %s"
 
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #, fuzzy
 msgid "Delete backup"
 msgstr "Восстановить бэкап"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Список устройств:\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
 msgstr "Вы действительно хотите распаковать %s?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Ошибка выбора устройства: {0}"
 
 msgid "Exit"
 msgstr "Выход"
@@ -177,44 +177,44 @@ msgid "Flashing:"
 msgstr "Быстрая прошивка: "
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Для получения подробных инструкций и поддержки:\n"
 
 msgid "For flashing your receiver files are needed:\n"
 msgstr "Для прошивки Вашего ресивера необходимы файлы:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Бесплатно:"
 
 msgid "GB"
-msgstr ""
+msgstr "ГБ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Жесткий диск"
 
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #, fuzzy
 msgid "Make or restore a backup"
 msgstr "Создание или восстановление бэкапа"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET. Инструкции по резервному копированию:\n"
 
 msgid "NOT found files for flashing!\n"
 msgstr "Не найдены файлы для быстрой прошивки!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Сетевое хранилище"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Тип устройства не выбран"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Сетевые ресурсы не подключены! Пожалуйста, сначала смонтируйте общий ресурс."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Нет разрешения на запись для: {0}"
 
 msgid "Only kernel"
 msgstr "Только ядро"
@@ -223,7 +223,7 @@ msgid "Only root"
 msgstr "Только имидж"
 
 msgid "Please wait"
-msgstr ""
+msgstr "пожалуйста, подождите"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
 msgstr "Пожалуйста, НЕ перезагружайте Ваш ресивер и НЕ выключайте питание!\n"
@@ -240,14 +240,14 @@ msgid "Run flash"
 msgstr "Прошить"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD-карта"
 
 #, fuzzy
 msgid "Second partition (only kernel)"
 msgstr "Стандарт (имидж и ядро)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Второй раздел (только root)"
 
 #, fuzzy
 msgid "Second partition (root and kernel)"
@@ -277,33 +277,33 @@ msgid "Standard (root and kernel)"
 msgstr "Стандарт (имидж и ядро)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Технические примечания:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Образ или ядро ​​будут мигать и автоматически загружаться через несколько минут.\n"
 "Имидж или ядро будут перезаписаны и ресивер автоматически\n"
 "перезагрузится через несколько минут.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Общий:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Устранение неполадок NET Backup:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB-накопитель"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестный"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Выбран неизвестный тип устройства"
 
 msgid "Unzip"
 msgstr "Распаковать"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Посетите наш репозиторий GitHub:\n"
 
 msgid "What is new since the last release?"
 msgstr "Что нового с последнего релиза?"
@@ -338,31 +338,31 @@ msgid "{0} Backup"
 msgstr "BackupSuite"
 
 msgid "• BLUE: Show this help screen\n"
-msgstr ""
+msgstr "• СИНИЙ: показать этот экран справки.\n"
 
 msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "• Барри Аллен: резервная копия мультизагрузки (если установлена)\n"
 
 msgid "• GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "• ЗЕЛЕНЫЙ: начать резервное копирование для выбранного устройства\n"
 
 msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "• Резервное копирование жесткого диска: полное резервное копирование системы на внутренний жесткий диск\n"
 
 msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "• Резервное копирование MMC: резервное копирование на внешнее хранилище (eMMC)\n"
 
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "• NET Backup: резервное копирование в сетевое хранилище (NAS/SMB)\n"
 
 msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "• Резервное копирование через USB: создание загрузочного USB-накопителя для восстановления\n"
 
 msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "• Используйте кнопки ВВЕРХ/ВНИЗ для навигации по параметрам резервного копирования\n."
 
 msgid "• YELLOW: Start restore process\n"
-msgstr ""
+msgstr "• ЖЕЛТЫЙ: начать процесс восстановления\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

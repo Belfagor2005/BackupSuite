@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- اشتراک کی اجازتیں چیک کریں (پڑھیں/لکھیں)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- یقینی بنائیں کہ NAS آن ہے اور قابل رسائی ہے\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- سرور IP درج کریں، نام، صارف نام اور پاس ورڈ شیئر کریں\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- مین مینو > سیٹ اپ > سسٹم > اسٹوریج مینیجر پر جائیں\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD بیک اپس: /media/hdd/backup\n میں محفوظ"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- اپنے سسٹم کا باقاعدہ بیک اپ رکھیں\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET بیک اپ: لکھنے کی اجازت کے ساتھ نصب CIFS/NFS شیئر کی ضرورت ہے\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- بیک اپ/بحالی کے عمل میں کبھی خلل نہ ڈالیں\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- بحال کریں: HDD، USB، NET یا MMC اسٹوریج سے کام کرتا ہے\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'نیٹ ورک اسٹوریج' کو منتخب کریں اور اپنا NAS/SMB شیئر شامل کریں\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- پنگ کمانڈ کے ساتھ کنکشن کی جانچ کریں\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB بیک اپ: 'بیک اپ اسٹک' فائل کے ساتھ FAT32 فارمیٹ شدہ ڈرائیو کی ضرورت ہے\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- ریکوری اسٹکس کے لیے معیاری USB ڈرائیوز استعمال کریں\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- تصدیق کریں کہ صارف کا نام/پاس ورڈ درست ہے\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- تصدیق کریں کہ آپ کے پاس کافی خالی جگہ ہے\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. پہلے اپنے نیٹ ورک شیئر کو ماؤنٹ کریں:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. آلے کی فہرست سے 'NET بیک اپ' منتخب کریں\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. اپنے نصب کردہ نیٹ ورک شیئر کا انتخاب کریں\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "فی الحال ایک ریکارڈنگ چل رہی ہے۔ فلیشنگ شروع کرنے کی کوشش کرنے سے پہلے براہ کرم ریکارڈنگ روک دیں۔"
 
 msgid "About"
-msgstr ""
+msgstr "کے بارے میں"
 
 msgid "Backup"
-msgstr ""
+msgstr "بیک اپ"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "بیک اپ کے اختیارات:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "بیک اپ سویٹ v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "اپنی تصویر کا بیک اپ اور بحال کریں۔"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "بیک اپ ناکام ہوگیا! لاگ چیک کریں: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "بیک اپ ناکام ہوگیا! آخری غلطیاں:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "بیک اپ ناکام: ڈیوائس صرف پڑھنے کے لیے ہے!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "بیک اپ ناکام ہوگیا: نیٹ ورک کنکشن ختم ہوگیا!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "بیک اپ ناکام: آلہ پر کافی خالی جگہ نہیں ہے!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "بیک اپ ناکام: مطلوبہ فائلیں نہیں ملیں!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "بیک اپ ناکام: لکھنے کی اجازت سے انکار!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "بیک اپ کی معلومات"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0} کے لیے بیک اپ اسکرپٹ نہیں ملا: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "نیٹ ورک میں بیک اپ"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0} میں بیک اپ"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "بیک اپ سوٹ مدد"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "بیری ایلن"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "بہترین طرز عمل:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "بٹن کے افعال:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "تبدیلی لاگ دستیاب نہیں ہے۔"
 
 msgid "Close"
-msgstr ""
+msgstr "بند"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "موجودہ: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "حذف کریں۔"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "بیک اپ کو حذف کریں۔"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "ڈیوائس کی فہرست:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "کیا آپ واقعی {0} کو کھولنا چاہتے ہیں؟"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "آلہ منتخب کرنے میں خرابی: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "باہر نکلیں۔"
 
 msgid "Flash"
-msgstr ""
+msgstr "فلیش"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "چمکتا ہوا:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "تفصیلی ہدایات اور تعاون کے لیے:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "فلیش کرنے کے لیے آپ کی وصول کنندہ فائلوں کی ضرورت ہے:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "مفت:"
 
 msgid "GB"
-msgstr ""
+msgstr "جی بی"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "ہارڈ ڈسک"
 
 msgid "Help"
-msgstr ""
+msgstr "مدد"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "بیک اپ بنائیں یا بحال کریں۔"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET بیک اپ کی ہدایات:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "چمکنے کے لیے فائلیں نہیں ملی!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "نیٹ ورک اسٹوریج"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "آلہ کی کوئی قسم منتخب نہیں کی گئی۔"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "کوئی نیٹ ورک شیئرز نہیں لگے! براہ کرم پہلے ایک شیئر لگائیں۔"
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "لکھنے کی اجازت نہیں ہے: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "صرف دانا"
 
 msgid "Only root"
-msgstr ""
+msgstr "صرف جڑ"
 
 msgid "Please wait"
-msgstr ""
+msgstr "براہ کرم انتظار کریں۔"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "براہ کرم: اپنے STB کو دوبارہ شروع نہ کریں اور بجلی بند نہ کریں۔\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "بحال کریں۔"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "بیک اپ بحال کریں۔"
 
 msgid "Run flash"
-msgstr ""
+msgstr "فلیش چلائیں۔"
 
 msgid "SD Card"
-msgstr ""
+msgstr "ایس ڈی کارڈ"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "دوسری تقسیم (صرف دانا)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "دوسری تقسیم (صرف جڑ)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "دوسری تقسیم (جڑ اور دانا)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "بیک اپ کے لیے نیٹ ورک شیئر کو منتخب کریں:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "اسٹارٹ فلیش کے لیے پیرامیٹر منتخب کریں!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "بیک اپ کے ساتھ فولڈر کو منتخب کریں۔"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "صرف ملی تصویر اور mtd پارٹیشن دکھائیں۔\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "نقل کریں (کوئی تحریر نہیں)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "دوسری پارٹیشن کی تقلید کریں (کوئی تحریر نہیں)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "معیاری (جڑ اور دانا)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "تکنیکی نوٹس:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "تصویر یا دانا چند منٹوں میں چمکتا اور آٹو بوٹ ہو جائے گا۔\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "کل:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET بیک اپ کی خرابی کا سراغ لگانا:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB اسٹوریج"
 
 msgid "Unknown"
-msgstr ""
+msgstr "نامعلوم"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "نامعلوم آلہ کی قسم منتخب کی گئی۔"
 
 msgid "Unzip"
-msgstr ""
+msgstr "ان زپ کریں۔"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "ہمارا GitHub ذخیرہ ملاحظہ کریں:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "آخری ریلیز کے بعد نیا کیا ہے؟"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "چمکنے کے عمل کے دوران آپ کا STB منجمد ہو جائے گا۔\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "موجودہ: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "کچھ نہیں!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite فلیش کو چلانے کے لیے enigma2 کو روک دے گا۔\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (شاید غلطی)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (شاید ٹھیک ہے)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} بیک اپ"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "نیلا: یہ مدد اسکرین دکھائیں\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "بیری ایلن: ملٹی بوٹ بیک اپ (اگر انسٹال ہوا ہے)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "سبز: منتخب کردہ آلے کے لیے بیک اپ شروع کریں\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD بیک اپ: اندرونی ہارڈ ڈرائیو پر مکمل سسٹم کا بیک اپ\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC بیک اپ: بیرونی اسٹوریج (eMMC) میں بیک اپ\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "نیٹ بیک اپ: نیٹ ورک اسٹوریج میں بیک اپ (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB بیک اپ: بوٹ ایبل USB ریکوری اسٹک بنائیں\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "بیک اپ کے اختیارات کے ذریعے نیویگیٹ کرنے کے لیے اوپر/نیچے کے بٹن استعمال کریں\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "پیلا: بحالی کا عمل شروع کریں\n"

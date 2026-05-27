@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- ตรวจสอบสิทธิ์การแชร์ (อ่าน/เขียน)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- ตรวจสอบให้แน่ใจว่า NAS เปิดอยู่และสามารถเข้าถึงได้\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- ป้อน IP เซิร์ฟเวอร์ ชื่อที่ใช้ร่วมกัน ชื่อผู้ใช้ และรหัสผ่าน\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- ไปที่เมนูหลัก > ตั้งค่า > ระบบ > ตัวจัดการพื้นที่เก็บข้อมูล\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- การสำรองข้อมูล HDD: เก็บไว้ใน /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- สำรองข้อมูลระบบของคุณเป็นประจำ\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- การสำรองข้อมูล NET: จำเป็นต้องมีการแชร์ CIFS/NFS ที่เมาท์พร้อมสิทธิ์ในการเขียน\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- อย่าขัดจังหวะกระบวนการสำรอง/กู้คืน\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- กู้คืน: ทำงานจากที่จัดเก็บข้อมูล HDD, USB, NET หรือ MMC\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- เลือก 'ที่เก็บข้อมูลเครือข่าย' และเพิ่มการแชร์ NAS/SMB ของคุณ\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- ทดสอบการเชื่อมต่อด้วยคำสั่ง ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- การสำรองข้อมูล USB: ต้องใช้ไดรฟ์รูปแบบ FAT32 พร้อมไฟล์ 'backupstick'\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- ใช้ไดรฟ์ USB ที่มีคุณภาพสำหรับแท่งกู้คืน\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- ตรวจสอบชื่อผู้ใช้/รหัสผ่านให้ถูกต้อง\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- ตรวจสอบว่าคุณมีพื้นที่เก็บข้อมูลว่างเพียงพอ\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. ติดตั้งการแชร์เครือข่ายของคุณก่อน:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. เลือก 'NET Backup' จากรายการอุปกรณ์\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. เลือกการแชร์เครือข่ายที่ติดตั้งของคุณ\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "กำลังบันทึกอยู่ โปรดหยุดการบันทึกก่อนที่จะพยายามเริ่มการกะพริบ"
 
 msgid "About"
-msgstr ""
+msgstr "เกี่ยวกับ"
 
 msgid "Backup"
-msgstr ""
+msgstr "สำรองข้อมูล"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "ตัวเลือกการสำรองข้อมูล:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "ชุดสำรอง v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "สำรองและกู้คืนรูปภาพของคุณ"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "การสำรองข้อมูลล้มเหลว! ตรวจสอบบันทึก: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "การสำรองข้อมูลล้มเหลว! ข้อผิดพลาดครั้งล่าสุด:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "การสำรองข้อมูลล้มเหลว: อุปกรณ์เป็นแบบอ่านอย่างเดียว!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "การสำรองข้อมูลล้มเหลว: การเชื่อมต่อเครือข่ายขาดหาย!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "การสำรองข้อมูลล้มเหลว: พื้นที่ว่างบนอุปกรณ์ไม่เพียงพอ!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "การสำรองข้อมูลล้มเหลว: ไม่พบไฟล์ที่จำเป็น!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "การสำรองข้อมูลล้มเหลว: สิทธิ์ในการเขียนถูกปฏิเสธ!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "ข้อมูลสำรอง"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "ไม่พบสคริปต์สำรองสำหรับ {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "สำรองข้อมูลไปยังเครือข่าย"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "สำรองข้อมูลไปที่ {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "วิธีใช้ BackupSuite"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "แบร์รี่ อัลเลน"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "แนวทางปฏิบัติที่ดีที่สุด:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "ฟังก์ชั่นปุ่ม:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "บันทึกการเปลี่ยนแปลงไม่พร้อมใช้งาน"
 
 msgid "Close"
-msgstr ""
+msgstr "ปิด"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "ปัจจุบัน: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "ลบ"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "ลบข้อมูลสำรอง"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "รายการอุปกรณ์:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "คุณต้องการที่จะแกะ {0} จริงๆ หรือไม่?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการเลือกอุปกรณ์: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "ออก"
 
 msgid "Flash"
-msgstr ""
+msgstr "แฟลช"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "กระพริบ:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "สำหรับคำแนะนำโดยละเอียดและการสนับสนุน:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "สำหรับการแฟลชไฟล์ตัวรับของคุณจำเป็น:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "ฟรี:"
 
 msgid "GB"
-msgstr ""
+msgstr "กิกะไบต์"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "ฮาร์ดดิสก์"
 
 msgid "Help"
-msgstr ""
+msgstr "ช่วย"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "สร้างหรือกู้คืนข้อมูลสำรอง"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "คำแนะนำในการสำรองข้อมูล NET:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "ไม่พบไฟล์สำหรับการแฟลช!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "ที่เก็บข้อมูลเครือข่าย"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "ไม่ได้เลือกประเภทอุปกรณ์"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "ไม่มีการติดตั้งการแชร์เครือข่าย! โปรดเมานต์การแชร์ก่อน"
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "ไม่มีสิทธิ์ในการเขียนสำหรับ: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "เคอร์เนลเท่านั้น"
 
 msgid "Only root"
-msgstr ""
+msgstr "รากเท่านั้น"
 
 msgid "Please wait"
-msgstr ""
+msgstr "โปรดรอ"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "กรุณา: อย่ารีบูท STB ของคุณและปิดเครื่อง\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "คืนค่า"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "คืนค่าการสำรองข้อมูล"
 
 msgid "Run flash"
-msgstr ""
+msgstr "วิ่งแฟลช"
 
 msgid "SD Card"
-msgstr ""
+msgstr "การ์ดเอสดี"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "พาร์ติชันที่สอง (เฉพาะเคอร์เนล)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "พาร์ติชันที่สอง (เฉพาะรูท)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "พาร์ติชันที่สอง (รูทและเคอร์เนล)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "เลือกการแชร์เครือข่ายเพื่อสำรองข้อมูล:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "เลือกพารามิเตอร์สำหรับเริ่มแฟลช!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "เลือกโฟลเดอร์ที่มีข้อมูลสำรอง"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "แสดงเฉพาะรูปภาพและพาร์ติชัน mtd ที่พบ\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "จำลอง (ไม่มีการเขียน)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "จำลองพาร์ติชันที่สอง (ไม่มีการเขียน)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "มาตรฐาน (รูทและเคอร์เนล)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "หมายเหตุทางเทคนิค:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "รูปภาพหรือเคอร์เนลจะกะพริบและบูตอัตโนมัติภายในไม่กี่นาที\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "ทั้งหมด:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "การแก้ไขปัญหาการสำรองข้อมูล NET:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "ที่เก็บข้อมูล USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่ทราบ"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "เลือกประเภทอุปกรณ์ที่ไม่รู้จัก"
 
 msgid "Unzip"
-msgstr ""
+msgstr "แตกไฟล์"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "เยี่ยมชมพื้นที่เก็บข้อมูล GitHub ของเรา:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "มีอะไรใหม่ตั้งแต่รุ่นล่าสุด?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB ของคุณจะหยุดทำงานในระหว่างกระบวนการแฟลช\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "ปัจจุบัน: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ไม่มีอะไร!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite จะหยุด enigma2 ทันทีเพื่อเรียกใช้แฟลช\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (อาจมีข้อผิดพลาด)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (อาจจะโอเค)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} การสำรองข้อมูล"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "สีฟ้า: แสดงหน้าจอความช่วยเหลือนี้\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: การสำรองข้อมูลมัลติบูต (หากติดตั้ง)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "สีเขียว: เริ่มการสำรองข้อมูลสำหรับอุปกรณ์ที่เลือก\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "การสำรองข้อมูล HDD: การสำรองข้อมูลทั้งระบบไปยังฮาร์ดไดรฟ์ภายใน\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "การสำรองข้อมูล MMC: สำรองข้อมูลไปยังที่จัดเก็บข้อมูลภายนอก (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup: สำรองข้อมูลไปยังที่เก็บข้อมูลเครือข่าย (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "การสำรองข้อมูล USB: สร้างแท่งการกู้คืน USB ที่สามารถบูตได้\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "ใช้ปุ่มขึ้น/ลงเพื่อเลื่อนดูตัวเลือกการสำรองข้อมูล\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "สีเหลือง: เริ่มกระบวนการกู้คืน\n"

@@ -14,64 +14,64 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Kontrollera delningsbehörigheter (läs/skriv)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Se till att NAS är påslagen och tillgänglig\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Ange server-IP, delningsnamn, användarnamn och lösenord\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Gå till Huvudmeny > Inställningar > System > Lagringshanterare\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Säkerhetskopiering av hårddisk: Lagras i /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Håll regelbundna säkerhetskopior av ditt system\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET-säkerhetskopior: Kräv monterad CIFS/NFS-resurs med skrivbehörighet\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Avbryt aldrig säkerhetskopierings-/återställningsprocesser\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Återställ: Fungerar från hårddisk, USB, NET eller MMC-lagring\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Välj "Nätverkslagring" och lägg till din NAS/SMB-resurs\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Testa anslutningen med ping-kommando\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB-säkerhetskopior: Kräv FAT32-formaterad enhet med 'backupstick'-fil\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Använd USB-enheter av hög kvalitet för återställningsminnen\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Kontrollera att användarnamn/lösenord är korrekta\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Kontrollera att du har tillräckligt med ledigt lagringsutrymme\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Montera din nätverksresurs först:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Välj 'NET Backup' från enhetslistan\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Välj din monterade nätverksresurs\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "En inspelning körs för tillfället. Stoppa inspelningen innan du försöker att starta en formatering."
 
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #, fuzzy
 msgid "Backup"
@@ -86,36 +86,36 @@ msgid "Backup Suite v{0}"
 msgstr "BackupSuite"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Säkerhetskopiera och återställ din bild"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Säkerhetskopieringen misslyckades! Kontrollera logg: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Säkerhetskopieringen misslyckades! Senaste felen:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Säkerhetskopieringen misslyckades: Enheten är skrivskyddad!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Säkerhetskopieringen misslyckades: Nätverksanslutningen förlorad!"
 
 #, fuzzy
 msgid "Backup failed: Not enough free space on device!"
 msgstr "Inte tillräckligt med ledigt utrymme på "
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Säkerhetskopiering misslyckades: Obligatoriska filer hittades inte!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Säkerhetskopieringen misslyckades: Skrivbehörighet nekad!"
 
 #, fuzzy
 msgid "Backup info"
 msgstr "BackupSuite"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Säkerhetskopieringsskript hittades inte för {0}: {1}"
 
 #, fuzzy
 msgid "Backup to Network"
@@ -133,37 +133,37 @@ msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Bästa metoder:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Knappfunktioner:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Ändringslogg är inte tillgänglig"
 
 msgid "Close"
-msgstr ""
+msgstr "Nära"
 
 #, fuzzy
 msgid "Current: {0}"
 msgstr "nuvarande:  %s"
 
 msgid "Delete"
-msgstr ""
+msgstr "Radera"
 
 #, fuzzy
 msgid "Delete backup"
 msgstr "Återställ backup"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Enhetslista:\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
 msgstr "Vill du verkligen packa upp %s ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Fel vid val av enhet: {0}"
 
 msgid "Exit"
 msgstr "Avsluta"
@@ -177,44 +177,44 @@ msgid "Flashing:"
 msgstr "Formaterar: "
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "För detaljerade instruktioner och support:\n"
 
 msgid "For flashing your receiver files are needed:\n"
 msgstr "För att formatera din mottagare, följande filer krävs:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Gratis:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Hårddisk"
 
 msgid "Help"
-msgstr ""
+msgstr "Hjälp"
 
 #, fuzzy
 msgid "Make or restore a backup"
 msgstr "Gör en säkerhetskopia eller återställ en säkerhetskopia"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Backup Instruktioner:\n"
 
 msgid "NOT found files for flashing!\n"
 msgstr "Hittade INTE filer för formatering!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Nätverkslagring"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Ingen enhetstyp har valts"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Inga nätverksresurser monterade! Montera en del först."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Ingen skrivbehörighet för: {0}"
 
 msgid "Only kernel"
 msgstr "Endast kernel"
@@ -223,7 +223,7 @@ msgid "Only root"
 msgstr "Endast root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Vänta"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
 msgstr "Observera: Starta INTE om din box eller stäng av strömmen.\n"
@@ -240,14 +240,14 @@ msgid "Run flash"
 msgstr "Kör formatering"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD-kort"
 
 #, fuzzy
 msgid "Second partition (only kernel)"
 msgstr "Standard (root och kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Andra partitionen (endast root)"
 
 #, fuzzy
 msgid "Second partition (root and kernel)"
@@ -277,7 +277,7 @@ msgid "Standard (root and kernel)"
 msgstr "Standard (root och kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Tekniska anmärkningar:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
 msgstr "Denna image eller kernel kommer att installeras och auto-starta om några minuter.\n"
@@ -286,22 +286,22 @@ msgid "Total:"
 msgstr ""
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Felsökning av NET Backup:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB-lagring"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Okänd"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Okänd enhetstyp har valts"
 
 msgid "Unzip"
 msgstr "Unzip"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Besök vårt GitHub-förråd:\n"
 
 msgid "What is new since the last release?"
 msgstr "Vad är nytt sedan förra utgåvan?"
@@ -336,31 +336,31 @@ msgid "{0} Backup"
 msgstr "BackupSuite"
 
 msgid "• BLUE: Show this help screen\n"
-msgstr ""
+msgstr "• BLÅ: Visa denna hjälpskärm\n"
 
 msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "• Barry Allen: Multiboot backup (om installerad)\n"
 
 msgid "• GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "• GRÖN: Starta säkerhetskopiering för vald enhet\n"
 
 msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "• Säkerhetskopiering av hårddisk: Fullständig säkerhetskopiering av systemet till intern hårddisk\n"
 
 msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "• MMC Backup: Säkerhetskopiering till extern lagring (eMMC)\n"
 
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "• NET Backup: Säkerhetskopiering till nätverkslagring (NAS/SMB)\n"
 
 msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "• USB Backup: Skapa ett startbart USB-återställningsminne\n"
 
 msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "• Använd UPP/NER-knapparna för att navigera genom alternativen för säkerhetskopiering\n"
 
 msgid "• YELLOW: Start restore process\n"
-msgstr ""
+msgstr "• GUL: Starta återställningsprocessen\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

@@ -15,163 +15,163 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Destûrên parvekirinê (xwendin/nivîsandin) kontrol bikin\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Piştrast bike ku NAS vekêşandî û gihîştî ye\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- IP-ya serverê, navê parvekirinê, navê bikarhêner û şîfreyê binivîse\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Biçe Menuya Sereke > Sazkirin > Pergal > Rêvebirê hilanînê\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Piştgiriyên HDD: Di /media/hdd/backup\n de hilanîn"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Piştgiriya birêkûpêk a pergala xwe biparêze\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- Piştgiriyên NET: Daxwaza parvekirina CIFS/NFS ya bi destûrên nivîsandinê heye\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Tu carî pêvajoyên hilanînê/vegerandinê qut nekin\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Vegerîne: Ji hilanînê HDD, USB, NET an MMC dixebite\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Storage Torê' hilbijêrin û parvekirina NAS/SMB-ya xwe zêde bikin\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Têkiliya bi fermana ping re ceribandin\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Piştgiriya USB: Ji ajokera formata FAT32 bi pelê 'backupstick' re lazim e\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Ji bo hilanînê ajokarên USB yên bi kalîte bikar bînin\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Piştrast bike ku navê bikarhêner/şîfre rast e\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Piştrast bike ku têra we cîhê hilanînê yê belaş heye\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Pêşî parvekirina tora xwe siyar bikin:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Ji lîsteya cîhazê 'NET Backup' hilbijêre\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Parvekirina tora xweya siyarkirî hilbijêrin\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Niha qeydek tê meşandin. Ji kerema xwe berî ku hûn hewl bidin ku çirûskekê dest pê bikin, tomarkirinê rawestînin."
 
 msgid "About"
-msgstr ""
+msgstr "Ji dor"
 
 msgid "Backup"
 msgstr ""
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Vebijêrkên Piştgiriyê:\n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "Suite Backup v{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Wêneyê xwe paşve hilînin û sererast bikin"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Backup têk çû! Têketinê kontrol bikin: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Backup têk çû! Çewtiyên dawî:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Vegerandin têk çû: Cîhaz tenê-xwendin e!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Backup têk çû: Girêdana torê winda bû!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Vegerandin têk çû: Li ser cîhazê cîhê belaş têr nake!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Backup têk çû: Pelên pêwîst nehatin dîtin!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Backup têk çû: Destûra nivîsandinê hat red kirin!"
 
 msgid "Backup info"
 msgstr ""
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Nivîsara hilanînê ji bo {0} nehat dîtin: {1}"
 
 msgid "Backup to Network"
 msgstr ""
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Backup bo {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Alîkariya BackupSuite"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Pratîkên çêtirîn:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Fonksiyonên Bişkokê:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Guhertina têketinê peyda nabe"
 
 msgid "Close"
-msgstr ""
+msgstr "Nêzîkî"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Niha: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Jêbirin"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Piştgiriyê jêbirin"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Lîsteya Amûr:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Tu bi rastî dixwazî ​​{0} ji pakkirinê vekî?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Di bijartina amûrê de çewtî: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Derî"
 
 msgid "Flash"
-msgstr ""
+msgstr "Birûsk"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Dibiriqîn:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Ji bo talîmatên berfireh û piştgirî:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Ji bo ronîkirina pelên wergirê te hewce ne:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Belaş:"
 
 msgid "GB"
 msgstr ""
@@ -180,160 +180,160 @@ msgid "Hard Disk"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "Alîkarî"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Piştgiriyek çêbikin an sererast bikin"
 
 msgid "NET Backup Instructions:\n"
 msgstr ""
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Pelên ji bo ronîkirinê NÊ hatin dîtin!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Tora Storage"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Tîpa amûrê nehat hilbijartin"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Parvekirinên torê nehatin çêkirin! Ji kerema xwe pêşî parvekirinê bikin."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Destûra nivîsandinê tune ji bo: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Tenê kernel"
 
 msgid "Only root"
-msgstr ""
+msgstr "Tenê root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Ji kerema xwe bisekinin"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Ji kerema xwe: STB-ya xwe ji nû ve nedin û elektrîkê qut nekin.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Nûvdekirin"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Vegerandina Backup"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Flashê bixebitîne"
 
 msgid "SD Card"
-msgstr ""
+msgstr "Karta SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Dabeşkirina duyemîn (tenê kernel)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Dabeşkirina duyemîn (tenê root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Dabeşkirina duyemîn (root û kernel)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Parvekirina torê ji bo hilanînê hilbijêrin:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Ji bo destpêkirina flashê parametreyê hilbijêre!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Peldanka bi hilanînê hilbijêre"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Tenê wêne û parçeyên mtd yên hatine dîtin nîşan bide.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulasyon (nenivîsandin)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Dabeşkirina duyemîn simule bike (bê nivîsandin)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standard (root û kernel)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Têbînîyên Teknîkî:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Wêne an kernel dê di çend hûrdeman de bibiriqe û bixweber were boot kirin.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Hemî:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Çareserkirina Pirsgirêkan Piştgiriya NET:\n"
 
 msgid "USB Storage"
 msgstr ""
 
 msgid "Unknown"
-msgstr ""
+msgstr "Nenas"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Cureyê cîhaza nenas hat hilbijartin"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Unzip bike"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Serdana depoya meya GitHub bikin:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Ji berdana paşîn çi nû ye?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB-ya we dê di dema pêvajoyek ronîkirinê de bicemide.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "niha: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "netişt!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite dê niha enigma2 rawestîne da ku flashê bimeşîne.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (dibe ku xeletî)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (dibe ku baş be)"
 
 msgid "{0} Backup"
 msgstr ""
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ŞÎN: Vê ekrana alîkariyê nîşan bide\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Piştgiriya Multiboot (heke were saz kirin)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "KEŞK: Ji bo amûra hilbijartî dest bi hilanînê bike\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Piştgiriya HDD: Vegerandina pergalê ya tevahî ji dîska hundurîn\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "Piştgiriya MMC: Vegerandina hilanîna derve (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "Piştgiriya NET: Vegerandina torê (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "Piştgiriya USB: Destûrek vegerandina USB-ya bootable biafirîne\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Bişkokên jor/jêr bi kar bînin da ku di vebijarkên hilanînê de bigerin\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ZER: Pêvajoya vegerandinê bidin destpêkirin\n"

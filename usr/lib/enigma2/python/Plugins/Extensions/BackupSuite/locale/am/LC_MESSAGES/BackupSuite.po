@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- የማጋራት ፈቃዶችን ያረጋግጡ (ማንበብ/መፃፍ)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS መብራቱን እና ተደራሽ መሆኑን ያረጋግጡ\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- የአገልጋይ IP ያስገቡ፣ ስም ያጋሩ፣ የተጠቃሚ ስም እና የይለፍ ቃል\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- ወደ ዋናው ሜኑ > ማዋቀር > ስርዓት > የማከማቻ አስተዳዳሪ\n ይሂዱ"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD ምትኬዎች፡ በ /ሚዲያ/ኤችዲዲ/ባክአፕ\n ውስጥ ተከማችተዋል።"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- የስርዓትዎን መደበኛ ምትኬ ያስቀምጡ\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET ምትኬዎች፡ የተፈናጠጠ CIFS/NFS ከጽሑፍ ፍቃዶች ጋር መጋራት ያስፈልጋል\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- የመጠባበቂያ/የመልሶ ሂደቶችን በጭራሽ አታቋርጥ\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- እነበረበት መልስ፡ ከኤችዲዲ፣ ዩኤስቢ፣ NET ወይም MMC ማከማቻ ይሰራል\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Network Storage' የሚለውን ይምረጡ እና የእርስዎን NAS/SMB ድርሻ ያክሉ\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- ከፒንግ ትዕዛዝ ጋር ያለውን ግንኙነት ይሞክሩ\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- የዩኤስቢ ምትኬዎች፡- FAT32-የተቀረፀው ድራይቭ በ‹ባክአፕስቲክ› ፋይል ያስፈልጋል"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- ለመልሶ ማግኛ ዱላዎች ጥራት ያለው የዩኤስቢ ድራይቭ ይጠቀሙ\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- የተጠቃሚ ስም/የይለፍ ቃል ትክክል መሆናቸውን ያረጋግጡ\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- በቂ ነፃ የማከማቻ ቦታ እንዳለህ አረጋግጥ\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. መጀመሪያ የአውታረ መረብ ማጋራትዎን ይጫኑ፡\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. ከመሳሪያ ዝርዝር ውስጥ 'NET Backup' የሚለውን ይምረጡ\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. የተገጠመውን የአውታረ መረብ ማጋራትዎን ይምረጡ\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "በአሁኑ ጊዜ ቀረጻ እየሰራ ነው። ብልጭ ድርግም ለመጀመር ከመሞከርዎ በፊት እባክዎ ቅጂውን ያቁሙ።"
 
 msgid "About"
-msgstr ""
+msgstr "ስለ"
 
 msgid "Backup"
-msgstr ""
+msgstr "ምትኬ"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "የመጠባበቂያ አማራጮች፡\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "ምትኬ ያስቀምጡ እና ምስልዎን ወደነበረበት ይመልሱ"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "ምትኬ አልተሳካም! የምዝግብ ማስታወሻውን ያረጋግጡ፡ {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "ምትኬ አልተሳካም! የመጨረሻ ስህተቶች፡-"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "ምትኬ አልተሳካም፡ መሳሪያው ተነባቢ-ብቻ ነው!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "ምትኬ አልተሳካም፡ የአውታረ መረብ ግንኙነት ጠፍቷል!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "ምትኬ አልተሳካም፡ በመሳሪያ ላይ በቂ ነጻ ቦታ የለም!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "ምትኬ አልተሳካም፡ የሚፈለጉ ፋይሎች አልተገኙም!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "ምትኬ አልተሳካም: የመጻፍ ፍቃድ ተከልክሏል!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "የመጠባበቂያ መረጃ"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "ለ{0}፡ {1} የምትኬ ስክሪፕት አልተገኘም"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "ምትኬ ወደ አውታረ መረብ"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "ምትኬ ወደ {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite እገዛ"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "ባሪ አለን"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "ምርጥ ልምዶች፡\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "የአዝራር ተግባራት፡\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "የምዝግብ ማስታወሻ ለውጥ አይገኝም"
 
 msgid "Close"
-msgstr ""
+msgstr "ገጠመ"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "የአሁኑ፡ {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "ሰርዝ"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "ምትኬን ሰርዝ"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "የመሣሪያ ዝርዝር፡\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "የምር {0}ን መንቀል ይፈልጋሉ?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "መሣሪያን መምረጥ ላይ ስህተት፦ {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "ውጣ"
 
 msgid "Flash"
-msgstr ""
+msgstr "ብልጭታ"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "ብልጭ ድርግም"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "ለዝርዝር መመሪያዎች እና ድጋፍ፡\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "ለማብረቅ የመቀበያ ፋይሎችዎ ያስፈልጋሉ፡\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "ፍርይ፥"
 
 msgid "GB"
-msgstr ""
+msgstr "ጂቢ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "ሃርድ ዲስክ"
 
 msgid "Help"
-msgstr ""
+msgstr "እገዛ"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "ምትኬ ይስሩ ወይም ይመልሱ"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET ምትኬ መመሪያዎች፡\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "ለመብረቅ ፋይሎች አልተገኙም!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "የአውታረ መረብ ማከማቻ"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "ምንም አይነት መሳሪያ አልተመረጠም።"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "ምንም የአውታረ መረብ ማጋራቶች አልተሰቀሉም! እባክዎ መጀመሪያ ሼር ያድርጉ።"
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "ለ፡ {0} የመፃፍ ፍቃድ የለም"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "ከርነል ብቻ"
 
 msgid "Only root"
-msgstr ""
+msgstr "ሥር ብቻ"
 
 msgid "Please wait"
-msgstr ""
+msgstr "እባክህ ጠብቅ"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "እባክዎ፡ የእርስዎን STB ዳግም አያስነሱት እና ሃይሉን ያጥፉት።\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "እነበረበት መልስ"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "ምትኬን ወደነበረበት መልስ"
 
 msgid "Run flash"
-msgstr ""
+msgstr "ብልጭታ አሂድ"
 
 msgid "SD Card"
-msgstr ""
+msgstr "ኤስዲ ካርድ"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "ሁለተኛ ክፍልፋይ (ከርነል ብቻ)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "ሁለተኛ ክፍልፋይ (ስር ብቻ)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "ሁለተኛ ክፍልፋይ (ስር እና ከርነል)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "ለመጠባበቂያ የአውታረ መረብ መጋራትን ይምረጡ፡-"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "ለመጀመር መለኪያ ይምረጡ!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "ከመጠባበቂያ ጋር አቃፊውን ይምረጡ"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "የተገኘውን ምስል እና mtd ክፍልፋዮችን ብቻ አሳይ።\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "አስመስለው (አይጻፍም)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "ሁለተኛ ክፍልፋይ አስመስለው (አይጻፍም)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "መደበኛ (ስር እና ከርነል)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "ቴክኒካል ማስታወሻዎች፡\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "ምስሉ ወይም ከርነሉ ብልጭ ድርግም የሚል እና በጥቂት ደቂቃዎች ውስጥ በራስ-ሰር ይነሳል።\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "ጠቅላላ፡"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "የNET Backup መላ መፈለግ፡\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "የዩኤስቢ ማከማቻ"
 
 msgid "Unknown"
-msgstr ""
+msgstr "ያልታወቀ"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "ያልታወቀ መሳሪያ አይነት ተመርጧል"
 
 msgid "Unzip"
-msgstr ""
+msgstr "ዚፕ ይንቀሉ"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "የGitHub ማከማቻችንን ይጎብኙ፡\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "ካለፈው የተለቀቀው በኋላ ምን አዲስ ነገር አለ?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "የእርስዎ STB በብልጭታ ሂደት ውስጥ ይቀዘቅዛል።\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "የአሁኑ፡ {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "መነም!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite ፍላሹን ለማስኬድ እንቆቅልሹን አሁን ያቆማል።\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (ምናልባት ስህተት)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (ምናልባት እሺ)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} ምትኬ"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ሰማያዊ፡ ይህን የእገዛ ስክሪን አሳይ\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "ባሪ አለን፡ ባለብዙ ቡት ምትኬ (ከተጫነ)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "አረንጓዴ፡ ለተመረጠው መሣሪያ ምትኬን ጀምር\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD ምትኬ፡ ሙሉ የስርዓት ምትኬ ወደ ውስጣዊ ሃርድ ድራይቭ\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "የኤምኤምሲ ምትኬ፡ ምትኬ ወደ ውጫዊ ማከማቻ (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup፡ የአውታረ መረብ ማከማቻ ምትኬ (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "የዩኤስቢ ምትኬ፡ ሊነሳ የሚችል የዩኤስቢ መልሶ ማግኛ ዱላ ይፍጠሩ\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "በምትኬ አማራጮች ውስጥ ለማሰስ ወደ ላይ/ታች ቁልፎችን ተጠቀም\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ቢጫ፡ ወደነበረበት መመለስ ሂደት ጀምር\n"

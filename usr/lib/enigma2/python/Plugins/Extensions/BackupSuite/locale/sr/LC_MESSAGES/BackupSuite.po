@@ -16,325 +16,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Проверите дозволе за дељење (читање/писање)\н"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Уверите се да је НАС укључен и доступан\н"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Унесите ИП сервера, име за дељење, корисничко име и лозинку\н"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Идите на Главни мени > Подешавање > Систем > Управљач складиштем\н"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Резервне копије ХДД-а: Чувају се у /медиа/хдд/бацкуп\н"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Редовно правите резервне копије вашег система\н"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- НЕТ резервне копије: захтевају монтирану ЦИФС/НФС дељење са дозволама за писање\н"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Никада немојте прекидати процесе прављења резервних копија/враћања\н"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Враћање: Ради са ХДД, УСБ, НЕТ или ММЦ складишта\н"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Изаберите „Нетворк Стораге“ и додајте свој НАС/СМБ дељење\н"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Тестирајте везу са пинг командом\н"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "– УСБ резервне копије: Захтева диск форматиран у ФАТ32 са датотеком „бацкупстицк“\н"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "– Користите квалитетне УСБ дискове за дискове за опоравак\н"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Проверите да ли су корисничко име/лозинка тачни\н"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Проверите да ли имате довољно слободног меморијског простора\н"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Прво монтирајте свој мрежни дељени део:\н"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Изаберите „НЕТ Бацкуп“ са листе уређаја\н"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Изаберите свој дељени мрежни садржај\н"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Тренутно је у току снимање. Зауставите снимање пре него што покушате да покренете трептање."
 
 msgid "About"
-msgstr ""
+msgstr "Абоут"
 
 msgid "Backup"
-msgstr ""
+msgstr "Бацкуп"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Опције резервне копије:\н"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "Бацкуп Суите в{0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Направите резервну копију и вратите своју слику"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Прављење резервне копије није успело! Проверите дневник: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Прављење резервне копије није успело! Последње грешке:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Прављење резервне копије није успело: уређај је само за читање!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Прављење резервне копије није успело: мрежна веза је изгубљена!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Прављење резервне копије није успело: Нема довољно слободног простора на уређају!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Прављење резервне копије није успело: Потребне датотеке нису пронађене!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Прављење резервне копије није успело: Дозвола за писање је одбијена!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Информације о резервној копији"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Резервна скрипта није пронађена за {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Резервна копија на мрежи"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Резервна копија на {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Помоћ за БацкупСуите"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Барри Аллен"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Најбоље праксе:\н"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Функције дугмета:\н"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Дневник промена није доступан"
 
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Тренутно: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Избриши"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Избришите резервну копију"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Листа уређаја:\н"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Да ли заиста желите да распакујете {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Грешка при избору уређаја: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Изађи"
 
 msgid "Flash"
-msgstr ""
+msgstr "Фласх"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Трепери:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "За детаљна упутства и подршку:\н"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "За флешовање су потребни фајлови вашег пријемника:\н"
 
 msgid "Free:"
-msgstr ""
+msgstr "Бесплатно:"
 
 msgid "GB"
-msgstr ""
+msgstr "ГБ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Хард Диск"
 
 msgid "Help"
-msgstr ""
+msgstr "Помоћ"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Направите или вратите резервну копију"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "НЕТ упутства за прављење резервних копија:\н"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "НИЈЕ пронађене датотеке за флешовање!\н"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Нетворк Стораге"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Није изабран ниједан тип уређаја"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Нема монтираних мрежних дељења! Прво поставите дељење."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Нема дозволе за писање за: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Само кернел"
 
 msgid "Only root"
-msgstr ""
+msgstr "Само роот"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Молимо сачекајте"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Молимо вас: НЕ рестартујте свој СТБ и искључите напајање.\н"
 
 msgid "Restore"
-msgstr ""
+msgstr "Ресторе"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Врати резервну копију"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Покрени блиц"
 
 msgid "SD Card"
-msgstr ""
+msgstr "СД картица"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Друга партиција (само кернел)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Друга партиција (само роот)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Друга партиција (роот ​​и кернел)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Изаберите мрежно дељење за резервну копију:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Изаберите параметар за старт флеш!\н"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Изаберите фасциклу са резервном копијом"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Прикажи само пронађене партиције слике и мтд.\н"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Симулирај (без писања)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Симулирајте другу партицију (без писања)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Стандардно (роот ​​и кернел)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Техничке напомене:\н"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Слика или кернел ће трептати и аутоматски ће се покренути за неколико минута.\н"
 
 msgid "Total:"
-msgstr ""
+msgstr "Укупно:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Решавање проблема НЕТ Бацкуп:\н"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "УСБ складиште"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Непознато"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Изабран је непознат тип уређаја"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Распакујте"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Посетите наше ГитХуб спремиште:\н"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Шта је ново од последњег издања?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Ваш СТБ ће се замрзнути током процеса флешовања.\н"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "тренутно: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
-msgstr ""
+msgstr "хттпс://гитхуб.цом/персианпрос/БацкупСуите-ПЛи\н"
 
 msgid "nothing!"
-msgstr ""
+msgstr "ништа!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "офгврите ће сада зауставити енигма2 да би покренуо флеш.\н"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (можда грешка)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (можда у реду)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Резервна копија"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ПЛАВА: Прикажи овај екран помоћи\н"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Бари Ален: резервна копија вишеструког покретања (ако је инсталирана)\н"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "ЗЕЛЕНО: Покрените резервну копију за изабрани уређај\н"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Резервна копија ХДД-а: Комплетна резервна копија система на интерни чврсти диск\н"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "ММЦ резервна копија: резервна копија на спољној меморији (еММЦ)\н"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "НЕТ резервна копија: резервна копија у мрежно складиште (НАС/СМБ)\н"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "УСБ резервна копија: Направите УСБ стицк за опоравак за покретање\н"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Користите дугмад ГОРЕ/ДОЛЕ да бисте се кретали кроз опције резервних копија\н"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ЖУТО: Покрени процес враћања\н"

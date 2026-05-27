@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- ھەمبەھىرلىنىش ئىجازەتنامىسىنى تەكشۈرۈڭ (ئوقۇش / يېزىش) \ n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS نىڭ قوزغىتىلغان ۋە زىيارەت قىلغىلى بولىدىغانلىقىغا كاپالەتلىك قىلىڭ"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- مۇلازىمېتىر IP نى كىرگۈزۈڭ ، ئورتاق ئىسىم ، ئىشلەتكۈچى ئىسمى ۋە پارول \ n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- باش تىزىملىك> تەڭشەش> سىستېما> ساقلاش باشقۇرغۇچى \ n غا كىرىڭ"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD زاپاسلاش: / media / hdd / backup \ n دا ساقلانغان"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- سىستېمىڭىزنى زاپاسلاڭ"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET زاپاسلاش: يېزىش ھوقۇقى بىلەن ئورنىتىلغان CIFS / NFS ھەمبەھىرلەشنى تەلەپ قىلىڭ"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- زاپاسلاش / ئەسلىگە كەلتۈرۈش جەريانىنى ھەرگىز ئۈزمەڭ \ n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- ئەسلىگە كەلتۈرۈش: HDD ، USB ، NET ياكى MMC ساقلاش \ n دىن ئىشلەيدۇ"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- «تور ساقلاش» نى تاللاڭ ۋە NAS / SMB ھەمبەھىر \ n نى قوشۇڭ"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- ping بۇيرۇقى بىلەن سىناق ئۇلىنىشى \ n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB زاپاسلاش: «زاپاسلاش» ھۆججىتى بىلەن FAT32 فورماتلانغان قوزغاتقۇچنى تەلەپ قىلىڭ"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- ئەسلىگە كەلتۈرۈش تاياقلىرى ئۈچۈن سۈپەتلىك USB قوزغاتقۇچ ئىشلىتىڭ \ n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- ئىشلەتكۈچى ئىسمى / پارولىنىڭ توغرىلىقىنى تەكشۈرۈپ بېقىڭ \ n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- يېتەرلىك ھەقسىز ساقلاش بوشلۇقىڭىز بارلىقىنى تەكشۈرۈپ بېقىڭ \ n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. ئالدى بىلەن تور ئۈلۈشىڭىزنى ئورنىتىڭ: \ n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. ئۈسكۈنە تىزىملىكىدىن «NET زاپاسلاش» نى تاللاڭ"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. ئورناتقان تور ھەمبەھىرىڭىزنى تاللاڭ"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "ھازىر بىر خاتىرە ئىشلەۋاتىدۇ. چاقماقنى قوزغىتىشتىن بۇرۇن خاتىرىلەشنى توختىتىڭ."
 
 msgid "About"
-msgstr ""
+msgstr "ھەققىدە"
 
 msgid "Backup"
-msgstr ""
+msgstr "زاپاسلاش"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "زاپاسلاش تاللانمىلىرى: \ n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "زاپاسلاش Suite v {0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "رەسىمىڭىزنى زاپاسلاڭ ۋە ئەسلىگە كەلتۈرۈڭ"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "زاپاسلاش مەغلۇپ بولدى! تەكشۈرۈش خاتىرىسى: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "زاپاسلاش مەغلۇپ بولدى! ئاخىرقى خاتالىق:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "زاپاسلاش مەغلۇپ بولدى: ئۈسكۈنىنى پەقەت ئوقۇغىلى بولىدۇ!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "زاپاسلاش مەغلۇپ بولدى: تور ئۇلىنىشى يوقاپ كەتتى!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "زاپاسلاش مەغلۇپ بولدى: ئۈسكۈنىدە يېتەرلىك بوشلۇق يوق!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "زاپاسلاش مەغلۇپ بولدى: لازىملىق ھۆججەت تېپىلمىدى!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "زاپاسلاش مەغلۇب بولدى: يېزىش ئىجازىتى رەت قىلىندى!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "زاپاسلاش ئۇچۇرى"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "زاپاسلاش قوليازمىسى {0}: {1 for تېپىلمىدى"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "تورغا زاپاسلاش"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "زاپاسلاش {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "زاپاسلاش ياردەم"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "ئەڭ ياخشى ئەمەلىيەت: \ n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "كۇنۇپكا ئىقتىدارلىرى: \ n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "ئۆزگەرتىش خاتىرىسىنى ئىشلەتكىلى بولمايدۇ"
 
 msgid "Close"
-msgstr ""
+msgstr "تاقاش"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "نۆۋەتتىكى: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "ئۆچۈرۈش"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "زاپاسلاشنى ئۆچۈرۈڭ"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "ئۈسكۈنىلەر تىزىملىكى: \ n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "راستىنلا {0} نى يېشىشنى خالامسىز؟"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "ئۈسكۈنىنى تاللاشتا خاتالىق: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "چىقىش"
 
 msgid "Flash"
 msgstr ""
 
 msgid "Flashing:"
-msgstr ""
+msgstr "چاقماق:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "تەپسىلىي كۆرسەتمە ۋە قوللاش ئۈچۈن: \ n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "قوبۇللىغۇچ ھۆججەتلىرىڭىزنى چاقماق ئۈچۈن لازىم بولىدۇ: \ n"
 
 msgid "Free:"
-msgstr ""
+msgstr "ھەقسىز:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "قاتتىق دىسكا"
 
 msgid "Help"
-msgstr ""
+msgstr "ياردەم"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "زاپاسلاش ياكى ئەسلىگە كەلتۈرۈش"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET زاپاسلاش كۆرسەتمىسى: \ n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "چاقماق ئۈچۈن ھۆججەت تېپىلمىدى! \ N."
 
 msgid "Network Storage"
-msgstr ""
+msgstr "تور ساقلىغۇچ"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "ئۈسكۈنە تىپى تاللانمىدى"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "تور ھەمبەھىرلەنمىدى! ئالدى بىلەن ھەمبەھىرلەڭ."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "يېزىش ئىجازىتى يوق: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "پەقەت مېغىزى"
 
 msgid "Only root"
-msgstr ""
+msgstr "پەقەت يىلتىز"
 
 msgid "Please wait"
-msgstr ""
+msgstr "ساقلاپ تۇرۇڭ"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "كەچۈرۈڭ: STB نى قايتا قوزغىتىپ توكنى ئۆچۈرمەڭ. \ N."
 
 msgid "Restore"
-msgstr ""
+msgstr "ئەسلىگە كەلتۈرۈش"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "زاپاسلاشنى ئەسلىگە كەلتۈرۈڭ"
 
 msgid "Run flash"
-msgstr ""
+msgstr "چاقماق لامپىنى ئىجرا قىلىڭ"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD كارتا"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "ئىككىنچى بۆلەك (پەقەت مېغىز)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "ئىككىنچى بۆلەك (پەقەت يىلتىز)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "ئىككىنچى بۆلەك (يىلتىز ۋە مېغىز)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "زاپاسلاش ئۈچۈن تور ئۈلۈشىنى تاللاڭ:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "قوزغىتىش چىرىغىنىڭ پارامېتىرىنى تاللاڭ! \ N."
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "زاپاسلانغان ھۆججەت قىسقۇچنى تاللاڭ"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "پەقەت تېپىلغان رەسىم ۋە mtd بۆلەكلىرىنىلا كۆرسىتىڭ. \ N."
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "تەقلىد قىلىش (يېزىش يوق)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "ئىككىنچى بۆلەكنى تەقلىد قىلىڭ (يازمايدۇ)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "ئۆلچەملىك (يىلتىز ۋە مېغىز)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "تېخنىكىلىق ئىزاھات: \ n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "رەسىم ياكى مېغىز چاقناپ بىر نەچچە مىنۇتتىن كېيىن ئاپتوماتىك قوزغىتىلىدۇ. \ N."
 
 msgid "Total:"
-msgstr ""
+msgstr "ئومۇمىي:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET زاپاسلاشنى بىر تەرەپ قىلىش: \ n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB ساقلىغۇچ"
 
 msgid "Unknown"
-msgstr ""
+msgstr "نامەلۇم"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "نامەلۇم ئۈسكۈنىنىڭ تىپى تاللانغان"
 
 msgid "Unzip"
 msgstr ""
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "GitHub ئامبىرىمىزنى زىيارەت قىلىڭ: \ n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "ئالدىنقى قېتىم تارقىتىلغاندىن بۇيان قانداق يېڭىلىقلار بار؟"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "چاقماق لامپىسى جەريانىدا STB توڭلاپ قالىدۇ. \ N."
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "نۆۋەتتىكى: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ھېچنېمە يوق!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite ھازىر چاقماق لامپىنى ئىجرا قىلىش ئۈچۈن enigma2 نى توختىتىدۇ. \ n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (بەلكىم خاتالىق بولۇشى مۇمكىن)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (بەلكىم بولىدۇ)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} زاپاسلاش"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLUE: بۇ ياردەم ئېكرانىنى كۆرسەت \ n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "بارى ئاللېن: كۆپ ئىقتىدارلىق زاپاسلاش (قاچىلانغان بولسا) \ n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "يېشىل: تاللانغان ئۈسكۈنىنىڭ زاپاسلىنىشىنى باشلاڭ \ n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD زاپاسلاش: ئىچكى قاتتىق دىسكىغا تولۇق سىستېما زاپاسلاش \ n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC زاپاسلاش: تاشقى ساقلىغۇچقا زاپاسلاش (eMMC) \ n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET زاپاسلاش: تور بوشلۇقىغا زاپاسلاش (NAS / SMB) \ n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB زاپاسلاش: قوزغىتىشقا بولىدىغان USB ئەسلىگە كەلتۈرۈش تاياقچىسى قۇرۇش \ n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "UP / DOWN كۇنۇپكىسىنى ئىشلىتىپ زاپاسلاش تاللانمىلىرى ئارقىلىق يوللاڭ"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "سېرىق: ئەسلىگە كەلتۈرۈش جەريانىنى باشلاڭ \ n"

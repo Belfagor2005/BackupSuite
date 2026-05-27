@@ -16,325 +16,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Tarkista jakamisoikeudet (luku/kirjoitus)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Varmista, että NAS on päällä ja käytettävissä\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Anna palvelimen IP, jakonimi, käyttäjätunnus ja salasana\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Siirry kohtaan Päävalikko > Asetukset > Järjestelmä > Tallennushallinta\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD-varmuuskopiot: tallennettu kansioon /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Pidä järjestelmästäsi säännölliset varmuuskopiot\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET-varmuuskopiot: Edellytä asennettua CIFS/NFS-jakoa kirjoitusoikeuksilla\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Älä koskaan keskeytä varmuuskopiointi-/palautusprosesseja\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Palauta: Toimii kiintolevyltä, USB-, NET- tai MMC-tallennustilasta\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Valitse Verkkotallennus ja lisää NAS/SMB-jako\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Testaa yhteyttä ping-komennolla\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB-varmuuskopiot: vaadi FAT32-muotoiltu asema, jossa on "backupstick"-tiedosto\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Käytä laadukkaita USB-asemia palautustikuille\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Varmista, että käyttäjänimi/salasana ovat oikein\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Varmista, että sinulla on tarpeeksi vapaata tallennustilaa\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Liitä verkkojako ensin:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Valitse laiteluettelosta 'NET Backup'\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Valitse asennettu verkkojako\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Tallennus on parhaillaan käynnissä. Pysäytä tallennus ennen kuin yrität aloittaa vilkkumisen."
 
 msgid "About"
-msgstr ""
+msgstr "Noin"
 
 msgid "Backup"
-msgstr ""
+msgstr "Varmuuskopio"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Varmuuskopiointivaihtoehdot:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Varmuuskopioi ja palauta kuvasi"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Varmuuskopiointi epäonnistui! Tarkista loki: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Varmuuskopiointi epäonnistui! Viimeiset virheet:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Varmuuskopiointi epäonnistui: Laite on vain luku -tilassa!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Varmuuskopiointi epäonnistui: Verkkoyhteys katkesi!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Varmuuskopiointi epäonnistui: Laitteessa ei ole tarpeeksi vapaata tilaa!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Varmuuskopiointi epäonnistui: Vaadittuja tiedostoja ei löydy!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Varmuuskopiointi epäonnistui: Kirjoitusoikeus estetty!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Varmuuskopiotiedot"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Varmuuskopioskriptiä ei löytynyt kohteelle {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Varmuuskopioi verkkoon"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Varmuuskopioi kohteeseen {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite Ohje"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Parhaat käytännöt:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Painikkeiden toiminnot:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Muutosloki ei ole käytettävissä"
 
 msgid "Close"
-msgstr ""
+msgstr "Lähellä"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Nykyinen: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Poistaa"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Poista varmuuskopio"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Laiteluettelo:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Haluatko todella purkaa tuotteen {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Virhe valittaessa laitetta: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Poistu"
 
 msgid "Flash"
-msgstr ""
+msgstr "Salama"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Vilkkuu:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Tarkemmat ohjeet ja tuki:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Vilkkumiseen tarvitaan vastaanottimen tiedostot:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Ilmainen:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Kiintolevy"
 
 msgid "Help"
-msgstr ""
+msgstr "Auttaa"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Tee tai palauta varmuuskopio"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET Backup -ohjeet:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "EI löytynyt vilkkuvia tiedostoja!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Verkkotallennus"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Laitetyyppiä ei ole valittu"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Verkko-osuuksia ei ole asennettu! Asenna jako ensin."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Ei kirjoitusoikeutta kohteelle: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Vain ydin"
 
 msgid "Only root"
-msgstr ""
+msgstr "Vain root"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Odota"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Ole hyvä: ÄLÄ käynnistä digiboksisi uudelleen ja katkaise virta.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Palauttaa"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Palauta varmuuskopio"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Käytä salamaa"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD-kortti"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Toinen osio (vain ydin)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Toinen osio (vain root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Toinen osio (juuri ja ydin)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Valitse verkon jako varmuuskopiointia varten:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Valitse parametri käynnistää flash!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Valitse kansio, jossa on varmuuskopio"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Näytä vain löydetyt kuva- ja mtd-osiot.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simuloi (ei kirjoitusta)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Simuloi toista osiota (ei kirjoitusta)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Vakio (juuri ja ydin)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Tekniset huomautukset:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Kuva tai ydin vilkkuu ja käynnistyy automaattisesti muutaman minuutin kuluttua.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Kokonais:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET Backupin vianmääritys:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB-muisti"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Tuntematon"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Tuntematon laitetyyppi valittu"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Pura"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Vieraile GitHub-arkistossamme:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Mitä uutta edellisen julkaisun jälkeen?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB jäätyy vilkkumisprosessin aikana.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "nykyinen: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ei mitään!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite pysäyttää enigma2:n nyt suorittaakseen flashin.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (ehkä virhe)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (ehkä ok)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Varmuuskopio"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "SININEN: Näytä tämä ohjenäyttö\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot-varmuuskopio (jos asennettu)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "VIHREÄ: Aloita valitun laitteen varmuuskopiointi\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD-varmuuskopio: Täysi järjestelmän varmuuskopiointi sisäiselle kiintolevylle\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC-varmuuskopio: Varmuuskopiointi ulkoiseen tallennustilaan (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET Backup: Varmuuskopiointi verkkotallennustilaan (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB-varmuuskopiointi: Luo käynnistettävä USB-palautustikku\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Käytä YLÖS/ALAS-painikkeita navigoidaksesi varmuuskopiointivaihtoehdoissa\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "KELTAINEN: Aloita palautusprosessi\n"

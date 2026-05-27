@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Бөлісу рұқсаттарын тексеріңіз (оқу/жазу)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS қосулы және қолжетімді екеніне көз жеткізіңіз\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Сервер IP, бөлісу атын, пайдаланушы аты мен құпия сөзді енгізіңіз\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Негізгі мәзір > Орнату > Жүйе > Сақтау менеджері\n тармағына өтіңіз"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD сақтық көшірмелері: /media/hdd/backup\n ішінде сақталады"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Жүйенің тұрақты сақтық көшірмелерін жасаңыз\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET сақтық көшірмелері: жазу рұқсаттары бар орнатылған CIFS/NFS бөлісуін талап етеді\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Сақтық көшірме жасау/қалпына келтіру процестерін ешқашан үзбеңіз\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Қалпына келтіру: HDD, USB, NET немесе MMC жадынан жұмыс істейді\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- "Желілік сақтауды" таңдап, NAS/SMB үлесін қосыңыз\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Ping пәрменімен байланысты тексеру\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB сақтық көшірмелері: "backupstick" файлы бар FAT32 пішіміндегі дискіні қажет етеді\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Қалпына келтіру дискілері үшін сапалы USB дискілерін пайдаланыңыз\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Пайдаланушы аты/пароль дұрыс екенін тексеріңіз\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Бос жад орны жеткілікті екенін тексеріңіз\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Алдымен желілік бөлісуді орнатыңыз:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Құрылғылар тізімінен "NET сақтық көшірмесін жасау" опциясын таңдаңыз.\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Орнатылған желі бөлісу мүмкіндігін таңдаңыз\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Қазіргі уақытта жазба орындалуда. Жыпылықтауды бастамас бұрын жазуды тоқтатыңыз."
 
 msgid "About"
-msgstr ""
+msgstr "туралы"
 
 msgid "Backup"
-msgstr ""
+msgstr "Сақтық көшірме"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Сақтық көшірме опциялары:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Суреттің сақтық көшірмесін жасаңыз және қалпына келтіріңіз"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Сақтық көшірме жасалмады! Тексеру журналы: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Сақтық көшірме жасалмады! Соңғы қателер:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Сақтық көшірме жасалмады: құрылғы тек оқуға арналған!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Сақтық көшірме жасалмады: желі қосылымы жоғалды!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Сақтық көшірме жасалмады: құрылғыда бос орын жеткіліксіз!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Сақтық көшірме жасалмады: қажетті файлдар табылмады!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Сақтық көшірме жасалмады: жазу рұқсаты қабылданбады!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Сақтық көшірме ақпараты"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0} үшін сақтық көшірме сценарийі табылмады: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Желіге сақтық көшірме жасау"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Сақтық көшірме жасау: {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite анықтамасы"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Барри Аллен"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Үздік тәжірибелер:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Түйме функциялары:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Өзгерту журналы қолжетімді емес"
 
 msgid "Close"
-msgstr ""
+msgstr "Жабу"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Ағымдағы: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Жою"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Сақтық көшірмені жою"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Құрылғылар тізімі:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Сіз шынымен {0} қаптамасынан шығарғыңыз келе ме?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Құрылғыны таңдау қатесі: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Шығу"
 
 msgid "Flash"
-msgstr ""
+msgstr "Жарқыл"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Жыпылықтау:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Егжей-тегжейлі нұсқаулар мен қолдау үшін:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Жыпылықтау үшін ресивер файлдары қажет:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Тегін:"
 
 msgid "GB"
-msgstr ""
+msgstr "ГБ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Қатты диск"
 
 msgid "Help"
-msgstr ""
+msgstr "Көмек"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Сақтық көшірмені жасаңыз немесе қалпына келтіріңіз"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET сақтық көшірме жасау нұсқаулары:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Жыпылықтау үшін файлдар табылмады!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Желілік сақтау"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Ешбір құрылғы түрі таңдалмаған"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Ешбір желі бөлісулері орнатылмаған! Алдымен бөлісіңіз."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "{0} үшін жазу рұқсаты жоқ"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Тек ядро"
 
 msgid "Only root"
-msgstr ""
+msgstr "Тек тамыр"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Күте тұрыңыз"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Өтінемін: STB қайта жүктеп, қуатты өшірмеңіз.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Қалпына келтіру"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Сақтық көшірмені қалпына келтіру"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Жарқылды іске қосыңыз"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD картасы"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Екінші бөлім (тек ядро)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Екінші бөлім (тек түбір)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Екінші бөлім (түбір және ядро)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Сақтық көшірме жасау үшін желілік бөлісуді таңдаңыз:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Жарқылды бастау параметрін таңдаңыз!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Сақтық көшірмесі бар қалтаны таңдаңыз"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Тек табылған кескінді және mtd бөлімдерін көрсетіңіз.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Модельдеу (жазбау)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Екінші бөлімді имитациялау (жазбау)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Стандартты (түбір және ядро)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Техникалық ескертулер:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Кескін немесе ядро ​​бірнеше минуттан кейін жыпылықтап, автоматты түрде жүктеледі.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Барлығы:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET сақтық көшірмесінің ақаулықтарын жою:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB сақтау орны"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Белгісіз"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Белгісіз құрылғы түрі таңдалды"
 
 msgid "Unzip"
-msgstr ""
+msgstr "ZIP файлын ашыңыз"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "GitHub репозиторийіне кіріңіз:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Соңғы шығарылымнан бері қандай жаңалық болды?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Жыпылықтау процесі кезінде STB қатып қалады.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "ағымдағы: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ештеңе!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite флэшті іске қосу үшін enigma2-ні қазір тоқтатады.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (қате болуы мүмкін)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (жақсы болуы мүмкін)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Сақтық көшірме"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "КӨК: Осы анықтама экранын көрсетіңіз\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Барри Аллен: Multiboot сақтық көшірмесі (орнатылған болса)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "ЖАСЫЛ: таңдалған құрылғы үшін сақтық көшірме жасауды бастау\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD сақтық көшірмесі: ішкі қатты дискіге жүйенің толық сақтық көшірмесі\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC сақтық көшірмесі: сыртқы жадқа (eMMC) сақтық көшірме\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET сақтық көшірмесі: желі жадына сақтық көшірме жасау (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB сақтық көшірмесі: жүктелетін USB қалпына келтіру дискісін жасаңыз\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Сақтық көшірме опциялары арасында шарлау үшін ЖОҒАРЫ/ТӨМЕН түймелерін пайдаланыңыз\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "САРЫ: қалпына келтіру процесін бастау\n"

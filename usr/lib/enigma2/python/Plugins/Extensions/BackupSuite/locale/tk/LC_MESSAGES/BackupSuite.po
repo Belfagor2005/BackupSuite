@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Paýlaşma rugsatlaryny barlaň (oka / ýaz) \ n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS-yň işledilendigine we elýeterlidigine göz ýetiriň \ n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Serwer IP-i giriziň, adyňyzy, ulanyjy adyňyzy we parolyňyzy paýlaşyň \ n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Esasy menýu> Gurnama> Ulgam> Saklaýyş dolandyryjysy \ n-a gidiň"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD ätiýaçlyk nusgalary: / media / hdd / backup \ n-de saklanýar"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Ulgamyňyzyň yzygiderli ätiýaçlyk nusgalaryny saklaň \ n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET ätiýaçlyk nusgalary: writeazmak rugsatlary bilen gurnalan CIFS / NFS paýyny talap ediň \ n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- backtiýaçlyk / dikeldiş amallaryny hiç wagt kesmäň \ n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Dikelt: HDD, USB, NET ýa-da MMC ammaryndan işleýär \ n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Tor ammary' saýlaň we NAS / SMB paýyňyzy goşuň \ n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- ping buýrugy bilen baglanyşygy barlaň \ n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB ätiýaçlyk nusgalary: 'ätiýaçlyk ätiýaçlyk' faýly \ n bolan FAT32 formatly sürüjini talap ediň"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Dikeldiş taýaklary üçin ýokary hilli USB diskleri ulanyň \ n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Ulanyjy adynyň / parolyň dogrudygyny barlaň \ n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- enougheterlik boş ýeriň bardygyny barlaň \ n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Ilki bilen tor paýyňyzy guruň: \ n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Enjam sanawyndan 'NET ätiýaçlyk nusgasyny' saýlaň"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Gurlan tor paýyňyzy saýlaň \ n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Häzirki wagtda ýazgy işleýär. Ingalpyldawuk başlamazdan ozal ýazgyny bes ediň."
 
 msgid "About"
-msgstr ""
+msgstr "Takmynan"
 
 msgid "Backup"
-msgstr ""
+msgstr "Uptiýaçlyk"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Uptiýaçlyk opsiýalary: \ n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "Uptiýaçlyk Suite v {0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Suratyňyzy ätiýaçlaň we dikeldiň"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Uptiýaçlyk şowsuz! Barlag gündeligi: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Uptiýaçlyk şowsuz! Soňky ýalňyşlyklar:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Uptiýaçlyk şowsuz boldy: Enjam diňe okalýar!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Uptiýaçlyk şowsuz boldy: Tor birikmesi ýitdi!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Uptiýaçlyk şowsuz boldy: Enjamda boş ýer ýeterlik däl!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Uptiýaçlyk şowsuz boldy: Gerekli faýllar tapylmady!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Uptiýaçlyk şowsuz boldy: Rugsat ýazmak ret edildi!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Uptiýaçlyk maglumat"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0}: {1 for üçin ätiýaçlyk skript tapylmady"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Tora ätiýaçlyk"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0} ätiýaçlyk nusgasy"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "UptiýaçlykSuite Kömek"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Iň oňat tejribe: \ n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Düwme funksiýalary: \ n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Gündeligi üýtgetmek elýeterli däl"
 
 msgid "Close"
-msgstr ""
+msgstr ".Akyn"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Häzirki: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Öçür"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Uptiýaçlyk nusgasyny poz"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Enjamlaryň sanawy: \ n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Hakykatdanam {0} açmak isleýärsiňizmi?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Enjam saýlamakda säwlik: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çyk"
 
 msgid "Flash"
-msgstr ""
+msgstr "Fleşka"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Ingagtylyk:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Jikme-jik görkezmeler we goldaw üçin: \ n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Kabul edijiňiziň faýllaryny ýakmak üçin zerur: \ n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Mugt:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Gaty disk"
 
 msgid "Help"
-msgstr ""
+msgstr "Kömek"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Uptiýaçlyk nusgasyny ýasamak ýa-da dikeltmek"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET ätiýaçlyk görkezmeleri: \ n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Ingagtylyk üçin faýl tapylmady! \ N."
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Tor ammary"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Enjam görnüşi saýlanmady"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Tor paýnamalary gurulmady! Ilki bilen paýlaşyň."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Forazmak üçin rugsat ýok: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Diňe ýadro"
 
 msgid "Only root"
-msgstr ""
+msgstr "Diňe kök"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Garaşmagyňyzy haýyş edýäris"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Haýyş edýärin: STB-ni täzeden açmaň we elektrik toguny öçürmäň. \ N."
 
 msgid "Restore"
-msgstr ""
+msgstr "Dikelt"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Uptiýaçlyk nusgasyny dikelt"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Fleşka işlediň"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD kart"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Ikinji bölüm (diňe ýadro)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Ikinji bölüm (diňe kök)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Ikinji bölüm (kök we ýadro)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Uptiýaçlyk üçin tor paýyny saýlaň:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Başlangyç fleş üçin parametr saýlaň! \ N."
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Uptiýaçlyk bukjany saýlaň"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Diňe tapylan suraty we mtd bölümlerini görkeziň. \ N."
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Simulirläň (ýazmaň)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Ikinji bölümi simulasiýa ediň (ýazmaň)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standart (kök we ýadro)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Tehniki bellikler: \ n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Surat ýa-da ýadro ýalpyldawuk we birnäçe minutdan awtomatiki usulda açylar. \ N."
 
 msgid "Total:"
-msgstr ""
+msgstr "Jemi:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET ätiýaçlyk nusgasynyň näsazlyklaryny düzeltmek: \ n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB ammary"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Näbelli"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Näbelli enjam görnüşi saýlandy"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Açmak"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "GitHub ammarymyza baryp görüň: \ n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Soňky çykandan bäri näme täzelik?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB ýanýan wagtyňyz doňup galar. \ N."
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "häzirki: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "hiç zat!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ýazmak, fleşkany işletmek üçin indi enigma2-ni bes eder. \ n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (belki ýalňyşlyk)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (belki ok)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} uptiýaçlyk"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "Gök: Bu kömek ekrany görkez \ n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot ätiýaçlyk nusgasy (gurlan bolsa) \ n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "REaşyl: Saýlanan enjam üçin ätiýaçlyk nusgasyny başlaň \ n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD ätiýaçlyk nusgasy: Içki gaty diski doly ulgam ätiýaçlyk \ n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC ätiýaçlyk nusgasy: Daşarky ammarlara ätiýaçlyk (eMMC) \ n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET ätiýaçlyk nusgasy: Tor ammaryna ätiýaçlyk (NAS / SMB) \ n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB ätiýaçlyk nusgasy: Başlap bolýan USB dikeldiş taýagy dörediň \ n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Uptiýaçlyk opsiýalaryna geçmek üçin UP / DOWN düwmelerini ulanyň"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "SELLOW: Dikeltmäge başlaň \ n"

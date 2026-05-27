@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Иҷозатҳои мубодиларо тафтиш кунед (хондан/навиштан)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Боварӣ ҳосил кунед, ки NAS фаъол аст ва дастрас аст\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- IP сервер, номи мубодила, номи корбар ва паролро ворид кунед\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Ба Менюи асосӣ > Танзимот > Система > Менеҷери нигаҳдорӣ гузаред\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Нусхаи эҳтиётии HDD: Дар /media/hdd/backup\n нигоҳ дошта мешавад"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Нусхаҳои мунтазами системаи худро нигоҳ доред\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- Нусхаи эҳтиётии NET: Талаб кардани мубодилаи васлшудаи CIFS/NFS бо иҷозатҳои навиштан\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Ҳеҷ гоҳ равандҳои эҳтиётӣ/барқароркуниро қатъ накунед\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Барқарорсозӣ: Аз HDD, USB, NET ё MMC нигоҳдорӣ кор мекунад\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- "Захираи шабака" -ро интихоб кунед ва ҳиссаи NAS/SMB-и худро илова кунед\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Санҷиши пайвастшавӣ бо фармони ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- Нусхаҳои USB: Диски формати FAT32 бо файли "backupstick" талаб карда мешавад\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Барои дискҳои барқарорсозӣ аз дискҳои босифати USB истифода баред\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Санҷед, ки номи корбар/парол дуруст аст\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Боварӣ ҳосил кунед, ки шумо фазои кофӣ барои нигоҳдорӣ доред\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Аввалан мубодилаи шабакаи худро насб кунед:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Аз рӯйхати дастгоҳҳо 'NET Backup' -ро интихоб кунед\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Ҳиссаи шабакаи васлшудаи худро интихоб кунед\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Дар айни замон сабт иҷро мешавад. Лутфан пеш аз кӯшиши оғоз кардани дурахш сабтро қатъ кунед."
 
 msgid "About"
-msgstr ""
+msgstr "Дар бораи"
 
 msgid "Backup"
-msgstr ""
+msgstr "Нусхаи эҳтиётӣ"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Имконоти нусхабардорӣ:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Тасвири худро нусхабардорӣ кунед ва барқарор кунед"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Нусхабардорӣ ноком шуд! Санҷиши гузориш: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Нусхабардорӣ ноком шуд! Хатогиҳои охирин:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Нусхабардорӣ ноком шуд: Дастгоҳ танҳо барои хондан аст!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Нусхабардорӣ ноком шуд: Пайвасти шабака гум шуд!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Нусхабардорӣ ноком шуд: Дар дастгоҳ фазои холӣ кофӣ нест!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Нусхабардорӣ ноком шуд: Файлҳои зарурӣ ёфт нашуд!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Нусхабардорӣ ноком шуд: Иҷозаи навиштан рад карда шуд!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Маълумоти эҳтиётӣ"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Скрипти захиравӣ барои {0} ёфт нашуд: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Нусхабардорӣ ба шабака"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Нусхабардорӣ ба {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "Кӯмаки BackupSuite"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Барри Аллен"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Таҷрибаҳои беҳтарин:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Функсияҳои тугма:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Сабти тағирот дастрас нест"
 
 msgid "Close"
-msgstr ""
+msgstr "Пӯшед"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "ҷорӣ: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Нобуд кунед"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Нусхаи эҳтиётиро нест кунед"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Рӯйхати дастгоҳҳо:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Оё шумо дар ҳақиқат мехоҳед {0} -ро кушоед?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Хатогӣ ҳангоми интихоби дастгоҳ: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Баромадгоҳ"
 
 msgid "Flash"
-msgstr ""
+msgstr "Флеш"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Дурахш:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Барои дастурҳои муфассал ва дастгирӣ:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Барои дурахшидан, файлҳои қабулкунандаи шумо лозиманд:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Озод:"
 
 msgid "GB"
-msgstr ""
+msgstr "ГБ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Диски сахт"
 
 msgid "Help"
-msgstr ""
+msgstr "Кӯмак"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Нусхаи эҳтиётӣ созед ё барқарор кунед"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "Дастурҳои нусхабардории NET:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Файлҳо барои дурахш ёфт нашуд!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Захираи шабака"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Ягон навъи дастгоҳ интихоб нашудааст"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Ягон саҳмияҳои шабакавӣ насб карда нашудаанд! Лутфан, аввал як мубодила кунед."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Иҷозаи навиштан барои: {0} нест"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Фақат ядро"
 
 msgid "Only root"
-msgstr ""
+msgstr "Танҳо реша"
 
 msgid "Please wait"
-msgstr ""
+msgstr "илтимос истед"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Лутфан: STB-ро бозоғоз накунед ва барқро хомӯш накунед.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Барқарор кардан"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Нусхаи эҳтиётиро барқарор кунед"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Флешро иҷро кунед"
 
 msgid "SD Card"
-msgstr ""
+msgstr "Корти SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Қисмати дуюм (танҳо ядро)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Қисми дуюм (танҳо реша)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Қисми дуюм (реша ва ядро)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Ҳиссаи шабакаро барои нусхабардорӣ интихоб кунед:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Параметри флеши оғозро интихоб кунед!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Папкаеро бо нусхабардорӣ интихоб кунед"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Танҳо тасвири ёфтшуда ва қисмҳои mtd-ро нишон диҳед.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Тақлид (нанавиштан)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Тақсимоти дуюмро тақлид кунед (бинависед)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Стандарт (реша ва ядро)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Эзоҳҳои техникӣ:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Тасвир ё ядро ​​баъд аз чанд дақиқа дурахшанда мешавад ва худкор бор карда мешавад.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Ҳамагӣ:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Бартараф кардани мушкилоти нусхабардории NET:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "Захираи USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Номаълум"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Навъи дастгоҳи номаълум интихоб шуд"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Кушодан"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Боздид аз анбори GitHub мо:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Пас аз нашри охирин чӣ нав аст?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Дар ҷараёни флешкашӣ СТБ-и шумо ях мекунад.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "ҷорӣ: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ҳеҷ!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite ҳоло enigma2-ро қатъ мекунад, то флешро иҷро кунад.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (шояд хатогӣ)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (шояд хуб)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Нусхабардорӣ"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "КАБУД: Ин экрани ёриро нишон диҳед\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Барри Аллен: Нусхаи эҳтиётии бисёрҷанба (агар насб карда шуда бошад)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "САБЗ: Нусхабардории дастгоҳи интихобшударо оғоз кунед\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Нусхаи эҳтиётии HDD: Нусхаи пурраи система ба диски сахти дохилӣ\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "Нусхаи MMC: Нусхабардорӣ ба нигаҳдории беруна (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET нусхабардорӣ: Нусхабардорӣ ба нигаҳдории шабака (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "Нусхаи USB: Стики барқароршавандаи USB эҷод кунед\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Барои гузаштан аз имконоти нусхабардорӣ тугмаҳои БОЛО/ПОЁН-ро истифода баред\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ЗАРД: Оғози раванди барқарорсозӣ\n"

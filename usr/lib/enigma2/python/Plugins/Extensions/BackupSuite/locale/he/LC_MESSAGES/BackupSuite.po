@@ -16,325 +16,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- בדוק את הרשאות השיתוף (קריאה/כתיבה)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- ודא שה-NAS מופעל ונגיש\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- הזן IP של שרת, שם שיתוף, שם משתמש וסיסמה\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- עבור אל תפריט ראשי > הגדרה > מערכת > מנהל אחסון\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- גיבויי HDD: מאוחסנים ב- /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- שמור על גיבויים קבועים של המערכת שלך\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- גיבויי NET: דרוש שיתוף CIFS/NFS מותקן עם הרשאות כתיבה\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- לעולם אל תפריע לתהליכי גיבוי/שחזור\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- שחזור: פועל מאחסון HDD, USB, NET או MMC\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- בחר 'אחסון רשת' והוסף את שיתוף ה-NAS/SMB שלך\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- בדוק חיבור עם פקודת ping\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- גיבויי USB: דרוש כונן בפורמט FAT32 עם קובץ 'גיבוי'\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- השתמש בכונני USB איכותיים עבור מקלות שחזור\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- ודא ששם המשתמש/הסיסמה נכונים\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- ודא שיש לך מספיק שטח אחסון פנוי\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. התקן תחילה את שיתוף הרשת שלך:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. בחר 'גיבוי NET' מרשימת המכשירים\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. בחר את שיתוף הרשת המותקן שלך\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "כרגע פועלת הקלטה. אנא עצור את ההקלטה לפני שתנסה להתחיל מהבהב."
 
 msgid "About"
-msgstr ""
+msgstr "אוֹדוֹת"
 
 msgid "Backup"
-msgstr ""
+msgstr "גיבוי"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "אפשרויות גיבוי:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "גבה ושחזר את התמונה שלך"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "הגיבוי נכשל! בדיקת יומן: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "הגיבוי נכשל! שגיאות אחרונות:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "הגיבוי נכשל: המכשיר הוא לקריאה בלבד!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "הגיבוי נכשל: חיבור הרשת אבד!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "הגיבוי נכשל: אין מספיק מקום פנוי במכשיר!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "הגיבוי נכשל: לא נמצאו קבצים נדרשים!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "הגיבוי נכשל: הרשאת הכתיבה נדחתה!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "מידע על גיבוי"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "לא נמצא סקריפט גיבוי עבור {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "גיבוי לרשת"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "גיבוי ל-{0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "עזרה של BackupSuite"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "בארי אלן"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "שיטות עבודה מומלצות:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "פונקציות לחצן:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "יומן שינויים אינו זמין"
 
 msgid "Close"
-msgstr ""
+msgstr "לִסְגוֹר"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "נוכחי: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "לִמְחוֹק"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "מחק גיבוי"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "רשימת התקנים:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "האם אתה באמת רוצה לפרוק את {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "שגיאה בבחירת מכשיר: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "יְצִיאָה"
 
 msgid "Flash"
-msgstr ""
+msgstr "הֶבזֵק"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "הַברָקָה:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "להנחיות מפורטות ותמיכה:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "כדי להבהב יש צורך בקבצי המקלט שלך:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "לְשַׁחְרֵר:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "דיסק קשיח"
 
 msgid "Help"
-msgstr ""
+msgstr "עֶזרָה"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "צור או שחזר גיבוי"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "הוראות גיבוי NET:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "לא נמצאו קבצים להבהב!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "אחסון רשת"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "לא נבחר סוג מכשיר"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "לא הותקנו שיתופי רשת! נא להעלות שיתוף תחילה."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "אין הרשאת כתיבה עבור: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "רק גרעין"
 
 msgid "Only root"
-msgstr ""
+msgstr "רק שורש"
 
 msgid "Please wait"
-msgstr ""
+msgstr "אנא המתן"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "בבקשה: אל תפעיל מחדש את ה-STB שלך ותכבה את החשמל.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "לְשַׁחְזֵר"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "שחזר גיבוי"
 
 msgid "Run flash"
-msgstr ""
+msgstr "הפעל פלאש"
 
 msgid "SD Card"
-msgstr ""
+msgstr "כרטיס SD"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "מחיצה שנייה (רקנל)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "מחיצה שנייה (רק שורש)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "מחיצה שנייה (שורש וקרנל)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "בחר שיתוף רשת לגיבוי:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "בחר פרמטר להתחלת הבזק!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "בחר את התיקיה עם הגיבוי"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "הצג רק מחיצות תמונה ו-MTD שנמצאו.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "הדמיה (ללא כתיבה)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "הדמיית מחיצה שנייה (ללא כתיבה)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "סטנדרטי (שורש וקרנל)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "הערות טכניות:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "התמונה או הליבה יהבהבו ויאוחלו אוטומטית תוך מספר דקות.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "סַך הַכֹּל:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "פתרון בעיות NET Backup:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "אחסון USB"
 
 msgid "Unknown"
-msgstr ""
+msgstr "לֹא יְדוּעַ"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "נבחר סוג מכשיר לא ידוע"
 
 msgid "Unzip"
-msgstr ""
+msgstr "לִפְתוֹחַ"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "בקר במאגר GitHub שלנו:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "מה חדש מאז הגרסה האחרונה?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "ה-STB שלך יקפא במהלך תהליך ההבהוב.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "נוכחי: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "שׁוּם דָבָר!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite יפסיק את enigma2 כעת כדי להפעיל את הפלאש.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (אולי שגיאה)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (אולי בסדר)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} גיבוי"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "כחול: הצג את מסך העזרה הזה\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "בארי אלן: גיבוי רב אתחול (אם מותקן)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "ירוק: התחל גיבוי עבור המכשיר הנבחר\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "גיבוי HDD: גיבוי מערכת מלא לכונן קשיח פנימי\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "גיבוי MMC: גיבוי לאחסון חיצוני (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "גיבוי NET: גיבוי לאחסון רשת (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "גיבוי USB: צור מקל שחזור USB הניתן לאתחול\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "השתמש בלחצני למעלה/מטה כדי לנווט בין אפשרויות הגיבוי\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "צהוב: התחל את תהליך השחזור\n"

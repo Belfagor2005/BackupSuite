@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Хуваалцах зөвшөөрлийг шалгах (унших/бичих)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS асаалттай, нэвтрэх боломжтой эсэхийг шалгаарай\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Серверийн IP, хуваалцах нэр, хэрэглэгчийн нэр, нууц үгийг оруулна уу\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Үндсэн цэс > Тохиргоо > Систем > Хадгалалтын менежер рүү очно уу\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD нөөцлөлт: /media/hdd/backup\n дотор хадгалагдана"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Системийнхээ нөөцлөлтийг тогтмол байлга\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET нөөцлөлтүүд: бичих зөвшөөрөлтэй CIFS/NFS холболтыг суулгах шаардлагатай\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Нөөцлөх/сэргээх процессыг хэзээ ч бүү тасал.\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Сэргээх: HDD, USB, NET эсвэл MMC сангаас ажиллана\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Сүлжээний санах ой'-г сонгоод NAS/SMB хуваалцах\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Ping тушаалаар холболтыг шалгана уу\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB нөөцлөлт: "Нөөцлөх" файлтай FAT32 форматтай драйв шаардлагатай\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Сэргээх дискэнд чанартай USB хөтчүүдийг ашигла\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Хэрэглэгчийн нэр/нууц үг зөв эсэхийг шалгана уу\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Танд хангалттай зай байгаа эсэхийг шалгана уу\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Эхлээд сүлжээний хуваалцахаа холбоно уу:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Төхөөрөмжийн жагсаалтаас 'NET Backup'-г сонгоно уу\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Сүлжээний холболтоо сонгоно уу\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Одоогоор бичлэг ажиллаж байна. Анивчихыг эхлүүлэхээсээ өмнө бичлэгээ зогсооно уу."
 
 msgid "About"
-msgstr ""
+msgstr "тухай"
 
 msgid "Backup"
-msgstr ""
+msgstr "Нөөц"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Нөөцлөх сонголтууд:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Зургаа нөөцөлж, сэргээнэ үү"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Нөөцлөлт амжилтгүй боллоо! Шалгах бүртгэл: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Нөөцлөлт амжилтгүй боллоо! Сүүлийн алдаа:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Нөөцлөлт амжилтгүй боллоо: Төхөөрөмжийг зөвхөн унших боломжтой!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Нөөцлөлт амжилтгүй боллоо: Сүлжээний холболт тасарсан!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Нөөцлөлт амжилтгүй боллоо: Төхөөрөмж дээр сул зай хангалтгүй байна!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Нөөцлөлт амжилтгүй боллоо: Шаардлагатай файлууд олдсонгүй!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Нөөцлөлт амжилтгүй боллоо: Бичих зөвшөөрлийг үгүйсгэлээ!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Нөөц мэдээлэл"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "{0}-н нөөц скрипт олдсонгүй: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Сүлжээнд нөөцлөх"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0} руу нөөцлөх"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite тусламж"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Барри Аллен"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Шилдэг туршлага:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Товчлуурын функцууд:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Өөрчлөлтийн бүртгэл боломжгүй байна"
 
 msgid "Close"
-msgstr ""
+msgstr "Хаах"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Одоогийн: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Устгах"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Нөөцлөлтийг устгах"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Төхөөрөмжийн жагсаалт:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Та үнэхээр {0}-г задлахыг хүсэж байна уу?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Төхөөрөмж сонгоход алдаа гарлаа: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Гарах"
 
 msgid "Flash"
-msgstr ""
+msgstr "Флэш"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Анивчих:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Нарийвчилсан заавар, дэмжлэг авахыг хүсвэл:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Анивчихын тулд хүлээн авагчийн файлууд шаардлагатай:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Үнэгүй:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Хатуу диск"
 
 msgid "Help"
-msgstr ""
+msgstr "Туслаач"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Нөөцлөлт хийх эсвэл сэргээх"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET нөөцлөх заавар:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Гялсгах файл олдсонгүй!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Сүлжээний сан"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Төхөөрөмжийн төрлийг сонгоогүй байна"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Сүлжээний хувьцааг суулгаагүй байна! Эхлээд share хийнэ үү."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "{0}-д бичих зөвшөөрөл байхгүй"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Зөвхөн цөм"
 
 msgid "Only root"
-msgstr ""
+msgstr "Зөвхөн үндэс"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Хүлээгээрэй"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Гүй: STB-ээ дахин асаагаад цахилгааныг унтрааж БҮҮ.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Сэргээх"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Нөөцлөлтийг сэргээх"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Флэш ажиллуулах"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD карт"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Хоёрдахь хуваалт (зөвхөн цөм)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Хоёрдахь хуваалт (зөвхөн root)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Хоёрдахь хуваалт (үндэс ба цөм)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Нөөцлөхийн тулд сүлжээний хуваалцахыг сонгоно уу:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Эхлэх флэшийн параметрийг сонгоно уу!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Нөөцтэй хавтасаа сонгоно уу"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Зөвхөн олдсон зураг болон mtd хуваалтыг харуул.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Дуурайх (бичихгүй)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Хоёрдахь хуваалтыг дуурайх (бичихгүй)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Стандарт (үндэс ба цөм)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Техникийн тэмдэглэл:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Зураг эсвэл цөм хэдхэн минутын дараа анивчиж, автоматаар ачаалагдах болно.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Нийт:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET нөөцлөлтийн алдааг олж засварлах:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB санах ой"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Тодорхойгүй"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Тодорхойгүй төхөөрөмжийн төрлийг сонгосон"
 
 msgid "Unzip"
-msgstr ""
+msgstr "задлах"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Манай GitHub репозитор руу зочилно уу:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Сүүлийн хувилбараас хойш шинэ зүйл юу вэ?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Таны STB анивчих явцад хөлдөх болно.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "одоогийн: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "юу ч биш!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite флэш ажиллуулахын тулд enigma2-г одоо зогсооно.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (алдаа байж магадгүй)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (магадгүй зүгээр)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Нөөц"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "ЦЭНХЭР: Энэ тусламжийн дэлгэцийг харуулах\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Барри Аллен: Олон ачаалах нөөцлөлт (хэрэв суулгасан бол)\n"
 
 msgid " GREEN: Start backup for selected device\n"
 msgstr ""
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD нөөцлөлт: Дотоод хатуу диск рүү системийн бүрэн нөөцлөлт\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC нөөцлөлт: Гадаад санах ойд (eMMC) нөөцлөнө\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET нөөцлөлт: Сүлжээний санд (NAS/SMB) нөөцлөнө\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB нөөцлөлт: Ачаалах боломжтой USB сэргээх диск үүсгэнэ үү\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Дээш/ДООШ товчийг ашиглан нөөцлөх сонголтууд руу шилжинэ үү\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "ШАР: Сэргээх процессыг эхлүүлэх\n"

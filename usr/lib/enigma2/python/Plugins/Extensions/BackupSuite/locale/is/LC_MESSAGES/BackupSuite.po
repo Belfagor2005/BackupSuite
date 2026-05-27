@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Athugaðu deilingarheimildir (lesa/skrifa)\n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- Gakktu úr skugga um að kveikt sé á NAS og aðgengilegt\n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Sláðu inn IP-tölu netþjóns, deila nafn, notandanafn og lykilorð\n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Farðu í Aðalvalmynd > Uppsetning > Kerfi > Geymslustjóri\n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- HDD öryggisafrit: Geymt í /media/hdd/backup\n"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Haltu reglulega afrit af kerfinu þínu\n"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET öryggisafrit: Krefjast uppsetts CIFS/NFS deilingar með skrifheimildum\n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Aldrei trufla öryggisafritun/endurheimtunarferli\n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Endurheimta: Virkar frá HDD, USB, NET eða MMC geymslu\n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- Veldu 'Network Storage' og bættu við NAS/SMB deilingunni þinni\n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- Prófaðu tengingu með ping skipun\n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB afrit: Krefjast FAT32-sniðs drifs með 'backupstick' skrá\n"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Notaðu gæða USB-drif fyrir endurheimtarkubba\n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Staðfestu að notendanafn/lykilorð sé rétt\n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Staðfestu að þú hafir nóg laust geymslupláss\n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Settu nethlutinn þinn fyrst:\n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Veldu 'NET Backup' af tækjalistanum\n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Veldu samnýtingu á uppsettu netkerfi\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Upptaka er í gangi. Vinsamlegast stöðvuðu upptökuna áður en þú reynir að byrja að blikka."
 
 msgid "About"
-msgstr ""
+msgstr "Um"
 
 msgid "Backup"
-msgstr ""
+msgstr "Öryggisafrit"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Afritunarvalkostir:\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Taktu öryggisafrit og endurheimtu myndina þína"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Afritun mistókst! Athugaðu annál: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Afritun mistókst! Síðustu villur:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Afritun mistókst: Tækið er skrifvarið!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Afritun mistókst: Nettenging rofin!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Afritun mistókst: Ekki nóg pláss á tækinu!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Afritun mistókst: Nauðsynlegar skrár fundust ekki!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Afritun mistókst: Ritheimild hafnað!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Upplýsingar um öryggisafrit"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Öryggisforskrift fannst ekki fyrir {0}: {1}"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Afrit á net"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "Afrita í {0}"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite hjálp"
 
 msgid "Barry Allen"
 msgstr ""
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Bestu starfsvenjur:\n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Hnappaaðgerðir:\n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Breytingaskrá ekki tiltæk"
 
 msgid "Close"
-msgstr ""
+msgstr "Loka"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Núverandi: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Eyða"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Eyða öryggisafriti"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Tækjalisti:\n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Viltu virkilega taka upp {0}?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Villa við að velja tæki: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Hætta"
 
 msgid "Flash"
 msgstr ""
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Blikkandi:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Fyrir nákvæmar leiðbeiningar og stuðning:\n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Til að blikka þarf móttakaraskrárnar þínar:\n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Ókeypis:"
 
 msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Harður diskur"
 
 msgid "Help"
-msgstr ""
+msgstr "Hjálp"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Búðu til eða endurheimtu öryggisafrit"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET öryggisafritunarleiðbeiningar:\n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "EKKI fundust skrár til að blikka!\n"
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Netgeymsla"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Engin gerð tækis valin"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Engin nethlutdeild sett upp! Vinsamlegast settu upp deilingu fyrst."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Engin skrifheimild fyrir: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Aðeins kjarni"
 
 msgid "Only root"
-msgstr ""
+msgstr "Aðeins rót"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Vinsamlegast bíddu"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Vinsamlegast: EKKI endurræstu STB og slökktu á rafmagninu.\n"
 
 msgid "Restore"
-msgstr ""
+msgstr "Endurheimta"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Endurheimta öryggisafrit"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Keyra flash"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD kort"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Önnur skipting (aðeins kjarni)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Önnur skipting (aðeins rót)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Önnur skipting (rót og kjarni)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Veldu nethlutdeild fyrir öryggisafrit:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Veldu færibreytu fyrir upphafsflass!\n"
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Veldu möppuna með öryggisafriti"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Sýna aðeins fundna mynd og mtd skipting.\n"
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Herma (ekki skrifa)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Herma eftir annarri skiptingu (engin skrif)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Standard (rót og kjarni)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Tæknilegar athugasemdir:\n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Myndin eða kjarninn mun blikka og ræsast sjálfkrafa eftir nokkrar mínútur.\n"
 
 msgid "Total:"
-msgstr ""
+msgstr "Samtals:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "Úrræðaleit NET öryggisafrit:\n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB geymsla"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Óþekkt"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Óþekkt tækisgerð valin"
 
 msgid "Unzip"
-msgstr ""
+msgstr "Renndu niður"
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Heimsæktu GitHub geymsluna okkar:\n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Hvað er nýtt frá síðustu útgáfu?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "STB þinn mun frjósa meðan á blikkandi ferli stendur.\n"
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "núverandi: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "ekkert!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "ofgwrite mun stöðva enigma2 núna til að keyra flassið.\n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (kannski villa)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (kannski í lagi)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Afritun"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "BLÁR: Sýndu þennan hjálparskjá\n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Barry Allen: Multiboot öryggisafrit (ef uppsett)\n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "GRÆNT: Byrjaðu öryggisafrit fyrir valið tæki\n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "HDD öryggisafrit: Full kerfisafrit á innri harða diskinn\n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC öryggisafrit: Öryggisafrit í ytri geymslu (eMMC)\n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET öryggisafrit: Afritun í netgeymslu (NAS/SMB)\n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB öryggisafrit: Búðu til ræsanlegan USB endurheimtarlyki\n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Notaðu UPP/NIÐUR hnappana til að fletta í gegnum afritunarvalkosti\n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "GULT: Byrjaðu endurheimtunarferlið\n"

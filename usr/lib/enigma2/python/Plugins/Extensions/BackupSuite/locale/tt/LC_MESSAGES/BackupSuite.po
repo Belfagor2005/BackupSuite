@@ -15,325 +15,325 @@ msgstr ""
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid "- Check share permissions (read/write)\n"
-msgstr ""
+msgstr "- Бүлешү рөхсәтен тикшерегез (укыгыз / языгыз) \ n"
 
 msgid "- Ensure NAS is powered on and accessible\n"
-msgstr ""
+msgstr "- NAS эшләвен һәм үтемле булуын тәэмин итегез \ n"
 
 msgid "- Enter server IP, share name, username and password\n"
-msgstr ""
+msgstr "- Сервер IP кертегез, исемне, кулланучы исемен һәм серсүзне бүлешегез \ n"
 
 msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr ""
+msgstr "- Төп Меню> Урнаштыру> Система> Саклау Менеджеры \ n"
 
 msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr ""
+msgstr "- Каты диск саклагычлары: / медиа / hdd / резерв \ n сакланган"
 
 msgid "- Keep regular backups of your system\n"
-msgstr ""
+msgstr "- Сезнең системаның регуляр резервларын саклагыз"
 
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr ""
+msgstr "- NET резервлау: язылган рөхсәтләр белән урнаштырылган CIFS / NFS бүлешүне таләп итегез \ n"
 
 msgid "- Never interrupt backup/restore processes\n"
-msgstr ""
+msgstr "- Резервлау / торгызу процессларын беркайчан да өзмәгез \ n"
 
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr ""
+msgstr "- Реставрация: HDD, USB, NET яки MMC саклагычтан эшли \ n"
 
 msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr ""
+msgstr "- 'Челтәр саклагычын' сайлагыз һәм NAS / SMB өлешегезне өстәгез \ n"
 
 msgid "- Test connection with ping command\n"
-msgstr ""
+msgstr "- ping командасы белән бәйләнешне сынау \ n"
 
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr ""
+msgstr "- USB резервлау: FAT32 форматланган дискны 'резерв резерв' файл \ n белән таләп итегез"
 
 msgid "- Use quality USB drives for recovery sticks\n"
-msgstr ""
+msgstr "- Реставрация таяклары өчен сыйфатлы USB саклагычларын кулланыгыз \ n"
 
 msgid "- Verify username/password are correct\n"
-msgstr ""
+msgstr "- Кулланучының исеме / серсүзенең дөреслеген тикшерегез \ n"
 
 msgid "- Verify you have enough free storage space\n"
-msgstr ""
+msgstr "- Сезнең буш урын җитәрлек булуын тикшерегез \ n"
 
 msgid "1. Mount your network share first:\n"
-msgstr ""
+msgstr "1. Челтәр өлешен башта урнаштырыгыз: \ n"
 
 msgid "2. Select 'NET Backup' from the device list\n"
-msgstr ""
+msgstr "2. Deviceайланмалар исемлегеннән 'NET резервны' сайлагыз \ n"
 
 msgid "3. Choose your mounted network share\n"
-msgstr ""
+msgstr "3. Монтажланган челтәр өлешен сайлагыз \ n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
-msgstr ""
+msgstr "Хәзерге вакытта язу эшли. Зинһар, кабызуны башлар алдыннан язуны туктатыгыз."
 
 msgid "About"
-msgstr ""
+msgstr "Турында"
 
 msgid "Backup"
-msgstr ""
+msgstr "Резервлау"
 
 msgid "Backup Options:\n"
-msgstr ""
+msgstr "Резерв вариантлары: \ n"
 
 msgid "Backup Suite v{0}"
-msgstr ""
+msgstr "Запас Suite v {0}"
 
 msgid "Backup and restore your image"
-msgstr ""
+msgstr "Рәсемеңне резервлау һәм торгызу"
 
 msgid "Backup failed! Check log: {0}"
-msgstr ""
+msgstr "Резервлау уңышсыз! Бүрәнәне тикшерү: {0}"
 
 msgid "Backup failed! Last errors:"
-msgstr ""
+msgstr "Резервлау уңышсыз! Соңгы хаталар:"
 
 msgid "Backup failed: Device is read-only!"
-msgstr ""
+msgstr "Резервлау уңышсыз: җайланма бары тик уку өчен генә!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Резервлау уңышсыз: челтәр тоташуы югалды!"
 
 msgid "Backup failed: Not enough free space on device!"
-msgstr ""
+msgstr "Резервлау уңышсыз: җайланмада буш урын җитми!"
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Резервлау уңышсыз: кирәкле файллар табылмады!"
 
 msgid "Backup failed: Write permission denied!"
-msgstr ""
+msgstr "Резервлау уңышсыз: Рөхсәт язмагыз!"
 
 msgid "Backup info"
-msgstr ""
+msgstr "Резерв мәгълүмат"
 
 msgid "Backup script not found for {0}: {1}"
-msgstr ""
+msgstr "Back 0}: {1 for өчен резерв сценарий табылмады"
 
 msgid "Backup to Network"
-msgstr ""
+msgstr "Челтәргә резервлау"
 
 msgid "Backup to {0}"
-msgstr ""
+msgstr "{0 to резервлау"
 
 msgid "BackupSuite Help"
-msgstr ""
+msgstr "BackupSuite Ярдәм"
 
 msgid "Barry Allen"
-msgstr ""
+msgstr "Бэрри Аллен"
 
 msgid "Best Practices:\n"
-msgstr ""
+msgstr "Иң яхшы практикалар: \ n"
 
 msgid "Button Functions:\n"
-msgstr ""
+msgstr "Кнопка функцияләре: \ n"
 
 msgid "Change log not available"
-msgstr ""
+msgstr "Бүрәнәне үзгәртү мөмкин түгел"
 
 msgid "Close"
-msgstr ""
+msgstr "Ябу"
 
 msgid "Current: {0}"
-msgstr ""
+msgstr "Хәзерге: {0}"
 
 msgid "Delete"
-msgstr ""
+msgstr "Бетерү"
 
 msgid "Delete backup"
-msgstr ""
+msgstr "Резервны бетерегез"
 
 msgid "Device List:\n"
-msgstr ""
+msgstr "Iceайланмалар исемлеге: \ n"
 
 msgid "Do you really want to unpack {0} ?"
-msgstr ""
+msgstr "Сез чыннан да {0 un ачарга телисезме?"
 
 msgid "Error selecting device: {0}"
-msgstr ""
+msgstr "Deviceайланманы сайлауда хата: {0}"
 
 msgid "Exit"
-msgstr ""
+msgstr "Чык"
 
 msgid "Flash"
-msgstr ""
+msgstr "Флеш"
 
 msgid "Flashing:"
-msgstr ""
+msgstr "Ялкынлау:"
 
 msgid "For detailed instructions and support:\n"
-msgstr ""
+msgstr "Төгәл күрсәтмәләр һәм ярдәм өчен: \ n"
 
 msgid "For flashing your receiver files are needed:\n"
-msgstr ""
+msgstr "Кабул алучының файлларын кабызу өчен кирәк: \ n"
 
 msgid "Free:"
-msgstr ""
+msgstr "Түләүсез:"
 
 msgid "GB"
-msgstr ""
+msgstr "ГБ"
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Каты диск"
 
 msgid "Help"
-msgstr ""
+msgstr "Ярдәм"
 
 msgid "Make or restore a backup"
-msgstr ""
+msgstr "Резерв ясау яки торгызу"
 
 msgid "NET Backup Instructions:\n"
-msgstr ""
+msgstr "NET резерв инструкция: \ n"
 
 msgid "NOT found files for flashing!\n"
-msgstr ""
+msgstr "Ялкынлау өчен файллар табылмады! \ N."
 
 msgid "Network Storage"
-msgstr ""
+msgstr "Челтәр саклау"
 
 msgid "No device type selected"
-msgstr ""
+msgstr "Deviceайланма төре сайланмаган"
 
 msgid "No network shares mounted! Please mount a share first."
-msgstr ""
+msgstr "Челтәр акцияләре урнаштырылмады! Зинһар, башта өлешне урнаштырыгыз."
 
 msgid "No write permission for: {0}"
-msgstr ""
+msgstr "Язу өчен рөхсәт юк: {0}"
 
 msgid "Only kernel"
-msgstr ""
+msgstr "Ядрә генә"
 
 msgid "Only root"
-msgstr ""
+msgstr "Тамыр гына"
 
 msgid "Please wait"
-msgstr ""
+msgstr "Зинһар, көтегез"
 
 msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr ""
+msgstr "Зинһар: STB-ны кабызмагыз һәм электрны сүндермәгез. \ N."
 
 msgid "Restore"
-msgstr ""
+msgstr "Реставрация"
 
 msgid "Restore Backup"
-msgstr ""
+msgstr "Резервны торгызу"
 
 msgid "Run flash"
-msgstr ""
+msgstr "Флэш эшләгез"
 
 msgid "SD Card"
-msgstr ""
+msgstr "SD-карта"
 
 msgid "Second partition (only kernel)"
-msgstr ""
+msgstr "Икенче бүлек (ядро гына)"
 
 msgid "Second partition (only root)"
-msgstr ""
+msgstr "Икенче бүлек (тамыр гына)"
 
 msgid "Second partition (root and kernel)"
-msgstr ""
+msgstr "Икенче бүлек (тамыр һәм ядрә)"
 
 msgid "Select network share for backup:"
-msgstr ""
+msgstr "Резервлау өчен челтәр өлешен сайлагыз:"
 
 msgid "Select parameter for start flash!\n"
-msgstr ""
+msgstr "Старт флеш өчен параметрны сайлагыз! \ N."
 
 msgid "Select the folder with backup"
-msgstr ""
+msgstr "Резерв белән папканы сайлагыз"
 
 msgid "Show only found image and mtd partitions.\n"
-msgstr ""
+msgstr "Табылган рәсемне һәм mtd бүлекләрен генә күрсәтегез. \ N."
 
 msgid "Simulate (no write)"
-msgstr ""
+msgstr "Симуляцияләү (язу юк)"
 
 msgid "Simulate second partition (no write)"
-msgstr ""
+msgstr "Икенче бүлекне охшатыгыз (язмагыз)"
 
 msgid "Standard (root and kernel)"
-msgstr ""
+msgstr "Стандарт (тамыр һәм ядрә)"
 
 msgid "Technical Notes:\n"
-msgstr ""
+msgstr "Техник искәрмәләр: \ n"
 
 msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr ""
+msgstr "Рәсем яки ядрә берничә минут эчендә ялтырап торачак һәм автоматик рәвештә ботинка. \ N."
 
 msgid "Total:"
-msgstr ""
+msgstr "Барлыгы:"
 
 msgid "Troubleshooting NET Backup:\n"
-msgstr ""
+msgstr "NET резерв проблемаларын чишү: \ n"
 
 msgid "USB Storage"
-msgstr ""
+msgstr "USB Саклагыч"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Билгесез"
 
 msgid "Unknown device type selected"
-msgstr ""
+msgstr "Билгесез җайланма төре сайланган"
 
 msgid "Unzip"
 msgstr ""
 
 msgid "Visit our GitHub repository:\n"
-msgstr ""
+msgstr "Безнең GitHub складына керегез: \ n"
 
 msgid "What is new since the last release?"
-msgstr ""
+msgstr "Соңгы чыгарылыштан соң нинди яңалыклар бар?"
 
 msgid "Your STB will freeze during the flashing process.\n"
-msgstr ""
+msgstr "Сезнең STB ялкынлану процессында туңыр. \ N."
 
 msgid "current:  {0}"
-msgstr ""
+msgstr "агым: {0}"
 
 msgid "https://github.com/persianpros/BackupSuite-PLi\n"
 msgstr ""
 
 msgid "nothing!"
-msgstr ""
+msgstr "бернәрсә дә!"
 
 msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr ""
+msgstr "флэшны эшләтеп җибәрү өчен, язу enigma2-ны туктатачак. \ n"
 
 msgid "{0} (maybe error)"
-msgstr ""
+msgstr "{0} (бәлки хата)"
 
 msgid "{0} (maybe ok)"
-msgstr ""
+msgstr "{0} (бәлки ярар)"
 
 msgid "{0} Backup"
-msgstr ""
+msgstr "{0} Резервлау"
 
 msgid " BLUE: Show this help screen\n"
-msgstr ""
+msgstr "Зәңгәр: Бу ярдәм экранын күрсәтегез \ n"
 
 msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr ""
+msgstr "Бэрри Аллен: Multiboot резервы (урнаштырылган булса) \ n"
 
 msgid " GREEN: Start backup for selected device\n"
-msgstr ""
+msgstr "Яшел: Сайланган җайланма өчен резервны башлау \ n"
 
 msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr ""
+msgstr "Каты диск саклагычы: Эчке каты дискка тулы система резервы \ n"
 
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr ""
+msgstr "MMC резервлау: тышкы саклауга резервлау (eMMC) \ n"
 
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr ""
+msgstr "NET резервлау: челтәр саклауга резерв (NAS / SMB) \ n"
 
 msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr ""
+msgstr "USB резервлау: Ботинкалы USB торгызу таягы ясагыз \ n"
 
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr ""
+msgstr "Резерв вариантлары аша бару өчен UP / DOWN төймәләрен кулланыгыз \ n"
 
 msgid " YELLOW: Start restore process\n"
-msgstr ""
+msgstr "САРЫ: торгызу процессын башлау \ n"
