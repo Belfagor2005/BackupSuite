@@ -311,29 +311,38 @@ msgstr "{0} (siguro ok)"
 msgid "{0} Backup"
 msgstr ""
 
+#, fuzzy
 msgid " BLUE: Show this help screen\n"
 msgstr "BLUE: Ipakita ang screen ng tulong na ito\n"
 
+#, fuzzy
 msgid " Barry Allen: Multiboot backup (if installed)\n"
 msgstr "Barry Allen: Multiboot backup (kung naka-install)\n"
 
+#, fuzzy
 msgid " GREEN: Start backup for selected device\n"
 msgstr "BERDE: Simulan ang pag-backup para sa napiling device\n"
 
+#, fuzzy
 msgid " HDD Backup: Full system backup to internal hard drive\n"
 msgstr "HDD Backup: Full system backup sa internal hard drive\n"
 
+#, fuzzy
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
 msgstr "MMC Backup: Backup sa external storage (eMMC)\n"
 
+#, fuzzy
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
 msgstr "NET Backup: Backup sa network storage (NAS/SMB)\n"
 
+#, fuzzy
 msgid " USB Backup: Create a bootable USB recovery stick\n"
 msgstr "USB Backup: Gumawa ng bootable USB recovery stick\n"
 
+#, fuzzy
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
 msgstr "Gumamit ng UP/DOWN na button para mag-navigate sa mga backup na opsyon\n"
 
+#, fuzzy
 msgid " YELLOW: Start restore process\n"
 msgstr "DILAW: Simulan ang proseso ng pagpapanumbalik\n"

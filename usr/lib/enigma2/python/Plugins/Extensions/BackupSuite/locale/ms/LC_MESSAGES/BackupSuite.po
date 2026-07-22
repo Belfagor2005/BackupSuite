@@ -311,29 +311,38 @@ msgstr "{0} (mungkin ok)"
 msgid "{0} Backup"
 msgstr "{0} Sandaran"
 
+#, fuzzy
 msgid " BLUE: Show this help screen\n"
 msgstr "BIRU: Tunjukkan skrin bantuan ini\n"
 
+#, fuzzy
 msgid " Barry Allen: Multiboot backup (if installed)\n"
 msgstr "Barry Allen: Sandaran berbilang but (jika dipasang)\n"
 
+#, fuzzy
 msgid " GREEN: Start backup for selected device\n"
 msgstr "HIJAU: Mulakan sandaran untuk peranti yang dipilih\n"
 
+#, fuzzy
 msgid " HDD Backup: Full system backup to internal hard drive\n"
 msgstr "Sandaran HDD: Sandaran sistem penuh ke pemacu keras dalaman\n"
 
+#, fuzzy
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
 msgstr "Sandaran MMC: Sandaran ke storan luaran (eMMC)\n"
 
+#, fuzzy
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
 msgstr "Sandaran NET: Sandaran ke storan rangkaian (NAS/SMB)\n"
 
+#, fuzzy
 msgid " USB Backup: Create a bootable USB recovery stick\n"
 msgstr "Sandaran USB: Cipta kayu pemulihan USB boleh boot\n"
 
+#, fuzzy
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
 msgstr "Gunakan butang ATAS/BAWAH untuk menavigasi melalui pilihan sandaran\n"
 
+#, fuzzy
 msgid " YELLOW: Start restore process\n"
 msgstr "KUNING: Mulakan proses pemulihan\n"

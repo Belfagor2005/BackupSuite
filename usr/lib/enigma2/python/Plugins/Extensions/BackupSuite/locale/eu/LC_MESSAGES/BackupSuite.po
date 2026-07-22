@@ -311,29 +311,38 @@ msgstr "{0} (agian ondo)"
 msgid "{0} Backup"
 msgstr "{0} Babeskopia"
 
+#, fuzzy
 msgid " BLUE: Show this help screen\n"
 msgstr "URDINA: erakutsi laguntza-pantaila hau\n"
 
+#, fuzzy
 msgid " Barry Allen: Multiboot backup (if installed)\n"
 msgstr "Barry Allen: abio anitzeko babeskopia (instalatuta badago)\n"
 
+#, fuzzy
 msgid " GREEN: Start backup for selected device\n"
 msgstr "BERDEA: Hasi hautatutako gailuaren babeskopia\n"
 
+#, fuzzy
 msgid " HDD Backup: Full system backup to internal hard drive\n"
 msgstr "HDDaren babeskopia: sistema osoaren babeskopia barneko disko gogorrean\n"
 
+#, fuzzy
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
 msgstr "MMC babeskopia: babeskopia kanpoko biltegian (eMMC)\n"
 
+#, fuzzy
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
 msgstr "NET Backup: babeskopia sareko biltegian (NAS/SMB)\n"
 
+#, fuzzy
 msgid " USB Backup: Create a bootable USB recovery stick\n"
 msgstr "USB babeskopia: Sortu abiarazteko USB berreskuratzeko stick bat\n"
 
+#, fuzzy
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
 msgstr "Erabili GORA/BEHERA botoiak babeskopien aukeretatik nabigatzeko\n"
 
+#, fuzzy
 msgid " YELLOW: Start restore process\n"
 msgstr "HORIA: Hasi leheneratzeko prozesua\n"

@@ -98,14 +98,14 @@ msgid "Backup failed: Device is read-only!"
 msgstr "Sicherung fehlgeschlagen: Gerät ist schreibgeschützt!"
 
 msgid "Backup failed: Network connection lost!"
-msgstr ""
+msgstr "Sicherung fehlgeschlagen: Netzwerkverbindung verloren!"
 
 #, fuzzy
 msgid "Backup failed: Not enough free space on device!"
 msgstr "Nicht genügend Speicher frei auf "
 
 msgid "Backup failed: Required files not found!"
-msgstr ""
+msgstr "Sicherung fehlgeschlagen: Erforderliche Dateien nicht gefunden!"
 
 msgid "Backup failed: Write permission denied!"
 msgstr "Sicherung fehlgeschlagen: Schreibberechtigung verweigert!"

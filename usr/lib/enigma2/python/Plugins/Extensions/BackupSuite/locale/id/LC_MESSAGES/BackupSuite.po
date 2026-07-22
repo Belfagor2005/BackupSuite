@@ -311,29 +311,38 @@ msgstr "{0} (mungkin oke)"
 msgid "{0} Backup"
 msgstr "{0} Cadangan"
 
+#, fuzzy
 msgid " BLUE: Show this help screen\n"
 msgstr "BIRU: Tampilkan layar bantuan ini\n"
 
+#, fuzzy
 msgid " Barry Allen: Multiboot backup (if installed)\n"
 msgstr "Barry Allen: Pencadangan multiboot (jika terpasang)\n"
 
+#, fuzzy
 msgid " GREEN: Start backup for selected device\n"
 msgstr "HIJAU: Mulai pencadangan untuk perangkat yang dipilih\n"
 
+#, fuzzy
 msgid " HDD Backup: Full system backup to internal hard drive\n"
 msgstr "Pencadangan HDD: Pencadangan sistem penuh ke hard drive internal\n"
 
+#, fuzzy
 msgid " MMC Backup: Backup to external storage (eMMC)\n"
 msgstr "Cadangan MMC: Cadangan ke penyimpanan eksternal (eMMC)\n"
 
+#, fuzzy
 msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
 msgstr "Pencadangan .NET: Pencadangan ke penyimpanan jaringan (NAS/SMB)\n"
 
+#, fuzzy
 msgid " USB Backup: Create a bootable USB recovery stick\n"
 msgstr "Cadangan USB: Buat stik pemulihan USB yang dapat di-boot\n"
 
+#, fuzzy
 msgid " Use UP/DOWN buttons to navigate through backup options\n"
 msgstr "Gunakan tombol ATAS/BAWAH untuk menelusuri opsi pencadangan\n"
 
+#, fuzzy
 msgid " YELLOW: Start restore process\n"
 msgstr "KUNING: Mulai proses pemulihan\n"
