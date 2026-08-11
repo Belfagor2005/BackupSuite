@@ -14,58 +14,58 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- ଅଂଶୀଦାର ଅନୁମତି ଯାଞ୍ଚ କରନ୍ତୁ (ପ read ନ୍ତୁ / ଲେଖନ୍ତୁ) \ n |"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- ଅଂଶୀଦାର ଅନୁମତି ଯାଞ୍ଚ କରନ୍ତୁ (ପ read ନ୍ତୁ / ଲେଖନ୍ତୁ) \\\\\\\\ n |"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- ନିଶ୍ଚିତ କରନ୍ତୁ ଯେ NAS ଚାଳିତ ଏବଂ ଉପଲବ୍ଧ ଅଟେ \ n |"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- ନିଶ୍ଚିତ କରନ୍ତୁ ଯେ NAS ଚାଳିତ ଏବଂ ଉପଲବ୍ଧ ଅଟେ \\\\\\\\ n |"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- ସର୍ଭର IP ପ୍ରବେଶ କରନ୍ତୁ, ନାମ ଅଂଶୀଦାର କରନ୍ତୁ, ଚାଳକନାମ ଏବଂ ପାସୱାର୍ଡ \ n |"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- ସର୍ଭର IP ପ୍ରବେଶ କରନ୍ତୁ, ନାମ ଅଂଶୀଦାର କରନ୍ତୁ, ଚାଳକନାମ ଏବଂ ପାସୱାର୍ଡ \\\\\\\\ n |"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- ମୁଖ୍ୟ ମେନୁ> ସେଟଅପ୍> ସିଷ୍ଟମ୍> ଷ୍ଟୋରେଜ୍ ମ୍ୟାନେଜର୍ \ n କୁ ଯାଆନ୍ତୁ |"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- ମୁଖ୍ୟ ମେନୁ> ସେଟଅପ୍> ସିଷ୍ଟମ୍> ଷ୍ଟୋରେଜ୍ ମ୍ୟାନେଜର୍ \\\\\\\\ n କୁ ଯାଆନ୍ତୁ |"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- HDD ବ୍ୟାକଅପ୍: / ମିଡିଆ / hdd / ବ୍ୟାକଅପ୍ \ n ରେ ଗଚ୍ଛିତ |"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- HDD ବ୍ୟାକଅପ୍: / ମିଡିଆ / hdd / ବ୍ୟାକଅପ୍ \\\\\\\\ n ରେ ଗଚ୍ଛିତ |"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- ଆପଣଙ୍କ ସିଷ୍ଟମର ନିୟମିତ ବ୍ୟାକଅପ୍ ରଖନ୍ତୁ \ n |"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- ଆପଣଙ୍କ ସିଷ୍ଟମର ନିୟମିତ ବ୍ୟାକଅପ୍ ରଖନ୍ତୁ \\\\\\\\ n |"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
 msgstr "- NET ବ୍ୟାକଅପ୍: ଲେଖିବା ଅନୁମତି ସହିତ ମାଉଣ୍ଟ୍ CIFS / NFS ଅଂଶୀଦାର ଆବଶ୍ୟକ |"
 
-msgid "- Never interrupt backup/restore processes\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
 msgstr "- ବ୍ୟାକଅପ୍ / ପୁନ restore ସ୍ଥାପନ ପ୍ରକ୍ରିୟାକୁ କେବେ ବି ବାଧା ଦିଅନ୍ତୁ ନାହିଁ |"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- ପୁନରୁଦ୍ଧାର: HDD, USB, NET କିମ୍ବା MMC ଷ୍ଟୋରେଜ୍ \ n ରୁ କାମ କରେ |"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- ପୁନରୁଦ୍ଧାର: HDD, USB, NET କିମ୍ବା MMC ଷ୍ଟୋରେଜ୍ \\\\\\\\ n ରୁ କାମ କରେ |"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- 'ନେଟୱାର୍କ ଷ୍ଟୋରେଜ୍' ଚୟନ କରନ୍ତୁ ଏବଂ ଆପଣଙ୍କର NAS / SMB ଅଂଶ \ n ଯୋଡନ୍ତୁ |"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- 'ନେଟୱାର୍କ ଷ୍ଟୋରେଜ୍' ଚୟନ କରନ୍ତୁ ଏବଂ ଆପଣଙ୍କର NAS / SMB ଅଂଶ \\\\\\\\ n ଯୋଡନ୍ତୁ |"
 
-msgid "- Test connection with ping command\n"
-msgstr "- ପିଙ୍ଗ୍ କମାଣ୍ଡ୍ ସହିତ ପରୀକ୍ଷା ସଂଯୋଗ \ n |"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- ପିଙ୍ଗ୍ କମାଣ୍ଡ୍ ସହିତ ପରୀକ୍ଷା ସଂଯୋଗ \\\\\\\\ n |"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- USB ବ୍ୟାକଅପ୍: 'ବ୍ୟାକଅପ୍ ଷ୍ଟିକ୍' ଫାଇଲ୍ \ n ସହିତ FAT32- ଫର୍ମାଟ୍ ହୋଇଥିବା ଡ୍ରାଇଭ୍ ଆବଶ୍ୟକ |"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- USB ବ୍ୟାକଅପ୍: 'ବ୍ୟାକଅପ୍ ଷ୍ଟିକ୍' ଫାଇଲ୍ \\\\\\\\ n ସହିତ FAT32- ଫର୍ମାଟ୍ ହୋଇଥିବା ଡ୍ରାଇଭ୍ ଆବଶ୍ୟକ |"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- ପୁନରୁଦ୍ଧାର ଷ୍ଟିକ୍ ପାଇଁ ଗୁଣାତ୍ମକ USB ଡ୍ରାଇଭ୍ ବ୍ୟବହାର କରନ୍ତୁ \ n |"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- ପୁନରୁଦ୍ଧାର ଷ୍ଟିକ୍ ପାଇଁ ଗୁଣାତ୍ମକ USB ଡ୍ରାଇଭ୍ ବ୍ୟବହାର କରନ୍ତୁ \\\\\\\\ n |"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- ଉପଯୋଗକର୍ତ୍ତା ନାମ / ପାସୱାର୍ଡ ସଠିକ୍ ଯାଞ୍ଚ କରନ୍ତୁ \ n |"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- ଉପଯୋଗକର୍ତ୍ତା ନାମ / ପାସୱାର୍ଡ ସଠିକ୍ ଯାଞ୍ଚ କରନ୍ତୁ \\\\\\\\ n |"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- ଯାଞ୍ଚ କରନ୍ତୁ ଯେ ଆପଣଙ୍କର ଯଥେଷ୍ଟ ମାଗଣା ସଂରକ୍ଷଣ ସ୍ଥାନ ଅଛି \ n |"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- ଯାଞ୍ଚ କରନ୍ତୁ ଯେ ଆପଣଙ୍କର ଯଥେଷ୍ଟ ମାଗଣା ସଂରକ୍ଷଣ ସ୍ଥାନ ଅଛି \\\\\\\\ n |"
 
-msgid "1. Mount your network share first:\n"
-msgstr "ପ୍ରଥମେ ଆପଣଙ୍କର ନେଟୱର୍କ ଅଂଶକୁ ମାଉଣ୍ଟ କରନ୍ତୁ: \ n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "ପ୍ରଥମେ ଆପଣଙ୍କର ନେଟୱର୍କ ଅଂଶକୁ ମାଉଣ୍ଟ କରନ୍ତୁ: \\\\\\\\ n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
 msgstr ""
 
-msgid "3. Choose your mounted network share\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
 msgstr ""
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
@@ -77,8 +77,8 @@ msgstr "ବିଷୟରେ"
 msgid "Backup"
 msgstr "ନକଲ ସଂରକ୍ଷଣ"
 
-msgid "Backup Options:\n"
-msgstr "ନକଲ ସଂରକ୍ଷଣ ବିକଳ୍ପ: \ n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "ନକଲ ସଂରକ୍ଷଣ ବିକଳ୍ପ: \\\\\\\\ n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -125,11 +125,11 @@ msgstr "ବ୍ୟାକଅପ୍ ସୁଇଟ୍ ସହାୟତା |"
 msgid "Barry Allen"
 msgstr "ବରୀ ଆଲେନ୍ |"
 
-msgid "Best Practices:\n"
-msgstr "ସର୍ବୋତ୍ତମ ଅଭ୍ୟାସ: \ n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "ସର୍ବୋତ୍ତମ ଅଭ୍ୟାସ: \\\\\\\\ n"
 
-msgid "Button Functions:\n"
-msgstr "ବଟନ୍ କାର୍ଯ୍ୟ: \ n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "ବଟନ୍ କାର୍ଯ୍ୟ: \\\\\\\\ n"
 
 msgid "Change log not available"
 msgstr "ଲଗ୍ ପରିବର୍ତ୍ତନ ଉପଲବ୍ଧ ନାହିଁ |"
@@ -146,8 +146,8 @@ msgstr "ବିଲୋପ କରନ୍ତୁ |"
 msgid "Delete backup"
 msgstr "ବ୍ୟାକଅପ୍ ଡିଲିଟ୍ କରନ୍ତୁ |"
 
-msgid "Device List:\n"
-msgstr "ଉପକରଣ ତାଲିକା: \ n"
+msgid "Device List:\\\\\\\\n"
+msgstr "ଉପକରଣ ତାଲିକା: \\\\\\\\ n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "ଆପଣ ପ୍ରକୃତରେ {0 un ପ୍ୟାକ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?"
@@ -164,11 +164,11 @@ msgstr "ଫ୍ଲାସ୍"
 msgid "Flashing:"
 msgstr "ଫ୍ଲାସ୍:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "ବିସ୍ତୃତ ନିର୍ଦ୍ଦେଶ ଏବଂ ସମର୍ଥନ ପାଇଁ: \ n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "ବିସ୍ତୃତ ନିର୍ଦ୍ଦେଶ ଏବଂ ସମର୍ଥନ ପାଇଁ: \\\\\\\\ n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "ଆପଣଙ୍କର ରିସିଭର୍ ଫାଇଲଗୁଡିକ ଫ୍ଲାସ୍ କରିବା ପାଇଁ ଆବଶ୍ୟକ: \ n |"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "ଆପଣଙ୍କର ରିସିଭର୍ ଫାଇଲଗୁଡିକ ଫ୍ଲାସ୍ କରିବା ପାଇଁ ଆବଶ୍ୟକ: \\\\\\\\ n |"
 
 msgid "Free:"
 msgstr "ମାଗଣା:"
@@ -185,11 +185,11 @@ msgstr "ସାହାଯ୍ୟ"
 msgid "Make or restore a backup"
 msgstr "ଏକ ନକଲ ସଂରକ୍ଷଣ କରନ୍ତୁ କିମ୍ବା ପୁନ restore ସ୍ଥାପନ କରନ୍ତୁ |"
 
-msgid "NET Backup Instructions:\n"
-msgstr "NET ବ୍ୟାକଅପ୍ ନିର୍ଦ୍ଦେଶାବଳୀ: \ n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "NET ବ୍ୟାକଅପ୍ ନିର୍ଦ୍ଦେଶାବଳୀ: \\\\\\\\ n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "ଫ୍ଲାସ୍ କରିବା ପାଇଁ ଫାଇଲଗୁଡିକ ମିଳିଲା ନାହିଁ! \ N"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "ଫ୍ଲାସ୍ କରିବା ପାଇଁ ଫାଇଲଗୁଡିକ ମିଳିଲା ନାହିଁ! \\\\\\\\ N"
 
 msgid "Network Storage"
 msgstr "ନେଟୱର୍କ ସଂରକ୍ଷଣ"
@@ -212,8 +212,8 @@ msgstr "କେବଳ ମୂଳ |"
 msgid "Please wait"
 msgstr "ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ |"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "ଦୟାକରି: ଆପଣଙ୍କର STB କୁ ପୁନ bo ବୁଟ କରନ୍ତୁ ନାହିଁ ଏବଂ ଶକ୍ତି ବନ୍ଦ କରନ୍ତୁ | \ n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "ଦୟାକରି: ଆପଣଙ୍କର STB କୁ ପୁନ bo ବୁଟ କରନ୍ତୁ ନାହିଁ ଏବଂ ଶକ୍ତି ବନ୍ଦ କରନ୍ତୁ | \\\\\\\\ n"
 
 msgid "Restore"
 msgstr "ପୁନରୁଦ୍ଧାର କରନ୍ତୁ |"
@@ -239,14 +239,14 @@ msgstr "ଦ୍ୱିତୀୟ ବିଭାଜନ (ମୂଳ ଏବଂ କର୍�
 msgid "Select network share for backup:"
 msgstr "ବ୍ୟାକଅପ୍ ପାଇଁ ନେଟୱର୍କ ଅଂଶ ଚୟନ କରନ୍ତୁ:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "ଆରମ୍ଭ ଫ୍ଲାସ ପାଇଁ ପାରାମିଟର ଚୟନ କରନ୍ତୁ! \ N"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "ଆରମ୍ଭ ଫ୍ଲାସ ପାଇଁ ପାରାମିଟର ଚୟନ କରନ୍ତୁ! \\\\\\\\ N"
 
 msgid "Select the folder with backup"
 msgstr "ବ୍ୟାକଅପ୍ ସହିତ ଫୋଲ୍ଡର୍ ଚୟନ କରନ୍ତୁ |"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "କେବଳ ମିଳିଥିବା ପ୍ରତିଛବି ଏବଂ mtd ବିଭାଜନଗୁଡ଼ିକୁ ଦେଖାନ୍ତୁ। \ n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "କେବଳ ମିଳିଥିବା ପ୍ରତିଛବି ଏବଂ mtd ବିଭାଜନଗୁଡ଼ିକୁ ଦେଖାନ୍ତୁ। \\\\\\\\ n"
 
 msgid "Simulate (no write)"
 msgstr "ଅନୁକରଣ କରନ୍ତୁ (କ write ଣସି ଲେଖା ନାହିଁ)"
@@ -257,17 +257,17 @@ msgstr "ଦ୍ୱିତୀୟ ବିଭାଜନକୁ ଅନୁକରଣ କର
 msgid "Standard (root and kernel)"
 msgstr "ମାନକ (ମୂଳ ଏବଂ କର୍ଣ୍ଣଲ)"
 
-msgid "Technical Notes:\n"
-msgstr "ଯାନ୍ତ୍ରିକ ଟିପ୍ପଣୀ: \ n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "ଯାନ୍ତ୍ରିକ ଟିପ୍ପଣୀ: \\\\\\\\ n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "ପ୍ରତିଛବି କିମ୍ବା କର୍ଣ୍ଣଲ ଫ୍ଲାସ ହୋଇଯିବ ଏବଂ କିଛି ମିନିଟରେ ଅଟୋ ବୁଟ ହେବ | \ n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "ପ୍ରତିଛବି କିମ୍ବା କର୍ଣ୍ଣଲ ଫ୍ଲାସ ହୋଇଯିବ ଏବଂ କିଛି ମିନିଟରେ ଅଟୋ ବୁଟ ହେବ | \\\\\\\\ n"
 
 msgid "Total:"
 msgstr "ସମୁଦାୟ:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "NET ବ୍ୟାକଅପ୍ ର ତ୍ରୁଟି ନିବାରଣ: \ n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "NET ବ୍ୟାକଅପ୍ ର ତ୍ରୁଟି ନିବାରଣ: \\\\\\\\ n"
 
 msgid "USB Storage"
 msgstr "USB ଭଣ୍ଡାର |"
@@ -281,26 +281,26 @@ msgstr "ଅଜ୍ଞାତ ଉପକରଣ ପ୍ରକାର ଚୟନ କର�
 msgid "Unzip"
 msgstr "ଅନ୍ଜିପ୍ |"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "ଆମର GitHub ସଂଗ୍ରହାଳୟ ପରିଦର୍ଶନ କରନ୍ତୁ: \ n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "ଆମର GitHub ସଂଗ୍ରହାଳୟ ପରିଦର୍ଶନ କରନ୍ତୁ: \\\\\\\\ n"
 
 msgid "What is new since the last release?"
 msgstr "ଶେଷ ପ୍ରକାଶନ ପରେ କ’ଣ ନୂଆ?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "ଫ୍ଲାସ୍ ପ୍ରକ୍ରିୟା ସମୟରେ ଆପଣଙ୍କର STB ଫ୍ରିଜ୍ ହୋଇଯିବ | \ n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "ଫ୍ଲାସ୍ ପ୍ରକ୍ରିୟା ସମୟରେ ଆପଣଙ୍କର STB ଫ୍ରିଜ୍ ହୋଇଯିବ | \\\\\\\\ n"
 
 msgid "current:  {0}"
 msgstr "ସାମ୍ପ୍ରତିକ: {0} |"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "କିଛି ନାହିଁ!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ଫ୍ଲାସ୍ ଚଲାଇବା ପାଇଁ ବର୍ତ୍ତମାନ ଲେଖିବା enigma2 ବନ୍ଦ କରିବ | \ n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ଫ୍ଲାସ୍ ଚଲାଇବା ପାଇଁ ବର୍ତ୍ତମାନ ଲେଖିବା enigma2 ବନ୍ଦ କରିବ | \\\\\\\\ n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (ବୋଧହୁଏ ତ୍ରୁଟି)"
@@ -311,29 +311,29 @@ msgstr "{0} (ବୋଧହୁଏ ଠିକ ଅଛି)"
 msgid "{0} Backup"
 msgstr "{0} ବ୍ୟାକଅପ୍ |"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "ନୀଳ: ଏହି ହେଲପ୍ ସ୍କ୍ରିନ୍ ଦେଖାନ୍ତୁ \ n |"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "ନୀଳ: ଏହି ହେଲପ୍ ସ୍କ୍ରିନ୍ ଦେଖାନ୍ତୁ \\\\\\\\ n |"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "ବରୀ ଆଲେନ୍: ମଲ୍ଟିବୁଟ୍ ବ୍ୟାକଅପ୍ (ଯଦି ସଂସ୍ଥାପିତ) \ n |"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "ବରୀ ଆଲେନ୍: ମଲ୍ଟିବୁଟ୍ ବ୍ୟାକଅପ୍ (ଯଦି ସଂସ୍ଥାପିତ) \\\\\\\\ n |"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "ସବୁଜ: ମନୋନୀତ ଉପକରଣ ପାଇଁ ବ୍ୟାକଅପ୍ ଆରମ୍ଭ କରନ୍ତୁ \ n |"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "ସବୁଜ: ମନୋନୀତ ଉପକରଣ ପାଇଁ ବ୍ୟାକଅପ୍ ଆରମ୍ଭ କରନ୍ତୁ \\\\\\\\ n |"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDD ବ୍ୟାକଅପ୍: ଆଭ୍ୟନ୍ତରୀଣ ହାର୍ଡ ଡ୍ରାଇଭକୁ ସମ୍ପୂର୍ଣ୍ଣ ସିଷ୍ଟମ ବ୍ୟାକଅପ୍ \ n |"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD ବ୍ୟାକଅପ୍: ଆଭ୍ୟନ୍ତରୀଣ ହାର୍ଡ ଡ୍ରାଇଭକୁ ସମ୍ପୂର୍ଣ୍ଣ ସିଷ୍ଟମ ବ୍ୟାକଅପ୍ \\\\\\\\ n |"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC ବ୍ୟାକଅପ୍: ବାହ୍ୟ ସଂରକ୍ଷଣକୁ ବ୍ୟାକଅପ୍ (eMMC) \ n |"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC ବ୍ୟାକଅପ୍: ବାହ୍ୟ ସଂରକ୍ଷଣକୁ ବ୍ୟାକଅପ୍ (eMMC) \\\\\\\\ n |"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET ବ୍ୟାକଅପ୍: ନେଟୱର୍କ ସଂରକ୍ଷଣକୁ ନକଲ ସଂରକ୍ଷଣ (NAS / SMB) \ n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET ବ୍ୟାକଅପ୍: ନେଟୱର୍କ ସଂରକ୍ଷଣକୁ ନକଲ ସଂରକ୍ଷଣ (NAS / SMB) \\\\\\\\ n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB ବ୍ୟାକଅପ୍: ଏକ ବୁଟ ଯୋଗ୍ୟ USB ପୁନରୁଦ୍ଧାର ଷ୍ଟିକ \ n ସୃଷ୍ଟି କରନ୍ତୁ |"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB ବ୍ୟାକଅପ୍: ଏକ ବୁଟ ଯୋଗ୍ୟ USB ପୁନରୁଦ୍ଧାର ଷ୍ଟିକ \\\\\\\\ n ସୃଷ୍ଟି କରନ୍ତୁ |"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "ବ୍ୟାକଅପ୍ ଅପ୍ସନ୍ ମାଧ୍ୟମରେ ନେଭିଗେଟ୍ କରିବାକୁ UP / DOWN ବଟନ୍ ବ୍ୟବହାର କରନ୍ତୁ \ n |"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "ବ୍ୟାକଅପ୍ ଅପ୍ସନ୍ ମାଧ୍ୟମରେ ନେଭିଗେଟ୍ କରିବାକୁ UP / DOWN ବଟନ୍ ବ୍ୟବହାର କରନ୍ତୁ \\\\\\\\ n |"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "ହଳଦିଆ: ପୁନରୁଦ୍ଧାର ପ୍ରକ୍ରିୟା ଆରମ୍ଭ କରନ୍ତୁ \ n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "ହଳଦିଆ: ପୁନରୁଦ୍ଧାର ପ୍ରକ୍ରିୟା ଆରମ୍ଭ କରନ୍ତୁ \\\\\\\\ n"

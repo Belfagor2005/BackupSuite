@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Gwirio caniatadau rhannu (darllen/ysgrifennu)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Gwirio caniatadau rhannu (darllen/ysgrifennu)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Sicrhewch fod NAS wedi'i bweru ymlaen ac yn hygyrch\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Sicrhewch fod NAS wedi'i bweru ymlaen ac yn hygyrch\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Rhowch IP gweinydd, rhannu enw, enw defnyddiwr a chyfrinair\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Rhowch IP gweinydd, rhannu enw, enw defnyddiwr a chyfrinair\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Ewch i'r Brif Ddewislen> Gosodiad> System> Rheolwr Storio\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Ewch i'r Brif Ddewislen> Gosodiad> System> Rheolwr Storio\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Copïau wrth gefn HDD: Wedi'u storio yn /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Copïau wrth gefn HDD: Wedi'u storio yn /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Cadwch gopïau wrth gefn rheolaidd o'ch system\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Cadwch gopïau wrth gefn rheolaidd o'ch system\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Copïau wrth gefn NET: Angen rhannu CIFS/NFS wedi'i osod gyda chaniatâd ysgrifennu\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Copïau wrth gefn NET: Angen rhannu CIFS/NFS wedi'i osod gyda chaniatâd ysgrifennu\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Peidiwch byth â thorri ar draws prosesau wrth gefn/adfer\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Peidiwch byth â thorri ar draws prosesau wrth gefn/adfer\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Adfer: Yn gweithio o storfa HDD, USB, NET neu MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Adfer: Yn gweithio o storfa HDD, USB, NET neu MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Dewiswch 'Network Storage' ac ychwanegwch eich cyfran NAS/SMB\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Dewiswch 'Network Storage' ac ychwanegwch eich cyfran NAS/SMB\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Prawf cysylltiad â gorchymyn ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Prawf cysylltiad â gorchymyn ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Copïau wrth gefn USB: Angen gyriant fformat FAT32 gyda ffeil 'backupstick'\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Copïau wrth gefn USB: Angen gyriant fformat FAT32 gyda ffeil 'backupstick'\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Defnyddiwch yriannau USB o safon ar gyfer ffyn adfer\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Defnyddiwch yriannau USB o safon ar gyfer ffyn adfer\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Gwirio bod yr enw defnyddiwr/cyfrinair yn gywir\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Gwirio bod yr enw defnyddiwr/cyfrinair yn gywir\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Gwiriwch fod gennych ddigon o le storio am ddim\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Gwiriwch fod gennych ddigon o le storio am ddim\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Gosodwch eich cyfran rhwydwaith yn gyntaf:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Gosodwch eich cyfran rhwydwaith yn gyntaf:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Dewiswch 'NET Backup' o'r rhestr dyfeisiau\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Dewiswch 'NET Backup' o'r rhestr dyfeisiau\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Dewiswch eich cyfran rhwydwaith wedi'i osod\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Dewiswch eich cyfran rhwydwaith wedi'i osod\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Mae recordiad yn rhedeg ar hyn o bryd. Stopiwch y recordiad cyn ceisio dechrau fflachio."
@@ -77,8 +77,8 @@ msgstr "Ynghylch"
 msgid "Backup"
 msgstr "Wrth gefn"
 
-msgid "Backup Options:\n"
-msgstr "Opsiynau wrth gefn:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Opsiynau wrth gefn:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr "Ystafell Wrth Gefn v{0}"
@@ -125,11 +125,11 @@ msgstr "Cymorth BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Arferion Gorau:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Arferion Gorau:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Swyddogaethau botwm:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Swyddogaethau botwm:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Nid yw log newid ar gael"
@@ -146,8 +146,8 @@ msgstr "Dileu"
 msgid "Delete backup"
 msgstr "Dileu copi wrth gefn"
 
-msgid "Device List:\n"
-msgstr "Rhestr Dyfeisiau:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Rhestr Dyfeisiau:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Ydych chi wir eisiau dadbacio {0} ?"
@@ -164,11 +164,11 @@ msgstr "Fflach"
 msgid "Flashing:"
 msgstr "Fflachio:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Am gyfarwyddiadau a chefnogaeth fanwl:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Am gyfarwyddiadau a chefnogaeth fanwl:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Er mwyn fflachio mae angen eich ffeiliau derbynnydd:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Er mwyn fflachio mae angen eich ffeiliau derbynnydd:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Am ddim:"
@@ -185,11 +185,11 @@ msgstr ""
 msgid "Make or restore a backup"
 msgstr "Gwneud neu adfer copi wrth gefn"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Cyfarwyddiadau wrth Gefn NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Cyfarwyddiadau wrth Gefn NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "HEB ganfod ffeiliau i'w fflachio!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "HEB ganfod ffeiliau i'w fflachio!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Storio Rhwydwaith"
@@ -212,8 +212,8 @@ msgstr "Dim ond gwraidd"
 msgid "Please wait"
 msgstr "Arhoswch os gwelwch yn dda"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Os gwelwch yn dda: PEIDIWCH ag ailgychwyn eich STB a diffodd y pŵer.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Os gwelwch yn dda: PEIDIWCH ag ailgychwyn eich STB a diffodd y pŵer.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Adfer"
@@ -239,14 +239,14 @@ msgstr "Ail raniad (gwraidd a chnewyllyn)"
 msgid "Select network share for backup:"
 msgstr "Dewiswch gyfran rhwydwaith ar gyfer copi wrth gefn:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Dewiswch baramedr ar gyfer fflach cychwyn!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Dewiswch baramedr ar gyfer fflach cychwyn!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Dewiswch y ffolder gyda copi wrth gefn"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Dangos rhaniadau delwedd a mtd a ganfuwyd yn unig.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Dangos rhaniadau delwedd a mtd a ganfuwyd yn unig.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Efelychu (dim ysgrifennu)"
@@ -257,17 +257,17 @@ msgstr "Efelychu ail raniad (dim ysgrifennu)"
 msgid "Standard (root and kernel)"
 msgstr "Safonol (gwraidd a chnewyllyn)"
 
-msgid "Technical Notes:\n"
-msgstr "Nodiadau Technegol:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Nodiadau Technegol:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Bydd y ddelwedd neu'r cnewyllyn yn fflachio ac yn cael ei gychwyn yn awtomatig ymhen ychydig funudau.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Bydd y ddelwedd neu'r cnewyllyn yn fflachio ac yn cael ei gychwyn yn awtomatig ymhen ychydig funudau.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Cyfanswm:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Datrys Problemau wrth Gefn NET:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Datrys Problemau wrth Gefn NET:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Storio USB"
@@ -281,26 +281,26 @@ msgstr "Math o ddyfais anhysbys wedi'i ddewis"
 msgid "Unzip"
 msgstr "Dadsipio"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Ewch i'n cadwrfa GitHub:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Ewch i'n cadwrfa GitHub:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Beth sy'n newydd ers y datganiad diwethaf?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "Bydd eich STB yn rhewi yn ystod y broses fflachio.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "Bydd eich STB yn rhewi yn ystod y broses fflachio.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "cyfredol: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "dim byd!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "bydd ofwrite yn stopio enigma2 nawr i redeg y fflach.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "bydd ofwrite yn stopio enigma2 nawr i redeg y fflach.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (gwall efallai)"
@@ -311,29 +311,29 @@ msgstr "{0} (iawn efallai)"
 msgid "{0} Backup"
 msgstr "{0} Gwneud copi wrth gefn"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "GLAS: Dangoswch y sgrin gymorth hon\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "GLAS: Dangoswch y sgrin gymorth hon\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Multiboot wrth gefn (os yw wedi'i osod)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Multiboot wrth gefn (os yw wedi'i osod)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "GWYRDD: Cychwyn wrth gefn ar gyfer dyfais a ddewiswyd\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "GWYRDD: Cychwyn wrth gefn ar gyfer dyfais a ddewiswyd\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDD Backup: System lawn wrth gefn i'r gyriant caled mewnol\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD Backup: System lawn wrth gefn i'r gyriant caled mewnol\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "Copi wrth gefn MMC: Copi wrth gefn i storfa allanol (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "Copi wrth gefn MMC: Copi wrth gefn i storfa allanol (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "Copi wrth gefn NET: Copi wrth gefn i storfa rhwydwaith (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "Copi wrth gefn NET: Copi wrth gefn i storfa rhwydwaith (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB Backup: Creu ffon adfer USB bootable\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB Backup: Creu ffon adfer USB bootable\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Defnyddiwch fotymau UP/DOWN i lywio drwy'r opsiynau wrth gefn\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Defnyddiwch fotymau UP/DOWN i lywio drwy'r opsiynau wrth gefn\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "MELYN: Dechreuwch y broses adfer\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "MELYN: Dechreuwch y broses adfer\\\\\\\\n"

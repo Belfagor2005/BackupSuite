@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Angalia ruhusa za kushiriki (soma/andika)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Angalia ruhusa za kushiriki (soma/andika)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Hakikisha NAS imewashwa na inapatikana\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Hakikisha NAS imewashwa na inapatikana\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Ingiza IP ya seva, shiriki jina, jina la mtumiaji na nenosiri\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Ingiza IP ya seva, shiriki jina, jina la mtumiaji na nenosiri\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Nenda kwenye Menyu Kuu > Mipangilio > Mfumo > Kidhibiti cha Hifadhi\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Nenda kwenye Menyu Kuu > Mipangilio > Mfumo > Kidhibiti cha Hifadhi\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Hifadhi rudufu za HDD: Imehifadhiwa katika /media/hdd/chelezo\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Hifadhi rudufu za HDD: Imehifadhiwa katika /media/hdd/chelezo\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Weka nakala rudufu za mara kwa mara za mfumo wako\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Weka nakala rudufu za mara kwa mara za mfumo wako\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Hifadhi rudufu za NET: Inahitaji ushiriki uliowekwa wa CIFS/NFS na ruhusa za uandishi\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Hifadhi rudufu za NET: Inahitaji ushiriki uliowekwa wa CIFS/NFS na ruhusa za uandishi\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Usikatishe kamwe michakato ya kuhifadhi/rejesha\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Usikatishe kamwe michakato ya kuhifadhi/rejesha\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Rejesha: Hufanya kazi kutoka kwa HDD, USB, NET au hifadhi ya MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Rejesha: Hufanya kazi kutoka kwa HDD, USB, NET au hifadhi ya MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Chagua 'Hifadhi ya Mtandao' na uongeze sehemu yako ya NAS/SMB\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Chagua 'Hifadhi ya Mtandao' na uongeze sehemu yako ya NAS/SMB\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Jaribu muunganisho kwa amri ya ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Jaribu muunganisho kwa amri ya ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Hifadhi rudufu za USB: Inahitaji hifadhi iliyoumbizwa FAT32 yenye faili ya 'chelezo'\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Hifadhi rudufu za USB: Inahitaji hifadhi iliyoumbizwa FAT32 yenye faili ya 'chelezo'\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Tumia hifadhi za USB za ubora kwa vijiti vya urejeshaji\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Tumia hifadhi za USB za ubora kwa vijiti vya urejeshaji\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Thibitisha jina la mtumiaji/nenosiri ni sahihi\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Thibitisha jina la mtumiaji/nenosiri ni sahihi\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Thibitisha kuwa una nafasi ya kutosha ya hifadhi isiyolipishwa\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Thibitisha kuwa una nafasi ya kutosha ya hifadhi isiyolipishwa\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Weka sehemu ya mtandao wako kwanza:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Weka sehemu ya mtandao wako kwanza:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Chagua 'Nakala ya NET' kutoka kwenye orodha ya vifaa\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Chagua 'Nakala ya NET' kutoka kwenye orodha ya vifaa\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Chagua ushiriki wako wa mtandao uliopachikwa\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Chagua ushiriki wako wa mtandao uliopachikwa\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Rekodi inaendeshwa kwa sasa. Tafadhali sitisha kurekodi kabla ya kujaribu kuanza kuwaka."
@@ -77,8 +77,8 @@ msgstr "Kuhusu"
 msgid "Backup"
 msgstr "Hifadhi nakala"
 
-msgid "Backup Options:\n"
-msgstr "Chaguo za Hifadhi Nakala:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Chaguo za Hifadhi Nakala:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -125,11 +125,11 @@ msgstr "Msaada wa BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Mbinu Bora:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Mbinu Bora:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Vipengele vya Kitufe:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Vipengele vya Kitufe:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Badili kumbukumbu haipatikani"
@@ -146,8 +146,8 @@ msgstr "Futa"
 msgid "Delete backup"
 msgstr "Futa chelezo"
 
-msgid "Device List:\n"
-msgstr "Orodha ya Vifaa:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Orodha ya Vifaa:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Je, kweli unataka kufungua {0} ?"
@@ -164,11 +164,11 @@ msgstr ""
 msgid "Flashing:"
 msgstr "Kumulika:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Kwa maelekezo ya kina na usaidizi:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Kwa maelekezo ya kina na usaidizi:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Ili kuangaza faili zako za mpokeaji zinahitajika:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Ili kuangaza faili zako za mpokeaji zinahitajika:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Bure:"
@@ -185,11 +185,11 @@ msgstr "Msaada"
 msgid "Make or restore a backup"
 msgstr "Tengeneza au urejeshe nakala rudufu"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Maagizo ya Hifadhi Nakala ya NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Maagizo ya Hifadhi Nakala ya NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "HAIJAPATIKANA faili za kumulika!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "HAIJAPATIKANA faili za kumulika!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Hifadhi ya Mtandao"
@@ -212,8 +212,8 @@ msgstr "Mzizi tu"
 msgid "Please wait"
 msgstr "Tafadhali subiri"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Tafadhali: USIWASHE tena STB yako na uzime nishati.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Tafadhali: USIWASHE tena STB yako na uzime nishati.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Rejesha"
@@ -239,14 +239,14 @@ msgstr "Sehemu ya pili (mzizi na punje)"
 msgid "Select network share for backup:"
 msgstr "Chagua kushiriki mtandao kwa chelezo:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Chagua kigezo cha kuwasha mweko!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Chagua kigezo cha kuwasha mweko!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Chagua folda iliyo na chelezo"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Onyesha sehemu za picha na mtd zilizopatikana pekee.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Onyesha sehemu za picha na mtd zilizopatikana pekee.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Iga (hakuna kuandika)"
@@ -257,17 +257,17 @@ msgstr "Iga kizigeu cha pili (hakuna kuandika)"
 msgid "Standard (root and kernel)"
 msgstr "Kawaida (mizizi na punje)"
 
-msgid "Technical Notes:\n"
-msgstr "Vidokezo vya Kiufundi:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Vidokezo vya Kiufundi:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Picha au kernel itakuwa inamulika na kuwashwa kiotomatiki baada ya dakika chache.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Picha au kernel itakuwa inamulika na kuwashwa kiotomatiki baada ya dakika chache.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Jumla:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Kutatua Hifadhi Nakala ya NET:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Kutatua Hifadhi Nakala ya NET:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Hifadhi ya USB"
@@ -281,26 +281,26 @@ msgstr "Aina ya kifaa isiyojulikana imechaguliwa"
 msgid "Unzip"
 msgstr "Fungua zipu"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Tembelea hazina yetu ya GitHub:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Tembelea hazina yetu ya GitHub:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Ni nini kipya tangu toleo la mwisho?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "STB yako itaganda wakati wa mchakato wa kuwaka.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "STB yako itaganda wakati wa mchakato wa kuwaka.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "ya sasa: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "hakuna kitu!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite itasimamisha enigma2 sasa ili kuendesha mweko.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite itasimamisha enigma2 sasa ili kuendesha mweko.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (labda hitilafu)"
@@ -311,29 +311,29 @@ msgstr "{0} (labda ni sawa)"
 msgid "{0} Backup"
 msgstr "{0} Hifadhi nakala"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "BLUE: Onyesha skrini hii ya usaidizi\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "BLUE: Onyesha skrini hii ya usaidizi\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Hifadhi rudufu ya Multiboot (ikiwa imesakinishwa)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Hifadhi rudufu ya Multiboot (ikiwa imesakinishwa)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "KIJANI: Anza kuhifadhi nakala kwa kifaa ulichochagua\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "KIJANI: Anza kuhifadhi nakala kwa kifaa ulichochagua\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "Hifadhi Nakala ya HDD: Hifadhi rudufu kamili ya mfumo kwenye diski kuu ya ndani\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "Hifadhi Nakala ya HDD: Hifadhi rudufu kamili ya mfumo kwenye diski kuu ya ndani\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "Hifadhi Nakala ya MMC: Hifadhi nakala kwenye hifadhi ya nje (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "Hifadhi Nakala ya MMC: Hifadhi nakala kwenye hifadhi ya nje (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "Hifadhi Nakala ya NET: Hifadhi nakala kwenye hifadhi ya mtandao (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "Hifadhi Nakala ya NET: Hifadhi nakala kwenye hifadhi ya mtandao (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "Hifadhi Nakala ya USB: Unda kifimbo cha urejeshaji cha USB kinachoweza kuwashwa\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "Hifadhi Nakala ya USB: Unda kifimbo cha urejeshaji cha USB kinachoweza kuwashwa\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Tumia vitufe vya JUU/ CHINI ili kupitia chaguo mbadala\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Tumia vitufe vya JUU/ CHINI ili kupitia chaguo mbadala\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "MANJANO: Anza mchakato wa kurejesha\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "MANJANO: Anza mchakato wa kurejesha\\\\\\\\n"

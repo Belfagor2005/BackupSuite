@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Periksa izin berbagi (baca/tulis)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Periksa izin berbagi (baca/tulis)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Pastikan NAS dihidupkan dan dapat diakses\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Pastikan NAS dihidupkan dan dapat diakses\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Masukkan IP server, nama berbagi, nama pengguna dan kata sandi\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Masukkan IP server, nama berbagi, nama pengguna dan kata sandi\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Buka Menu Utama > Pengaturan > Sistem > Manajer Penyimpanan\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Buka Menu Utama > Pengaturan > Sistem > Manajer Penyimpanan\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Cadangan HDD: Disimpan di /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Cadangan HDD: Disimpan di /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Simpan cadangan rutin sistem Anda\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Simpan cadangan rutin sistem Anda\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Pencadangan NET: Memerlukan berbagi CIFS/NFS yang dipasang dengan izin menulis\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Pencadangan NET: Memerlukan berbagi CIFS/NFS yang dipasang dengan izin menulis\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Jangan pernah mengganggu proses pencadangan/pemulihan\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Jangan pernah mengganggu proses pencadangan/pemulihan\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Pemulihan: Berfungsi dari penyimpanan HDD, USB, NET, atau MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Pemulihan: Berfungsi dari penyimpanan HDD, USB, NET, atau MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Pilih 'Penyimpanan Jaringan' dan tambahkan share NAS/SMB Anda\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Pilih 'Penyimpanan Jaringan' dan tambahkan share NAS/SMB Anda\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Uji koneksi dengan perintah ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Uji koneksi dengan perintah ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Pencadangan USB: Memerlukan drive berformat FAT32 dengan file 'backupstick'\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Pencadangan USB: Memerlukan drive berformat FAT32 dengan file 'backupstick'\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Gunakan drive USB berkualitas untuk stik pemulihan\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Gunakan drive USB berkualitas untuk stik pemulihan\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Verifikasi nama pengguna/kata sandi sudah benar\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Verifikasi nama pengguna/kata sandi sudah benar\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Pastikan Anda memiliki cukup ruang penyimpanan kosong\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Pastikan Anda memiliki cukup ruang penyimpanan kosong\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Pasang jaringan berbagi Anda terlebih dahulu:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Pasang jaringan berbagi Anda terlebih dahulu:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Pilih 'NET Backup' dari daftar perangkat\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Pilih 'NET Backup' dari daftar perangkat\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Pilih berbagi jaringan terpasang Anda\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Pilih berbagi jaringan terpasang Anda\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Rekaman sedang berjalan. Harap hentikan perekaman sebelum mencoba memulai flashing."
@@ -77,8 +77,8 @@ msgstr "Tentang"
 msgid "Backup"
 msgstr "Cadangan"
 
-msgid "Backup Options:\n"
-msgstr "Opsi Cadangan:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Opsi Cadangan:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr "Rangkaian Cadangan v{0}"
@@ -125,11 +125,11 @@ msgstr "Bantuan CadanganSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Praktik Terbaik:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Praktik Terbaik:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Fungsi Tombol:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Fungsi Tombol:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Ubah log tidak tersedia"
@@ -146,8 +146,8 @@ msgstr "Menghapus"
 msgid "Delete backup"
 msgstr "Hapus cadangan"
 
-msgid "Device List:\n"
-msgstr "Daftar Perangkat:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Daftar Perangkat:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Apakah Anda yakin ingin membongkar {0} ?"
@@ -164,11 +164,11 @@ msgstr "Kilatan"
 msgid "Flashing:"
 msgstr "Berkedip:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Untuk petunjuk dan dukungan mendetail:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Untuk petunjuk dan dukungan mendetail:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Untuk mem-flash file receiver Anda diperlukan:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Untuk mem-flash file receiver Anda diperlukan:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Bebas:"
@@ -177,7 +177,7 @@ msgid "GB"
 msgstr ""
 
 msgid "Hard Disk"
-msgstr ""
+msgstr "Harddisk"
 
 msgid "Help"
 msgstr "Membantu"
@@ -185,11 +185,11 @@ msgstr "Membantu"
 msgid "Make or restore a backup"
 msgstr "Buat atau pulihkan cadangan"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Petunjuk Pencadangan .NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Petunjuk Pencadangan .NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "TIDAK ditemukan file untuk flashing!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "TIDAK ditemukan file untuk flashing!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Penyimpanan Jaringan"
@@ -212,8 +212,8 @@ msgstr "Hanya akar"
 msgid "Please wait"
 msgstr "Harap tunggu"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Mohon: JANGAN reboot STB Anda dan matikan dayanya.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Mohon: JANGAN reboot STB Anda dan matikan dayanya.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Memulihkan"
@@ -239,14 +239,14 @@ msgstr "Partisi kedua (root dan kernel)"
 msgid "Select network share for backup:"
 msgstr "Pilih berbagi jaringan untuk cadangan:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Pilih parameter untuk memulai flash!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Pilih parameter untuk memulai flash!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Pilih folder dengan cadangan"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Hanya tampilkan partisi gambar dan mtd yang ditemukan.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Hanya tampilkan partisi gambar dan mtd yang ditemukan.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simulasikan (tanpa menulis)"
@@ -257,17 +257,17 @@ msgstr "Simulasikan partisi kedua (tanpa menulis)"
 msgid "Standard (root and kernel)"
 msgstr "Standar (root dan kernel)"
 
-msgid "Technical Notes:\n"
-msgstr "Catatan Teknis:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Catatan Teknis:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Image atau kernel akan di-flash dan di-boot secara otomatis dalam beberapa menit.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Image atau kernel akan di-flash dan di-boot secara otomatis dalam beberapa menit.\\\\\\\\n"
 
 msgid "Total:"
 msgstr ""
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Memecahkan Masalah Pencadangan NET:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Memecahkan Masalah Pencadangan NET:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Penyimpanan USB"
@@ -281,26 +281,26 @@ msgstr "Jenis perangkat tidak dikenal dipilih"
 msgid "Unzip"
 msgstr "Buka zip"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Kunjungi repositori GitHub kami:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Kunjungi repositori GitHub kami:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Apa yang baru sejak rilis terakhir?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "STB Anda akan membeku selama proses flashing.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "STB Anda akan membeku selama proses flashing.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "saat ini: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "Tidak ada apa-apa!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite akan menghentikan enigma2 sekarang untuk menjalankan flash.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite akan menghentikan enigma2 sekarang untuk menjalankan flash.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (mungkin kesalahan)"
@@ -312,37 +312,37 @@ msgid "{0} Backup"
 msgstr "{0} Cadangan"
 
 #, fuzzy
-msgid " BLUE: Show this help screen\n"
-msgstr "BIRU: Tampilkan layar bantuan ini\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "BIRU: Tampilkan layar bantuan ini\\\\\\\\n"
 
 #, fuzzy
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Pencadangan multiboot (jika terpasang)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Pencadangan multiboot (jika terpasang)\\\\\\\\n"
 
 #, fuzzy
-msgid " GREEN: Start backup for selected device\n"
-msgstr "HIJAU: Mulai pencadangan untuk perangkat yang dipilih\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "HIJAU: Mulai pencadangan untuk perangkat yang dipilih\\\\\\\\n"
 
 #, fuzzy
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "Pencadangan HDD: Pencadangan sistem penuh ke hard drive internal\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "Pencadangan HDD: Pencadangan sistem penuh ke hard drive internal\\\\\\\\n"
 
 #, fuzzy
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "Cadangan MMC: Cadangan ke penyimpanan eksternal (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "Cadangan MMC: Cadangan ke penyimpanan eksternal (eMMC)\\\\\\\\n"
 
 #, fuzzy
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "Pencadangan .NET: Pencadangan ke penyimpanan jaringan (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "Pencadangan .NET: Pencadangan ke penyimpanan jaringan (NAS/SMB)\\\\\\\\n"
 
 #, fuzzy
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "Cadangan USB: Buat stik pemulihan USB yang dapat di-boot\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "Cadangan USB: Buat stik pemulihan USB yang dapat di-boot\\\\\\\\n"
 
 #, fuzzy
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Gunakan tombol ATAS/BAWAH untuk menelusuri opsi pencadangan\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Gunakan tombol ATAS/BAWAH untuk menelusuri opsi pencadangan\\\\\\\\n"
 
 #, fuzzy
-msgid " YELLOW: Start restore process\n"
-msgstr "KUNING: Mulai proses pemulihan\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "KUNING: Mulai proses pemulihan\\\\\\\\n"

@@ -15,59 +15,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Verificați permisiunile de partajare (citire/scriere)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Verificați permisiunile de partajare (citire/scriere)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Asigurați-vă că NAS este pornit și accesibil\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Asigurați-vă că NAS este pornit și accesibil\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Introduceți IP-ul serverului, numele de partajare, numele de utilizator și parola\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Introduceți IP-ul serverului, numele de partajare, numele de utilizator și parola\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Accesați Meniul principal > Configurare > Sistem > Manager stocare\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Accesați Meniul principal > Configurare > Sistem > Manager stocare\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Backup-uri HDD: stocate în /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Backup-uri HDD: stocate în /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Păstrați copii de siguranță regulate ale sistemului dvs.\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Păstrați copii de siguranță regulate ale sistemului dvs.\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Backup-uri NET: necesită partajarea CIFS/NFS montată cu permisiuni de scriere\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Backup-uri NET: necesită partajarea CIFS/NFS montată cu permisiuni de scriere\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Nu întrerupeți niciodată procesele de backup/restaurare\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Nu întrerupeți niciodată procesele de backup/restaurare\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Restaurare: funcționează de pe stocare HDD, USB, NET sau MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Restaurare: funcționează de pe stocare HDD, USB, NET sau MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Selectați „Stocare în rețea” și adăugați partajarea NAS/SMB\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Selectați „Stocare în rețea” și adăugați partajarea NAS/SMB\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Testați conexiunea cu comanda ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Testați conexiunea cu comanda ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Backup-uri USB: necesită o unitate formatată FAT32 cu fișierul „backupstick”\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Backup-uri USB: necesită o unitate formatată FAT32 cu fișierul „backupstick”\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Folosiți unități USB de calitate pentru stick-uri de recuperare\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Folosiți unități USB de calitate pentru stick-uri de recuperare\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Verificați că numele de utilizator/parola sunt corecte\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Verificați că numele de utilizator/parola sunt corecte\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Verificați că aveți suficient spațiu de stocare liber\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Verificați că aveți suficient spațiu de stocare liber\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Montați mai întâi partajarea rețelei:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Montați mai întâi partajarea rețelei:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Selectați „NET Backup” din lista de dispozitive\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Selectați „NET Backup” din lista de dispozitive\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Alegeți partajarea rețelei montată\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Alegeți partajarea rețelei montată\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "În prezent se execută o înregistrare. Vă rugăm să opriți înregistrarea înainte de a încerca să porniți intermitent."
@@ -78,8 +78,8 @@ msgstr "Despre"
 msgid "Backup"
 msgstr ""
 
-msgid "Backup Options:\n"
-msgstr "Opțiuni de backup:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Opțiuni de backup:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -126,11 +126,11 @@ msgstr "Ajutor BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Cele mai bune practici:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Cele mai bune practici:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Funcții butoane:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Funcții butoane:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Jurnalul de modificări nu este disponibil"
@@ -147,8 +147,8 @@ msgstr "Şterge"
 msgid "Delete backup"
 msgstr "Ștergeți backupul"
 
-msgid "Device List:\n"
-msgstr "Lista de dispozitive:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Lista de dispozitive:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Chiar doriți să despachetați {0}?"
@@ -165,11 +165,11 @@ msgstr ""
 msgid "Flashing:"
 msgstr "Clipește:"
 
-msgid "For detailed instructions and support:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
 msgstr ""
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Pentru flash-ul sunt necesare fișierele receptorului:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Pentru flash-ul sunt necesare fișierele receptorului:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Gratuit:"
@@ -186,11 +186,11 @@ msgstr "Ajutor"
 msgid "Make or restore a backup"
 msgstr "Faceți sau restaurați o copie de rezervă"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Instrucțiuni pentru backup NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Instrucțiuni pentru backup NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "NU s-au găsit fișiere pentru intermitent!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "NU s-au găsit fișiere pentru intermitent!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Stocare în rețea"
@@ -213,8 +213,8 @@ msgstr "Doar rădăcină"
 msgid "Please wait"
 msgstr "Va rugam asteptati"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Vă rugăm: NU reporniți STB-ul și opriți alimentarea.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Vă rugăm: NU reporniți STB-ul și opriți alimentarea.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Restabili"
@@ -240,14 +240,14 @@ msgstr "A doua partiție (rădăcină și nucleu)"
 msgid "Select network share for backup:"
 msgstr "Selectați partajarea rețelei pentru backup:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Selectați parametrul pentru pornirea blițului!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Selectați parametrul pentru pornirea blițului!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Selectați folderul cu backup"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Afișează numai imaginea găsită și partițiile mtd.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Afișează numai imaginea găsită și partițiile mtd.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simulare (fără scriere)"
@@ -258,17 +258,17 @@ msgstr "Simulați a doua partiție (fără scriere)"
 msgid "Standard (root and kernel)"
 msgstr "Standard (rădăcină și nucleu)"
 
-msgid "Technical Notes:\n"
-msgstr "Note tehnice:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Note tehnice:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Imaginea sau nucleul va clipi și va porni automat în câteva minute.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Imaginea sau nucleul va clipi și va porni automat în câteva minute.\\\\\\\\n"
 
 msgid "Total:"
 msgstr ""
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Depanarea NET Backup:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Depanarea NET Backup:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Stocare USB"
@@ -282,26 +282,26 @@ msgstr "Tip de dispozitiv necunoscut selectat"
 msgid "Unzip"
 msgstr "Dezarhivați"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Vizitați depozitul nostru GitHub:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Vizitați depozitul nostru GitHub:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Ce este nou de la ultima lansare?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "STB-ul dvs. se va îngheța în timpul procesului de intermitent.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "STB-ul dvs. se va îngheța în timpul procesului de intermitent.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "curent: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "nimic!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite va opri acum enigma2 pentru a rula flash-ul.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite va opri acum enigma2 pentru a rula flash-ul.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (poate eroare)"
@@ -312,29 +312,29 @@ msgstr "{0} (poate ok)"
 msgid "{0} Backup"
 msgstr ""
 
-msgid " BLUE: Show this help screen\n"
-msgstr "ALBASTRU: Afișează acest ecran de ajutor\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "ALBASTRU: Afișează acest ecran de ajutor\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: backup multiboot (dacă este instalat)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: backup multiboot (dacă este instalat)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "VERDE: Porniți backup pentru dispozitivul selectat\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "VERDE: Porniți backup pentru dispozitivul selectat\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "Backup HDD: backup complet al sistemului pe hard disk intern\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "Backup HDD: backup complet al sistemului pe hard disk intern\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "Backup MMC: backup pe stocare externă (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "Backup MMC: backup pe stocare externă (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: Backup pe stocarea de rețea (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: Backup pe stocarea de rețea (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "Backup USB: creați un stick de recuperare USB bootabil\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "Backup USB: creați un stick de recuperare USB bootabil\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Folosiți butoanele SUS/JOS pentru a naviga prin opțiunile de rezervă\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Folosiți butoanele SUS/JOS pentru a naviga prin opțiunile de rezervă\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "GALBEN: Începe procesul de restaurare\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "GALBEN: Începe procesul de restaurare\\\\\\\\n"

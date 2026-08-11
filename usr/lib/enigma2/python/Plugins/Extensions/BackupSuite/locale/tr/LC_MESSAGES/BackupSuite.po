@@ -18,59 +18,59 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
 
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Paylaşım izinlerini kontrol edin (okuma/yazma)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Paylaşım izinlerini kontrol edin (okuma/yazma)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- NAS'ın açık ve erişilebilir olduğundan emin olun\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- NAS'ın açık ve erişilebilir olduğundan emin olun\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Sunucu IP'sini, paylaşım adını, kullanıcı adını ve şifreyi girin\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Sunucu IP'sini, paylaşım adını, kullanıcı adını ve şifreyi girin\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Ana Menü > Kurulum > Sistem > Depolama Yöneticisi'ne gidin\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Ana Menü > Kurulum > Sistem > Depolama Yöneticisi'ne gidin\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- HDD yedeklemeleri: /media/hdd/backup\n konumunda saklanır"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- HDD yedeklemeleri: /media/hdd/backup\\\\\\\\n konumunda saklanır"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Sisteminizin düzenli yedeklerini alın\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Sisteminizin düzenli yedeklerini alın\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- NET yedeklemeleri: Yazma izinlerine sahip takılı CIFS/NFS paylaşımı gerektirir\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- NET yedeklemeleri: Yazma izinlerine sahip takılı CIFS/NFS paylaşımı gerektirir\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Yedekleme/geri yükleme işlemlerini asla kesintiye uğratmayın\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Yedekleme/geri yükleme işlemlerini asla kesintiye uğratmayın\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Geri Yükleme: HDD, USB, NET veya MMC depolama alanından çalışır\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Geri Yükleme: HDD, USB, NET veya MMC depolama alanından çalışır\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- 'Ağ Depolama'yı seçin ve NAS/SMB paylaşımınızı ekleyin\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- 'Ağ Depolama'yı seçin ve NAS/SMB paylaşımınızı ekleyin\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Bağlantıyı ping komutuyla test edin\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Bağlantıyı ping komutuyla test edin\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- USB yedeklemeleri: 'Yedekleme çubuğu' dosyasına sahip FAT32 biçimli sürücü gerektirir\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- USB yedeklemeleri: 'Yedekleme çubuğu' dosyasına sahip FAT32 biçimli sürücü gerektirir\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Kurtarma çubukları için kaliteli USB sürücüleri kullanın\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Kurtarma çubukları için kaliteli USB sürücüleri kullanın\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Kullanıcı adının/şifrenin doğru olduğunu doğrulayın\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Kullanıcı adının/şifrenin doğru olduğunu doğrulayın\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Yeterli boş depolama alanınız olduğunu doğrulayın\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Yeterli boş depolama alanınız olduğunu doğrulayın\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Önce ağ paylaşımınızı bağlayın:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Önce ağ paylaşımınızı bağlayın:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Cihaz listesinden 'NET Backup'ı seçin\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Cihaz listesinden 'NET Backup'ı seçin\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Bağlanan ağ paylaşımınızı seçin\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Bağlanan ağ paylaşımınızı seçin\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Kayıt şu anda çalışıyor. Lütfen yanıp sönmeye başlamadan önce kaydı durdurun."
@@ -83,7 +83,7 @@ msgid "Backup"
 msgstr "Yedek bilgi"
 
 #, fuzzy
-msgid "Backup Options:\n"
+msgid "Backup Options:\\\\\\\\n"
 msgstr "Yedek bilgi"
 
 #, fuzzy
@@ -136,11 +136,11 @@ msgstr "BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "En İyi Uygulamalar:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "En İyi Uygulamalar:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Düğme İşlevleri:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Düğme İşlevleri:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Değişiklik günlüğü kullanılamıyor"
@@ -158,8 +158,8 @@ msgstr "Sil"
 msgid "Delete backup"
 msgstr "Yedeği sil"
 
-msgid "Device List:\n"
-msgstr "Cihaz Listesi:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Cihaz Listesi:\\\\\\\\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
@@ -179,11 +179,11 @@ msgstr "Flaş yapiyor: "
 msgid "Flashing:"
 msgstr "Flaş yapiyor: "
 
-msgid "For detailed instructions and support:\n"
-msgstr "Ayrıntılı talimatlar ve destek için:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Ayrıntılı talimatlar ve destek için:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Yanıp sönen alıcı dosyalarınız için:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Yanıp sönen alıcı dosyalarınız için:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Özgür:"
@@ -201,11 +201,11 @@ msgstr "Yardım"
 msgid "Make or restore a backup"
 msgstr "Yedekleme yapın veya yedeklemeyi geri yükleyin"
 
-msgid "NET Backup Instructions:\n"
-msgstr "NET Yedekleme Talimatları:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "NET Yedekleme Talimatları:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "Yanıp sönen dosyalar bulunamadı!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "Yanıp sönen dosyalar bulunamadı!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Ağ Depolama"
@@ -228,8 +228,8 @@ msgstr "Sadece kök"
 msgid "Please wait"
 msgstr "Lütfen bekleyin"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Lütfen: STB'nizi yeniden başlatmayın ve gücü kapatmayın.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Lütfen: STB'nizi yeniden başlatmayın ve gücü kapatmayın.\\\\\\\\n"
 
 #, fuzzy
 msgid "Restore"
@@ -258,14 +258,14 @@ msgstr "İkinci bölüm (kök ve çekirdek)"
 msgid "Select network share for backup:"
 msgstr "Yedekli klasörü seç"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Başlama flaşı için parametre seç!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Başlama flaşı için parametre seç!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Yedekli klasörü seç"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Sadece bulunan resim ve mtd bölümlerini göster.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Sadece bulunan resim ve mtd bölümlerini göster.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Benzet (yazma yok)"
@@ -276,17 +276,17 @@ msgstr "İkinci bölümü simüle et (yazma yok)"
 msgid "Standard (root and kernel)"
 msgstr "Standart (kök ve çekirdek)"
 
-msgid "Technical Notes:\n"
-msgstr "Teknik Notlar:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Teknik Notlar:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Görüntü veya çekirdek birkaç dakika içinde yanıp sönecek ve otomatik olarak önyüklenecektir.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Görüntü veya çekirdek birkaç dakika içinde yanıp sönecek ve otomatik olarak önyüklenecektir.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Toplam:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "NET Yedekleme Sorunlarını Giderme:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "NET Yedekleme Sorunlarını Giderme:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "USB Depolama"
@@ -300,28 +300,28 @@ msgstr "Bilinmeyen cihaz türü seçildi"
 msgid "Unzip"
 msgstr "Sıkıştır"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "GitHub depomuzu ziyaret edin:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "GitHub depomuzu ziyaret edin:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Son sürümden beri yeni olan nedir?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "STB'niz yanıp sönme işlemi sırasında donacaktır.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "STB'niz yanıp sönme işlemi sırasında donacaktır.\\\\\\\\n"
 
 #, fuzzy
 msgid "current:  {0}"
 msgstr "akım:  %s"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
 msgid "nothing!"
 msgstr " hiçbir şey!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite flaşı çalıştırmak için enigma2'yi şimdi durduracak.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite flaşı çalıştırmak için enigma2'yi şimdi durduracak.\\\\\\\\n"
 
 #, fuzzy
 msgid "{0} (maybe error)"
@@ -335,32 +335,32 @@ msgstr "  %s (belki tamam)"
 msgid "{0} Backup"
 msgstr "Yedek bilgi"
 
-msgid "• BLUE: Show this help screen\n"
-msgstr "• MAVİ: Bu yardım ekranını göster\n"
+msgid "• BLUE: Show this help screen\\\\\\\\n"
+msgstr "• MAVİ: Bu yardım ekranını göster\\\\\\\\n"
 
-msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr "• Barry Allen: Çoklu önyükleme yedeklemesi (kuruluysa)\n"
+msgid "• Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "• Barry Allen: Çoklu önyükleme yedeklemesi (kuruluysa)\\\\\\\\n"
 
-msgid "• GREEN: Start backup for selected device\n"
-msgstr "• YEŞİL: Seçilen cihaz için yedeklemeyi başlat\n"
+msgid "• GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "• YEŞİL: Seçilen cihaz için yedeklemeyi başlat\\\\\\\\n"
 
-msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr "• HDD Yedekleme: Dahili sabit sürücüye tam sistem yedeklemesi\n"
+msgid "• HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "• HDD Yedekleme: Dahili sabit sürücüye tam sistem yedeklemesi\\\\\\\\n"
 
-msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "• MMC Yedekleme: Harici depolamaya (eMMC) yedekleme\n"
+msgid "• MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "• MMC Yedekleme: Harici depolamaya (eMMC) yedekleme\\\\\\\\n"
 
-msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "• NET Yedekleme: Ağ depolama alanına yedekleme (NAS/SMB)\n"
+msgid "• NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "• NET Yedekleme: Ağ depolama alanına yedekleme (NAS/SMB)\\\\\\\\n"
 
-msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr "• USB Yedekleme: Önyüklenebilir bir USB kurtarma çubuğu oluşturun\n"
+msgid "• USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "• USB Yedekleme: Önyüklenebilir bir USB kurtarma çubuğu oluşturun\\\\\\\\n"
 
-msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "• Yedekleme seçenekleri arasında gezinmek için YUKARI/AŞAĞI düğmelerini kullanın\n"
+msgid "• Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "• Yedekleme seçenekleri arasında gezinmek için YUKARI/AŞAĞI düğmelerini kullanın\\\\\\\\n"
 
-msgid "• YELLOW: Start restore process\n"
-msgstr "• SARI: Geri yükleme işlemini başlatın\n"
+msgid "• YELLOW: Start restore process\\\\\\\\n"
+msgstr "• SARI: Geri yükleme işlemini başlatın\\\\\\\\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

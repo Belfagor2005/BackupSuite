@@ -14,59 +14,59 @@ msgstr ""
 "X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Ελέγξτε τα δικαιώματα κοινής χρήσης (ανάγνωση/εγγραφή)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Ελέγξτε τα δικαιώματα κοινής χρήσης (ανάγνωση/εγγραφή)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Βεβαιωθείτε ότι το NAS είναι ενεργοποιημένο και προσβάσιμο\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Βεβαιωθείτε ότι το NAS είναι ενεργοποιημένο και προσβάσιμο\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Εισαγάγετε IP διακομιστή, όνομα κοινής χρήσης, όνομα χρήστη και κωδικό πρόσβασης\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Εισαγάγετε IP διακομιστή, όνομα κοινής χρήσης, όνομα χρήστη και κωδικό πρόσβασης\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Μεταβείτε στο Κύριο μενού > Ρύθμιση > Σύστημα > Διαχείριση αποθήκευσης\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Μεταβείτε στο Κύριο μενού > Ρύθμιση > Σύστημα > Διαχείριση αποθήκευσης\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Αντίγραφα ασφαλείας σκληρού δίσκου: Αποθηκευμένα στο /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Αντίγραφα ασφαλείας σκληρού δίσκου: Αποθηκευμένα στο /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Διατηρήστε τακτικά αντίγραφα ασφαλείας του συστήματός σας\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Διατηρήστε τακτικά αντίγραφα ασφαλείας του συστήματός σας\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Αντίγραφα ασφαλείας NET: Απαιτείται προσαρτημένο κοινόχρηστο στοιχείο CIFS/NFS με δικαιώματα εγγραφής\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Αντίγραφα ασφαλείας NET: Απαιτείται προσαρτημένο κοινόχρηστο στοιχείο CIFS/NFS με δικαιώματα εγγραφής\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Μην διακόπτετε ποτέ τις διαδικασίες δημιουργίας αντιγράφων ασφαλείας/επαναφοράς\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Μην διακόπτετε ποτέ τις διαδικασίες δημιουργίας αντιγράφων ασφαλείας/επαναφοράς\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Επαναφορά: Λειτουργεί από αποθήκευση σκληρού δίσκου, USB, NET ή MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Επαναφορά: Λειτουργεί από αποθήκευση σκληρού δίσκου, USB, NET ή MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Επιλέξτε «Αποθήκευση δικτύου» και προσθέστε το κοινόχρηστο στοιχείο NAS/SMB\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Επιλέξτε «Αποθήκευση δικτύου» και προσθέστε το κοινόχρηστο στοιχείο NAS/SMB\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Δοκιμή σύνδεσης με εντολή ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Δοκιμή σύνδεσης με εντολή ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Αντίγραφα ασφαλείας USB: Απαιτείται μονάδα δίσκου με μορφή FAT32 με αρχείο 'backupstick'\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Αντίγραφα ασφαλείας USB: Απαιτείται μονάδα δίσκου με μορφή FAT32 με αρχείο 'backupstick'\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Χρησιμοποιήστε ποιοτικές μονάδες USB για στικάκια ανάκτησης\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Χρησιμοποιήστε ποιοτικές μονάδες USB για στικάκια ανάκτησης\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Βεβαιωθείτε ότι το όνομα χρήστη/κωδικός πρόσβασης είναι σωστά\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Βεβαιωθείτε ότι το όνομα χρήστη/κωδικός πρόσβασης είναι σωστά\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Βεβαιωθείτε ότι έχετε αρκετό ελεύθερο χώρο αποθήκευσης\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Βεβαιωθείτε ότι έχετε αρκετό ελεύθερο χώρο αποθήκευσης\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Προσαρτήστε πρώτα το κοινόχρηστο στοιχείο δικτύου:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Προσαρτήστε πρώτα το κοινόχρηστο στοιχείο δικτύου:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Επιλέξτε «NET Backup» από τη λίστα συσκευών\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Επιλέξτε «NET Backup» από τη λίστα συσκευών\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Επιλέξτε το προσαρτημένο κοινόχρηστο στοιχείο δικτύου\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Επιλέξτε το προσαρτημένο κοινόχρηστο στοιχείο δικτύου\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Μία εγγραφή είναι σε εξέλιξη. Παρακαλώ σταματήστε την εγγραφή πριν ξεκινήσετε το φλασάρισμα."
@@ -79,7 +79,7 @@ msgid "Backup"
 msgstr "BackupSuite"
 
 #, fuzzy
-msgid "Backup Options:\n"
+msgid "Backup Options:\\\\\\\\n"
 msgstr "BackupSuite"
 
 #, fuzzy
@@ -133,11 +133,11 @@ msgstr "BackupSuite"
 msgid "Barry Allen"
 msgstr "Μπάρι Άλεν"
 
-msgid "Best Practices:\n"
-msgstr "Βέλτιστες πρακτικές:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Βέλτιστες πρακτικές:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Λειτουργίες κουμπιού:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Λειτουργίες κουμπιού:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Μη διαθέσιμο αρχείο καταγραφής αλλαγών"
@@ -156,8 +156,8 @@ msgstr "Διαγράφω"
 msgid "Delete backup"
 msgstr "Επαναφορά αντιγράφου"
 
-msgid "Device List:\n"
-msgstr "Λίστα συσκευών:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Λίστα συσκευών:\\\\\\\\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
@@ -177,11 +177,11 @@ msgstr "Φλασάρισμα: "
 msgid "Flashing:"
 msgstr "Φλασάρισμα: "
 
-msgid "For detailed instructions and support:\n"
-msgstr "Για λεπτομερείς οδηγίες και υποστήριξη:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Για λεπτομερείς οδηγίες και υποστήριξη:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Για το φλασάρισμα του δέκτη απαιτούνται τα αρχεία:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Για το φλασάρισμα του δέκτη απαιτούνται τα αρχεία:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Δωρεάν:"
@@ -199,11 +199,11 @@ msgstr "Βοήθεια"
 msgid "Make or restore a backup"
 msgstr "Δημιουργία ή επαναφορά αντιγράφου ασφαλείας"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Οδηγίες δημιουργίας αντιγράφων ασφαλείας NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Οδηγίες δημιουργίας αντιγράφων ασφαλείας NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "ΔΕΝ βρέθηκαν αρχεία για φλασάρισμα!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "ΔΕΝ βρέθηκαν αρχεία για φλασάρισμα!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Αποθήκευση δικτύου"
@@ -226,8 +226,8 @@ msgstr "Μόνο τη ρίζα"
 msgid "Please wait"
 msgstr "Παρακαλώ περιμένετε"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Παρακαλούμε: ΜΗΝ επανεκκινήσετε ή κλείσετε το δέκτη σας.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Παρακαλούμε: ΜΗΝ επανεκκινήσετε ή κλείσετε το δέκτη σας.\\\\\\\\n"
 
 #, fuzzy
 msgid "Restore"
@@ -258,14 +258,14 @@ msgstr "Στάνταρ (ρίζα και kernel)"
 msgid "Select network share for backup:"
 msgstr "Επιλογή του φακέλου με το αντίγραφο"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Επιλογή παραμέτρου για εκκίνηση φλασαρίσματος!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Επιλογή παραμέτρου για εκκίνηση φλασαρίσματος!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Επιλογή του φακέλου με το αντίγραφο"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Εμφάνιση μόνο των images που βρέθηκαν και των κατατμήσεων mtd.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Εμφάνιση μόνο των images που βρέθηκαν και των κατατμήσεων mtd.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Προσομοίωση (μη εγγραφή)"
@@ -277,17 +277,17 @@ msgstr "Προσομοίωση (μη εγγραφή)"
 msgid "Standard (root and kernel)"
 msgstr "Στάνταρ (ρίζα και kernel)"
 
-msgid "Technical Notes:\n"
-msgstr "Τεχνικές σημειώσεις:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Τεχνικές σημειώσεις:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Το image ή ο kernel θα φλασαριστούν και θα εκκινηθούν αυτόματα σε λίγα λεπτά.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Το image ή ο kernel θα φλασαριστούν και θα εκκινηθούν αυτόματα σε λίγα λεπτά.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Σύνολο:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Αντιμετώπιση προβλημάτων NET Backup:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Αντιμετώπιση προβλημάτων NET Backup:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Αποθηκευτικός χώρος USB"
@@ -301,28 +301,28 @@ msgstr "Επιλέχθηκε άγνωστος τύπος συσκευής"
 msgid "Unzip"
 msgstr "Αποσυμπίεση"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Επισκεφτείτε το αποθετήριο GitHub:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Επισκεφτείτε το αποθετήριο GitHub:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Τι είναι νέο από την τελευταία έκδοση;"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "Ο δέκτης σας θα παγώσει κατά το φλασάρισμα.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "Ο δέκτης σας θα παγώσει κατά το φλασάρισμα.\\\\\\\\n"
 
 #, fuzzy
 msgid "current:  {0}"
 msgstr "τρέχον:  %s"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 #, fuzzy
 msgid "nothing!"
 msgstr " τίποτα!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "το ofgwrite θα σταματήσει το enigma2 τώρα για να τρέξει το φλασάρισμα.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "το ofgwrite θα σταματήσει το enigma2 τώρα για να τρέξει το φλασάρισμα.\\\\\\\\n"
 
 #, fuzzy
 msgid "{0} (maybe error)"
@@ -336,32 +336,32 @@ msgstr "  %s (πιθανώς ok)"
 msgid "{0} Backup"
 msgstr "BackupSuite"
 
-msgid "• BLUE: Show this help screen\n"
-msgstr "• ΜΠΛΕ: Εμφάνιση αυτής της οθόνης βοήθειας\n"
+msgid "• BLUE: Show this help screen\\\\\\\\n"
+msgstr "• ΜΠΛΕ: Εμφάνιση αυτής της οθόνης βοήθειας\\\\\\\\n"
 
-msgid "• Barry Allen: Multiboot backup (if installed)\n"
-msgstr "• Barry Allen: Backup πολλαπλών εκκινήσεων (εάν έχει εγκατασταθεί)\n"
+msgid "• Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "• Barry Allen: Backup πολλαπλών εκκινήσεων (εάν έχει εγκατασταθεί)\\\\\\\\n"
 
-msgid "• GREEN: Start backup for selected device\n"
-msgstr "• ΠΡΑΣΙΝΟ: Έναρξη δημιουργίας αντιγράφων ασφαλείας για την επιλεγμένη συσκευή\n"
+msgid "• GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "• ΠΡΑΣΙΝΟ: Έναρξη δημιουργίας αντιγράφων ασφαλείας για την επιλεγμένη συσκευή\\\\\\\\n"
 
-msgid "• HDD Backup: Full system backup to internal hard drive\n"
-msgstr "• Δημιουργία αντιγράφων ασφαλείας σκληρού δίσκου: Πλήρης δημιουργία αντιγράφων ασφαλείας συστήματος στον εσωτερικό σκληρό δίσκο\n"
+msgid "• HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "• Δημιουργία αντιγράφων ασφαλείας σκληρού δίσκου: Πλήρης δημιουργία αντιγράφων ασφαλείας συστήματος στον εσωτερικό σκληρό δίσκο\\\\\\\\n"
 
-msgid "• MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "• Αντίγραφο ασφαλείας MMC: Δημιουργία αντιγράφων ασφαλείας σε εξωτερικό χώρο αποθήκευσης (eMMC)\n"
+msgid "• MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "• Αντίγραφο ασφαλείας MMC: Δημιουργία αντιγράφων ασφαλείας σε εξωτερικό χώρο αποθήκευσης (eMMC)\\\\\\\\n"
 
-msgid "• NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "• NET Backup: Δημιουργία αντιγράφων ασφαλείας σε χώρο αποθήκευσης δικτύου (NAS/SMB)\n"
+msgid "• NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "• NET Backup: Δημιουργία αντιγράφων ασφαλείας σε χώρο αποθήκευσης δικτύου (NAS/SMB)\\\\\\\\n"
 
-msgid "• USB Backup: Create a bootable USB recovery stick\n"
-msgstr "• Αντίγραφο ασφαλείας USB: Δημιουργήστε ένα USB ανάκτησης με δυνατότητα εκκίνησης\n"
+msgid "• USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "• Αντίγραφο ασφαλείας USB: Δημιουργήστε ένα USB ανάκτησης με δυνατότητα εκκίνησης\\\\\\\\n"
 
-msgid "• Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "• Χρησιμοποιήστε τα κουμπιά ΠΑΝΩ/ΚΑΤΩ για πλοήγηση στις επιλογές δημιουργίας αντιγράφων ασφαλείας\n"
+msgid "• Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "• Χρησιμοποιήστε τα κουμπιά ΠΑΝΩ/ΚΑΤΩ για πλοήγηση στις επιλογές δημιουργίας αντιγράφων ασφαλείας\\\\\\\\n"
 
-msgid "• YELLOW: Start restore process\n"
-msgstr "• ΚΙΤΡΙΝΟ: Έναρξη διαδικασίας επαναφοράς\n"
+msgid "• YELLOW: Start restore process\\\\\\\\n"
+msgstr "• ΚΙΤΡΙΝΟ: Έναρξη διαδικασίας επαναφοράς\\\\\\\\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

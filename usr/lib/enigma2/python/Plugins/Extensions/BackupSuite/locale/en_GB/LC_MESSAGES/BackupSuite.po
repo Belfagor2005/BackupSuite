@@ -14,58 +14,58 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
 msgstr ""
 
-msgid "- Ensure NAS is powered on and accessible\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
 msgstr ""
 
-msgid "- Enter server IP, share name, username and password\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
 msgstr ""
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
 msgstr ""
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
 msgstr ""
 
-msgid "- Keep regular backups of your system\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
 msgstr ""
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
 msgstr ""
 
-msgid "- Never interrupt backup/restore processes\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
 msgstr ""
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
 msgstr ""
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
 msgstr ""
 
-msgid "- Test connection with ping command\n"
+msgid "- Test connection with ping command\\\\\\\\n"
 msgstr ""
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
 msgstr ""
 
-msgid "- Use quality USB drives for recovery sticks\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
 msgstr ""
 
-msgid "- Verify username/password are correct\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
 msgstr ""
 
-msgid "- Verify you have enough free storage space\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
 msgstr ""
 
-msgid "1. Mount your network share first:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
 msgstr ""
 
-msgid "2. Select 'NET Backup' from the device list\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
 msgstr ""
 
-msgid "3. Choose your mounted network share\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
 msgstr ""
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Backup"
 msgstr ""
 
-msgid "Backup Options:\n"
+msgid "Backup Options:\\\\\\\\n"
 msgstr ""
 
 msgid "Backup Suite v{0}"
@@ -125,10 +125,10 @@ msgstr ""
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
+msgid "Best Practices:\\\\\\\\n"
 msgstr ""
 
-msgid "Button Functions:\n"
+msgid "Button Functions:\\\\\\\\n"
 msgstr ""
 
 msgid "Change log not available"
@@ -146,7 +146,7 @@ msgstr ""
 msgid "Delete backup"
 msgstr ""
 
-msgid "Device List:\n"
+msgid "Device List:\\\\\\\\n"
 msgstr ""
 
 msgid "Do you really want to unpack {0} ?"
@@ -164,10 +164,10 @@ msgstr ""
 msgid "Flashing:"
 msgstr ""
 
-msgid "For detailed instructions and support:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
 msgstr ""
 
-msgid "For flashing your receiver files are needed:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
 msgstr ""
 
 msgid "Free:"
@@ -185,10 +185,10 @@ msgstr ""
 msgid "Make or restore a backup"
 msgstr ""
 
-msgid "NET Backup Instructions:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
 msgstr ""
 
-msgid "NOT found files for flashing!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
 msgstr ""
 
 msgid "Network Storage"
@@ -212,7 +212,7 @@ msgstr ""
 msgid "Please wait"
 msgstr ""
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
 msgstr ""
 
 msgid "Restore"
@@ -239,13 +239,13 @@ msgstr ""
 msgid "Select network share for backup:"
 msgstr ""
 
-msgid "Select parameter for start flash!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
 msgstr ""
 
 msgid "Select the folder with backup"
 msgstr ""
 
-msgid "Show only found image and mtd partitions.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
 msgstr ""
 
 msgid "Simulate (no write)"
@@ -257,16 +257,16 @@ msgstr ""
 msgid "Standard (root and kernel)"
 msgstr ""
 
-msgid "Technical Notes:\n"
+msgid "Technical Notes:\\\\\\\\n"
 msgstr ""
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
 msgstr ""
 
 msgid "Total:"
 msgstr ""
 
-msgid "Troubleshooting NET Backup:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
 msgstr ""
 
 msgid "USB Storage"
@@ -281,25 +281,25 @@ msgstr ""
 msgid "Unzip"
 msgstr ""
 
-msgid "Visit our GitHub repository:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
 msgstr ""
 
 msgid "What is new since the last release?"
 msgstr ""
 
-msgid "Your STB will freeze during the flashing process.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
 msgstr ""
 
 msgid "current:  {0}"
 msgstr "current: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr ""
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
 msgstr ""
 
 msgid "{0} (maybe error)"
@@ -312,37 +312,37 @@ msgid "{0} Backup"
 msgstr ""
 
 #, fuzzy
-msgid " BLUE: Show this help screen\n"
-msgstr "BLUE: Show this help screen\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "BLUE: Show this help screen\\\\\\\\n"
 
 #, fuzzy
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Multiboot backup (if installed)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
 
 #, fuzzy
-msgid " GREEN: Start backup for selected device\n"
-msgstr "GREEN: Start backup for selected device\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "GREEN: Start backup for selected device\\\\\\\\n"
 
 #, fuzzy
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDD Backup: Full system backup to internal hard drive\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
 
 #, fuzzy
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC Backup: Backup to external storage (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
 
 #, fuzzy
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: Backup to network storage (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
 
 #, fuzzy
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB Backup: Create a bootable USB recovery stick\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
 
 #, fuzzy
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Use UP/DOWN buttons to navigate through backup options\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
 
 #, fuzzy
-msgid " YELLOW: Start restore process\n"
-msgstr "YELLOW: Start restore process\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "YELLOW: Start restore process\\\\\\\\n"

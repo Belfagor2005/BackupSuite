@@ -15,59 +15,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- 共有権限を確認します (読み取り/書き込み)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- 共有権限を確認します (読み取り/書き込み)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- NAS の電源が入っており、アクセスできることを確認します\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- NAS の電源が入っており、アクセスできることを確認します\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- サーバー IP、共有名、ユーザー名、パスワードを入力します\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- サーバー IP、共有名、ユーザー名、パスワードを入力します\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- メイン メニュー > セットアップ > システム > ストレージ マネージャーに移動します\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- メイン メニュー > セットアップ > システム > ストレージ マネージャーに移動します\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- HDD バックアップ: /media/hdd/backup に保存されます\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- HDD バックアップ: /media/hdd/backup に保存されます\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- システムのバックアップを定期的に保管してください\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- システムのバックアップを定期的に保管してください\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- NET バックアップ: 書き込み権限を持つマウントされた CIFS/NFS 共有が必要です\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- NET バックアップ: 書き込み権限を持つマウントされた CIFS/NFS 共有が必要です\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- バックアップ/復元プロセスを決して中断しないでください\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- バックアップ/復元プロセスを決して中断しないでください\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- 復元: HDD、USB、NET、または MMC ストレージから機能します\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- 復元: HDD、USB、NET、または MMC ストレージから機能します\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- 「ネットワーク ストレージ」を選択し、NAS/SMB 共有を追加します\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- 「ネットワーク ストレージ」を選択し、NAS/SMB 共有を追加します\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- ping コマンドで接続をテストします\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- ping コマンドで接続をテストします\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- USB バックアップ: 「バックアップスティック」ファイルのある FAT32 でフォーマットされたドライブが必要です\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- USB バックアップ: 「バックアップスティック」ファイルのある FAT32 でフォーマットされたドライブが必要です\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- リカバリ スティックには高品質の USB ドライブを使用してください\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- リカバリ スティックには高品質の USB ドライブを使用してください\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- ユーザー名/パスワードが正しいことを確認してください\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- ユーザー名/パスワードが正しいことを確認してください\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- 十分な空きストレージ容量があることを確認してください\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- 十分な空きストレージ容量があることを確認してください\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. まずネットワーク共有をマウントします:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. まずネットワーク共有をマウントします:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. デバイス リストから「NET Backup」を選択します\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. デバイス リストから「NET Backup」を選択します\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. マウントされたネットワーク共有を選択します\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. マウントされたネットワーク共有を選択します\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "現在録画が実行中です。点滅を開始する前に録画を停止してください。"
@@ -78,8 +78,8 @@ msgstr "について"
 msgid "Backup"
 msgstr "バックアップ"
 
-msgid "Backup Options:\n"
-msgstr "バックアップ オプション:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "バックアップ オプション:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr "バックアップ スイート v{0}"
@@ -126,11 +126,11 @@ msgstr "BackupSuite ヘルプ"
 msgid "Barry Allen"
 msgstr "バリー・アレン"
 
-msgid "Best Practices:\n"
-msgstr "ベスト プラクティス:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "ベスト プラクティス:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "ボタンの機能:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "ボタンの機能:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "変更ログは利用できません"
@@ -147,8 +147,8 @@ msgstr "消去"
 msgid "Delete backup"
 msgstr "バックアップの削除"
 
-msgid "Device List:\n"
-msgstr "デバイスリスト:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "デバイスリスト:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "本当に {0} を解凍しますか?"
@@ -165,11 +165,11 @@ msgstr "フラッシュ"
 msgid "Flashing:"
 msgstr "点滅："
 
-msgid "For detailed instructions and support:\n"
-msgstr "詳細な手順とサポートについては:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "詳細な手順とサポートについては:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "フラッシュするには、レシーバー ファイルが必要です:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "フラッシュするには、レシーバー ファイルが必要です:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "無料："
@@ -186,11 +186,11 @@ msgstr "ヘルプ"
 msgid "Make or restore a backup"
 msgstr "バックアップを作成または復元する"
 
-msgid "NET Backup Instructions:\n"
-msgstr "NET バックアップ手順:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "NET バックアップ手順:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "フラッシュするファイルが見つかりません!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "フラッシュするファイルが見つかりません!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "ネットワークストレージ"
@@ -213,8 +213,8 @@ msgstr "ルートのみ"
 msgid "Please wait"
 msgstr "お待ちください"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "お願い: STB を再起動したり、電源を切ったりしないでください。\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "お願い: STB を再起動したり、電源を切ったりしないでください。\\\\\\\\n"
 
 msgid "Restore"
 msgstr "復元する"
@@ -240,14 +240,14 @@ msgstr "2 番目のパーティション (ルートとカーネル)"
 msgid "Select network share for backup:"
 msgstr "バックアップ用のネットワーク共有を選択します:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "フラッシュを開始するパラメータを選択してください!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "フラッシュを開始するパラメータを選択してください!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "バックアップのあるフォルダーを選択します"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "見つかったイメージと mtd パーティションのみを表示します。\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "見つかったイメージと mtd パーティションのみを表示します。\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "シミュレート (書き込みなし)"
@@ -258,17 +258,17 @@ msgstr "2 番目のパーティションをシミュレートします (書き�
 msgid "Standard (root and kernel)"
 msgstr "標準 (ルートおよびカーネル)"
 
-msgid "Technical Notes:\n"
-msgstr "テクニカルノート:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "テクニカルノート:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "イメージまたはカーネルが点滅し、数分以内に自動起動します。\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "イメージまたはカーネルが点滅し、数分以内に自動起動します。\\\\\\\\n"
 
 msgid "Total:"
 msgstr "合計："
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "NET バックアップのトラブルシューティング:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "NET バックアップのトラブルシューティング:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "USBストレージ"
@@ -282,26 +282,26 @@ msgstr "不明なデバイスタイプが選択されました"
 msgid "Unzip"
 msgstr "解凍する"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "GitHub リポジトリにアクセスしてください:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "GitHub リポジトリにアクセスしてください:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "前回のリリース以降の新機能は何ですか?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "STB はフラッシュ処理中にフリーズします。\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "STB はフラッシュ処理中にフリーズします。\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "現在: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "何もない！"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite はフラッシュを実行するために enigma2 を停止します。\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite はフラッシュを実行するために enigma2 を停止します。\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (おそらくエラー)"
@@ -312,29 +312,29 @@ msgstr "{0} (たぶん大丈夫)"
 msgid "{0} Backup"
 msgstr "{0} バックアップ"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "青: このヘルプ画面を表示します\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "青: このヘルプ画面を表示します\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: マルチブート バックアップ (インストールされている場合)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: マルチブート バックアップ (インストールされている場合)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "緑: 選択したデバイスのバックアップを開始します\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "緑: 選択したデバイスのバックアップを開始します\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDD バックアップ: 内部ハード ドライブへのシステム全体のバックアップ\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD バックアップ: 内部ハード ドライブへのシステム全体のバックアップ\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC バックアップ: 外部ストレージ (eMMC) へのバックアップ\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC バックアップ: 外部ストレージ (eMMC) へのバックアップ\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET バックアップ: ネットワーク ストレージ (NAS/SMB) へのバックアップ\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET バックアップ: ネットワーク ストレージ (NAS/SMB) へのバックアップ\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB バックアップ: 起動可能な USB リカバリ スティックを作成します\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB バックアップ: 起動可能な USB リカバリ スティックを作成します\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "UP/DOWN ボタンを使用してバックアップ オプションを移動します\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "UP/DOWN ボタンを使用してバックアップ オプションを移動します\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "黄: 復元プロセスを開始します\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "黄: 復元プロセスを開始します\\\\\\\\n"

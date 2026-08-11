@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Egiaztatu partekatzeko baimenak (irakurtzeko/idazteko)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Egiaztatu partekatzeko baimenak (irakurtzeko/idazteko)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Ziurtatu NAS piztuta dagoela eta eskuragarri dagoela\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Ziurtatu NAS piztuta dagoela eta eskuragarri dagoela\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Sartu zerbitzariaren IP, partekatu izena, erabiltzaile-izena eta pasahitza\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Sartu zerbitzariaren IP, partekatu izena, erabiltzaile-izena eta pasahitza\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Joan Menu Nagusia > Konfigurazioa > Sistema > Biltegiratze kudeatzailea\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Joan Menu Nagusia > Konfigurazioa > Sistema > Biltegiratze kudeatzailea\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Diskoko babeskopiak: /media/hdd/backup-en gordeta\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Diskoko babeskopiak: /media/hdd/backup-en gordeta\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Gorde zure sistemaren ohiko babeskopiak\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Gorde zure sistemaren ohiko babeskopiak\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- NET babeskopiak: muntatutako CIFS/NFS partekatzea eskatzen dute idazketa-baimenekin\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- NET babeskopiak: muntatutako CIFS/NFS partekatzea eskatzen dute idazketa-baimenekin\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Ez eten inoiz babeskopia/berreskuratze prozesuak\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Ez eten inoiz babeskopia/berreskuratze prozesuak\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Berreskuratu: HDD, USB, NET edo MMC biltegiratzetik funtzionatzen du\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Berreskuratu: HDD, USB, NET edo MMC biltegiratzetik funtzionatzen du\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Hautatu 'Sare biltegiratzea' eta gehitu zure NAS/SMB partekatzea\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Hautatu 'Sare biltegiratzea' eta gehitu zure NAS/SMB partekatzea\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Probatu konexioa ping komandoarekin\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Probatu konexioa ping komandoarekin\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- USB babeskopiak: FAT32 formatuko diskoa behar da 'backupstick' fitxategiarekin\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- USB babeskopiak: FAT32 formatuko diskoa behar da 'backupstick' fitxategiarekin\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Erabili kalitatezko USB diskoak berreskuratzeko sticketarako\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Erabili kalitatezko USB diskoak berreskuratzeko sticketarako\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Egiaztatu erabiltzaile-izena/pasahitza zuzenak direla\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Egiaztatu erabiltzaile-izena/pasahitza zuzenak direla\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Egiaztatu doako biltegiratze leku nahikoa duzula\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Egiaztatu doako biltegiratze leku nahikoa duzula\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Muntatu zure sare partekatzea lehenik:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Muntatu zure sare partekatzea lehenik:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Hautatu 'NET Backup' gailuen zerrendan\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Hautatu 'NET Backup' gailuen zerrendan\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Aukeratu muntatutako sare partekatzea\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Aukeratu muntatutako sare partekatzea\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Une honetan grabaketa bat martxan dago. Mesedez, gelditu grabazioa keinuka hasten saiatu aurretik."
@@ -77,8 +77,8 @@ msgstr "Buruz"
 msgid "Backup"
 msgstr "Babeskopia"
 
-msgid "Backup Options:\n"
-msgstr "Babeskopia aukerak:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Babeskopia aukerak:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -125,11 +125,11 @@ msgstr "BackupSuite Laguntza"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Praktika egokiak:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Praktika egokiak:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Botoiaren funtzioak:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Botoiaren funtzioak:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Aldaketen erregistroa ez dago erabilgarri"
@@ -146,8 +146,8 @@ msgstr "Ezabatu"
 msgid "Delete backup"
 msgstr "Ezabatu babeskopia"
 
-msgid "Device List:\n"
-msgstr "Gailuen zerrenda:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Gailuen zerrenda:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Benetan nahi duzu {0} deskonprimitu?"
@@ -164,11 +164,11 @@ msgstr "Flasha"
 msgid "Flashing:"
 msgstr "Keinuka:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Argibide eta laguntza zehatzak lortzeko:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Argibide eta laguntza zehatzak lortzeko:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Hargailua kentzeko fitxategiak behar dira:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Hargailua kentzeko fitxategiak behar dira:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Doan:"
@@ -185,11 +185,11 @@ msgstr "Laguntza"
 msgid "Make or restore a backup"
 msgstr "Egin edo leheneratu babeskopia"
 
-msgid "NET Backup Instructions:\n"
-msgstr "NET Backup Argibideak:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "NET Backup Argibideak:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "EZ da aurkitu keinurako fitxategiak!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "EZ da aurkitu keinurako fitxategiak!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Sareko biltegiratzea"
@@ -212,8 +212,8 @@ msgstr "Erro bakarrik"
 msgid "Please wait"
 msgstr "Mesedez, itxaron"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Mesedez: EZ berrabiarazi STB eta itzali pizten.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Mesedez: EZ berrabiarazi STB eta itzali pizten.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Berreskuratu"
@@ -239,14 +239,14 @@ msgstr "Bigarren partizioa (erroa eta nukleoa)"
 msgid "Select network share for backup:"
 msgstr "Hautatu sareko partekatzea babeskopia egiteko:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Hautatu flash hasteko parametroa!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Hautatu flash hasteko parametroa!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Aukeratu babeskopia duen karpeta"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Erakutsi aurkitutako irudia eta mtd partizioak soilik.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Erakutsi aurkitutako irudia eta mtd partizioak soilik.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simulatu (ez idatzi)"
@@ -257,17 +257,17 @@ msgstr "Simulatu bigarren partizioa (idatzi gabe)"
 msgid "Standard (root and kernel)"
 msgstr "Estandarra (erroa eta nukleoa)"
 
-msgid "Technical Notes:\n"
-msgstr "Ohar teknikoak:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Ohar teknikoak:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Irudia edo nukleoa keinuka eta automatikoki abiaraziko da minutu gutxiren buruan.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Irudia edo nukleoa keinuka eta automatikoki abiaraziko da minutu gutxiren buruan.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Guztira:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "NET Backup arazoak konpontzea:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "NET Backup arazoak konpontzea:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "USB biltegiratzea"
@@ -281,26 +281,26 @@ msgstr "Gailu mota ezezaguna hautatu da"
 msgid "Unzip"
 msgstr "Deskonprimitu"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Bisitatu gure GitHub biltegia:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Bisitatu gure GitHub biltegia:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Zer berri dago azken kaleratu zenetik?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "Zure STB izoztuko da keinu-prozesuan zehar.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "Zure STB izoztuko da keinu-prozesuan zehar.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "unekoa: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "ezer ez!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite-k enigma2 geldituko du orain flasha exekutatzeko.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite-k enigma2 geldituko du orain flasha exekutatzeko.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (agian errorea)"
@@ -312,37 +312,37 @@ msgid "{0} Backup"
 msgstr "{0} Babeskopia"
 
 #, fuzzy
-msgid " BLUE: Show this help screen\n"
-msgstr "URDINA: erakutsi laguntza-pantaila hau\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "URDINA: erakutsi laguntza-pantaila hau\\\\\\\\n"
 
 #, fuzzy
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: abio anitzeko babeskopia (instalatuta badago)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: abio anitzeko babeskopia (instalatuta badago)\\\\\\\\n"
 
 #, fuzzy
-msgid " GREEN: Start backup for selected device\n"
-msgstr "BERDEA: Hasi hautatutako gailuaren babeskopia\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "BERDEA: Hasi hautatutako gailuaren babeskopia\\\\\\\\n"
 
 #, fuzzy
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDDaren babeskopia: sistema osoaren babeskopia barneko disko gogorrean\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDDaren babeskopia: sistema osoaren babeskopia barneko disko gogorrean\\\\\\\\n"
 
 #, fuzzy
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC babeskopia: babeskopia kanpoko biltegian (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC babeskopia: babeskopia kanpoko biltegian (eMMC)\\\\\\\\n"
 
 #, fuzzy
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: babeskopia sareko biltegian (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: babeskopia sareko biltegian (NAS/SMB)\\\\\\\\n"
 
 #, fuzzy
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB babeskopia: Sortu abiarazteko USB berreskuratzeko stick bat\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB babeskopia: Sortu abiarazteko USB berreskuratzeko stick bat\\\\\\\\n"
 
 #, fuzzy
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Erabili GORA/BEHERA botoiak babeskopien aukeretatik nabigatzeko\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Erabili GORA/BEHERA botoiak babeskopien aukeretatik nabigatzeko\\\\\\\\n"
 
 #, fuzzy
-msgid " YELLOW: Start restore process\n"
-msgstr "HORIA: Hasi leheneratzeko prozesua\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "HORIA: Hasi leheneratzeko prozesua\\\\\\\\n"

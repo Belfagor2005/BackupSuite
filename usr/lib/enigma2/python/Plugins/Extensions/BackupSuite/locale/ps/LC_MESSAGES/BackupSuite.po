@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- د شریکولو اجازه چیک کړئ (لوستل / لیکل)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- د شریکولو اجازه چیک کړئ (لوستل / لیکل)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- ډاډ ترلاسه کړئ چې NAS فعال دی او د لاسرسي وړ دی\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- ډاډ ترلاسه کړئ چې NAS فعال دی او د لاسرسي وړ دی\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- د سرور IP داخل کړئ، نوم، کارن نوم او پټنوم شریک کړئ\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- د سرور IP داخل کړئ، نوم، کارن نوم او پټنوم شریک کړئ\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- اصلي مینو ته لاړ شئ> تنظیم> سیسټم> د ذخیره کولو مدیر\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- اصلي مینو ته لاړ شئ> تنظیم> سیسټم> د ذخیره کولو مدیر\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- د HDD بیک اپ: په /media/hdd/backup کې زیرمه شوی\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- د HDD بیک اپ: په /media/hdd/backup کې زیرمه شوی\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- د خپل سیسټم منظم بیک اپ وساتئ\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- د خپل سیسټم منظم بیک اپ وساتئ\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- د NET بیک اپ: د لیکلو اجازې سره نصب شوي CIFS/NFS شریکولو ته اړتیا لري\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- د NET بیک اپ: د لیکلو اجازې سره نصب شوي CIFS/NFS شریکولو ته اړتیا لري\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- هیڅکله د بیک اپ/بیارغونې پروسې مداخله مه کوئ\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- هیڅکله د بیک اپ/بیارغونې پروسې مداخله مه کوئ\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- بیا رغونه: د HDD، USB، NET یا MMC ذخیره څخه کار کوي\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- بیا رغونه: د HDD، USB، NET یا MMC ذخیره څخه کار کوي\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- 'د شبکې ذخیره' وټاکئ او خپل NAS/SMB برخه اضافه کړئ\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- 'د شبکې ذخیره' وټاکئ او خپل NAS/SMB برخه اضافه کړئ\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- د پینګ کمانډ سره اړیکه ازموینه\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- د پینګ کمانډ سره اړیکه ازموینه\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- د USB بیک اپ: د 'بیک اپ اسټیک' فایل سره د FAT32 فارمیټ ډرایو ته اړتیا لري\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- د USB بیک اپ: د 'بیک اپ اسټیک' فایل سره د FAT32 فارمیټ ډرایو ته اړتیا لري\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- د بیا رغونې سټیکونو لپاره کیفیت لرونکي USB ډرایوونه وکاروئ\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- د بیا رغونې سټیکونو لپاره کیفیت لرونکي USB ډرایوونه وکاروئ\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- تایید کړئ چې کارن-نوم/پورډ سم دی\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- تایید کړئ چې کارن-نوم/پورډ سم دی\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- تصدیق کړئ چې تاسو د ذخیره کولو کافي ځای لرئ\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- تصدیق کړئ چې تاسو د ذخیره کولو کافي ځای لرئ\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. لومړی ستاسو د شبکې شریکول نصب کړئ:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. لومړی ستاسو د شبکې شریکول نصب کړئ:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. د وسیلې له لیست څخه 'NET بیک اپ' غوره کړئ\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. د وسیلې له لیست څخه 'NET بیک اپ' غوره کړئ\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. خپل نصب شوی شبکه وټاکئ\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. خپل نصب شوی شبکه وټاکئ\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "یو ریکارډ اوس مهال روان دی. مهرباني وکړئ د فلش کولو پیل کولو هڅه کولو دمخه ثبت کول بند کړئ."
@@ -77,8 +77,8 @@ msgstr "په اړه"
 msgid "Backup"
 msgstr "بیک اپ"
 
-msgid "Backup Options:\n"
-msgstr "د بیک اپ اختیارونه:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "د بیک اپ اختیارونه:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr "د بیک اپ سویټ v{0}"
@@ -125,11 +125,11 @@ msgstr "د بیک اپ سوټ مرسته"
 msgid "Barry Allen"
 msgstr "بیری الن"
 
-msgid "Best Practices:\n"
-msgstr "غوره کړنې:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "غوره کړنې:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "د تڼۍ کارونه:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "د تڼۍ کارونه:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "د بدلون لاګ شتون نلري"
@@ -146,8 +146,8 @@ msgstr "ړنګول"
 msgid "Delete backup"
 msgstr "بیک اپ ړنګ کړئ"
 
-msgid "Device List:\n"
-msgstr "د وسایلو لیست:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "د وسایلو لیست:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "ایا تاسو واقعیا غواړئ {0} خلاص کړئ؟"
@@ -164,11 +164,11 @@ msgstr "فلش"
 msgid "Flashing:"
 msgstr "فلش کول:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "د تفصيلي لارښوونو او ملاتړ لپاره:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "د تفصيلي لارښوونو او ملاتړ لپاره:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "د فلش کولو لپاره ستاسو د رسیدونکي فایلونو ته اړتیا ده:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "د فلش کولو لپاره ستاسو د رسیدونکي فایلونو ته اړتیا ده:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "وړيا:"
@@ -185,11 +185,11 @@ msgstr "مرسته"
 msgid "Make or restore a backup"
 msgstr "بیک اپ جوړ یا بحال کړئ"
 
-msgid "NET Backup Instructions:\n"
-msgstr "د NET بیک اپ لارښوونې:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "د NET بیک اپ لارښوونې:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "د فلش کولو لپاره فایلونه ونه موندل شول!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "د فلش کولو لپاره فایلونه ونه موندل شول!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "د شبکې ذخیره"
@@ -212,8 +212,8 @@ msgstr "یوازې ریښه"
 msgid "Please wait"
 msgstr "مهرباني وکړئ انتظار وکړئ"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "مهرباني وکړئ: خپل STB ریبوټ مه کوئ او بریښنا بنده کړئ.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "مهرباني وکړئ: خپل STB ریبوټ مه کوئ او بریښنا بنده کړئ.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "بیا رغول"
@@ -239,14 +239,14 @@ msgstr "دوهمه برخه (روټ او کرنل)"
 msgid "Select network share for backup:"
 msgstr "د بیک اپ لپاره د شبکې شریکول غوره کړئ:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "د پیل فلش لپاره پیرامیټر غوره کړئ!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "د پیل فلش لپاره پیرامیټر غوره کړئ!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "د بیک اپ سره فولډر غوره کړئ"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "یوازې موندل شوي انځور او د mtd برخې ښکاره کړئ.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "یوازې موندل شوي انځور او د mtd برخې ښکاره کړئ.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "سمول (نه لیکل)"
@@ -257,17 +257,17 @@ msgstr "دویمه برخه سمول (نه لیکل)"
 msgid "Standard (root and kernel)"
 msgstr "معیاري (روټ او کرنل)"
 
-msgid "Technical Notes:\n"
-msgstr "تخنیکي یادونه:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "تخنیکي یادونه:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "عکس یا کرنل به په څو دقیقو کې چمک شي او په اتوماتيک ډول بوټ شي.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "عکس یا کرنل به په څو دقیقو کې چمک شي او په اتوماتيک ډول بوټ شي.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "ټول:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "د NET بیک اپ ستونزې حل کول:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "د NET بیک اپ ستونزې حل کول:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "د USB ذخیره"
@@ -281,26 +281,26 @@ msgstr "د نامعلوم وسیله ډول غوره شوی"
 msgid "Unzip"
 msgstr "خلاص کړئ"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "زموږ د GitHub ذخیره څخه لیدنه وکړئ:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "زموږ د GitHub ذخیره څخه لیدنه وکړئ:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "د وروستي خوشې کیدو راهیسې څه نوي دي؟"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "ستاسو STB به د فلش کولو پروسې په جریان کې کنګل شي.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "ستاسو STB به د فلش کولو پروسې په جریان کې کنګل شي.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "اوسنی: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "هیڅ نه!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite به همدا اوس د فلش چلولو لپاره enigma2 ودروي.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite به همدا اوس د فلش چلولو لپاره enigma2 ودروي.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (شاید تېروتنه)"
@@ -311,29 +311,29 @@ msgstr "{0} (شاید سم وي)"
 msgid "{0} Backup"
 msgstr "{0} بیک اپ"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "نیلي: د دې مرستې سکرین ښکاره کړئ\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "نیلي: د دې مرستې سکرین ښکاره کړئ\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "بیری الن: ملټي بوټ بیک اپ (که نصب شوی وي)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "بیری الن: ملټي بوټ بیک اپ (که نصب شوی وي)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "شنه: د ټاکل شوي وسیلې لپاره بیک اپ پیل کړئ\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "شنه: د ټاکل شوي وسیلې لپاره بیک اپ پیل کړئ\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "د HDD بیک اپ: داخلي هارډ ډرایو ته د بشپړ سیسټم بیک اپ\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "د HDD بیک اپ: داخلي هارډ ډرایو ته د بشپړ سیسټم بیک اپ\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "د MMC بیک اپ: بهرنۍ ذخیره (eMMC) ته بیک اپ \n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "د MMC بیک اپ: بهرنۍ ذخیره (eMMC) ته بیک اپ \\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "د NET بیک اپ: د شبکې ذخیره کولو ته بیک اپ (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "د NET بیک اپ: د شبکې ذخیره کولو ته بیک اپ (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "د USB بیک اپ: د بوټ وړ USB ریکوری سټیک جوړ کړئ\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "د USB بیک اپ: د بوټ وړ USB ریکوری سټیک جوړ کړئ\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "د بیک اپ اختیارونو له لارې نیویګیټ کولو لپاره UP/DOWN تڼۍ وکاروئ\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "د بیک اپ اختیارونو له لارې نیویګیټ کولو لپاره UP/DOWN تڼۍ وکاروئ\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "ژیړ: د بیا رغونې پروسه پیل کړئ\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "ژیړ: د بیا رغونې پروسه پیل کړئ\\\\\\\\n"

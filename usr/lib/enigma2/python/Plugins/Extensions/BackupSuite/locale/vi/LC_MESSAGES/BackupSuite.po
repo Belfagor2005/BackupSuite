@@ -15,59 +15,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Kiểm tra quyền chia sẻ (đọc/ghi)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Kiểm tra quyền chia sẻ (đọc/ghi)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Đảm bảo NAS được bật nguồn và có thể truy cập được\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Đảm bảo NAS được bật nguồn và có thể truy cập được\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Nhập IP máy chủ, tên chia sẻ, tên người dùng và mật khẩu\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Nhập IP máy chủ, tên chia sẻ, tên người dùng và mật khẩu\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Đi tới Menu chính > Cài đặt > Hệ thống > Trình quản lý bộ nhớ\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Đi tới Menu chính > Cài đặt > Hệ thống > Trình quản lý bộ nhớ\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Sao lưu ổ cứng: Được lưu trữ trong /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Sao lưu ổ cứng: Được lưu trữ trong /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Giữ các bản sao lưu thường xuyên cho hệ thống của bạn\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Giữ các bản sao lưu thường xuyên cho hệ thống của bạn\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Sao lưu NET: Yêu cầu chia sẻ CIFS/NFS được gắn với quyền ghi\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Sao lưu NET: Yêu cầu chia sẻ CIFS/NFS được gắn với quyền ghi\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Không bao giờ làm gián đoạn quá trình sao lưu/khôi phục\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Không bao giờ làm gián đoạn quá trình sao lưu/khôi phục\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Khôi phục: Hoạt động từ bộ lưu trữ HDD, USB, NET hoặc MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Khôi phục: Hoạt động từ bộ lưu trữ HDD, USB, NET hoặc MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Chọn 'Bộ nhớ mạng' và thêm chia sẻ NAS/SMB của bạn\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Chọn 'Bộ nhớ mạng' và thêm chia sẻ NAS/SMB của bạn\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Kiểm tra kết nối bằng lệnh ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Kiểm tra kết nối bằng lệnh ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Sao lưu USB: Yêu cầu ổ đĩa có định dạng FAT32 với tệp 'backupstick'\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Sao lưu USB: Yêu cầu ổ đĩa có định dạng FAT32 với tệp 'backupstick'\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Sử dụng ổ USB chất lượng để làm thẻ khôi phục\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Sử dụng ổ USB chất lượng để làm thẻ khôi phục\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Xác minh tên người dùng/mật khẩu là chính xác\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Xác minh tên người dùng/mật khẩu là chính xác\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Xác minh rằng bạn có đủ dung lượng lưu trữ trống\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Xác minh rằng bạn có đủ dung lượng lưu trữ trống\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Trước tiên, hãy kết nối mạng chia sẻ của bạn:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Trước tiên, hãy kết nối mạng chia sẻ của bạn:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Chọn 'NET Backup' từ danh sách thiết bị\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Chọn 'NET Backup' từ danh sách thiết bị\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Chọn mạng chia sẻ đã gắn của bạn\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Chọn mạng chia sẻ đã gắn của bạn\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Một bản ghi hiện đang chạy. Vui lòng dừng ghi trước khi thử bắt đầu nhấp nháy."
@@ -78,8 +78,8 @@ msgstr "Về"
 msgid "Backup"
 msgstr "Hỗ trợ"
 
-msgid "Backup Options:\n"
-msgstr "Tùy chọn sao lưu:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Tùy chọn sao lưu:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr "Bộ dự phòng v{0}"
@@ -126,11 +126,11 @@ msgstr "Trợ giúp về BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Các phương pháp hay nhất:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Các phương pháp hay nhất:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Chức năng nút:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Chức năng nút:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Nhật ký thay đổi không có sẵn"
@@ -147,8 +147,8 @@ msgstr "Xóa bỏ"
 msgid "Delete backup"
 msgstr "Xóa bản sao lưu"
 
-msgid "Device List:\n"
-msgstr "Danh sách thiết bị:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Danh sách thiết bị:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Bạn có thực sự muốn giải nén {0} không?"
@@ -165,11 +165,11 @@ msgstr "đèn flash"
 msgid "Flashing:"
 msgstr "Nhấp nháy:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Để được hướng dẫn chi tiết và hỗ trợ:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Để được hướng dẫn chi tiết và hỗ trợ:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Để flash các tập tin nhận của bạn là cần thiết:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Để flash các tập tin nhận của bạn là cần thiết:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Miễn phí:"
@@ -186,11 +186,11 @@ msgstr "Giúp đỡ"
 msgid "Make or restore a backup"
 msgstr "Tạo hoặc khôi phục bản sao lưu"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Hướng dẫn sao lưu NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Hướng dẫn sao lưu NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "KHÔNG tìm thấy tệp để nhấp nháy!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "KHÔNG tìm thấy tệp để nhấp nháy!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Lưu trữ mạng"
@@ -213,8 +213,8 @@ msgstr "Chỉ gốc"
 msgid "Please wait"
 msgstr "Vui lòng chờ"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Vui lòng: KHÔNG khởi động lại STB của bạn và tắt nguồn.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Vui lòng: KHÔNG khởi động lại STB của bạn và tắt nguồn.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Khôi phục"
@@ -240,14 +240,14 @@ msgstr "Phân vùng thứ hai (root và kernel)"
 msgid "Select network share for backup:"
 msgstr "Chọn chia sẻ mạng để sao lưu:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Chọn tham số để bắt đầu flash!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Chọn tham số để bắt đầu flash!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Chọn thư mục có bản sao lưu"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Chỉ hiển thị các phân vùng hình ảnh và mtd được tìm thấy.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Chỉ hiển thị các phân vùng hình ảnh và mtd được tìm thấy.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Mô phỏng (không viết)"
@@ -258,17 +258,17 @@ msgstr "Mô phỏng phân vùng thứ hai (không ghi)"
 msgid "Standard (root and kernel)"
 msgstr "Tiêu chuẩn (root và kernel)"
 
-msgid "Technical Notes:\n"
-msgstr "Ghi chú Kỹ thuật:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Ghi chú Kỹ thuật:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Hình ảnh hoặc hạt nhân sẽ nhấp nháy và tự động khởi động sau vài phút.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Hình ảnh hoặc hạt nhân sẽ nhấp nháy và tự động khởi động sau vài phút.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Tổng cộng:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Khắc phục sự cố Sao lưu NET:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Khắc phục sự cố Sao lưu NET:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Bộ lưu trữ USB"
@@ -282,26 +282,26 @@ msgstr "Đã chọn loại thiết bị không xác định"
 msgid "Unzip"
 msgstr "Giải nén"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Truy cập kho lưu trữ GitHub của chúng tôi:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Truy cập kho lưu trữ GitHub của chúng tôi:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Có gì mới kể từ lần phát hành cuối cùng?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "STB của bạn sẽ bị treo trong quá trình flash.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "STB của bạn sẽ bị treo trong quá trình flash.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "hiện tại: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "Không có gì!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite sẽ dừng enigma2 ngay bây giờ để chạy flash.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite sẽ dừng enigma2 ngay bây giờ để chạy flash.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (có thể có lỗi)"
@@ -312,29 +312,29 @@ msgstr "{0} (có thể được)"
 msgid "{0} Backup"
 msgstr "{0} Sao lưu"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "XANH: Hiển thị màn hình trợ giúp này\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "XANH: Hiển thị màn hình trợ giúp này\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Sao lưu Multiboot (nếu được cài đặt)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Sao lưu Multiboot (nếu được cài đặt)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "XANH: Bắt đầu sao lưu cho thiết bị đã chọn\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "XANH: Bắt đầu sao lưu cho thiết bị đã chọn\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "Sao lưu ổ cứng: Sao lưu toàn bộ hệ thống vào ổ cứng bên trong\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "Sao lưu ổ cứng: Sao lưu toàn bộ hệ thống vào ổ cứng bên trong\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "Sao lưu MMC: Sao lưu vào bộ nhớ ngoài (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "Sao lưu MMC: Sao lưu vào bộ nhớ ngoài (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: Sao lưu vào bộ lưu trữ mạng (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: Sao lưu vào bộ lưu trữ mạng (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "Sao lưu USB: Tạo thẻ khôi phục USB có thể khởi động\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "Sao lưu USB: Tạo thẻ khôi phục USB có thể khởi động\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Sử dụng nút LÊN/XUỐNG để điều hướng qua các tùy chọn sao lưu\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Sử dụng nút LÊN/XUỐNG để điều hướng qua các tùy chọn sao lưu\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "VÀNG: Bắt đầu quá trình khôi phục\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "VÀNG: Bắt đầu quá trình khôi phục\\\\\\\\n"

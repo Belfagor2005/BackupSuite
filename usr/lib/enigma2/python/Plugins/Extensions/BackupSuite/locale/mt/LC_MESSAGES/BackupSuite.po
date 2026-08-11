@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Iċċekkja l-permessi tal-ishma (qari/kitba)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Iċċekkja l-permessi tal-ishma (qari/kitba)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Kun żgur li l-NAS ikun mixgħul u aċċessibbli\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Kun żgur li l-NAS ikun mixgħul u aċċessibbli\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Daħħal l-IP tas-server, isem is-sehem, username u password\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Daħħal l-IP tas-server, isem is-sehem, username u password\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Mur fil-Menu Prinċipali > Setup > Sistema > Maniġer tal-Ħażna\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Mur fil-Menu Prinċipali > Setup > Sistema > Maniġer tal-Ħażna\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Backups tal-HDD: Maħżuna f'/media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Backups tal-HDD: Maħżuna f'/media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Żomm backups regolari tas-sistema tiegħek\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Żomm backups regolari tas-sistema tiegħek\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Backups NET: Teħtieġ sehem CIFS/NFS immuntat bil-permessi tal-kitba\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Backups NET: Teħtieġ sehem CIFS/NFS immuntat bil-permessi tal-kitba\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Qatt tinterrompi proċessi ta' backup/restawr\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Qatt tinterrompi proċessi ta' backup/restawr\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Restore: Jaħdem minn HDD, USB, NET jew ħażna MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Restore: Jaħdem minn HDD, USB, NET jew ħażna MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Agħżel 'Network Storage' u żid is-sehem tiegħek NAS/SMB\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Agħżel 'Network Storage' u żid is-sehem tiegħek NAS/SMB\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Ittestja l-konnessjoni bil-kmand ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Ittestja l-konnessjoni bil-kmand ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Backups USB: Jeħtieġ drive fformattjat FAT32 b'fajl 'backupstick'\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Backups USB: Jeħtieġ drive fformattjat FAT32 b'fajl 'backupstick'\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Uża USB drives ta' kwalità għall-irkupru sticks\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Uża USB drives ta' kwalità għall-irkupru sticks\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Ivverifika li l-isem tal-utent/il-password huma korretti\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Ivverifika li l-isem tal-utent/il-password huma korretti\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Ivverifika li għandek biżżejjed spazju għall-ħażna b'xejn\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Ivverifika li għandek biżżejjed spazju għall-ħażna b'xejn\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Immonta s-sehem tan-netwerk tiegħek l-ewwel:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Immonta s-sehem tan-netwerk tiegħek l-ewwel:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Agħżel 'NET Backup' mil-lista tat-tagħmir\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Agħżel 'NET Backup' mil-lista tat-tagħmir\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Agħżel is-sehem tan-netwerk immuntat tiegħek\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Agħżel is-sehem tan-netwerk immuntat tiegħek\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Bħalissa għaddej reġistrazzjoni. Jekk jogħġbok waqqaf ir-reġistrazzjoni qabel ma tipprova tibda teptip."
@@ -77,8 +77,8 @@ msgstr "Dwar"
 msgid "Backup"
 msgstr ""
 
-msgid "Backup Options:\n"
-msgstr "Għażliet ta' Backup:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Għażliet ta' Backup:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -125,11 +125,11 @@ msgstr "Għajnuna BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "L-Aħjar Prattiċi:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "L-Aħjar Prattiċi:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Funzjonijiet tal-buttuni:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Funzjonijiet tal-buttuni:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Log tal-bidliet mhux disponibbli"
@@ -146,8 +146,8 @@ msgstr "Ħassar"
 msgid "Delete backup"
 msgstr "Ħassar backup"
 
-msgid "Device List:\n"
-msgstr "Lista ta' Apparat:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Lista ta' Apparat:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Verament trid tħoll {0}?"
@@ -164,11 +164,11 @@ msgstr ""
 msgid "Flashing:"
 msgstr "Teptip:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Għal struzzjonijiet dettaljati u appoġġ:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Għal struzzjonijiet dettaljati u appoġġ:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Biex itteptep il-fajls tar-riċevitur tiegħek huma meħtieġa:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Biex itteptep il-fajls tar-riċevitur tiegħek huma meħtieġa:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "B'xejn:"
@@ -185,11 +185,11 @@ msgstr "Għajnuna"
 msgid "Make or restore a backup"
 msgstr "Agħmel jew restawra backup"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Istruzzjonijiet tal-Backup NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Istruzzjonijiet tal-Backup NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "fajls MHUX misjuba għat-teptep!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "fajls MHUX misjuba għat-teptep!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Ħażna tan-Netwerk"
@@ -212,8 +212,8 @@ msgstr "Biss għerq"
 msgid "Please wait"
 msgstr "Jekk jogħġbok stenna"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Jekk jogħġbok: REbootx l-STB tiegħek u itfi l-enerġija.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Jekk jogħġbok: REbootx l-STB tiegħek u itfi l-enerġija.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Irrestawra"
@@ -239,14 +239,14 @@ msgstr "It-tieni partizzjoni (għerq u għadma)"
 msgid "Select network share for backup:"
 msgstr "Agħżel is-sehem tan-netwerk għall-backup:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Agħżel il-parametru għall-bidu tal-flash!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Agħżel il-parametru għall-bidu tal-flash!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Agħżel il-folder bil-backup"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Uri immaġini misjuba u partizzjonijiet mtd biss.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Uri immaġini misjuba u partizzjonijiet mtd biss.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Issimula (l-ebda kitba)"
@@ -257,17 +257,17 @@ msgstr "Issimula t-tieni partizzjoni (l-ebda kitba)"
 msgid "Standard (root and kernel)"
 msgstr "Standard (għerq u qalba)"
 
-msgid "Technical Notes:\n"
-msgstr "Noti Tekniċi:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Noti Tekniċi:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "L-immaġni jew il-kernel se jteptep u jinbdew awtomatikament fi ftit minuti.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "L-immaġni jew il-kernel se jteptep u jinbdew awtomatikament fi ftit minuti.\\\\\\\\n"
 
 msgid "Total:"
 msgstr ""
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Issolvi l-problemi ta' NET Backup:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Issolvi l-problemi ta' NET Backup:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Ħażna USB"
@@ -281,26 +281,26 @@ msgstr "Tip ta' apparat mhux magħruf magħżul"
 msgid "Unzip"
 msgstr ""
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Żur ir-repożitorju GitHub tagħna:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Żur ir-repożitorju GitHub tagħna:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "X'inhu ġdid mill-aħħar ħarġa?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "L-STB tiegħek se jiffriża matul il-proċess li jteptep.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "L-STB tiegħek se jiffriża matul il-proċess li jteptep.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "kurrenti: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "xejn!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite se jwaqqaf enigma2 issa biex iħaddem il-flash.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite se jwaqqaf enigma2 issa biex iħaddem il-flash.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (forsi żball)"
@@ -311,29 +311,29 @@ msgstr "{0} (forsi ok)"
 msgid "{0} Backup"
 msgstr ""
 
-msgid " BLUE: Show this help screen\n"
-msgstr "BLUE: Uri dan l-iskrin ta' għajnuna\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "BLUE: Uri dan l-iskrin ta' għajnuna\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: backup multiboot (jekk installat)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: backup multiboot (jekk installat)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "AĦDAR: Ibda backup għall-apparat magħżul\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "AĦDAR: Ibda backup għall-apparat magħżul\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "Backup tal-HDD: Backup tas-sistema sħiħa għall-hard drive intern\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "Backup tal-HDD: Backup tas-sistema sħiħa għall-hard drive intern\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC Backup: Backup għal ħażna esterna (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC Backup: Backup għal ħażna esterna (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: Backup għall-ħażna tan-netwerk (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: Backup għall-ħażna tan-netwerk (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB Backup: Oħloq stick ta' rkupru tal-USB bootable\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB Backup: Oħloq stick ta' rkupru tal-USB bootable\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Uża buttuni UP/DOWN biex tinnaviga f'għażliet ta' backup\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Uża buttuni UP/DOWN biex tinnaviga f'għażliet ta' backup\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "ISFAR: Ibda l-proċess tar-restawr\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "ISFAR: Ibda l-proċess tar-restawr\\\\\\\\n"

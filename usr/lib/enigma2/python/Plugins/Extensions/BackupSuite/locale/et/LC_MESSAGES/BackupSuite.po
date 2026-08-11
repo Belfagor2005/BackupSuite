@@ -15,59 +15,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Kontrollige jagamisõigusi (lugemine/kirjutamine)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Kontrollige jagamisõigusi (lugemine/kirjutamine)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Veenduge, et NAS oleks sisse lülitatud ja juurdepääsetav\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Veenduge, et NAS oleks sisse lülitatud ja juurdepääsetav\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Sisestage serveri IP, ühiskasutusnimi, kasutajanimi ja parool\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Sisestage serveri IP, ühiskasutusnimi, kasutajanimi ja parool\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Avage peamenüü > Seadistamine > Süsteem > Salvestushaldur\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Avage peamenüü > Seadistamine > Süsteem > Salvestushaldur\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- HDD varukoopiad: salvestatud kausta /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- HDD varukoopiad: salvestatud kausta /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Tehke oma süsteemist regulaarselt varukoopiaid\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Tehke oma süsteemist regulaarselt varukoopiaid\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- NET-i varukoopiad: nõuavad ühendatud CIFS/NFS-i jagamist koos kirjutamisõigustega\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- NET-i varukoopiad: nõuavad ühendatud CIFS/NFS-i jagamist koos kirjutamisõigustega\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Ärge kunagi katkestage varundamise/taastamise protsesse\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Ärge kunagi katkestage varundamise/taastamise protsesse\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Taastamine: töötab kõvakettalt, USB-lt, NET-lt või MMC-mäluseadmelt\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Taastamine: töötab kõvakettalt, USB-lt, NET-lt või MMC-mäluseadmelt\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Valige „Võrgusalvestus” ja lisage oma NAS-i/SMB-jagamine\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Valige „Võrgusalvestus” ja lisage oma NAS-i/SMB-jagamine\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Testige ühendust pingi käsuga\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Testige ühendust pingi käsuga\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- USB-varukoopiad: nõutakse FAT32-vormingus draivi koos backupstick-failiga\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- USB-varukoopiad: nõutakse FAT32-vormingus draivi koos backupstick-failiga\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Kasutage taastepulkade jaoks kvaliteetseid USB-draive\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Kasutage taastepulkade jaoks kvaliteetseid USB-draive\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Veenduge, et kasutajanimi/parool on õiged\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Veenduge, et kasutajanimi/parool on õiged\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Veenduge, et teil on piisavalt vaba salvestusruumi\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Veenduge, et teil on piisavalt vaba salvestusruumi\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Ühendage esmalt oma võrgujagamine:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Ühendage esmalt oma võrgujagamine:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Valige seadmete loendist 'NET Backup'\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Valige seadmete loendist 'NET Backup'\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Valige ühendatud võrgujagamine\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Valige ühendatud võrgujagamine\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Hetkel on käimas salvestus. Peatage salvestamine enne, kui proovite vilkuma hakata."
@@ -78,8 +78,8 @@ msgstr "Umbes"
 msgid "Backup"
 msgstr "Varundamine"
 
-msgid "Backup Options:\n"
-msgstr "Varundusvalikud:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Varundusvalikud:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -126,11 +126,11 @@ msgstr "BackupSuite'i abi"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Parimad tavad:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Parimad tavad:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Nuppude funktsioonid:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Nuppude funktsioonid:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Muudatuste logi pole saadaval"
@@ -147,8 +147,8 @@ msgstr "Kustuta"
 msgid "Delete backup"
 msgstr "Kustuta varukoopia"
 
-msgid "Device List:\n"
-msgstr "Seadmete loend:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Seadmete loend:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Kas soovite tõesti toote {0} lahti pakkida?"
@@ -165,11 +165,11 @@ msgstr "Välklamp"
 msgid "Flashing:"
 msgstr "Vilgub:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Üksikasjalike juhiste ja toe saamiseks:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Üksikasjalike juhiste ja toe saamiseks:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Vilkumiseks on vaja vastuvõtja faile:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Vilkumiseks on vaja vastuvõtja faile:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Tasuta:"
@@ -186,11 +186,11 @@ msgstr "Abi"
 msgid "Make or restore a backup"
 msgstr "Tehke või taastage varukoopia"
 
-msgid "NET Backup Instructions:\n"
-msgstr "NET-i varundamise juhised:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "NET-i varundamise juhised:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "EI leitud faile vilkumiseks!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "EI leitud faile vilkumiseks!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Võrgumälu"
@@ -213,8 +213,8 @@ msgstr "Ainult juur"
 msgid "Please wait"
 msgstr "Palun oodake"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Palun: ÄRGE taaskäivitage oma STB-d ja lülitage toide välja.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Palun: ÄRGE taaskäivitage oma STB-d ja lülitage toide välja.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Taasta"
@@ -240,14 +240,14 @@ msgstr "Teine partitsioon (juur ja tuum)"
 msgid "Select network share for backup:"
 msgstr "Valige varundamiseks võrgu jagamine:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Valige välgu käivitamise parameeter!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Valige välgu käivitamise parameeter!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Valige varukoopiaga kaust"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Kuva ainult leitud pilt ja mtd partitsioonid.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Kuva ainult leitud pilt ja mtd partitsioonid.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simuleeri (ei kirjuta)"
@@ -258,17 +258,17 @@ msgstr "Simuleeri teist partitsiooni (ei kirjuta)"
 msgid "Standard (root and kernel)"
 msgstr "Standardne (juur ja tuum)"
 
-msgid "Technical Notes:\n"
-msgstr "Tehnilised märkused:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Tehnilised märkused:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Pilt või kernel hakkab vilkuma ja käivitatakse automaatselt mõne minuti pärast.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Pilt või kernel hakkab vilkuma ja käivitatakse automaatselt mõne minuti pärast.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Kokku:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "NET Backupi tõrkeotsing:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "NET Backupi tõrkeotsing:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "USB-mälu"
@@ -282,26 +282,26 @@ msgstr "Valitud on tundmatu seadme tüüp"
 msgid "Unzip"
 msgstr "Paki lahti"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Külastage meie GitHubi hoidlat:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Külastage meie GitHubi hoidlat:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Mis on uut pärast viimast väljalaset?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "Teie STB hangub vilkumise ajal.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "Teie STB hangub vilkumise ajal.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "praegune: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "mitte midagi!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite peatab enigma2 nüüd välklambi käivitamiseks.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite peatab enigma2 nüüd välklambi käivitamiseks.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (võib-olla viga)"
@@ -312,29 +312,29 @@ msgstr "{0} (võib-olla sobib)"
 msgid "{0} Backup"
 msgstr "{0} Varukoopia"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "SININE: kuvage see abiekraan\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "SININE: kuvage see abiekraan\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Multiboot varukoopia (kui installitud)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Multiboot varukoopia (kui installitud)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "ROHELINE: käivitage valitud seadme varundamine\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "ROHELINE: käivitage valitud seadme varundamine\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDD varundamine: süsteemi täielik varundamine sisemisele kõvakettale\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD varundamine: süsteemi täielik varundamine sisemisele kõvakettale\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC varundamine: varundamine välismällu (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC varundamine: varundamine välismällu (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: varundamine võrgumällu (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: varundamine võrgumällu (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB-varundus: looge käivitatav USB-taastepulk\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB-varundus: looge käivitatav USB-taastepulk\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Kasutage varuvalikute vahel navigeerimiseks ÜLES/ALLA nuppe\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Kasutage varuvalikute vahel navigeerimiseks ÜLES/ALLA nuppe\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "KOLLANE: alustage taastamisprotsessi\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "KOLLANE: alustage taastamisprotsessi\\\\\\\\n"

@@ -15,59 +15,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Праверце правы доступу (чытанне/запіс)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Праверце правы доступу (чытанне/запіс)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Пераканайцеся, што NAS уключаны і даступны\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Пераканайцеся, што NAS уключаны і даступны\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Увядзіце IP-адрас сервера, падзяліцеся імем, імем карыстальніка і паролем\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Увядзіце IP-адрас сервера, падзяліцеся імем, імем карыстальніка і паролем\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Перайдзіце ў Галоўнае меню > Наладкі > Сістэма > Дыспетчар сховішча\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Перайдзіце ў Галоўнае меню > Наладкі > Сістэма > Дыспетчар сховішча\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Рэзервовыя копіі HDD: захоўваюцца ў /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Рэзервовыя копіі HDD: захоўваюцца ў /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Рэгулярна стварайце рэзервовыя копіі вашай сістэмы\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Рэгулярна стварайце рэзервовыя копіі вашай сістэмы\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Рэзервовыя копіі NET: Патрабуецца змантаваны агульны доступ CIFS/NFS з правамі на запіс\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Рэзервовыя копіі NET: Патрабуецца змантаваны агульны доступ CIFS/NFS з правамі на запіс\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Ніколі не перапыняйце працэсы рэзервовага капіравання/аднаўлення\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Ніколі не перапыняйце працэсы рэзервовага капіравання/аднаўлення\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Аднаўленне: працуе з HDD, USB, NET або MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Аднаўленне: працуе з HDD, USB, NET або MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Выберыце «Сеткавае сховішча» і дадайце свой NAS/SMB агульны доступ\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Выберыце «Сеткавае сховішча» і дадайце свой NAS/SMB агульны доступ\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Праверце злучэнне камандай ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Праверце злучэнне камандай ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
 msgstr ""
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Выкарыстоўвайце якасныя USB-назапашвальнікі для карт аднаўлення\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Выкарыстоўвайце якасныя USB-назапашвальнікі для карт аднаўлення\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Праверце правільнасць імя карыстальніка/пароля\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Праверце правільнасць імя карыстальніка/пароля\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Праверце, ці дастаткова вольнага месца для захоўвання\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Праверце, ці дастаткова вольнага месца для захоўвання\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Спачатку падключыце сеткавы агульны доступ:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Спачатку падключыце сеткавы агульны доступ:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Выберыце «NET Backup» са спісу прылад\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Выберыце «NET Backup» са спісу прылад\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Выберыце змантаваны сеткавы агульны доступ\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Выберыце змантаваны сеткавы агульны доступ\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Зараз ідзе запіс. Калі ласка, спыніце запіс, перш чым спрабаваць пачаць мірганне."
@@ -78,8 +78,8 @@ msgstr "Аб"
 msgid "Backup"
 msgstr "Рэзервовае капіраванне"
 
-msgid "Backup Options:\n"
-msgstr "Параметры рэзервовага капіявання:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Параметры рэзервовага капіявання:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -126,11 +126,11 @@ msgstr "Даведка BackupSuite"
 msgid "Barry Allen"
 msgstr "Бары Ален"
 
-msgid "Best Practices:\n"
-msgstr "Лепшыя практыкі:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Лепшыя практыкі:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Функцыі кнопак:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Функцыі кнопак:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Журнал змяненняў недаступны"
@@ -147,8 +147,8 @@ msgstr "Выдаліць"
 msgid "Delete backup"
 msgstr "Выдаліць рэзервовую копію"
 
-msgid "Device List:\n"
-msgstr "Спіс прылад:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Спіс прылад:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Вы сапраўды хочаце распакаваць {0}?"
@@ -165,11 +165,11 @@ msgstr "Успышка"
 msgid "Flashing:"
 msgstr "міргае:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Для атрымання падрабязных інструкцый і падтрымкі:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Для атрымання падрабязных інструкцый і падтрымкі:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Для прашыўкі патрэбныя файлы вашага прымача:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Для прашыўкі патрэбныя файлы вашага прымача:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "бясплатна:"
@@ -186,11 +186,11 @@ msgstr "Даведка"
 msgid "Make or restore a backup"
 msgstr "Зрабіце або аднавіце рэзервовую копію"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Інструкцыі па рэзервовым капіраванні NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Інструкцыі па рэзервовым капіраванні NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "НЕ знойдзены файлы для прашыўкі!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "НЕ знойдзены файлы для прашыўкі!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Сеткавае сховішча"
@@ -213,8 +213,8 @@ msgstr "Толькі корань"
 msgid "Please wait"
 msgstr "Калі ласка, пачакайце"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Калі ласка: НЕ перазагружайце прыстаўку і не адключайце сілкаванне.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Калі ласка: НЕ перазагружайце прыстаўку і не адключайце сілкаванне.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Аднавіць"
@@ -240,14 +240,14 @@ msgstr "Другі падзел (корань і ядро)"
 msgid "Select network share for backup:"
 msgstr "Выберыце агульны сеткавы доступ для рэзервовага капіравання:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Выберыце параметр для запуску ўспышкі!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Выберыце параметр для запуску ўспышкі!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Выберыце тэчку з рэзервовай копіяй"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Паказаць толькі знойдзеныя раздзелы выявы і mtd.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Паказаць толькі знойдзеныя раздзелы выявы і mtd.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Імітацыя (без запісу)"
@@ -258,17 +258,17 @@ msgstr "Імітацыя другога падзелу (без запісу)"
 msgid "Standard (root and kernel)"
 msgstr "Стандартны (корань і ядро)"
 
-msgid "Technical Notes:\n"
-msgstr "Тэхнічныя заўвагі:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Тэхнічныя заўвагі:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Вобраз або ядро ​​будуць міргаць і аўтаматычна загружацца праз некалькі хвілін.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Вобраз або ядро ​​будуць міргаць і аўтаматычна загружацца праз некалькі хвілін.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Усяго:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Пошук і ліквідацыю непаладак NET Backup:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Пошук і ліквідацыю непаладак NET Backup:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "USB-назапашвальнік"
@@ -282,26 +282,26 @@ msgstr "Выбраны невядомы тып прылады"
 msgid "Unzip"
 msgstr "Распакуйце"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Наведайце наш рэпазітар GitHub:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Наведайце наш рэпазітар GitHub:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Што новага з апошняга выпуску?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "Ваш STB завісне падчас працэсу прашыўкі.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "Ваш STB завісне падчас працэсу прашыўкі.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "бягучы: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "нічога!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite зараз спыніць enigma2 для запуску ўспышкі.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite зараз спыніць enigma2 для запуску ўспышкі.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (магчыма памылка)"
@@ -312,29 +312,29 @@ msgstr "{0} (магчыма, добра)"
 msgid "{0} Backup"
 msgstr "{0} Рэзервовае капіраванне"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "СІНІ: Паказаць гэты экран даведкі\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "СІНІ: Паказаць гэты экран даведкі\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Бары Ален: Рэзервовае капіраванне некалькіх загрузак (калі ўстаноўлена)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Бары Ален: Рэзервовае капіраванне некалькіх загрузак (калі ўстаноўлена)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "ЗЯЛЁНЫ: Пачаць рэзервовае капіраванне для выбранай прылады\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "ЗЯЛЁНЫ: Пачаць рэзервовае капіраванне для выбранай прылады\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "Рэзервовае капіраванне жорсткага дыска: поўнае рэзервовае капіраванне сістэмы на ўнутраны жорсткі дыск\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "Рэзервовае капіраванне жорсткага дыска: поўнае рэзервовае капіраванне сістэмы на ўнутраны жорсткі дыск\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "Рэзервовае капіраванне MMC: рэзервовае капіраванне ў знешні назапашвальнік (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "Рэзервовае капіраванне MMC: рэзервовае капіраванне ў знешні назапашвальнік (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: рэзервовае капіраванне ў сеткавае сховішча (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: рэзервовае капіраванне ў сеткавае сховішча (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "Рэзервовае капіраванне USB: стварыць загрузачны USB-назапашвальнік\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "Рэзервовае капіраванне USB: стварыць загрузачны USB-назапашвальнік\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Выкарыстоўвайце кнопкі УВЕРХ/УНІЗ для навігацыі па параметрах рэзервовага капіравання\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Выкарыстоўвайце кнопкі УВЕРХ/УНІЗ для навігацыі па параметрах рэзервовага капіравання\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "ЖОЎТЫ: Пачаць працэс аднаўлення\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "ЖОЎТЫ: Пачаць працэс аднаўлення\\\\\\\\n"

@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Comproba os permisos de uso compartido (lectura/escritura)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Comproba os permisos de uso compartido (lectura/escritura)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Asegúrate de que o NAS estea acendido e accesible\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Asegúrate de que o NAS estea acendido e accesible\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Introduza a IP do servidor, o nome compartido, o nome de usuario e o contrasinal\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Introduza a IP do servidor, o nome compartido, o nome de usuario e o contrasinal\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Vaia ao menú principal > Configuración > Sistema > Xestor de almacenamento\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Vaia ao menú principal > Configuración > Sistema > Xestor de almacenamento\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Copia de seguranza do disco duro: almacenada en /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Copia de seguranza do disco duro: almacenada en /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Mantén copias de seguridade regulares do teu sistema\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Mantén copias de seguridade regulares do teu sistema\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- Copias de seguranza NET: requiren recursos compartidos CIFS/NFS montados con permisos de escritura\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- Copias de seguranza NET: requiren recursos compartidos CIFS/NFS montados con permisos de escritura\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Nunca interrompa os procesos de copia de seguridade/restauración\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Nunca interrompa os procesos de copia de seguridade/restauración\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Restaurar: funciona desde o disco duro, USB, NET ou almacenamento MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Restaurar: funciona desde o disco duro, USB, NET ou almacenamento MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Selecciona "Almacenamento en rede" e engade o teu NAS/SMB compartido\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Selecciona \\\\\\\"Almacenamento en rede\\\\\\\" e engade o teu NAS/SMB compartido\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Proba a conexión co comando ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Proba a conexión co comando ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Copia de seguranza USB: require unha unidade con formato FAT32 con ficheiro "backupstick"\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Copia de seguranza USB: require unha unidade con formato FAT32 con ficheiro \\\\\\\"backupstick\\\\\\\"\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Usa unidades USB de calidade para os sticks de recuperación\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Usa unidades USB de calidade para os sticks de recuperación\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Verifique que o nome de usuario/contrasinal sexan correctos\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Verifique que o nome de usuario/contrasinal sexan correctos\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Verifica que tes suficiente espazo de almacenamento libre\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Verifica que tes suficiente espazo de almacenamento libre\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Monte primeiro o teu recurso compartido de rede:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Monte primeiro o teu recurso compartido de rede:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Seleccione 'NET Backup' na lista de dispositivos\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Seleccione 'NET Backup' na lista de dispositivos\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Escolle a túa rede compartida montada\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Escolle a túa rede compartida montada\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Estase a realizar unha gravación. Detén a gravación antes de tentar comezar a parpadear."
@@ -77,8 +77,8 @@ msgstr "Sobre"
 msgid "Backup"
 msgstr "Copia de seguranza"
 
-msgid "Backup Options:\n"
-msgstr "Opcións de copia de seguranza:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Opcións de copia de seguranza:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -125,11 +125,11 @@ msgstr "Axuda de BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Mellores prácticas:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Mellores prácticas:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Funcións dos botóns:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Funcións dos botóns:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "O rexistro de cambios non está dispoñible"
@@ -146,8 +146,8 @@ msgstr "Eliminar"
 msgid "Delete backup"
 msgstr "Eliminar a copia de seguranza"
 
-msgid "Device List:\n"
-msgstr "Lista de dispositivos:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Lista de dispositivos:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Realmente queres desempaquetar {0}?"
@@ -164,11 +164,11 @@ msgstr ""
 msgid "Flashing:"
 msgstr "Intermitente:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Para obter instrucións detalladas e asistencia:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Para obter instrucións detalladas e asistencia:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Para flashear os ficheiros do teu receptor son necesarios:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Para flashear os ficheiros do teu receptor son necesarios:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Gratuíto:"
@@ -185,11 +185,11 @@ msgstr "Axuda"
 msgid "Make or restore a backup"
 msgstr "Fai ou restaura unha copia de seguridade"
 
-msgid "NET Backup Instructions:\n"
-msgstr "Instrucións de copia de seguridade de NET:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "Instrucións de copia de seguridade de NET:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "NON se atoparon ficheiros para flashear!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "NON se atoparon ficheiros para flashear!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Almacenamento en rede"
@@ -212,8 +212,8 @@ msgstr "Só root"
 msgid "Please wait"
 msgstr "Por favor, agarde"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Por favor: NON reinicies o teu STB e apague a alimentación.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Por favor: NON reinicies o teu STB e apague a alimentación.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Restaurar"
@@ -239,14 +239,14 @@ msgstr "Segunda partición (raíz e núcleo)"
 msgid "Select network share for backup:"
 msgstr "Seleccione compartición de rede para a copia de seguranza:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Seleccione o parámetro para iniciar o flash!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Seleccione o parámetro para iniciar o flash!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Seleccione o cartafol con copia de seguridade"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Mostra só as imaxes atopadas e as particións mtd.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Mostra só as imaxes atopadas e as particións mtd.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simular (sen escribir)"
@@ -257,17 +257,17 @@ msgstr "Simular segunda partición (sen escribir)"
 msgid "Standard (root and kernel)"
 msgstr "Estándar (raíz e núcleo)"
 
-msgid "Technical Notes:\n"
-msgstr "Notas técnicas:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Notas técnicas:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "A imaxe ou o núcleo parpadeará e iniciarase automaticamente en poucos minutos.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "A imaxe ou o núcleo parpadeará e iniciarase automaticamente en poucos minutos.\\\\\\\\n"
 
 msgid "Total:"
 msgstr ""
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Solución de problemas de copia de seguridade de NET:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Solución de problemas de copia de seguridade de NET:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Almacenamento USB"
@@ -281,26 +281,26 @@ msgstr "Seleccionouse un tipo de dispositivo descoñecido"
 msgid "Unzip"
 msgstr "Descomprimir"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Visita o noso repositorio de GitHub:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Visita o noso repositorio de GitHub:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Que hai de novo dende o último lanzamento?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "O teu STB conxelarase durante o proceso de intermitencia.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "O teu STB conxelarase durante o proceso de intermitencia.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "actual: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "nada!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite parará agora enigma2 para executar o flash.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite parará agora enigma2 para executar o flash.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (quizais erro)"
@@ -311,29 +311,29 @@ msgstr "{0} (quizais ben)"
 msgid "{0} Backup"
 msgstr "{0} Copia de seguranza"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "AZUL: mostra esta pantalla de axuda\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "AZUL: mostra esta pantalla de axuda\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Copia de seguridade de arranque múltiple (se está instalada)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Copia de seguridade de arranque múltiple (se está instalada)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "VERDE: inicia a copia de seguranza do dispositivo seleccionado\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "VERDE: inicia a copia de seguranza do dispositivo seleccionado\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "Copia de seguridade do disco duro: copia de seguranza completa do sistema no disco duro interno\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "Copia de seguridade do disco duro: copia de seguranza completa do sistema no disco duro interno\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "Copia de seguranza MMC: Copia de seguranza nun almacenamento externo (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "Copia de seguranza MMC: Copia de seguranza nun almacenamento externo (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: Copia de seguranza no almacenamento de rede (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: Copia de seguranza no almacenamento de rede (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "Copia de seguranza USB: crea unha memoria USB de recuperación de arranque\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "Copia de seguranza USB: crea unha memoria USB de recuperación de arranque\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Usa os botóns ARRIBA/ABAIXO para navegar polas opcións de copia de seguranza\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Usa os botóns ARRIBA/ABAIXO para navegar polas opcións de copia de seguranza\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "AMARELO: inicia o proceso de restauración\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "AMARELO: inicia o proceso de restauración\\\\\\\\n"

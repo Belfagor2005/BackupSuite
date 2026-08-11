@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Kontrolearje dielrjochten (lêze/skriuwe)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Kontrolearje dielrjochten (lêze/skriuwe)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Soargje derfoar dat NAS ynskeakele is en tagonklik is\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Soargje derfoar dat NAS ynskeakele is en tagonklik is\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Fier server IP yn, diele namme, brûkersnamme en wachtwurd\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Fier server IP yn, diele namme, brûkersnamme en wachtwurd\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Gean nei Haadmenu > Ynstelling > Systeem > Opslachbehearder\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Gean nei Haadmenu > Ynstelling > Systeem > Opslachbehearder\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- HDD-backups: Opslein yn /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- HDD-backups: Opslein yn /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Hâld regelmjittige backups fan jo systeem\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Hâld regelmjittige backups fan jo systeem\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- NET-backups: Fereaskje monteare CIFS/NFS-diel mei skriuwrjochten\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- NET-backups: Fereaskje monteare CIFS/NFS-diel mei skriuwrjochten\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Nea ûnderbrekke backup-/herstelprosessen\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Nea ûnderbrekke backup-/herstelprosessen\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- Weromsette: Wurket fan HDD, USB, NET of MMC opslach\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- Weromsette: Wurket fan HDD, USB, NET of MMC opslach\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Selektearje 'Netwurkopslach' en foegje jo NAS/SMB-diel ta\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Selektearje 'Netwurkopslach' en foegje jo NAS/SMB-diel ta\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Test ferbining mei ping kommando\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Test ferbining mei ping kommando\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- USB-backups: Fereaskje FAT32-opmaak drive mei 'backupstick'-bestân\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- USB-backups: Fereaskje FAT32-opmaak drive mei 'backupstick'-bestân\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Brûk USB-skiven fan kwaliteit foar herstelsticks\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Brûk USB-skiven fan kwaliteit foar herstelsticks\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- Kontrolearje dat brûkersnamme/wachtwurd goed binne\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- Kontrolearje dat brûkersnamme/wachtwurd goed binne\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- Kontrolearje dat jo genôch frije opslachromte hawwe\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- Kontrolearje dat jo genôch frije opslachromte hawwe\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. Befestigje jo netwurkdiel earst:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. Befestigje jo netwurkdiel earst:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Selektearje 'NET Reservekopy' út de apparaatlist\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Selektearje 'NET Reservekopy' út de apparaatlist\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Kies jo oanmakke netwurk share\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Kies jo oanmakke netwurk share\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Der rint op it stuit in opname. Stopje asjebleaft de opname foardat jo besykje te begjinnen mei in knipperjen."
@@ -77,8 +77,8 @@ msgstr "Oer"
 msgid "Backup"
 msgstr "Reservekopy"
 
-msgid "Backup Options:\n"
-msgstr "Reservekopy-opsjes:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Reservekopy-opsjes:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -125,11 +125,11 @@ msgstr ""
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Bêste praktyk:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Bêste praktyk:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Knopfunksjes:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Knopfunksjes:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Feroaringslog net beskikber"
@@ -146,8 +146,8 @@ msgstr "Wiskje"
 msgid "Delete backup"
 msgstr "Wiskje backup"
 
-msgid "Device List:\n"
-msgstr "List fan apparaten:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "List fan apparaten:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Wolle jo {0} wirklik útpakke?"
@@ -164,11 +164,11 @@ msgstr ""
 msgid "Flashing:"
 msgstr "Knipperjend:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Foar detaillearre ynstruksjes en stipe:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Foar detaillearre ynstruksjes en stipe:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Foar flashen binne jo ûntfangerbestannen nedich:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Foar flashen binne jo ûntfangerbestannen nedich:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Frij:"
@@ -185,11 +185,11 @@ msgstr ""
 msgid "Make or restore a backup"
 msgstr "Meitsje of weromsette in reservekopy"
 
-msgid "NET Backup Instructions:\n"
-msgstr "NET Backup Ynstruksjes:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "NET Backup Ynstruksjes:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "NET fûn triemmen foar flitsende!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "NET fûn triemmen foar flitsende!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Netwurk Storage"
@@ -212,8 +212,8 @@ msgstr "Allinne woartel"
 msgid "Please wait"
 msgstr "Wachtsje asjebleaft"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Asjebleaft: NET jo STB opnij opstarte en de stroom útsette.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Asjebleaft: NET jo STB opnij opstarte en de stroom útsette.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Weromsette"
@@ -239,14 +239,14 @@ msgstr "Twadde partysje (root en kernel)"
 msgid "Select network share for backup:"
 msgstr "Selektearje netwurkdiel foar reservekopy:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Selektearje parameter foar startflits!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Selektearje parameter foar startflits!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Selektearje de map mei reservekopy"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Lit allinnich fûn ôfbylding en mtd partysjes sjen.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Lit allinnich fûn ôfbylding en mtd partysjes sjen.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simulearje (gjin skriuwen)"
@@ -257,16 +257,16 @@ msgstr "Simulearje twadde partysje (gjin skriuwen)"
 msgid "Standard (root and kernel)"
 msgstr "Standert (root en kernel)"
 
-msgid "Technical Notes:\n"
-msgstr "Technyske notysjes:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Technyske notysjes:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "De ôfbylding of kernel sil flikkerje en yn in pear minuten automatysk opstarte.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "De ôfbylding of kernel sil flikkerje en yn in pear minuten automatysk opstarte.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Totaal:"
 
-msgid "Troubleshooting NET Backup:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
 msgstr ""
 
 msgid "USB Storage"
@@ -281,26 +281,26 @@ msgstr "Unbekend apparaattype selektearre"
 msgid "Unzip"
 msgstr ""
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Besykje ús GitHub-repository:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Besykje ús GitHub-repository:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Wat is nij sûnt de lêste release?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "Jo STB sil befrieze tidens it flitsende proses.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "Jo STB sil befrieze tidens it flitsende proses.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "aktueel: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "neat!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ofgwrite sil enigma2 no stopje om de flitser út te fieren.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ofgwrite sil enigma2 no stopje om de flitser út te fieren.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (miskien flater)"
@@ -311,29 +311,29 @@ msgstr "{0} (miskien ok)"
 msgid "{0} Backup"
 msgstr "{0} Reservekopy"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "BLAUW: Dit helpskerm sjen litte\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "BLAUW: Dit helpskerm sjen litte\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Multiboot-backup (as ynstallearre)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Multiboot-backup (as ynstallearre)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "GREEN: Begjin reservekopy foar selektearre apparaat\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "GREEN: Begjin reservekopy foar selektearre apparaat\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDD Reservekopy: Folsleine systeembackup nei ynterne hurde skiif\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD Reservekopy: Folsleine systeembackup nei ynterne hurde skiif\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC Reservekopy: Reservekopy nei eksterne opslach (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC Reservekopy: Reservekopy nei eksterne opslach (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Reservekopy: Reservekopy nei netwurk opslach (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Reservekopy: Reservekopy nei netwurk opslach (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB Reservekopy: Meitsje in bootbere USB-herstelstick\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB Reservekopy: Meitsje in bootbere USB-herstelstick\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Brûk knoppen UP/DOWN om troch backup-opsjes te navigearjen\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Brûk knoppen UP/DOWN om troch backup-opsjes te navigearjen\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "GEEL: Begjin weromsetteproses\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "GEEL: Begjin weromsetteproses\\\\\\\\n"

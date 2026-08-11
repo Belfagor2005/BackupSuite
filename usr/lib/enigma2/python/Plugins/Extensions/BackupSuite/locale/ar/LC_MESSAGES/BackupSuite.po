@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- التحقق من أذونات المشاركة (القراءة/الكتابة)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- التحقق من أذونات المشاركة (القراءة/الكتابة)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- تأكد من تشغيل NAS وإمكانية الوصول إليه\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- تأكد من تشغيل NAS وإمكانية الوصول إليه\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- أدخل عنوان IP للخادم، واسم المشاركة، واسم المستخدم، وكلمة المرور\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- أدخل عنوان IP للخادم، واسم المشاركة، واسم المستخدم، وكلمة المرور\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- انتقل إلى القائمة الرئيسية > الإعداد > النظام > مدير التخزين\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- انتقل إلى القائمة الرئيسية > الإعداد > النظام > مدير التخزين\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- النسخ الاحتياطية لمحرك الأقراص الصلبة: مخزنة في /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- النسخ الاحتياطية لمحرك الأقراص الصلبة: مخزنة في /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- احتفظ بنسخ احتياطية منتظمة لنظامك\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- احتفظ بنسخ احتياطية منتظمة لنظامك\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- النسخ الاحتياطية لـ NET: يتطلب مشاركة CIFS/NFS المثبت مع أذونات الكتابة\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- النسخ الاحتياطية لـ NET: يتطلب مشاركة CIFS/NFS المثبت مع أذونات الكتابة\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- عدم مقاطعة عمليات النسخ الاحتياطي/الاستعادة مطلقًا\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- عدم مقاطعة عمليات النسخ الاحتياطي/الاستعادة مطلقًا\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- الاستعادة: تعمل من وحدة تخزين HDD أو USB أو NET أو MMC\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- الاستعادة: تعمل من وحدة تخزين HDD أو USB أو NET أو MMC\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- حدد "تخزين الشبكة" وأضف مشاركة NAS/SMB الخاصة بك\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- حدد \\\\\\\"تخزين الشبكة\\\\\\\" وأضف مشاركة NAS/SMB الخاصة بك\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- اختبار الاتصال بأمر ping\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- اختبار الاتصال بأمر ping\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- النسخ الاحتياطية عبر USB: يتطلب محرك أقراص بتنسيق FAT32 مع ملف 'backupstick'\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- النسخ الاحتياطية عبر USB: يتطلب محرك أقراص بتنسيق FAT32 مع ملف 'backupstick'\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- استخدم محركات أقراص USB عالية الجودة لشرائح الاسترداد\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- استخدم محركات أقراص USB عالية الجودة لشرائح الاسترداد\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- التحقق من صحة اسم المستخدم/كلمة المرور\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- التحقق من صحة اسم المستخدم/كلمة المرور\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- تأكد من أن لديك مساحة تخزينية كافية\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- تأكد من أن لديك مساحة تخزينية كافية\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. قم بتثبيت مشاركة الشبكة أولاً:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. قم بتثبيت مشاركة الشبكة أولاً:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. حدد 'NET Backup' من قائمة الأجهزة\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. حدد 'NET Backup' من قائمة الأجهزة\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. اختر مشاركة الشبكة المثبتة لديك\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. اختر مشاركة الشبكة المثبتة لديك\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "هناك تسجيل قيد التشغيل حاليا. يرجى إيقاف التسجيل قبل محاولة بدء الوميض."
@@ -77,8 +77,8 @@ msgstr "عن"
 msgid "Backup"
 msgstr "النسخ الاحتياطي"
 
-msgid "Backup Options:\n"
-msgstr "خيارات النسخ الاحتياطي:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "خيارات النسخ الاحتياطي:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr "مجموعة النسخ الاحتياطي v{0}"
@@ -125,11 +125,11 @@ msgstr "مساعدة BackupSuite"
 msgid "Barry Allen"
 msgstr "باري ألين"
 
-msgid "Best Practices:\n"
-msgstr "أفضل الممارسات:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "أفضل الممارسات:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "وظائف الزر:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "وظائف الزر:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "سجل التغيير غير متوفر"
@@ -146,8 +146,8 @@ msgstr "يمسح"
 msgid "Delete backup"
 msgstr "حذف النسخة الاحتياطية"
 
-msgid "Device List:\n"
-msgstr "قائمة الأجهزة:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "قائمة الأجهزة:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "هل تريد حقًا فك ضغط {0}؟"
@@ -164,11 +164,11 @@ msgstr "فلاش"
 msgid "Flashing:"
 msgstr "وامض:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "للحصول على الإرشادات التفصيلية والدعم:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "للحصول على الإرشادات التفصيلية والدعم:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "لتحديث ملفات جهاز الاستقبال الخاص بك، هناك حاجة إلى:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "لتحديث ملفات جهاز الاستقبال الخاص بك، هناك حاجة إلى:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "حر:"
@@ -185,11 +185,11 @@ msgstr "يساعد"
 msgid "Make or restore a backup"
 msgstr "عمل نسخة احتياطية أو استعادتها"
 
-msgid "NET Backup Instructions:\n"
-msgstr "إرشادات النسخ الاحتياطي لشبكة الإنترنت:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "إرشادات النسخ الاحتياطي لشبكة الإنترنت:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "لم يتم العثور على ملفات للوميض!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "لم يتم العثور على ملفات للوميض!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "تخزين الشبكة"
@@ -212,8 +212,8 @@ msgstr "الجذر فقط"
 msgid "Please wait"
 msgstr "انتظر من فضلك"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "من فضلك: لا تقم بإعادة تشغيل جهاز STB وإيقاف تشغيل الطاقة.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "من فضلك: لا تقم بإعادة تشغيل جهاز STB وإيقاف تشغيل الطاقة.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "يعيد"
@@ -239,14 +239,14 @@ msgstr "القسم الثاني (الجذر والنواة)"
 msgid "Select network share for backup:"
 msgstr "حدد مشاركة الشبكة للنسخ الاحتياطي:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "حدد معلمة لبدء الفلاش!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "حدد معلمة لبدء الفلاش!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "حدد المجلد مع النسخة الاحتياطية"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "إظهار أقسام الصور وmtd التي تم العثور عليها فقط.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "إظهار أقسام الصور وmtd التي تم العثور عليها فقط.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "محاكاة (بدون كتابة)"
@@ -257,17 +257,17 @@ msgstr "محاكاة القسم الثاني (بدون كتابة)"
 msgid "Standard (root and kernel)"
 msgstr "قياسي (الجذر والنواة)"
 
-msgid "Technical Notes:\n"
-msgstr "الملاحظات الفنية:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "الملاحظات الفنية:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "سوف تومض الصورة أو النواة ويتم تشغيلها تلقائيًا خلال دقائق قليلة.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "سوف تومض الصورة أو النواة ويتم تشغيلها تلقائيًا خلال دقائق قليلة.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "المجموع:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "استكشاف أخطاء NET Backup وإصلاحها:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "استكشاف أخطاء NET Backup وإصلاحها:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "تخزين يو اس بي"
@@ -281,26 +281,26 @@ msgstr "تم تحديد نوع جهاز غير معروف"
 msgid "Unzip"
 msgstr "بفك"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "قم بزيارة مستودع GitHub الخاص بنا:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "قم بزيارة مستودع GitHub الخاص بنا:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "ما الجديد منذ الإصدار الأخير؟"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "سوف يتوقف جهاز STB الخاص بك أثناء عملية الوميض.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "سوف يتوقف جهاز STB الخاص بك أثناء عملية الوميض.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "الحالي: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "لا شئ!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "سوف يقوم ofgwrite بإيقاف enigma2 الآن لتشغيل الفلاش.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "سوف يقوم ofgwrite بإيقاف enigma2 الآن لتشغيل الفلاش.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (ربما خطأ)"
@@ -311,29 +311,29 @@ msgstr "{0} (ربما حسنًا)"
 msgid "{0} Backup"
 msgstr "{0} النسخ الاحتياطي"
 
-msgid " BLUE: Show this help screen\n"
-msgstr "الأزرق: عرض شاشة المساعدة هذه\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "الأزرق: عرض شاشة المساعدة هذه\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: نسخ احتياطي متعدد التمهيد (إذا كان مثبتًا)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: نسخ احتياطي متعدد التمهيد (إذا كان مثبتًا)\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\n"
-msgstr "الأخضر: بدء النسخ الاحتياطي للجهاز المحدد\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "الأخضر: بدء النسخ الاحتياطي للجهاز المحدد\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "النسخ الاحتياطي لمحرك الأقراص الثابتة: نسخ احتياطي كامل للنظام إلى محرك الأقراص الثابتة الداخلي\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "النسخ الاحتياطي لمحرك الأقراص الثابتة: نسخ احتياطي كامل للنظام إلى محرك الأقراص الثابتة الداخلي\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "النسخ الاحتياطي لـ MMC: النسخ الاحتياطي إلى وحدة التخزين الخارجية (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "النسخ الاحتياطي لـ MMC: النسخ الاحتياطي إلى وحدة التخزين الخارجية (eMMC)\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: النسخ الاحتياطي إلى وحدة تخزين الشبكة (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: النسخ الاحتياطي إلى وحدة تخزين الشبكة (NAS/SMB)\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "النسخ الاحتياطي عبر USB: قم بإنشاء عصا استرداد USB قابلة للتمهيد\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "النسخ الاحتياطي عبر USB: قم بإنشاء عصا استرداد USB قابلة للتمهيد\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "استخدم الزرين لأعلى/لأسفل للتنقل عبر خيارات النسخ الاحتياطي\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "استخدم الزرين لأعلى/لأسفل للتنقل عبر خيارات النسخ الاحتياطي\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\n"
-msgstr "الأصفر: ابدأ عملية الاستعادة\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "الأصفر: ابدأ عملية الاستعادة\\\\\\\\n"

@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\n"
-msgstr "- Suriin ang mga pahintulot sa pagbabahagi (magbasa/magsulat)\n"
+msgid "- Check share permissions (read/write)\\\\\\\\n"
+msgstr "- Suriin ang mga pahintulot sa pagbabahagi (magbasa/magsulat)\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\n"
-msgstr "- Tiyaking naka-on at naa-access ang NAS\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
+msgstr "- Tiyaking naka-on at naa-access ang NAS\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\n"
-msgstr "- Ipasok ang IP ng server, pangalan ng pagbabahagi, username at password\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\n"
+msgstr "- Ipasok ang IP ng server, pangalan ng pagbabahagi, username at password\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\n"
-msgstr "- Pumunta sa Main Menu > Setup > System > Storage Manager\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
+msgstr "- Pumunta sa Main Menu > Setup > System > Storage Manager\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\n"
-msgstr "- Mga backup ng HDD: Naka-imbak sa /media/hdd/backup\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
+msgstr "- Mga backup ng HDD: Naka-imbak sa /media/hdd/backup\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\n"
-msgstr "- Panatilihin ang mga regular na backup ng iyong system\n"
+msgid "- Keep regular backups of your system\\\\\\\\n"
+msgstr "- Panatilihin ang mga regular na backup ng iyong system\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\n"
-msgstr "- NET backups: Mangailangan ng naka-mount na CIFS/NFS share na may mga pahintulot sa pagsulat\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
+msgstr "- NET backups: Mangailangan ng naka-mount na CIFS/NFS share na may mga pahintulot sa pagsulat\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\n"
-msgstr "- Huwag kailanman matakpan ang mga proseso ng backup/restore\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\n"
+msgstr "- Huwag kailanman matakpan ang mga proseso ng backup/restore\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\n"
-msgstr "- I-restore: Gumagana mula sa HDD, USB, NET o MMC storage\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
+msgstr "- I-restore: Gumagana mula sa HDD, USB, NET o MMC storage\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\n"
-msgstr "- Piliin ang 'Network Storage' at idagdag ang iyong NAS/SMB share\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
+msgstr "- Piliin ang 'Network Storage' at idagdag ang iyong NAS/SMB share\\\\\\\\n"
 
-msgid "- Test connection with ping command\n"
-msgstr "- Subukan ang koneksyon gamit ang ping command\n"
+msgid "- Test connection with ping command\\\\\\\\n"
+msgstr "- Subukan ang koneksyon gamit ang ping command\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\n"
-msgstr "- Mga USB backup: Nangangailangan ng FAT32-formatted drive na may 'backupstick' file\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
+msgstr "- Mga USB backup: Nangangailangan ng FAT32-formatted drive na may 'backupstick' file\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\n"
-msgstr "- Gumamit ng mga de-kalidad na USB drive para sa mga recovery stick\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
+msgstr "- Gumamit ng mga de-kalidad na USB drive para sa mga recovery stick\\\\\\\\n"
 
-msgid "- Verify username/password are correct\n"
-msgstr "- I-verify na tama ang username/password\n"
+msgid "- Verify username/password are correct\\\\\\\\n"
+msgstr "- I-verify na tama ang username/password\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\n"
-msgstr "- I-verify na mayroon kang sapat na libreng espasyo sa storage\n"
+msgid "- Verify you have enough free storage space\\\\\\\\n"
+msgstr "- I-verify na mayroon kang sapat na libreng espasyo sa storage\\\\\\\\n"
 
-msgid "1. Mount your network share first:\n"
-msgstr "1. I-mount muna ang iyong network share:\n"
+msgid "1. Mount your network share first:\\\\\\\\n"
+msgstr "1. I-mount muna ang iyong network share:\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\n"
-msgstr "2. Piliin ang 'NET Backup' mula sa listahan ng device\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
+msgstr "2. Piliin ang 'NET Backup' mula sa listahan ng device\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\n"
-msgstr "3. Piliin ang iyong naka-mount na bahagi ng network\n"
+msgid "3. Choose your mounted network share\\\\\\\\n"
+msgstr "3. Piliin ang iyong naka-mount na bahagi ng network\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Kasalukuyang tumatakbo ang isang pag-record. Pakitigil ang pagre-record bago subukang magsimula ng flashing."
@@ -77,8 +77,8 @@ msgstr "Tungkol sa"
 msgid "Backup"
 msgstr ""
 
-msgid "Backup Options:\n"
-msgstr "Mga Pagpipilian sa Pag-backup:\n"
+msgid "Backup Options:\\\\\\\\n"
+msgstr "Mga Pagpipilian sa Pag-backup:\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -125,11 +125,11 @@ msgstr "Tulong sa BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\n"
-msgstr "Pinakamahuhusay na Kasanayan:\n"
+msgid "Best Practices:\\\\\\\\n"
+msgstr "Pinakamahuhusay na Kasanayan:\\\\\\\\n"
 
-msgid "Button Functions:\n"
-msgstr "Mga Function ng Button:\n"
+msgid "Button Functions:\\\\\\\\n"
+msgstr "Mga Function ng Button:\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Hindi available ang log ng pagbabago"
@@ -146,8 +146,8 @@ msgstr "Tanggalin"
 msgid "Delete backup"
 msgstr "Tanggalin ang backup"
 
-msgid "Device List:\n"
-msgstr "Listahan ng Device:\n"
+msgid "Device List:\\\\\\\\n"
+msgstr "Listahan ng Device:\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Gusto mo ba talagang i-unpack ang {0} ?"
@@ -164,11 +164,11 @@ msgstr ""
 msgid "Flashing:"
 msgstr "Kumikislap:"
 
-msgid "For detailed instructions and support:\n"
-msgstr "Para sa mga detalyadong tagubilin at suporta:\n"
+msgid "For detailed instructions and support:\\\\\\\\n"
+msgstr "Para sa mga detalyadong tagubilin at suporta:\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\n"
-msgstr "Para sa pag-flash ng iyong receiver file ay kailangan:\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\n"
+msgstr "Para sa pag-flash ng iyong receiver file ay kailangan:\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Libre:"
@@ -185,11 +185,11 @@ msgstr "Tulong"
 msgid "Make or restore a backup"
 msgstr "Gumawa o mag-restore ng backup"
 
-msgid "NET Backup Instructions:\n"
-msgstr "NET Backup na Mga Tagubilin:\n"
+msgid "NET Backup Instructions:\\\\\\\\n"
+msgstr "NET Backup na Mga Tagubilin:\\\\\\\\n"
 
-msgid "NOT found files for flashing!\n"
-msgstr "HINDI nahanap ang mga file para sa pag-flash!\n"
+msgid "NOT found files for flashing!\\\\\\\\n"
+msgstr "HINDI nahanap ang mga file para sa pag-flash!\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Imbakan ng Network"
@@ -212,8 +212,8 @@ msgstr "Tanging ugat"
 msgid "Please wait"
 msgstr "Mangyaring maghintay"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\n"
-msgstr "Mangyaring: HUWAG i-reboot ang iyong STB at i-off ang power.\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
+msgstr "Mangyaring: HUWAG i-reboot ang iyong STB at i-off ang power.\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Ibalik"
@@ -239,14 +239,14 @@ msgstr "Pangalawang partition (root at kernel)"
 msgid "Select network share for backup:"
 msgstr "Pumili ng network share para sa backup:"
 
-msgid "Select parameter for start flash!\n"
-msgstr "Pumili ng parameter para sa pagsisimula ng flash!\n"
+msgid "Select parameter for start flash!\\\\\\\\n"
+msgstr "Pumili ng parameter para sa pagsisimula ng flash!\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Piliin ang folder na may backup"
 
-msgid "Show only found image and mtd partitions.\n"
-msgstr "Ipakita lamang ang nakitang larawan at mtd partition.\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\n"
+msgstr "Ipakita lamang ang nakitang larawan at mtd partition.\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Gayahin (walang isulat)"
@@ -257,17 +257,17 @@ msgstr "Gayahin ang pangalawang partition (walang pagsusulat)"
 msgid "Standard (root and kernel)"
 msgstr "Standard (root at kernel)"
 
-msgid "Technical Notes:\n"
-msgstr "Mga Teknikal na Tala:\n"
+msgid "Technical Notes:\\\\\\\\n"
+msgstr "Mga Teknikal na Tala:\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
-msgstr "Ang imahe o kernel ay magfa-flash at awtomatikong magbo-boot sa loob ng ilang minuto.\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
+msgstr "Ang imahe o kernel ay magfa-flash at awtomatikong magbo-boot sa loob ng ilang minuto.\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Kabuuan:"
 
-msgid "Troubleshooting NET Backup:\n"
-msgstr "Pag-troubleshoot ng NET Backup:\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\n"
+msgstr "Pag-troubleshoot ng NET Backup:\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr ""
@@ -281,26 +281,26 @@ msgstr "Napili ang hindi kilalang uri ng device"
 msgid "Unzip"
 msgstr "I-unzip"
 
-msgid "Visit our GitHub repository:\n"
-msgstr "Bisitahin ang aming GitHub repository:\n"
+msgid "Visit our GitHub repository:\\\\\\\\n"
+msgstr "Bisitahin ang aming GitHub repository:\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Ano ang bago mula noong huling paglabas?"
 
-msgid "Your STB will freeze during the flashing process.\n"
-msgstr "Magi-freeze ang iyong STB sa panahon ng proseso ng pag-flash.\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
+msgstr "Magi-freeze ang iyong STB sa panahon ng proseso ng pag-flash.\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "kasalukuyan: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "wala!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\n"
-msgstr "ihihinto ngayon ng ofgwrite ang enigma2 para patakbuhin ang flash.\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
+msgstr "ihihinto ngayon ng ofgwrite ang enigma2 para patakbuhin ang flash.\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (marahil error)"
@@ -312,37 +312,37 @@ msgid "{0} Backup"
 msgstr ""
 
 #, fuzzy
-msgid " BLUE: Show this help screen\n"
-msgstr "BLUE: Ipakita ang screen ng tulong na ito\n"
+msgid " BLUE: Show this help screen\\\\\\\\n"
+msgstr "BLUE: Ipakita ang screen ng tulong na ito\\\\\\\\n"
 
 #, fuzzy
-msgid " Barry Allen: Multiboot backup (if installed)\n"
-msgstr "Barry Allen: Multiboot backup (kung naka-install)\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Multiboot backup (kung naka-install)\\\\\\\\n"
 
 #, fuzzy
-msgid " GREEN: Start backup for selected device\n"
-msgstr "BERDE: Simulan ang pag-backup para sa napiling device\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "BERDE: Simulan ang pag-backup para sa napiling device\\\\\\\\n"
 
 #, fuzzy
-msgid " HDD Backup: Full system backup to internal hard drive\n"
-msgstr "HDD Backup: Full system backup sa internal hard drive\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD Backup: Full system backup sa internal hard drive\\\\\\\\n"
 
 #, fuzzy
-msgid " MMC Backup: Backup to external storage (eMMC)\n"
-msgstr "MMC Backup: Backup sa external storage (eMMC)\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC Backup: Backup sa external storage (eMMC)\\\\\\\\n"
 
 #, fuzzy
-msgid " NET Backup: Backup to network storage (NAS/SMB)\n"
-msgstr "NET Backup: Backup sa network storage (NAS/SMB)\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: Backup sa network storage (NAS/SMB)\\\\\\\\n"
 
 #, fuzzy
-msgid " USB Backup: Create a bootable USB recovery stick\n"
-msgstr "USB Backup: Gumawa ng bootable USB recovery stick\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB Backup: Gumawa ng bootable USB recovery stick\\\\\\\\n"
 
 #, fuzzy
-msgid " Use UP/DOWN buttons to navigate through backup options\n"
-msgstr "Gumamit ng UP/DOWN na button para mag-navigate sa mga backup na opsyon\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Gumamit ng UP/DOWN na button para mag-navigate sa mga backup na opsyon\\\\\\\\n"
 
 #, fuzzy
-msgid " YELLOW: Start restore process\n"
-msgstr "DILAW: Simulan ang proseso ng pagpapanumbalik\n"
+msgid " YELLOW: Start restore process\\\\\\\\n"
+msgstr "DILAW: Simulan ang proseso ng pagpapanumbalik\\\\\\\\n"
