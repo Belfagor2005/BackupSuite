@@ -14,59 +14,77 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+#, fuzzy
 msgid "- Check share permissions (read/write)\\\\\\\\n"
-msgstr "- Patikrinkite bendrinimo teises (skaityti / rašyti)\\\\\\\\n"
+msgstr "- Patikrinkite bendrinimo teises (skaityti / rašyti)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
-msgstr "– Įsitikinkite, kad NAS yra įjungtas ir pasiekiamas\\\\\\\\n"
+msgstr "– Įsitikinkite, kad NAS yra įjungtas ir pasiekiamas\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Enter server IP, share name, username and password\\\\\\\\n"
-msgstr "- Įveskite serverio IP, bendrinimo vardą, vartotojo vardą ir slaptažodį\\\\\\\\n"
+msgstr "- Įveskite serverio IP, bendrinimo vardą, vartotojo vardą ir slaptažodį\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
-msgstr "– Eikite į Pagrindinis meniu > Sąranka > Sistema > Saugyklos tvarkyklė\\\\\\\\n"
+msgstr "– Eikite į Pagrindinis meniu > Sąranka > Sistema > Saugyklos tvarkyklė\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
-msgstr "- HDD atsarginės kopijos: saugomos /media/hdd/backup\\\\\\\\n"
+msgstr "- HDD atsarginės kopijos: saugomos /media/hdd/backup\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Keep regular backups of your system\\\\\\\\n"
-msgstr "- Reguliariai kurkite atsargines sistemos kopijas\\\\\\\\n"
+msgstr "- Reguliariai kurkite atsargines sistemos kopijas\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
-msgstr "– NET atsarginės kopijos: reikalingas prijungtas CIFS / NFS bendrinimas su rašymo leidimais\\\\\\\\n"
+msgstr "– NET atsarginės kopijos: reikalingas prijungtas CIFS / NFS bendrinimas su rašymo leidimais\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Never interrupt backup/restore processes\\\\\\\\n"
-msgstr "- Niekada nenutraukite atsarginės kopijos / atkūrimo procesų\\\\\\\\n"
+msgstr "- Niekada nenutraukite atsarginės kopijos / atkūrimo procesų\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
-msgstr "- Atkurti: veikia iš HDD, USB, NET arba MMC atminties\\\\\\\\n"
+msgstr "- Atkurti: veikia iš HDD, USB, NET arba MMC atminties\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
-msgstr "– Pasirinkite „Tinklo saugykla“ ir pridėkite savo NAS / SMB dalį\\\\\\\\n"
+msgstr "– Pasirinkite „Tinklo saugykla“ ir pridėkite savo NAS / SMB dalį\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Test connection with ping command\\\\\\\\n"
-msgstr "- Išbandykite ryšį su ping komanda\\\\\\\\n"
+msgstr "- Išbandykite ryšį su ping komanda\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
-msgstr "– USB atsarginės kopijos: reikia FAT32 formato disko su „atsarginės kopijos“ failu\\\\\\\\n"
+msgstr "– USB atsarginės kopijos: reikia FAT32 formato disko su „atsarginės kopijos“ failu\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
-msgstr "– Atkūrimo atmintinėms naudokite kokybiškus USB diskus\\\\\\\\n"
+msgstr "– Atkūrimo atmintinėms naudokite kokybiškus USB diskus\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Verify username/password are correct\\\\\\\\n"
-msgstr "– Patikrinkite, ar teisingas vartotojo vardas / slaptažodis\\\\\\\\n"
+msgstr "– Patikrinkite, ar teisingas vartotojo vardas / slaptažodis\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Verify you have enough free storage space\\\\\\\\n"
-msgstr "– Patvirtinkite, kad turite pakankamai laisvos vietos saugykloje\\\\\\\\n"
+msgstr "– Patvirtinkite, kad turite pakankamai laisvos vietos saugykloje\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "1. Mount your network share first:\\\\\\\\n"
-msgstr "1. Pirmiausia prijunkite tinklo dalį:\\\\\\\\n"
+msgstr "1. Pirmiausia prijunkite tinklo dalį:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
-msgstr "2. Įrenginių sąraše pasirinkite „NET Backup“\\\\\\\\n"
+msgstr "2. Įrenginių sąraše pasirinkite „NET Backup“\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "3. Choose your mounted network share\\\\\\\\n"
-msgstr "3. Pasirinkite prijungtą tinklo dalį\\\\\\\\n"
+msgstr "3. Pasirinkite prijungtą tinklo dalį\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Vyksta įrašymas. Prieš atvaizdo įdiegimą, nutraukite įrašymą."
@@ -133,11 +151,13 @@ msgstr "BackupSuite"
 msgid "Barry Allen"
 msgstr "Baris Alenas"
 
+#, fuzzy
 msgid "Best Practices:\\\\\\\\n"
-msgstr "Geriausia praktika:\\\\\\\\n"
+msgstr "Geriausia praktika:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Button Functions:\\\\\\\\n"
-msgstr "Mygtukų funkcijos:\\\\\\\\n"
+msgstr "Mygtukų funkcijos:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Keitimų žurnalas nepasiekiamas"
@@ -156,8 +176,9 @@ msgstr "Ištrinti"
 msgid "Delete backup"
 msgstr "Atkurti atsarginę kopiją"
 
+#, fuzzy
 msgid "Device List:\\\\\\\\n"
-msgstr "Įrenginių sąrašas:\\\\\\\\n"
+msgstr "Įrenginių sąrašas:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
@@ -177,11 +198,13 @@ msgstr "Diegiama: "
 msgid "Flashing:"
 msgstr "Diegiama: "
 
+#, fuzzy
 msgid "For detailed instructions and support:\\\\\\\\n"
-msgstr "Norėdami gauti išsamių instrukcijų ir pagalbos:\\\\\\\\n"
+msgstr "Norėdami gauti išsamių instrukcijų ir pagalbos:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "For flashing your receiver files are needed:\\\\\\\\n"
-msgstr "Įdiegimui reikalingi failai:\\\\\\\\n"
+msgstr "Įdiegimui reikalingi failai:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Nemokamai:"
@@ -199,11 +222,13 @@ msgstr "Pagalba"
 msgid "Make or restore a backup"
 msgstr "Padaryti, arba atkurti atsarginę kopiją"
 
+#, fuzzy
 msgid "NET Backup Instructions:\\\\\\\\n"
-msgstr "NET atsarginės kopijos instrukcijos:\\\\\\\\n"
+msgstr "NET atsarginės kopijos instrukcijos:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "NOT found files for flashing!\\\\\\\\n"
-msgstr "Failų diegimui NERASTA!\\\\\\\\n"
+msgstr "Failų diegimui NERASTA!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Tinklo saugykla"
@@ -226,8 +251,9 @@ msgstr "Tik pagrindinį"
 msgid "Please wait"
 msgstr "Palaukite"
 
+#, fuzzy
 msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
-msgstr "NEPALEIDINĖKITE aparato iš naujo ir NEIŠJUNKITE maitinimo įtampos.\\\\\\\\n"
+msgstr "NEPALEIDINĖKITE aparato iš naujo ir NEIŠJUNKITE maitinimo įtampos.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "Restore"
@@ -258,14 +284,16 @@ msgstr "Standartinis (atvaizdas ir branduolys)"
 msgid "Select network share for backup:"
 msgstr "Pasirinkite katalogą su atsargine kopija"
 
+#, fuzzy
 msgid "Select parameter for start flash!\\\\\\\\n"
-msgstr "Pasirinkite diegimo parametrus!\\\\\\\\n"
+msgstr "Pasirinkite diegimo parametrus!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Pasirinkite katalogą su atsargine kopija"
 
+#, fuzzy
 msgid "Show only found image and mtd partitions.\\\\\\\\n"
-msgstr "Rodyti tik rastą atvaizdą ir MTD skaidinius.\\\\\\\\n"
+msgstr "Rodyti tik rastą atvaizdą ir MTD skaidinius.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Imituoti (be įrašymo)"
@@ -277,17 +305,20 @@ msgstr "Imituoti (be įrašymo)"
 msgid "Standard (root and kernel)"
 msgstr "Standartinis (atvaizdas ir branduolys)"
 
+#, fuzzy
 msgid "Technical Notes:\\\\\\\\n"
-msgstr "Techninės pastabos:\\\\\\\\n"
+msgstr "Techninės pastabos:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
-msgstr "Atvaizdas, arba branduolys bus įdiegtas ir automatiškai pasileis po kelių minučių.\\\\\\\\n"
+msgstr "Atvaizdas, arba branduolys bus įdiegtas ir automatiškai pasileis po kelių minučių.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Iš viso:"
 
+#, fuzzy
 msgid "Troubleshooting NET Backup:\\\\\\\\n"
-msgstr "NET Backup trikčių šalinimas:\\\\\\\\n"
+msgstr "NET Backup trikčių šalinimas:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "USB atmintis"
@@ -301,14 +332,16 @@ msgstr "Pasirinktas nežinomas įrenginio tipas"
 msgid "Unzip"
 msgstr "Išskleisti"
 
+#, fuzzy
 msgid "Visit our GitHub repository:\\\\\\\\n"
-msgstr "Apsilankykite mūsų „GitHub“ saugykloje:\\\\\\\\n"
+msgstr "Apsilankykite mūsų „GitHub“ saugykloje:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Kas naujo nuo paskutinio išleidimo?"
 
+#, fuzzy
 msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
-msgstr "Diegimo metu jūsų imtuvas nustos reaguoti į komandas.\\\\\\\\n"
+msgstr "Diegimo metu jūsų imtuvas nustos reaguoti į komandas.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "current:  {0}"
@@ -321,8 +354,9 @@ msgstr ""
 msgid "nothing!"
 msgstr " nieko!"
 
+#, fuzzy
 msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
-msgstr "ofgwrite dabar sustabdys enigma2 ir pradės diegimą.\\\\\\\\n"
+msgstr "ofgwrite dabar sustabdys enigma2 ir pradės diegimą.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "{0} (maybe error)"
@@ -336,32 +370,41 @@ msgstr "  %s (galbūt gerai)"
 msgid "{0} Backup"
 msgstr "BackupSuite"
 
+#, fuzzy
 msgid "• BLUE: Show this help screen\\\\\\\\n"
-msgstr "• MĖLYNA: rodyti šį pagalbos ekraną\\\\\\\\n"
+msgstr "• MĖLYNA: rodyti šį pagalbos ekraną\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
-msgstr "• Barry Allen: Multiboot atsarginė kopija (jei įdiegta)\\\\\\\\n"
+msgstr "• Barry Allen: Multiboot atsarginė kopija (jei įdiegta)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• GREEN: Start backup for selected device\\\\\\\\n"
-msgstr "• ŽALIA: paleiskite pasirinkto įrenginio atsarginę kopiją\\\\\\\\n"
+msgstr "• ŽALIA: paleiskite pasirinkto įrenginio atsarginę kopiją\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
-msgstr "• HDD atsarginė kopija: visa sistemos atsarginė kopija vidiniame standžiajame diske\\\\\\\\n"
+msgstr "• HDD atsarginė kopija: visa sistemos atsarginė kopija vidiniame standžiajame diske\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
-msgstr "• MMC atsarginė kopija: atsarginė kopija išorinėje saugykloje (eMMC)\\\\\\\\n"
+msgstr "• MMC atsarginė kopija: atsarginė kopija išorinėje saugykloje (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
-msgstr "• NET Backup: atsarginė kopija tinklo saugykloje (NAS / SMB)\\\\\\\\n"
+msgstr "• NET Backup: atsarginė kopija tinklo saugykloje (NAS / SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
-msgstr "• USB atsarginė kopija: sukurkite įkrovos USB atkūrimo atmintinę\\\\\\\\n"
+msgstr "• USB atsarginė kopija: sukurkite įkrovos USB atkūrimo atmintinę\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
-msgstr "• Naudokite AUKŠTYN / ŽEMYN mygtukus, kad naršytumėte atsargines parinktis\\\\\\\\n"
+msgstr "• Naudokite AUKŠTYN / ŽEMYN mygtukus, kad naršytumėte atsargines parinktis\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• YELLOW: Start restore process\\\\\\\\n"
-msgstr "• GELTONA: pradėkite atkūrimo procesą\\\\\\\\n"
+msgstr "• GELTONA: pradėkite atkūrimo procesą\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

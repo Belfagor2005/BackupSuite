@@ -14,59 +14,77 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, fuzzy
 msgid "- Check share permissions (read/write)\\\\\\\\n"
-msgstr "- Verificar permisos para compartir (lectura/escritura)\\\\\\\\n"
+msgstr "- Verificar permisos para compartir (lectura/escritura)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
-msgstr "- Asegúrese de que el NAS esté encendido y accesible\\\\\\\\n"
+msgstr "- Asegúrese de que el NAS esté encendido y accesible\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Enter server IP, share name, username and password\\\\\\\\n"
-msgstr "- Ingrese la IP del servidor, nombre compartido, nombre de usuario y contraseña\\\\\\\\n"
+msgstr "- Ingrese la IP del servidor, nombre compartido, nombre de usuario y contraseña\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
-msgstr "- Vaya a Menú principal > Configuración > Sistema > Administrador de almacenamiento\\\\\\\\n"
+msgstr "- Vaya a Menú principal > Configuración > Sistema > Administrador de almacenamiento\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
-msgstr "- Copias de seguridad de HDD: almacenadas en /media/hdd/backup\\\\\\\\n"
+msgstr "- Copias de seguridad de HDD: almacenadas en /media/hdd/backup\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Keep regular backups of your system\\\\\\\\n"
-msgstr "- Mantenga copias de seguridad periódicas de su sistema\\\\\\\\n"
+msgstr "- Mantenga copias de seguridad periódicas de su sistema\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
-msgstr "- Copias de seguridad NET: requieren un recurso compartido CIFS/NFS montado con permisos de escritura\\\\\\\\n"
+msgstr "- Copias de seguridad NET: requieren un recurso compartido CIFS/NFS montado con permisos de escritura\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Never interrupt backup/restore processes\\\\\\\\n"
-msgstr "- Nunca interrumpas los procesos de copia de seguridad/restauración\\\\\\\\n"
+msgstr "- Nunca interrumpas los procesos de copia de seguridad/restauración\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
-msgstr "- Restaurar: funciona desde almacenamiento HDD, USB, NET o MMC\\\\\\\\n"
+msgstr "- Restaurar: funciona desde almacenamiento HDD, USB, NET o MMC\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
-msgstr "- Seleccione 'Almacenamiento de red' y agregue su recurso compartido NAS/SMB\\\\\\\\n"
+msgstr "- Seleccione 'Almacenamiento de red' y agregue su recurso compartido NAS/SMB\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Test connection with ping command\\\\\\\\n"
-msgstr "- Probar la conexión con el comando ping\\\\\\\\n"
+msgstr "- Probar la conexión con el comando ping\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
-msgstr "- Copias de seguridad USB: requieren una unidad formateada en FAT32 con un archivo 'backupstick'\\\\\\\\n"
+msgstr "- Copias de seguridad USB: requieren una unidad formateada en FAT32 con un archivo 'backupstick'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
-msgstr "- Utilice unidades USB de calidad como dispositivos de recuperación\\\\\\\\n"
+msgstr "- Utilice unidades USB de calidad como dispositivos de recuperación\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Verify username/password are correct\\\\\\\\n"
-msgstr "- Verifique que el nombre de usuario y la contraseña sean correctos\\\\\\\\n"
+msgstr "- Verifique que el nombre de usuario y la contraseña sean correctos\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Verify you have enough free storage space\\\\\\\\n"
-msgstr "- Verifica que tengas suficiente espacio de almacenamiento libre\\\\\\\\n"
+msgstr "- Verifica que tengas suficiente espacio de almacenamiento libre\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "1. Mount your network share first:\\\\\\\\n"
-msgstr "1. Primero monte su recurso compartido de red:\\\\\\\\n"
+msgstr "1. Primero monte su recurso compartido de red:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
-msgstr "2. Seleccione 'NET Backup' de la lista de dispositivos\\\\\\\\n"
+msgstr "2. Seleccione 'NET Backup' de la lista de dispositivos\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "3. Choose your mounted network share\\\\\\\\n"
-msgstr "3. Elija su recurso compartido de red montado\\\\\\\\n"
+msgstr "3. Elija su recurso compartido de red montado\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Una grabacion esta actualmente en marcha. Pare la grabacion antes de intentar cargar la flash."
@@ -133,11 +151,13 @@ msgstr "BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
+#, fuzzy
 msgid "Best Practices:\\\\\\\\n"
-msgstr "Mejores prácticas:\\\\\\\\n"
+msgstr "Mejores prácticas:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Button Functions:\\\\\\\\n"
-msgstr "Funciones de los botones:\\\\\\\\n"
+msgstr "Funciones de los botones:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Registro de cambios no disponible"
@@ -156,8 +176,9 @@ msgstr "Borrar"
 msgid "Delete backup"
 msgstr "Restaurar backup"
 
+#, fuzzy
 msgid "Device List:\\\\\\\\n"
-msgstr "Lista de dispositivos:\\\\\\\\n"
+msgstr "Lista de dispositivos:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
@@ -177,11 +198,13 @@ msgstr "Flashing: "
 msgid "Flashing:"
 msgstr "Flashing: "
 
+#, fuzzy
 msgid "For detailed instructions and support:\\\\\\\\n"
-msgstr "Para obtener instrucciones detalladas y soporte:\\\\\\\\n"
+msgstr "Para obtener instrucciones detalladas y soporte:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "For flashing your receiver files are needed:\\\\\\\\n"
-msgstr "Para cargar la flash el receptor se necesitan los ficheros:\\\\\\\\n"
+msgstr "Para cargar la flash el receptor se necesitan los ficheros:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Free:"
 msgstr "Gratis:"
@@ -199,11 +222,13 @@ msgstr "Ayuda"
 msgid "Make or restore a backup"
 msgstr "Realiza un backup o restaura un backup"
 
+#, fuzzy
 msgid "NET Backup Instructions:\\\\\\\\n"
-msgstr "NET Instrucciones de copia de seguridad:\\\\\\\\n"
+msgstr "NET Instrucciones de copia de seguridad:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "NOT found files for flashing!\\\\\\\\n"
-msgstr "Ficheros para flashing no encontrados!\\\\\\\\n"
+msgstr "Ficheros para flashing no encontrados!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Almacenamiento en red"
@@ -226,8 +251,9 @@ msgstr "Solo root"
 msgid "Please wait"
 msgstr "Espere por favor"
 
+#, fuzzy
 msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
-msgstr "Por favor: NO reinicie o apague su deco.\\\\\\\\n"
+msgstr "Por favor: NO reinicie o apague su deco.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "Restore"
@@ -258,14 +284,16 @@ msgstr "Estandar (root y kernel)"
 msgid "Select network share for backup:"
 msgstr "Elegir carpeta con backup"
 
+#, fuzzy
 msgid "Select parameter for start flash!\\\\\\\\n"
-msgstr "Elegir parametro para comenzar flash!\\\\\\\\n"
+msgstr "Elegir parametro para comenzar flash!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Elegir carpeta con backup"
 
+#, fuzzy
 msgid "Show only found image and mtd partitions.\\\\\\\\n"
-msgstr "Mostrar solo las imagenes y particiones mtd encontradas.\\\\\\\\n"
+msgstr "Mostrar solo las imagenes y particiones mtd encontradas.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simulacion (sin escritura)"
@@ -277,17 +305,20 @@ msgstr "Simulacion (sin escritura)"
 msgid "Standard (root and kernel)"
 msgstr "Estandar (root y kernel)"
 
+#, fuzzy
 msgid "Technical Notes:\\\\\\\\n"
-msgstr "Notas técnicas:\\\\\\\\n"
+msgstr "Notas técnicas:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
-msgstr "La imagen o kernel se cargara en flash y rearrancara en pocos minutos.\\\\\\\\n"
+msgstr "La imagen o kernel se cargara en flash y rearrancara en pocos minutos.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Total:"
 msgstr ""
 
+#, fuzzy
 msgid "Troubleshooting NET Backup:\\\\\\\\n"
-msgstr "Solución de problemas de copia de seguridad NET:\\\\\\\\n"
+msgstr "Solución de problemas de copia de seguridad NET:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Almacenamiento USB"
@@ -301,14 +332,16 @@ msgstr "Tipo de dispositivo desconocido seleccionado"
 msgid "Unzip"
 msgstr "Unzip"
 
+#, fuzzy
 msgid "Visit our GitHub repository:\\\\\\\\n"
-msgstr "Visita nuestro repositorio de GitHub:\\\\\\\\n"
+msgstr "Visita nuestro repositorio de GitHub:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Qué hay de nuevo desde la última versión?"
 
+#, fuzzy
 msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
-msgstr "El deco se bloqueará durante el proceso de flasheo.\\\\\\\\n"
+msgstr "El deco se bloqueará durante el proceso de flasheo.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "current:  {0}"
@@ -321,8 +354,9 @@ msgstr ""
 msgid "nothing!"
 msgstr " nada!"
 
+#, fuzzy
 msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
-msgstr "ofgwrite detendra enigma2 para arrancar la flash.\\\\\\\\n"
+msgstr "ofgwrite detendra enigma2 para arrancar la flash.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "{0} (maybe error)"
@@ -336,32 +370,41 @@ msgstr "  %s (posible ok)"
 msgid "{0} Backup"
 msgstr "BackupSuite"
 
+#, fuzzy
 msgid "• BLUE: Show this help screen\\\\\\\\n"
-msgstr "• AZUL: muestra esta pantalla de ayuda\\\\\\\\n"
+msgstr "• AZUL: muestra esta pantalla de ayuda\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
-msgstr "• Barry Allen: copia de seguridad de arranque múltiple (si está instalada)\\\\\\\\n"
+msgstr "• Barry Allen: copia de seguridad de arranque múltiple (si está instalada)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• GREEN: Start backup for selected device\\\\\\\\n"
-msgstr "• VERDE: Iniciar copia de seguridad para el dispositivo seleccionado\\\\\\\\n"
+msgstr "• VERDE: Iniciar copia de seguridad para el dispositivo seleccionado\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
-msgstr "• Copia de seguridad del disco duro: copia de seguridad completa del sistema en el disco duro interno\\\\\\\\n"
+msgstr "• Copia de seguridad del disco duro: copia de seguridad completa del sistema en el disco duro interno\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
-msgstr "• Copia de seguridad MMC: copia de seguridad en almacenamiento externo (eMMC)\\\\\\\\n"
+msgstr "• Copia de seguridad MMC: copia de seguridad en almacenamiento externo (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
-msgstr "• NET Backup: copia de seguridad en almacenamiento de red (NAS/SMB)\\\\\\\\n"
+msgstr "• NET Backup: copia de seguridad en almacenamiento de red (NAS/SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
-msgstr "• Copia de seguridad USB: cree una memoria USB de recuperación de arranque\\\\\\\\n"
+msgstr "• Copia de seguridad USB: cree una memoria USB de recuperación de arranque\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
-msgstr "• Utilice los botones ARRIBA/ABAJO para navegar por las opciones de copia de seguridad\\\\\\\\n"
+msgstr "• Utilice los botones ARRIBA/ABAJO para navegar por las opciones de copia de seguridad\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• YELLOW: Start restore process\\\\\\\\n"
-msgstr "• AMARILLO: Iniciar proceso de restauración\\\\\\\\n"
+msgstr "• AMARILLO: Iniciar proceso de restauración\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"
