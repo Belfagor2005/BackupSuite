@@ -14,59 +14,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\\\\\\\\n"
-msgstr "- शेअर परवानग्या तपासा (वाचन/लिहा)\\\\\\\\n"
+msgid "- Check share permissions (read/write)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- शेअर परवानग्या तपासा (वाचन/लिहा)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
-msgstr "- NAS चालू आणि प्रवेशयोग्य असल्याची खात्री करा\\\\\\\\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- NAS चालू आणि प्रवेशयोग्य असल्याची खात्री करा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\\\\\\\\n"
-msgstr "- सर्व्हर IP, शेअर नाव, वापरकर्तानाव आणि पासवर्ड एंटर करा\\\\\\\\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- सर्व्हर IP, शेअर नाव, वापरकर्तानाव आणि पासवर्ड एंटर करा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
-msgstr "- मुख्य मेनू > सेटअप > सिस्टम > स्टोरेज व्यवस्थापक वर जा\\\\\\\\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- मुख्य मेनू > सेटअप > सिस्टम > स्टोरेज व्यवस्थापक वर जा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
-msgstr "- HDD बॅकअप: /media/hdd/backup\\\\\\\\n मध्ये संग्रहित"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- HDD बॅकअप: /media/hdd/backup\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n मध्ये संग्रहित"
 
-msgid "- Keep regular backups of your system\\\\\\\\n"
-msgstr "- तुमच्या सिस्टमचा नियमित बॅकअप ठेवा\\\\\\\\n"
+msgid "- Keep regular backups of your system\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- तुमच्या सिस्टमचा नियमित बॅकअप ठेवा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
-msgstr "- NET बॅकअप: लेखन परवानगीसह माउंट केलेले CIFS/NFS शेअर आवश्यक आहे\\\\\\\\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- NET बॅकअप: लेखन परवानगीसह माउंट केलेले CIFS/NFS शेअर आवश्यक आहे\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\\\\\\\\n"
-msgstr "- बॅकअप/रिस्टोअर प्रक्रियेत कधीही व्यत्यय आणू नका\\\\\\\\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- बॅकअप/रिस्टोअर प्रक्रियेत कधीही व्यत्यय आणू नका\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
-msgstr "- पुनर्संचयित करा: HDD, USB, NET किंवा MMC स्टोरेजमधून कार्य करते\\\\\\\\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- पुनर्संचयित करा: HDD, USB, NET किंवा MMC स्टोरेजमधून कार्य करते\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
-msgstr "- 'नेटवर्क स्टोरेज' निवडा आणि तुमचा NAS/SMB शेअर जोडा\\\\\\\\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- 'नेटवर्क स्टोरेज' निवडा आणि तुमचा NAS/SMB शेअर जोडा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Test connection with ping command\\\\\\\\n"
-msgstr "- पिंग कमांडसह कनेक्शनची चाचणी घ्या\\\\\\\\n"
+msgid "- Test connection with ping command\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- पिंग कमांडसह कनेक्शनची चाचणी घ्या\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
-msgstr "- USB बॅकअप: 'बॅकअपस्टिक' फाइलसह FAT32-स्वरूपित ड्राइव्ह आवश्यक आहे\\\\\\\\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- USB बॅकअप: 'बॅकअपस्टिक' फाइलसह FAT32-स्वरूपित ड्राइव्ह आवश्यक आहे\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
-msgstr "- रिकव्हरी स्टिकसाठी दर्जेदार USB ड्राइव्ह वापरा\\\\\\\\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- रिकव्हरी स्टिकसाठी दर्जेदार USB ड्राइव्ह वापरा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Verify username/password are correct\\\\\\\\n"
-msgstr "- वापरकर्तानाव/संकेतशब्द बरोबर असल्याची पडताळणी करा\\\\\\\\n"
+msgid "- Verify username/password are correct\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- वापरकर्तानाव/संकेतशब्द बरोबर असल्याची पडताळणी करा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\\\\\\\\n"
-msgstr "- तुमच्याकडे पुरेशी विनामूल्य स्टोरेज जागा असल्याचे सत्यापित करा\\\\\\\\n"
+msgid "- Verify you have enough free storage space\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- तुमच्याकडे पुरेशी विनामूल्य स्टोरेज जागा असल्याचे सत्यापित करा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "1. Mount your network share first:\\\\\\\\n"
-msgstr "1. प्रथम तुमचे नेटवर्क शेअर माउंट करा:\\\\\\\\n"
+msgid "1. Mount your network share first:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "1. प्रथम तुमचे नेटवर्क शेअर माउंट करा:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
-msgstr "2. डिव्हाइस सूचीमधून 'NET बॅकअप' निवडा\\\\\\\\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "2. डिव्हाइस सूचीमधून 'NET बॅकअप' निवडा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\\\\\\\\n"
-msgstr "3. तुमचे माउंट केलेले नेटवर्क शेअर निवडा\\\\\\\\n"
+msgid "3. Choose your mounted network share\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "3. तुमचे माउंट केलेले नेटवर्क शेअर निवडा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "सध्या रेकॉर्डिंग चालू आहे. फ्लॅशिंग सुरू करण्याचा प्रयत्न करण्यापूर्वी कृपया रेकॉर्डिंग थांबवा."
@@ -77,8 +77,8 @@ msgstr "बद्दल"
 msgid "Backup"
 msgstr "बॅकअप"
 
-msgid "Backup Options:\\\\\\\\n"
-msgstr "बॅकअप पर्याय:\\\\\\\\n"
+msgid "Backup Options:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "बॅकअप पर्याय:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr "बॅकअप सूट v{0}"
@@ -125,11 +125,11 @@ msgstr "BackupSuite मदत"
 msgid "Barry Allen"
 msgstr "बॅरी ऍलन"
 
-msgid "Best Practices:\\\\\\\\n"
-msgstr "सर्वोत्तम पद्धती:\\\\\\\\n"
+msgid "Best Practices:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "सर्वोत्तम पद्धती:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "Button Functions:\\\\\\\\n"
-msgstr "बटण कार्ये:\\\\\\\\n"
+msgid "Button Functions:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "बटण कार्ये:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "बदल लॉग उपलब्ध नाही"
@@ -146,8 +146,8 @@ msgstr "हटवा"
 msgid "Delete backup"
 msgstr "बॅकअप हटवा"
 
-msgid "Device List:\\\\\\\\n"
-msgstr "डिव्हाइस सूची:\\\\\\\\n"
+msgid "Device List:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "डिव्हाइस सूची:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "तुम्हाला खरोखर {0} अनपॅक करायचे आहे का?"
@@ -164,11 +164,11 @@ msgstr "फ्लॅश"
 msgid "Flashing:"
 msgstr "चमकणे:"
 
-msgid "For detailed instructions and support:\\\\\\\\n"
-msgstr "तपशीलवार सूचना आणि समर्थनासाठी:\\\\\\\\n"
+msgid "For detailed instructions and support:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "तपशीलवार सूचना आणि समर्थनासाठी:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\\\\\\\\n"
-msgstr "फ्लॅशिंगसाठी तुमच्या रिसीव्हर फाइल्स आवश्यक आहेत:\\\\\\\\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "फ्लॅशिंगसाठी तुमच्या रिसीव्हर फाइल्स आवश्यक आहेत:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Free:"
 msgstr "मोफत:"
@@ -185,11 +185,11 @@ msgstr "मदत करा"
 msgid "Make or restore a backup"
 msgstr "बॅकअप बनवा किंवा पुनर्संचयित करा"
 
-msgid "NET Backup Instructions:\\\\\\\\n"
-msgstr "NET बॅकअप सूचना:\\\\\\\\n"
+msgid "NET Backup Instructions:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "NET बॅकअप सूचना:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "NOT found files for flashing!\\\\\\\\n"
-msgstr "फ्लॅशिंगसाठी फाइल्स सापडल्या नाहीत!\\\\\\\\n"
+msgid "NOT found files for flashing!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "फ्लॅशिंगसाठी फाइल्स सापडल्या नाहीत!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "नेटवर्क स्टोरेज"
@@ -212,8 +212,8 @@ msgstr "फक्त रूट"
 msgid "Please wait"
 msgstr "कृपया प्रतीक्षा करा"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
-msgstr "कृपया: तुमचा STB रीबूट करू नका आणि वीज बंद करू नका.\\\\\\\\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "कृपया: तुमचा STB रीबूट करू नका आणि वीज बंद करू नका.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Restore"
 msgstr "पुनर्संचयित करा"
@@ -239,14 +239,14 @@ msgstr "दुसरे विभाजन (रूट आणि कर्नल)
 msgid "Select network share for backup:"
 msgstr "बॅकअपसाठी नेटवर्क शेअर निवडा:"
 
-msgid "Select parameter for start flash!\\\\\\\\n"
-msgstr "स्टार्ट फ्लॅशसाठी पॅरामीटर निवडा!\\\\\\\\n"
+msgid "Select parameter for start flash!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "स्टार्ट फ्लॅशसाठी पॅरामीटर निवडा!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "बॅकअपसह फोल्डर निवडा"
 
-msgid "Show only found image and mtd partitions.\\\\\\\\n"
-msgstr "फक्त सापडलेली प्रतिमा आणि mtd विभाजने दाखवा.\\\\\\\\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "फक्त सापडलेली प्रतिमा आणि mtd विभाजने दाखवा.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "नक्कल करा (लिहिणे नाही)"
@@ -257,17 +257,17 @@ msgstr "दुस-या विभाजनाचे अनुकरण कर�
 msgid "Standard (root and kernel)"
 msgstr "मानक (मूळ आणि कर्नल)"
 
-msgid "Technical Notes:\\\\\\\\n"
-msgstr "तांत्रिक टिपा:\\\\\\\\n"
+msgid "Technical Notes:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "तांत्रिक टिपा:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
-msgstr "इमेज किंवा कर्नल काही मिनिटांत फ्लॅशिंग आणि ऑटो बूट होईल.\\\\\\\\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "इमेज किंवा कर्नल काही मिनिटांत फ्लॅशिंग आणि ऑटो बूट होईल.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Total:"
 msgstr "एकूण:"
 
-msgid "Troubleshooting NET Backup:\\\\\\\\n"
-msgstr "NET बॅकअप समस्यानिवारण:\\\\\\\\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "NET बॅकअप समस्यानिवारण:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "यूएसबी स्टोरेज"
@@ -281,26 +281,26 @@ msgstr "अज्ञात डिव्हाइस प्रकार निव
 msgid "Unzip"
 msgstr "अनझिप करा"
 
-msgid "Visit our GitHub repository:\\\\\\\\n"
-msgstr "आमच्या GitHub रेपॉजिटरी ला भेट द्या:\\\\\\\\n"
+msgid "Visit our GitHub repository:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "आमच्या GitHub रेपॉजिटरी ला भेट द्या:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "शेवटच्या प्रकाशनानंतर नवीन काय आहे?"
 
-msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
-msgstr "फ्लॅशिंग प्रक्रियेदरम्यान तुमचा STB फ्रीज होईल.\\\\\\\\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "फ्लॅशिंग प्रक्रियेदरम्यान तुमचा STB फ्रीज होईल.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "वर्तमान: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "काहीही नाही!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
-msgstr "ofgwrite फ्लॅश चालवण्यासाठी आता enigma2 थांबवेल.\\\\\\\\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "ofgwrite फ्लॅश चालवण्यासाठी आता enigma2 थांबवेल.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (कदाचित त्रुटी)"
@@ -311,29 +311,29 @@ msgstr "{0} (कदाचित ठीक आहे)"
 msgid "{0} Backup"
 msgstr "{0} बॅकअप"
 
-msgid " BLUE: Show this help screen\\\\\\\\n"
-msgstr "निळा: ही मदत स्क्रीन दाखवा\\\\\\\\n"
+msgid " BLUE: Show this help screen\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "निळा: ही मदत स्क्रीन दाखवा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
-msgstr "बॅरी ऍलन: मल्टीबूट बॅकअप (इंस्टॉल केल्यास)\\\\\\\\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "बॅरी ऍलन: मल्टीबूट बॅकअप (इंस्टॉल केल्यास)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\\\\\\\\n"
-msgstr "हिरवा: निवडलेल्या डिव्हाइससाठी बॅकअप सुरू करा\\\\\\\\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "हिरवा: निवडलेल्या डिव्हाइससाठी बॅकअप सुरू करा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
-msgstr "HDD बॅकअप: अंतर्गत हार्ड ड्राइव्हवर संपूर्ण सिस्टम बॅकअप\\\\\\\\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "HDD बॅकअप: अंतर्गत हार्ड ड्राइव्हवर संपूर्ण सिस्टम बॅकअप\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
-msgstr "MMC बॅकअप: बाह्य संचयनावर बॅकअप (eMMC)\\\\\\\\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "MMC बॅकअप: बाह्य संचयनावर बॅकअप (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
-msgstr "NET बॅकअप: नेटवर्क स्टोरेजवर बॅकअप (NAS/SMB)\\\\\\\\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "NET बॅकअप: नेटवर्क स्टोरेजवर बॅकअप (NAS/SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
-msgstr "USB बॅकअप: बूट करण्यायोग्य USB पुनर्प्राप्ती स्टिक तयार करा\\\\\\\\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "USB बॅकअप: बूट करण्यायोग्य USB पुनर्प्राप्ती स्टिक तयार करा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
-msgstr "बॅकअप पर्यायांमधून नेव्हिगेट करण्यासाठी वर/खाली बटणे वापरा\\\\\\\\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "बॅकअप पर्यायांमधून नेव्हिगेट करण्यासाठी वर/खाली बटणे वापरा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\\\\\\\\n"
-msgstr "पिवळा: पुनर्संचयित प्रक्रिया सुरू करा\\\\\\\\n"
+msgid " YELLOW: Start restore process\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "पिवळा: पुनर्संचयित प्रक्रिया सुरू करा\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"

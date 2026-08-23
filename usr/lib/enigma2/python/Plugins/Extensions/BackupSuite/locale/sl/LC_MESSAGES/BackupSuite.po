@@ -15,59 +15,59 @@ msgstr ""
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-msgid "- Check share permissions (read/write)\\\\\\\\n"
-msgstr "- Preverite dovoljenja za skupno rabo (branje/pisanje)\\\\\\\\n"
+msgid "- Check share permissions (read/write)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Preverite dovoljenja za skupno rabo (branje/pisanje)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
-msgstr "- Zagotovite, da je NAS vklopljen in dostopen\\\\\\\\n"
+msgid "- Ensure NAS is powered on and accessible\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Zagotovite, da je NAS vklopljen in dostopen\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Enter server IP, share name, username and password\\\\\\\\n"
-msgstr "- Vnesite IP strežnika, skupno ime, uporabniško ime in geslo\\\\\\\\n"
+msgid "- Enter server IP, share name, username and password\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Vnesite IP strežnika, skupno ime, uporabniško ime in geslo\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
-msgstr "- Pojdite v Glavni meni > Nastavitve > Sistem > Upravitelj shrambe\\\\\\\\n"
+msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Pojdite v Glavni meni > Nastavitve > Sistem > Upravitelj shrambe\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
-msgstr "- Varnostne kopije HDD: shranjene v /media/hdd/backup\\\\\\\\n"
+msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Varnostne kopije HDD: shranjene v /media/hdd/backup\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Keep regular backups of your system\\\\\\\\n"
-msgstr "- Redno varnostno kopirajte svoj sistem\\\\\\\\n"
+msgid "- Keep regular backups of your system\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Redno varnostno kopirajte svoj sistem\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
-msgstr "- Varnostne kopije NET: zahtevajte nameščeno skupno rabo CIFS/NFS z dovoljenji za pisanje\\\\\\\\n"
+msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Varnostne kopije NET: zahtevajte nameščeno skupno rabo CIFS/NFS z dovoljenji za pisanje\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Never interrupt backup/restore processes\\\\\\\\n"
-msgstr "- Nikoli ne prekinite procesov varnostnega kopiranja/obnavljanja\\\\\\\\n"
+msgid "- Never interrupt backup/restore processes\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Nikoli ne prekinite procesov varnostnega kopiranja/obnavljanja\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
-msgstr "- Obnovitev: deluje iz pomnilnika HDD, USB, NET ali MMC\\\\\\\\n"
+msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Obnovitev: deluje iz pomnilnika HDD, USB, NET ali MMC\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
-msgstr "- Izberite 'Omrežna shramba' in dodajte svojo skupno rabo NAS/SMB\\\\\\\\n"
+msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Izberite 'Omrežna shramba' in dodajte svojo skupno rabo NAS/SMB\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Test connection with ping command\\\\\\\\n"
-msgstr "- Preizkusite povezavo z ukazom ping\\\\\\\\n"
+msgid "- Test connection with ping command\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Preizkusite povezavo z ukazom ping\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
-msgstr "- Varnostne kopije USB: Zahtevajte disk, formatiran v FAT32, z datoteko 'backupstick'\\\\\\\\n"
+msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Varnostne kopije USB: Zahtevajte disk, formatiran v FAT32, z datoteko 'backupstick'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
-msgstr "- Za obnovitvene ključke uporabite kakovostne pogone USB\\\\\\\\n"
+msgid "- Use quality USB drives for recovery sticks\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Za obnovitvene ključke uporabite kakovostne pogone USB\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Verify username/password are correct\\\\\\\\n"
-msgstr "- Preverite, ali sta uporabniško ime/geslo pravilna\\\\\\\\n"
+msgid "- Verify username/password are correct\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Preverite, ali sta uporabniško ime/geslo pravilna\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "- Verify you have enough free storage space\\\\\\\\n"
-msgstr "- Preverite, ali imate dovolj prostega prostora za shranjevanje\\\\\\\\n"
+msgid "- Verify you have enough free storage space\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "- Preverite, ali imate dovolj prostega prostora za shranjevanje\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "1. Mount your network share first:\\\\\\\\n"
-msgstr "1. Najprej vklopite omrežno skupno rabo:\\\\\\\\n"
+msgid "1. Mount your network share first:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "1. Najprej vklopite omrežno skupno rabo:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
-msgstr "2. Na seznamu naprav izberite 'NET Backup'\\\\\\\\n"
+msgid "2. Select 'NET Backup' from the device list\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "2. Na seznamu naprav izberite 'NET Backup'\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "3. Choose your mounted network share\\\\\\\\n"
-msgstr "3. Izberite nameščeno omrežno skupno rabo\\\\\\\\n"
+msgid "3. Choose your mounted network share\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "3. Izberite nameščeno omrežno skupno rabo\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "Trenutno poteka snemanje. Preden začnete utripati, ustavite snemanje."
@@ -78,8 +78,8 @@ msgstr "O tem"
 msgid "Backup"
 msgstr "Varnostno kopiranje"
 
-msgid "Backup Options:\\\\\\\\n"
-msgstr "Možnosti varnostnega kopiranja:\\\\\\\\n"
+msgid "Backup Options:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Možnosti varnostnega kopiranja:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Backup Suite v{0}"
 msgstr ""
@@ -126,11 +126,11 @@ msgstr "Pomoč za BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
-msgid "Best Practices:\\\\\\\\n"
-msgstr "Najboljše prakse:\\\\\\\\n"
+msgid "Best Practices:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Najboljše prakse:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "Button Functions:\\\\\\\\n"
-msgstr "Funkcije gumba:\\\\\\\\n"
+msgid "Button Functions:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Funkcije gumba:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Dnevnik sprememb ni na voljo"
@@ -147,8 +147,8 @@ msgstr "Izbriši"
 msgid "Delete backup"
 msgstr "Izbriši varnostno kopijo"
 
-msgid "Device List:\\\\\\\\n"
-msgstr "Seznam naprav:\\\\\\\\n"
+msgid "Device List:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Seznam naprav:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Do you really want to unpack {0} ?"
 msgstr "Ali res želite razpakirati {0}?"
@@ -165,11 +165,11 @@ msgstr ""
 msgid "Flashing:"
 msgstr "utripa:"
 
-msgid "For detailed instructions and support:\\\\\\\\n"
-msgstr "Za podrobna navodila in podporo:\\\\\\\\n"
+msgid "For detailed instructions and support:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Za podrobna navodila in podporo:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "For flashing your receiver files are needed:\\\\\\\\n"
-msgstr "Za flashanje datotek vašega sprejemnika so potrebne:\\\\\\\\n"
+msgid "For flashing your receiver files are needed:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Za flashanje datotek vašega sprejemnika so potrebne:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Free:"
 msgstr "brezplačno:"
@@ -186,11 +186,11 @@ msgstr "pomoč"
 msgid "Make or restore a backup"
 msgstr "Ustvarite ali obnovite varnostno kopijo"
 
-msgid "NET Backup Instructions:\\\\\\\\n"
-msgstr "Navodila za varnostno kopiranje NET:\\\\\\\\n"
+msgid "NET Backup Instructions:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Navodila za varnostno kopiranje NET:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "NOT found files for flashing!\\\\\\\\n"
-msgstr "NI najdenih datotek za flash!\\\\\\\\n"
+msgid "NOT found files for flashing!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "NI najdenih datotek za flash!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Omrežno shranjevanje"
@@ -213,8 +213,8 @@ msgstr "Samo korenina"
 msgid "Please wait"
 msgstr "Počakajte prosim"
 
-msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
-msgstr "Prosimo: NE znova zaženite STB in izklopite napajanje.\\\\\\\\n"
+msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Prosimo: NE znova zaženite STB in izklopite napajanje.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Restore"
 msgstr "Obnovi"
@@ -240,14 +240,14 @@ msgstr "Druga particija (koren in jedro)"
 msgid "Select network share for backup:"
 msgstr "Izberite skupno rabo omrežja za varnostno kopiranje:"
 
-msgid "Select parameter for start flash!\\\\\\\\n"
-msgstr "Izberite parameter za zagon flash!\\\\\\\\n"
+msgid "Select parameter for start flash!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Izberite parameter za zagon flash!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Izberite mapo z varnostno kopijo"
 
-msgid "Show only found image and mtd partitions.\\\\\\\\n"
-msgstr "Prikaži samo najdene slikovne in mtd particije.\\\\\\\\n"
+msgid "Show only found image and mtd partitions.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Prikaži samo najdene slikovne in mtd particije.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simulacija (brez pisanja)"
@@ -258,17 +258,17 @@ msgstr "Simuliraj drugo particijo (brez zapisovanja)"
 msgid "Standard (root and kernel)"
 msgstr "Standard (koren in jedro)"
 
-msgid "Technical Notes:\\\\\\\\n"
-msgstr "Tehnične opombe:\\\\\\\\n"
+msgid "Technical Notes:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Tehnične opombe:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
-msgstr "Slika ali jedro bo utripalo in se samodejno zagnalo v nekaj minutah.\\\\\\\\n"
+msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Slika ali jedro bo utripalo in se samodejno zagnalo v nekaj minutah.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Skupaj:"
 
-msgid "Troubleshooting NET Backup:\\\\\\\\n"
-msgstr "Odpravljanje težav NET Backup:\\\\\\\\n"
+msgid "Troubleshooting NET Backup:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Odpravljanje težav NET Backup:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Pomnilnik USB"
@@ -282,26 +282,26 @@ msgstr "Izbrana je neznana vrsta naprave"
 msgid "Unzip"
 msgstr "Razpakirajte"
 
-msgid "Visit our GitHub repository:\\\\\\\\n"
-msgstr "Obiščite naš repozitorij GitHub:\\\\\\\\n"
+msgid "Visit our GitHub repository:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Obiščite naš repozitorij GitHub:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Kaj je novega od zadnje izdaje?"
 
-msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
-msgstr "Vaš STB bo med postopkom utripanja zamrznil.\\\\\\\\n"
+msgid "Your STB will freeze during the flashing process.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Vaš STB bo med postopkom utripanja zamrznil.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "current:  {0}"
 msgstr "trenutno: {0}"
 
-msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\n"
+msgid "https://github.com/persianpros/BackupSuite-PLi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 msgstr ""
 
 msgid "nothing!"
 msgstr "nič!"
 
-msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
-msgstr "ofgwrite bo zdaj zaustavil enigmo2 za zagon flasha.\\\\\\\\n"
+msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "ofgwrite bo zdaj zaustavil enigmo2 za zagon flasha.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "{0} (maybe error)"
 msgstr "{0} (morda napaka)"
@@ -312,29 +312,29 @@ msgstr "{0} (morda v redu)"
 msgid "{0} Backup"
 msgstr "{0} Varnostna kopija"
 
-msgid " BLUE: Show this help screen\\\\\\\\n"
-msgstr "MODRA: Prikaži ta zaslon s pomočjo\\\\\\\\n"
+msgid " BLUE: Show this help screen\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "MODRA: Prikaži ta zaslon s pomočjo\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
-msgstr "Barry Allen: Multiboot varnostno kopiranje (če je nameščeno)\\\\\\\\n"
+msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Barry Allen: Multiboot varnostno kopiranje (če je nameščeno)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " GREEN: Start backup for selected device\\\\\\\\n"
-msgstr "ZELENO: Začni varnostno kopiranje za izbrano napravo\\\\\\\\n"
+msgid " GREEN: Start backup for selected device\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "ZELENO: Začni varnostno kopiranje za izbrano napravo\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
-msgstr "Varnostno kopiranje HDD: varnostno kopiranje celotnega sistema na notranji trdi disk\\\\\\\\n"
+msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Varnostno kopiranje HDD: varnostno kopiranje celotnega sistema na notranji trdi disk\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
-msgstr "Varnostno kopiranje MMC: varnostno kopiranje v zunanji pomnilnik (eMMC)\\\\\\\\n"
+msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Varnostno kopiranje MMC: varnostno kopiranje v zunanji pomnilnik (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
-msgstr "NET Varnostno kopiranje: Varnostno kopiranje v omrežno shrambo (NAS/SMB)\\\\\\\\n"
+msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "NET Varnostno kopiranje: Varnostno kopiranje v omrežno shrambo (NAS/SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
-msgstr "Varnostna kopija USB: ustvarite zagonsko obnovitveno ključko USB\\\\\\\\n"
+msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Varnostna kopija USB: ustvarite zagonsko obnovitveno ključko USB\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
-msgstr "Za pomikanje med možnostmi varnostnega kopiranja uporabite gumba GOR/DOL\\\\\\\\n"
+msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Za pomikanje med možnostmi varnostnega kopiranja uporabite gumba GOR/DOL\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
-msgid " YELLOW: Start restore process\\\\\\\\n"
-msgstr "RUMENA: Začni postopek obnovitve\\\\\\\\n"
+msgid " YELLOW: Start restore process\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "RUMENA: Začni postopek obnovitve\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"

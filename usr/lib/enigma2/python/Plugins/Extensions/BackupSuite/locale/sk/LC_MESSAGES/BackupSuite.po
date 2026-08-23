@@ -13,59 +13,77 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.4.2\n"
 
+#, fuzzy
 msgid "- Check share permissions (read/write)\\\\\\\\n"
-msgstr "- Skontrolujte povolenia zdieľania (čítanie/zápis)\\\\\\\\n"
+msgstr "- Skontrolujte povolenia zdieľania (čítanie/zápis)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Ensure NAS is powered on and accessible\\\\\\\\n"
-msgstr "- Uistite sa, že je NAS zapnutý a dostupný\\\\\\\\n"
+msgstr "- Uistite sa, že je NAS zapnutý a dostupný\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Enter server IP, share name, username and password\\\\\\\\n"
-msgstr "- Zadajte IP servera, názov zdieľania, meno používateľa a heslo\\\\\\\\n"
+msgstr "- Zadajte IP servera, názov zdieľania, meno používateľa a heslo\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Go to Main Menu > Setup > System > Storage Manager\\\\\\\\n"
-msgstr "- Prejdite do Hlavná ponuka > Nastavenie > Systém > Správca ukladania\\\\\\\\n"
+msgstr "- Prejdite do Hlavná ponuka > Nastavenie > Systém > Správca ukladania\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- HDD backups: Stored in /media/hdd/backup\\\\\\\\n"
-msgstr "- Zálohy HDD: Uložené v /media/hdd/backup\\\\\\\\n"
+msgstr "- Zálohy HDD: Uložené v /media/hdd/backup\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Keep regular backups of your system\\\\\\\\n"
-msgstr "- Pravidelne si zálohujte systém\\\\\\\\n"
+msgstr "- Pravidelne si zálohujte systém\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- NET backups: Require mounted CIFS/NFS share with write permissions\\\\\\\\n"
-msgstr "- NET zálohy: Vyžaduje pripojené zdieľanie CIFS/NFS s oprávneniami na zápis\\\\\\\\n"
+msgstr "- NET zálohy: Vyžaduje pripojené zdieľanie CIFS/NFS s oprávneniami na zápis\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Never interrupt backup/restore processes\\\\\\\\n"
-msgstr "- Nikdy neprerušujte procesy zálohovania/obnovy\\\\\\\\n"
+msgstr "- Nikdy neprerušujte procesy zálohovania/obnovy\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Restore: Works from HDD, USB, NET or MMC storage\\\\\\\\n"
-msgstr "- Obnovenie: Funguje z HDD, USB, NET alebo MMC úložiska\\\\\\\\n"
+msgstr "- Obnovenie: Funguje z HDD, USB, NET alebo MMC úložiska\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Select 'Network Storage' and add your NAS/SMB share\\\\\\\\n"
-msgstr "- Vyberte 'Sieťové úložisko' a pridajte zdieľanie NAS/SMB\\\\\\\\n"
+msgstr "- Vyberte 'Sieťové úložisko' a pridajte zdieľanie NAS/SMB\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Test connection with ping command\\\\\\\\n"
-msgstr "- Otestujte pripojenie pomocou príkazu ping\\\\\\\\n"
+msgstr "- Otestujte pripojenie pomocou príkazu ping\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- USB backups: Require FAT32-formatted drive with 'backupstick' file\\\\\\\\n"
-msgstr "- Zálohy USB: Vyžaduje sa disk naformátovaný na FAT32 so súborom „záložnej tyčinky“\\\\\\\\n"
+msgstr "- Zálohy USB: Vyžaduje sa disk naformátovaný na FAT32 so súborom „záložnej tyčinky“\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Use quality USB drives for recovery sticks\\\\\\\\n"
-msgstr "- Použite kvalitné USB disky pre obnovovacie kľúče\\\\\\\\n"
+msgstr "- Použite kvalitné USB disky pre obnovovacie kľúče\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Verify username/password are correct\\\\\\\\n"
-msgstr "- Overte správnosť používateľského mena/hesla\\\\\\\\n"
+msgstr "- Overte správnosť používateľského mena/hesla\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "- Verify you have enough free storage space\\\\\\\\n"
-msgstr "– Overte, či máte dostatok voľného miesta v úložisku\\\\\\\\n"
+msgstr "– Overte, či máte dostatok voľného miesta v úložisku\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "1. Mount your network share first:\\\\\\\\n"
-msgstr "1. Najprv pripojte sieťové zdieľanie:\\\\\\\\n"
+msgstr "1. Najprv pripojte sieťové zdieľanie:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "2. Select 'NET Backup' from the device list\\\\\\\\n"
-msgstr "2. Vyberte 'NET Backup' zo zoznamu zariadení\\\\\\\\n"
+msgstr "2. Vyberte 'NET Backup' zo zoznamu zariadení\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "3. Choose your mounted network share\\\\\\\\n"
-msgstr "3. Vyberte si pripojené sieťové zdieľanie\\\\\\\\n"
+msgstr "3. Vyberte si pripojené sieťové zdieľanie\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "A recording is currently running. Please stop the recording before trying to start a flashing."
 msgstr "V súčasnej dobe prebieha nahrávanie. Pred pokusom o spustenie obnovy prosím zastavte nahrávanie."
@@ -131,11 +149,13 @@ msgstr "BackupSuite"
 msgid "Barry Allen"
 msgstr ""
 
+#, fuzzy
 msgid "Best Practices:\\\\\\\\n"
-msgstr "Osvedčené postupy:\\\\\\\\n"
+msgstr "Osvedčené postupy:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Button Functions:\\\\\\\\n"
-msgstr "Funkcie tlačidiel:\\\\\\\\n"
+msgstr "Funkcie tlačidiel:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Change log not available"
 msgstr "Denník zmien nie je k dispozícii"
@@ -153,8 +173,9 @@ msgstr "Vymazať"
 msgid "Delete backup"
 msgstr "Vymazať zálohu"
 
+#, fuzzy
 msgid "Device List:\\\\\\\\n"
-msgstr "Zoznam zariadení:\\\\\\\\n"
+msgstr "Zoznam zariadení:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "Do you really want to unpack {0} ?"
@@ -174,11 +195,13 @@ msgstr "Flashing: "
 msgid "Flashing:"
 msgstr "Flashing: "
 
+#, fuzzy
 msgid "For detailed instructions and support:\\\\\\\\n"
-msgstr "Podrobné pokyny a podporu:\\\\\\\\n"
+msgstr "Podrobné pokyny a podporu:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "For flashing your receiver files are needed:\\\\\\\\n"
-msgstr "Pre obnovenie sú potrebné súbory:\\\\\\\\n"
+msgstr "Pre obnovenie sú potrebné súbory:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Free:"
 msgstr "zadarmo:"
@@ -196,11 +219,13 @@ msgstr "Pomoc"
 msgid "Make or restore a backup"
 msgstr "Vytvoriť zálohu alebo obnoviť zálohu"
 
+#, fuzzy
 msgid "NET Backup Instructions:\\\\\\\\n"
-msgstr "Pokyny na zálohovanie NET:\\\\\\\\n"
+msgstr "Pokyny na zálohovanie NET:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "NOT found files for flashing!\\\\\\\\n"
-msgstr "Neboli nájdené súbory pre obnovenie zálohy!\\\\\\\\n"
+msgstr "Neboli nájdené súbory pre obnovenie zálohy!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Network Storage"
 msgstr "Sieťové úložisko"
@@ -223,8 +248,9 @@ msgstr "Iba root"
 msgid "Please wait"
 msgstr "Prosím čakajte"
 
+#, fuzzy
 msgid "Please: DO NOT reboot your STB and turn off the power.\\\\\\\\n"
-msgstr "Upozornenie: Nereštartujte STB ani nevypínajte napájanie.\\\\\\\\n"
+msgstr "Upozornenie: Nereštartujte STB ani nevypínajte napájanie.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "Restore"
@@ -253,14 +279,16 @@ msgstr "Druhá partícia (root a kernel)"
 msgid "Select network share for backup:"
 msgstr "Vyberte zložku so zálohou"
 
+#, fuzzy
 msgid "Select parameter for start flash!\\\\\\\\n"
-msgstr "Vyberte parameter pre spustenie obnovy!\\\\\\\\n"
+msgstr "Vyberte parameter pre spustenie obnovy!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Select the folder with backup"
 msgstr "Vyberte zložku so zálohou"
 
+#, fuzzy
 msgid "Show only found image and mtd partitions.\\\\\\\\n"
-msgstr "Zobraziť iba nájdený Image a MTD oddiely..\\\\\\\\n"
+msgstr "Zobraziť iba nájdený Image a MTD oddiely..\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Simulate (no write)"
 msgstr "Simulácia (bez zápisu)"
@@ -271,17 +299,20 @@ msgstr "Simulovať druhú partíciu (bez zápisu)"
 msgid "Standard (root and kernel)"
 msgstr "Štandard (root a kernel)"
 
+#, fuzzy
 msgid "Technical Notes:\\\\\\\\n"
-msgstr "Technické poznámky:\\\\\\\\n"
+msgstr "Technické poznámky:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "The image or kernel will be flashing and auto booted in few minutes.\\\\\\\\n"
-msgstr "Image alebo kernel bude obnovený a prijímač sa automaticky do niekolkých minút reštartuje.\\\\\\\\n"
+msgstr "Image alebo kernel bude obnovený a prijímač sa automaticky do niekolkých minút reštartuje.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Total:"
 msgstr "Celkom:"
 
+#, fuzzy
 msgid "Troubleshooting NET Backup:\\\\\\\\n"
-msgstr "Riešenie problémov so zálohovaním NET:\\\\\\\\n"
+msgstr "Riešenie problémov so zálohovaním NET:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "USB Storage"
 msgstr "Úložisko USB"
@@ -295,14 +326,16 @@ msgstr "Vybrali ste neznámy typ zariadenia"
 msgid "Unzip"
 msgstr "Rozbaliť"
 
+#, fuzzy
 msgid "Visit our GitHub repository:\\\\\\\\n"
-msgstr "Navštívte naše úložisko GitHub:\\\\\\\\n"
+msgstr "Navštívte naše úložisko GitHub:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "What is new since the last release?"
 msgstr "Čo je nové od poslednej verzie?"
 
+#, fuzzy
 msgid "Your STB will freeze during the flashing process.\\\\\\\\n"
-msgstr "Počas procesu obnovy môže Váš STB prestať reagovať.\\\\\\\\n"
+msgstr "Počas procesu obnovy môže Váš STB prestať reagovať.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "current:  {0}"
@@ -315,8 +348,9 @@ msgstr ""
 msgid "nothing!"
 msgstr " nič!"
 
+#, fuzzy
 msgid "ofgwrite will stop enigma2 now to run the flash.\\\\\\\\n"
-msgstr "ofgwrite ukončí beh OS Enigma z dôvodu obnovy systému .\\\\\\\\n"
+msgstr "ofgwrite ukončí beh OS Enigma z dôvodu obnovy systému .\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid "{0} (maybe error)"
@@ -330,32 +364,41 @@ msgstr "  %s (možno ok)"
 msgid "{0} Backup"
 msgstr "Informácia o zálohe"
 
+#, fuzzy
 msgid "• BLUE: Show this help screen\\\\\\\\n"
-msgstr "• MODRÁ: Zobraziť túto obrazovku pomocníka\\\\\\\\n"
+msgstr "• MODRÁ: Zobraziť túto obrazovku pomocníka\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
-msgstr "• Barry Allen: Multiboot záloha (ak je nainštalovaná)\\\\\\\\n"
+msgstr "• Barry Allen: Multiboot záloha (ak je nainštalovaná)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• GREEN: Start backup for selected device\\\\\\\\n"
-msgstr "• ZELENÁ: Spustenie zálohovania pre vybrané zariadenie\\\\\\\\n"
+msgstr "• ZELENÁ: Spustenie zálohovania pre vybrané zariadenie\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
-msgstr "• Záloha HDD: Úplná záloha systému na interný pevný disk\\\\\\\\n"
+msgstr "• Záloha HDD: Úplná záloha systému na interný pevný disk\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
-msgstr "• Záloha MMC: Zálohovanie na externé úložisko (eMMC)\\\\\\\\n"
+msgstr "• Záloha MMC: Zálohovanie na externé úložisko (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
-msgstr "• NET Backup: Zálohovanie do sieťového úložiska (NAS/SMB)\\\\\\\\n"
+msgstr "• NET Backup: Zálohovanie do sieťového úložiska (NAS/SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
-msgstr "• USB Backup: Vytvorte bootovateľný USB kľúč na obnovenie\\\\\\\\n"
+msgstr "• USB Backup: Vytvorte bootovateľný USB kľúč na obnovenie\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
-msgstr "• Na navigáciu cez možnosti zálohovania použite tlačidlá HORE/DOLE\\\\\\\\n"
+msgstr "• Na navigáciu cez možnosti zálohovania použite tlačidlá HORE/DOLE\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "• YELLOW: Start restore process\\\\\\\\n"
-msgstr "• ŽLTÉ: Spustite proces obnovy\\\\\\\\n"
+msgstr "• ŽLTÉ: Spustite proces obnovy\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy, python-format
 #~ msgid "%s Backup"

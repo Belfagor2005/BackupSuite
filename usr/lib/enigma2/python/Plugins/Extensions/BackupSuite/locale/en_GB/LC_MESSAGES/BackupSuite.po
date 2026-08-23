@@ -313,36 +313,36 @@ msgstr ""
 
 #, fuzzy
 msgid " BLUE: Show this help screen\\\\\\\\n"
-msgstr "BLUE: Show this help screen\\\\\\\\n"
+msgstr "BLUE: Show this help screen\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
-msgstr "Barry Allen: Multiboot backup (if installed)\\\\\\\\n"
+msgstr "Barry Allen: Multiboot backup (if installed)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " GREEN: Start backup for selected device\\\\\\\\n"
-msgstr "GREEN: Start backup for selected device\\\\\\\\n"
+msgstr "GREEN: Start backup for selected device\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
-msgstr "HDD Backup: Full system backup to internal hard drive\\\\\\\\n"
+msgstr "HDD Backup: Full system backup to internal hard drive\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
-msgstr "MMC Backup: Backup to external storage (eMMC)\\\\\\\\n"
+msgstr "MMC Backup: Backup to external storage (eMMC)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
-msgstr "NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\n"
+msgstr "NET Backup: Backup to network storage (NAS/SMB)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
-msgstr "USB Backup: Create a bootable USB recovery stick\\\\\\\\n"
+msgstr "USB Backup: Create a bootable USB recovery stick\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
-msgstr "Use UP/DOWN buttons to navigate through backup options\\\\\\\\n"
+msgstr "Use UP/DOWN buttons to navigate through backup options\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 #, fuzzy
 msgid " YELLOW: Start restore process\\\\\\\\n"
-msgstr "YELLOW: Start restore process\\\\\\\\n"
+msgstr "YELLOW: Start restore process\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
